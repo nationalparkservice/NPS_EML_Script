@@ -1,0 +1,245 @@
+attributeName	code	definition
+Veg_Code	CMaO	Black Mangrove Scrub-Open Marsh
+Veg_Code	CMaS	Black Mangrove Scrub-Succulent Marsh
+Veg_Code	CMaSb	Black Mangrove Scrub-Saltwort Marsh
+Veg_Code	CMcGc	Buttonwood Scrub-Sawgrass Marsh
+Veg_Code	CMcGj	Buttonwood Scrub-Black Rush Marsh
+Veg_Code	CMcO	Buttonwood Scrub-Open Marsh
+Veg_Code	CMlGc	White Mangrove Scrub-Sawgrass Marsh
+Veg_Code	CMlGj	White Mangrove Scrub-Black Rush Marsh
+Veg_Code	CMlH	White Mangrove Scrub-Herbaceous Marsh
+Veg_Code	CMlO	White Mangrove Scrub-Open Marsh
+Veg_Code	CMrD	Red Mangrove Scrub-Dominant
+Veg_Code	CMrG	Red Mangrove Scrub-Graminoid Marsh
+Veg_Code	CMrGc	Red Mangrove Scrub-Sawgrass Marsh
+Veg_Code	CMrGe	Red Mangrove Scrub-Spikerush Marsh
+Veg_Code	CMrGj	Red Mangrove Scrub-Black Rush Marsh
+Veg_Code	CMrGn	Red Mangrove Scrub-Cordgrass Marsh
+Veg_Code	CMrO	Red Mangrove Scrub-Open Marsh
+Veg_Code	CMXclGc	Buttonwood-White Mangrove Scrub-Sawgrass Marsh
+Veg_Code	CMXclGn	Buttonwood-White Mangrove Scrub-Cordgrass Marsh
+Veg_Code	CMXcr	Buttonwood-Red Mangrove Scrub
+Veg_Code	CMXcrD	Buttonwood-Red Mangrove Scrub-Dominant
+Veg_Code	CMXcrGc	Buttonwood-Red Mangrove Scrub-Sawgrass Marsh
+Veg_Code	CMXcrO	Buttonwood-Red Mangrove Scrub-Open Marsh
+Veg_Code	CMXlr	White Mangrove-Red Mangrove Scrub
+Veg_Code	CMXlrGc	White Mangrove-Red Mangrove Scrub-Sawgrass Marsh
+Veg_Code	CSaG	Pond Apple Scrub-Graminoid Marsh
+Veg_Code	CSaGc	Pond Apple Scrub-Sawgrass Marsh
+Veg_Code	CSB	Bayhead Swamp Scrub
+Veg_Code	CSBGc	Bayhead Swamp Scrub-Sawgrass Marsh
+Veg_Code	CSBTG	Transitional Bayhead Swamp Scrub-Graminoid Marsh
+Veg_Code	CSBTGc	Transitional Bayhead Swamp Scrub-Sawgrass Marsh
+Veg_Code	CShGc	Buttonbush Scrub-Sawgrass Marsh
+Veg_Code	CSmGc	Wax Myrtle Scrub-Sawgrass Marsh
+Veg_Code	CSMGc	Wax Myrtle Scrub-Sawgrass Marsh
+Veg_Code	CSmGP	Wax Myrtle Scrub-Graminoid Prairie
+Veg_Code	CSrGc	Falsewillow Scrub-Sawgrass Marsh
+Veg_Code	CSsG	Willow Scrub-Graminoid Marsh
+Veg_Code	CSsGc	Willow Scrub-Sawgrass Marsh 
+Veg_Code	CStGc	Cypress Scrub-Sawgrass Marsh
+Veg_Code	CStGcS	Cypress Scrub-Short Sawgrass Marsh
+Veg_Code	CStGe	Cypress Scrub-Spikerush Marsh
+Veg_Code	CStGPc	Cypress Scrub-Sawgrass Prairie 
+Veg_Code	CStGPm	Cypress Scrub-Muhly Grass Prairie 
+Veg_Code	CStGPX	Cypress Scrub-Mixed Graminoid Prairie
+Veg_Code	CUC	Coastal Hardwood Scrub
+Veg_Code	CUWGPc	Upland Hardwood Scrub-Sawgrass Prairie
+Veg_Code	CUWGPX	Upland Hardwood Scrub-Mixed Graminoid Prairie
+Veg_Code	EsD	Brazilian Pepper Dominant 
+Veg_Code	FHS	Tropical Hardwood Hammock
+Veg_Code	Fma	Black Mangrove Forest
+Veg_Code	FMa	Black Mangrove Forest
+Veg_Code	FMc	Buttonwood Forest
+Veg_Code	FMl	White Mangrove Forest
+Veg_Code	Fmr	Red Mangrove Forest
+Veg_Code	FMr	Red Mangrove Forest
+Veg_Code	FMXac	Black Mangrove-Buttonwood Forest
+Veg_Code	FMXal	Black Mangrove-White Mangrove Forest
+Veg_Code	FMXar	Black Mangrove-Red Mangrove Forest
+Veg_Code	FMXcl	Buttonwood-White Mangrove Forest
+Veg_Code	FMXcr	Buttonwood-Red Mangrove Forest
+Veg_Code	FMXlr	White Mangrove-Red Mangrove Forest
+Veg_Code	FMXX	Mixed Mangrove Forest-Mixed
+Veg_Code	FSB	Bayhead Forest
+Veg_Code	FSBT	Transitional Bayhead Forest
+Veg_Code	FSt	Cypress Forest
+Veg_Code	MFGc	Sawgrass Marsh
+Veg_Code	MFGcSD	Short Sawgrass Marsh-Dense
+Veg_Code	MFGcSS	Short Sawgrass Marsh-Sparse
+Veg_Code	MFGcTD	Tall Sawgrass Marsh-Dense
+Veg_Code	MFGcTS	Tall Sawgrass Marsh-Sparse
+Veg_Code	MFGe	Spikerush Marsh
+Veg_Code	MFGn	Sand Cordgrass Marsh
+Veg_Code	MFGP	Graminoid Freshwater Prairie
+Veg_Code	MFGPc	Sawgrass Prairie
+Veg_Code	MFGPh	Black Sedge Prairie
+Veg_Code	MFGPm	Muhly Grass Prairie
+Veg_Code	MFGPs	Little Bluestem Prairie
+Veg_Code	MFGPX	Mixed Graminoid Freshwater Prairie
+Veg_Code	MFGr	Beakrush Marsh
+Veg_Code	MFGX	Mixed Graminoid Freshwater Marsh
+Veg_Code	MFGXcr	Sawgrass-Rhynchospora Marsh
+Veg_Code	MFO	Open Freshwater Marsh
+Veg_Code	MSG	Graminoid Salt Marsh
+Veg_Code	MSGj	Black Rush Marsh
+Veg_Code	MSGn	Gulf Cordgrass Marsh
+Veg_Code	MSO	Open Salt Marsh
+Veg_Code	MSSb	Saltwort Marsh
+Veg_Code	ONT	Tidal Flat
+Veg_Code	ONW	Water
+Veg_Code	ONWc	Creek
+Veg_Code	ONWl	Lake
+Veg_Code	ONWo	Open Water
+Veg_Code	ONWr	River
+Veg_Code	Sma	Black Mangrove Shrubland
+Veg_Code	SMa	Black Mangrove Shrubland
+Veg_Code	SMc	Buttonwood Shrubland
+Veg_Code	SMl	White Mangrove Shrubland
+Veg_Code	SMr	Red Mangrove Shrubland
+Veg_Code	SMXac	Black Mangrove-Buttonwood Shrubland
+Veg_Code	SMXal	Black Mangrove-White Mangrove Shrubland
+Veg_Code	SMXar	Black Mangrove-Red Mangrove Shrubland
+Veg_Code	SMXcr	Buttonwood-Red Mangrove Shrubland
+Veg_Code	SMXlr	White Mangrove-Red Mangrove Shrubland
+Veg_Code	SMXX	Mixed Mangrove Shrubland-Mixed
+Veg_Code	SSB	Bayhead Shrubland
+Veg_Code	SSBT	Transitional Bayhead Shrubland
+Veg_Code	SSs	Willow Shrubland
+Veg_Code	SSy	Cocoplum Shrubland
+Veg_Code	SUH	Tropical Hardwood Shrubland
+Veg_Code	SUn	Saw Palmetto Shrubland
+Veg_Code	WMa	Black Mangrove Woodland
+Veg_Code	WMaG	Black Mangrove-Graminoid Marsh
+Veg_Code	WMaO	Black Mangrove Woodland-Open Marsh
+Veg_Code	WMaS	Black Mangrove Woodland-Succulent Marsh
+Veg_Code	WMcG	Buttonwood Woodland-Graminoid Marsh
+Veg_Code	WMcS	Buttonwood Woodland-Succulent Marsh
+Veg_Code	WMXac	Black Mangrove-Buttonwood Woodland
+Veg_Code	WMXar	Black Mangrove-Red Mangrove Woodland
+Veg_Code	WSoS	Cabbage Palm Lowland-Shrubs
+Veg_Code	WStGPX	Cypress Woodland-Mixed Prairie
+Veg_Code	WUpRG	Pine Rockland-Graminoid Marsh
+Veg_Code	WUpRS	Pine Rockland-Shrubs
+Veg_Code	WUpRSn	Pine Rockland-Saw Palmetto
+Veg_Code	WUpRX	Pine Rockland-Mixed
+Veg_Code_Name	Bayhead Forest	"Mix of Swamp Bay (Persea palustris), Red Bay (Persea borbonia), Cocoplum (Chrysobalanus icaco), Dahoon Holly (Ilex cassine), Willow (Salix caroliniana), Wax Myrtle (Myrica cerifera), Sweetbay (Magnolia virginiana), Pond Apple (Annona glabra), and occasion"
+Veg_Code_Name	Bayhead Shrubland	"Mix of flood tolerant fresh water tree and shrub species like Swamp Bay (Persea palustris), Red Bay (Persea borbonia), Cocoplum (Chrysobalanus icaco), Dahoon Holly (Ilex cassine), Willow (Salix caroliniana), Wax Myrtle (Myrica cerifera), Sweetbay (Magnoli"
+Veg_Code_Name	Bayhead Swamp Scrub	"Mixed assemblage of dwarf trees and/or shrubs such as Red Bay (Persea borbonia), Sweet Bay (Magnolia virginiana), Pond Apple (Annona glabra), Willow (Salix caroliniana), Wax Myrtle (Myrica cerifera), Dahoon Holly (Ilex cassine), and/or Cocoplum (Chrysobal"
+Veg_Code_Name	Bayhead Swamp Scrub-Sawgrass Marsh	Bayhead Swamp Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	Beakrush Marsh	Beakrush (Rhynchospora spp.) dominated marsh. Found commonly growing with Sawgrass (Cladium jamaicense). Beakrush found in the substantial presence of Little Bluestem (Schizachyrium scoparium) and/or Muhly Grass (Muhlenbergia capillaris var. filipes) is c
+Veg_Code_Name	Black Mangrove-Buttonwood Forest	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and Buttonwood (Conocarpus erectus) trees.
+Veg_Code_Name	Black Mangrove-Buttonwood Shrubland	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and Buttonwood (Conocarpus erectus) shrubs.
+Veg_Code_Name	Black Mangrove-Buttonwood Woodland	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and Buttonwood (Conocarpus erectus) trees.
+Veg_Code_Name	Black Mangrove-Graminoid Marsh	Black Mangrove (Avicennia germinans) in a matrix composed predominately of graminoids.
+Veg_Code_Name	Black Mangrove-Red Mangrove Forest	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and Red Mangrove (Rhizophora mangle) trees.
+Veg_Code_Name	Black Mangrove-Red Mangrove Shrubland	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and Red Mangrove (Rhizophora mangle) shrubs.
+Veg_Code_Name	Black Mangrove-Red Mangrove Woodland	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and Red Mangrove (Rhizophora mangle) trees.
+Veg_Code_Name	Black Mangrove-White Mangrove Forest	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and White Mangrove (Laguncularia racemosa) trees.
+Veg_Code_Name	Black Mangrove-White Mangrove Shrubland	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and White Mangrove (Laguncularia racemosa) shrubs.
+Veg_Code_Name	Black Mangrove Forest	Black Mangrove (Avicennia germinans) dominant forest. This community is usually characterized by a minimum of 50% Black Mangrove (Avicennia germinans) trees and shrubs found in a matrix of other species.
+Veg_Code_Name	Black Mangrove Scrub-Open Marsh	"Black Mangrove (Avicennia germinans) scrub in a matrix composed predominately of Open Freshwater Marsh or Open Saltwater Marsh, both of which have less than 15% marsh vegetation. Mangroves can occur in both salt and freshwater dominated marshes."
+Veg_Code_Name	Black Mangrove Scrub-Saltwort Marsh	Black Mangrove (Avicennia germinans) scrub in a matrix composed predominately of Saltwort (Batis maritima).
+Veg_Code_Name	Black Mangrove Scrub-Succulent Marsh	Black Mangrove (Avicennia germinans) scrub in a matrix composed predominately of succulents.
+Veg_Code_Name	Black Mangrove Shrubland	Black Mangrove (Avicennia germinans) dominant Shrubland.
+Veg_Code_Name	Black Mangrove Woodland	"Black Mangrove (Avicennia germinans) in a matrix composed of salt marsh graminoids, herbs, and/or succulents."
+Veg_Code_Name	Black Mangrove Woodland-Open Marsh	"Black Mangrove (Avicennia germinans) in a matrix composed predominately of Open Freshwater Marsh or Open Saltwater Marsh, both of which have less than 15% marsh vegetation. Mangroves can occur in both salt and freshwater dominated marshes."
+Veg_Code_Name	Black Mangrove Woodland-Succulent Marsh	Black Mangrove (Avicennia germinans) in a matrix composed predominately of succulents.
+Veg_Code_Name	Black Rush Marsh	Black Rush (Juncus roemerianus) dominated salt marsh.
+Veg_Code_Name	Black Sedge Prairie	Black Sedge (Schoenus nigricans) dominated wet prairie.
+Veg_Code_Name	Brazilian Pepper Dominant	50% to 89% areal coverage of Brazilian Pepper.
+Veg_Code_Name	Buttonbush Scrub-Sawgrass Marsh	Buttonbush Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	Buttonwood-Red Mangrove Forest	Co-dominant mix (20% or less difference in percent cover) of Buttonwood (Conocarpus erectus) and Red Mangrove (Rhizophora mangle) trees.
+Veg_Code_Name	Buttonwood-Red Mangrove Scrub	Co-dominant mix (20% or less difference in percent cover) of Buttonwood (Conocarpus erectus) and Red Mangrove (Rhizophora mangle) scrub.
+Veg_Code_Name	Buttonwood-Red Mangrove Scrub-Dominant	"Buttonwood-Red Mangrove Scrub with an average height up to 2m, and mangrove cover of 85% or more."
+Veg_Code_Name	Buttonwood-Red Mangrove Scrub-Open Marsh	"Buttonwood-Red Mangrove Scrub in a matrix composed predominately of Open Freshwater Marsh or Open Saltwater Marsh, both of which have less than 15% marsh vegetation. Mangroves can occur in both salt and freshwater dominated marshes."
+Veg_Code_Name	Buttonwood-Red Mangrove Scrub-Sawgrass Marsh	Buttonwood-Red Mangrove Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	Buttonwood-Red Mangrove Shrubland	Co-dominant mix (20% or less difference in percent cover) of Buttonwood (Conocarpus erectus) and Red Mangrove (Rhizophora mangle) shrubs.
+Veg_Code_Name	Buttonwood-White Mangrove Forest	Co-dominant mix (20% or less difference in percent cover) of Buttonwood (Conocarpus erectus) and White Mangrove (Laguncularia racemosa) trees.
+Veg_Code_Name	Buttonwood-White Mangrove Scrub-Cordgrass Marsh	Buttonwood-White Mangrove Scrub in a matrix composed predominately of Cordgrass (Spartina spp.).
+Veg_Code_Name	Buttonwood-White Mangrove Scrub-Sawgrass Marsh	Buttonwood-White Mangrove Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	Buttonwood Forest	Buttonwood (Conocarpus erectus) dominant forest. This community is usually characterized by a minimum of 50% Buttonwood (Conocarpus erectus) trees and shrubs found in a matrix of other species.
+Veg_Code_Name	Buttonwood Scrub-Black Rush Marsh	Buttonwood (Conocarpus erectus) scrub in a matrix composed predominately of Black Rush (Juncus roemerianus).
+Veg_Code_Name	Buttonwood Scrub-Open Marsh	"Buttonwood (Conocarpus erectus) scrub in a matrix composed predominately of Open Freshwater Marsh or Open Saltwater Marsh, both of which have less than 15% marsh vegetation. Mangroves can occur in both salt and freshwater dominated marshes."
+Veg_Code_Name	Buttonwood Scrub-Sawgrass Marsh	Buttonwood (Conocarpus erectus) scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	Buttonwood Shrubland	Buttonwood (Conocarpus erectus) dominant Shrubland.
+Veg_Code_Name	Buttonwood Woodland-Graminoid Marsh	Buttonwood (Conocarpus erectus) in a matrix composed predominately of graminoids.
+Veg_Code_Name	Buttonwood Woodland-Succulent Marsh	Buttonwood (Conocarpus erectus) in a matrix composed predominately of succulents.
+Veg_Code_Name	Cabbage Palm Lowland-Shrubs	"Cabbage Palm (Sabal palmetto) in a matrix composed predominately of marsh shrubs, such as Buttonwood (Conocarpus erectus), Wax Myrtle (Myrica cerifera), among others."
+Veg_Code_Name	Coastal Hardwood Scrub	"Coastal Scrub characterized by a mixed species assemblage of Sea Grape (Coccoloba uvifera), Gumbo Limbo (Bursera simaruba), Mahogany (Swietenia mahagoni), Spanish Stopper (Eugenia foetida), Poisonwood (Metopium toxiferum), Willow Bustic (Dipholis salicifo"
+Veg_Code_Name	Cocoplum Shrubland	"Seasonally flooded dominant to monotypic stands of Cocoplum (Chrysobalanus icaco) trees and shrubs in association with other wetland species, e.g., Swamp Bay (Persea palustris), Red Bay (Persea borbonia), Dahoon Holly (Ilex cassine), Willow (Salix carolin"
+Veg_Code_Name	Creek	"A narrow body of water with a current that flows into a river, bay, or ocean."
+Veg_Code_Name	Cypress Forest	"Pond Cypress (Taxodium ascendens) and/or Bald Cypress (T. distichum) dominant forest with common understory vegetation consisting of Pond Apple (Annona glabra), Wax Myrtle (Myrica cerifera), Pop Ash (Fraxinus caroliniana), Cocoplum (Chrysobalanus icaco), "
+Veg_Code_Name	Cypress Scrub-Mixed Graminoid Prairie	"Cypress (Taxodium spp.) Scrub in a matrix composed of a mixed prairie species assemblage of Sawgrass (Cladium jamaicense), Muhly Grass (Muhlenbergia capillaris var. filipes), and/or Little Bluestem (Schizachyrium rhizomatum). This community is characteriz"
+Veg_Code_Name	Cypress Scrub-Muhly Grass Prairie	Cypress (Taxodium spp.) Scrub in a matrix composed predominately of Muhly Grass (Muhlenbergia capillaris var. filipes) Prairie.
+Veg_Code_Name	Cypress Scrub-Sawgrass Marsh	Cypress Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	Cypress Scrub-Sawgrass Prairie	Cypress (Taxodium spp.) Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense) Prairie.
+Veg_Code_Name	Cypress Scrub-Short Sawgrass Marsh	Cypress Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense) with average height less than 2 meters.
+Veg_Code_Name	Cypress Scrub-Spikerush Marsh	Cypress Scrub in a matrix composed predominately of Spikerush (Eleocharis spp.).
+Veg_Code_Name	Cypress Woodland-Mixed Prairie	"Bald Cypress (Taxodium distichum) and/or Pond Cypress (T. ascendens) in in a matrix composed of a mixed prairie species assemblage of Sawgrass (Cladium jamaicense), Muhly Grass (Muhlenbergia capillaris var. filipes), and/or Little Bluestem (Schizachyrium "
+Veg_Code_Name	Falsewillow Scrub-Sawgrass Marsh	"Saltwater Falsewillow (Baccharis angustifolia), Silverling (B. glomeruliflora), and/or Groundsel Bush (B. halimifolia) Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense)."
+Veg_Code_Name	Graminoid Freshwater Prairie	"Short hydroperiod marsh characterized by a mix of graminoids that includes low-stature Sawgrass (Cladium jamaicense), Muhly Grass (Muhlenbergia capillaris var. filipes), Little Bluestem (Schizachyrium rhizomatum), and Black Sedge (Schoenus nigricans), amo"
+Veg_Code_Name	Graminoid Salt Marsh	Graminoid dominated salt marsh.
+Veg_Code_Name	Gulf Cordgrass Marsh	Gulf Cordgrass (Spartina spartinae) and/or Marshhay Cordgrass (Spartina patens) dominated salt marsh.
+Veg_Code_Name	Lake	A large (greater than or equal to 5 ha) body of water that is surrounded by land.
+Veg_Code_Name	Little Bluestem Prairie	Little Bluestem (Schizachyrium rhizomatum) dominated wet prairie. Found commonly growing with Sawgrass (Cladium jamaicense) or Muhly Grass (Muhlenbergia capillaris var. filipes).
+Veg_Code_Name	Mixed Graminoid Freshwater Marsh	"Co-dominant mix of two or more graminoid marsh species like Spikerush (Eleocharis spp.), Panicgrass (Panicum spp.), Sawgrass (Cladium jamaicense), and/or Beakrush (Rhynchospora spp.). This community is characterized by having no particular graminoid speci"
+Veg_Code_Name	Mixed Graminoid Freshwater Prairie	"Co-dominant mix of two or more graminoid prairie species like Sawgrass (Cladium jamaicense), Muhly Grass (Muhlenbergia capillaris var. filipes), Little Bluestem (Schizachyrium rhizomatum), and/or Black Sedge (Schoenus nigricans). This community is charact"
+Veg_Code_Name	Mixed Mangrove Forest-Mixed	"Co-dominant mix of trees of three or more mangrove species including Black Mangrove (Avicennia germinans), Buttonwood (Conocarpus erectus), Red Mangrove (Rhizophora mangle), and White Mangrove (Laguncularia racemosa). This community is characterized by ha"
+Veg_Code_Name	Mixed Mangrove Shrubland-Mixed	"Co-dominant mix of shrubs of three or more mangrove species including Black Mangrove (Avicennia germinans), Buttonwood (Conocarpus erectus), Red Mangrove (Rhizophora mangle), and White Mangrove (Laguncularia racemosa). This community is characterized by h"
+Veg_Code_Name	Muhly Grass Prairie	Muhly Grass (Muhlenbergia capillaris var. filipes) dominated wet prairie. Found commonly growing with Sawgrass (Cladium jamaicense) or Little Bluestem (Schizachyrium rhizomatum).
+Veg_Code_Name	Open Freshwater Marsh	"Open water (less than 15% vegetation) dominated freshwater marsh often with a mix of sparse graminoids, herbaceous, and/or emergent freshwater vegetation, such as Spikerush (Eleocharis spp.), Panicgrass (Panicum spp.), Sawgrass (Cladium jamaicense), Catta"
+Veg_Code_Name	Open Salt Marsh	"Open (less than 15% vegetation) dominated salt marsh often with a mix of sparse graminoids and/or herbaceous salt marsh vegetation, such as Black Rush (Juncus roemerianus) and/or Cordgrass (Spartina spp.)."
+Veg_Code_Name	Open Water	A large open body of water associated with an ocean or bay.
+Veg_Code_Name	Pine Rockland-Graminoid Marsh	"Pine Rockland in a matrix composed predominately of graminoids, such as Bluestem (Andropogon spp.), Gamagrass (Tripsacum spp.), Threeawn (Aristida spp.), Lovegrass (Eragrostis spp.), Witchgrass (Dichanthelium spp.), Panicgrass (Panicum spp.), among others"
+Veg_Code_Name	Pine Rockland-Mixed	Pine Rockland in a matrix composed of a co-dominant mix (20% or less difference in percent cover) of upland graminoids and shrubs.
+Veg_Code_Name	Pine Rockland-Saw Palmetto	Pine Rockland in a matrix composed predominately of Saw Palmetto (Serenoa repens).
+Veg_Code_Name	Pine Rockland-Shrubs	"Pine Rockland in a matrix composed predominately of shrubs and trees, such as Wax Myrtle (Myrica cerifera), Saw Palmetto (Serenoa repens), Cabbage Palm (Sabal palmetto), Rough velvetseed (Guettarda scabra), Varnishleaf (Dodonaea viscosa), St. John's-Wort "
+Veg_Code_Name	Pond Apple Scrub-Graminoid Marsh	Pond Apple Scrub in a matrix composed predominately of Freshwater Graminoid Marsh.
+Veg_Code_Name	Pond Apple Scrub-Sawgrass Marsh	Pond Apple Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	Red Mangrove Forest	Red Mangrove (Rhizophora mangle) dominant forest. This community is usually characterized by a minimum of 50% Red Mangrove (Rhizophora mangle) trees and shrubs found in a matrix of other species.
+Veg_Code_Name	Red Mangrove Scrub-Black Rush Marsh	Red Mangrove (Rhizophora mangle) scrub in a matrix composed predominately of Black Rush (Juncus roemerianus).
+Veg_Code_Name	Red Mangrove Scrub-Cordgrass Marsh	Red Mangrove (Rhizophora mangle) scrub in a matrix composed predominately of Cordgrass (Spartina spp.).
+Veg_Code_Name	Red Mangrove Scrub-Dominant	"Red Mangrove (Rhizophora mangle) scrub with an average height up to 2m, and mangrove cover of 85% or more."
+Veg_Code_Name	Red Mangrove Scrub-Graminoid Marsh	Red Mangrove (Rhizophora mangle) scrub in a matrix composed predominately of graminoids.
+Veg_Code_Name	Red Mangrove Scrub-Open Marsh	"Red Mangrove (Rhizophora mangle) scrub in a matrix composed predominately of Open Freshwater Marsh or Open Saltwater Marsh, both of which have less than 15% marsh vegetation. Mangroves can occur in both salt and freshwater dominated marshes."
+Veg_Code_Name	Red Mangrove Scrub-Sawgrass Marsh	Red Mangrove (Rhizophora mangle) scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	Red Mangrove Scrub-Spikerush Marsh	Red Mangrove (Rhizophora mangle) scrub in a matrix composed predominately of Spikerush (Eleocharis spp.).
+Veg_Code_Name	Red Mangrove Shrubland	Red Mangrove (Rhizophora mangle) dominant Shrubland.
+Veg_Code_Name	River	"A body of water with a current that flows into a larger river system, bay or ocean."
+Veg_Code_Name	Saltwort Marsh	Saltwort (Batis maritima) dominated salt marsh.
+Veg_Code_Name	Sand Cordgrass Marsh	Sand Cordgrass (Spartina bakeri) dominated freshwater marsh.
+Veg_Code_Name	Saw Palmetto Shrubland	Saw Palmetto (Serenoa repens) dominant Shrubland.
+Veg_Code_Name	Sawgrass-Rhynchospora Marsh	"Co-dominant mix of Sawgrass (Cladium jamaicense) and Beakrush (Rhynchospora tracyi). This community is characterized by having no particular graminoid species in dominance, meaning there is 15% or less difference in percent cover between two or more grami"
+Veg_Code_Name	Sawgrass Marsh	Sawgrass (Cladium jamaicense) dominated marsh.
+Veg_Code_Name	Sawgrass Prairie	"Sawgrass (Cladium jamaicense) dominated wet prairie. Muhly Grass (Muhlenbergia capillaris var. filipes), Little Bluestem (Schizachyrium rhizomatum), Black Sedge (Schoenus nigricans) may be present."
+Veg_Code_Name	Short Sawgrass Marsh-Dense	Short Sawgrass Marsh with 50-100% Sawgrass (Cladium jamaicense) cover.
+Veg_Code_Name	Short Sawgrass Marsh-Sparse	Short Sawgrass Marsh with 15-49% Sawgrass (Cladium jamaicense) cover.
+Veg_Code_Name	Spikerush Marsh	"Coastal Spikerush (Eleocharis cellulosa), Slim Spikerush (E. elongata), and/or Knotted Spikerush (E. interstincta) dominated marsh."
+Veg_Code_Name	Tall Sawgrass Marsh-Dense	Tall Sawgrass Marsh with 50-100% Sawgrass (Cladium jamaicense) cover.
+Veg_Code_Name	Tall Sawgrass Marsh-Sparse	Tall Sawgrass Marsh with 15-49% Sawgrass (Cladium jamaicense) cover.
+Veg_Code_Name	Tidal Flat	Shallow intertidal sand or mud areas which are regularly exposed to the atmosphere at low tide.
+Veg_Code_Name	Transitional Bayhead Forest	"Mix of trees characterized by Buttonwood (Conocarpus erectus), Red Mangrove (Rhizophora mangle), Cocoplum (Chrysobalanus icaco), Wax Myrtle (Myrica cerifera), Poisonwood (Metopium toxiferum), and occasionally West Indian Mahogany (Swietenia mahagoni), Swa"
+Veg_Code_Name	Transitional Bayhead Shrubland	"Mixed assemblage of shrubs characterized by Buttonwood (Conocarpus erectus), Red Mangrove (Rhizophora mangle), Cocoplum (Chrysobalanus icaco), Wax Myrtle (Myrica cerifera), Poisonwood (Metopium toxiferum), Swamp Bay (Persea palustris), Red Bay (Persea bor"
+Veg_Code_Name	Transitional Bayhead Swamp Scrub-Graminoid Marsh	Transitional Bayhead Swamp Scrub in a matrix composed predominately of Freshwater Graminoid Marsh.
+Veg_Code_Name	Transitional Bayhead Swamp Scrub-Sawgrass Marsh	Transitional Bayhead Swamp Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	Tropical Hardwood Hammock	"Mix species assemblage of False Tamarind (Lysiloma latisiliquum), Gumbo Limbo (Bursera simaruba), Poisonwood (Metopium toxiferum), Pigeon Plum (Coccoloba diversifolia), False Mastic (Sideroxylon foetidissimum), Live Oak (Quercus virginiana), Sugarberry (C"
+Veg_Code_Name	Tropical Hardwood Shrubland	"Mix of Gumbo Limbo (Bursera simaruba), Poisonwood (Metopium toxiferum), Pigeon Plum (Coccoloba diversifolia), White Stopper (Eugenia axillaris), Strangler Fig (Ficus aurea), Red Bay (Persea borbonia), Dahoon Holly (Ilex Cassine), Saffron Plum (Sideroxylon"
+Veg_Code_Name	Upland Hardwood Scrub-Mixed Graminoid Prairie	"Upland Hardwood Scrub in a matrix composed of a mixed prairie species assemblage of Sawgrass (Cladium jamaicense), Muhly Grass (Muhlenbergia capillaris var. filipes), and/or Little Bluestem (Schizachyrium rhizomatum). This community is characterized by ha"
+Veg_Code_Name	Upland Hardwood Scrub-Sawgrass Prairie	Upland Hardwood Scrub in a matrix composed predominately of short stature Sawgrass (Cladium jamaicense) Prairie.
+Veg_Code_Name	Water	"Open water areas such as ponds, lakes, rivers, bays, and estuaries."
+Veg_Code_Name	Wax Myrtle Scrub-Graminoid Prairie	Wax Myrtle Scrub in a matrix composed predominately of Freshwater Graminoid Prairie species.
+Veg_Code_Name	Wax Myrtle Scrub-Sawgrass Marsh	Wax Myrtle Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	White Mangrove-Red Mangrove Forest	Co-dominant mix (20% or less difference in percent cover) of White Mangrove (Laguncularia racemosa) and Red Mangrove (Rhizophora mangle) trees.
+Veg_Code_Name	White Mangrove-Red Mangrove Scrub	Co-dominant mix (20% or less difference in percent cover) of White Mangrove (Laguncularia racemosa) and Red Mangrove (Rhizophora mangle) scrub.
+Veg_Code_Name	White Mangrove-Red Mangrove Scrub-Sawgrass Marsh	White Mangrove-Red Mangrove Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	White Mangrove-Red Mangrove Shrubland	Co-dominant mix (20% or less difference in percent cover) of White Mangrove (Laguncularia racemosa) and Red Mangrove (Rhizophora mangle) shrubs.
+Veg_Code_Name	White Mangrove Forest	White Mangrove (Laguncularia racemosa) dominant forest. This community is usually characterized by a minimum of 50% White Mangrove (Laguncularia racemosa) trees and shrubs found in a matrix of other species.
+Veg_Code_Name	White Mangrove Scrub-Black Rush Marsh	White Mangrove (Laguncularia racemosa) scrub in a matrix composed predominately of Black Rush (Juncus roemerianus).
+Veg_Code_Name	White Mangrove Scrub-Herbaceous Marsh	White Mangrove (Laguncularia racemosa) scrub in a matrix composed predominately of herbaceous vegetation.
+Veg_Code_Name	White Mangrove Scrub-Open Marsh	"White Mangrove (Laguncularia racemosa) scrub in a matrix composed predominately of Open Freshwater Marsh or Open Saltwater Marsh, both of which have less than 15% marsh vegetation. Mangroves can occur in both salt and freshwater dominated marshes."
+Veg_Code_Name	White Mangrove Scrub-Sawgrass Marsh	White Mangrove (Laguncularia racemosa) scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	White Mangrove Shrubland	White Mangrove (Laguncularia racemosa) dominant Shrubland.
+Veg_Code_Name	Willow Scrub-Graminoid Marsh	Willow Scrub in a matrix composed predominately of Freshwater Graminoid Marsh.
+Veg_Code_Name	Willow Scrub-Sawgrass Marsh	Willow Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
+Veg_Code_Name	Willow Shrubland	"Seasonally to semi-permanently flooded dominant to monotypic stands of Willow (Salix caroliniana) trees and shrubs in association with Leather Fern (Acrostichum danaeifolium), Cattail (Typha spp.), Sawgrass (Cladium jamaicense), Arrowhead (Sagittaria spp."

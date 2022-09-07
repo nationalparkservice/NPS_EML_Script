@@ -1,0 +1,1020 @@
+Point_ID,Visit_Date,UTM_X_East,UTM_Y_North,Transport_Type,Veg_Code,Veg_Code_Name,Overall_Veg_Cover,Overall_Canopy_Height,Percentage_Tree,Percentage_Shrub,Percentage_Herb,Canopy_Tree,Canopy_Shrub,Canopy_Herb,Cattail,Exotics,Cell_Shape,Notes
+AA10006,1/26/2010 0:00,514206,2848367,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10054,1/26/2010 0:00,516206,2847517,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,2,98,0,3,1,none,,50m x 50m grid cell,
+AA10050,1/26/2010 0:00,515956,2847117,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,5,95,0,3,1,none,,50m x 50m grid cell,
+AA10043,1/26/2010 0:00,515206,2843967,helicopter,MFGr,Beakrush Marsh,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10037,1/26/2010 0:00,515706,2842717,helicopter,FSB,Bayhead Forest,100,6,50,30,20,6,3,2,none,,50m x 50m grid cell,
+AA10029,1/26/2010 0:00,514306,2841517,helicopter,MFGPh,Black Sedge Prairie,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10011,1/26/2010 0:00,518206,2838017,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,60,1,0,2,98,0,0,1,none,,50m x 50m grid cell,
+AA10089,1/26/2010 0:00,520056,2835617,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,80,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10010,1/26/2010 0:00,523056,2837817,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10014,1/26/2010 0:00,522206,2839017,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10045,1/26/2010 0:00,519856,2844267,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,30,1,10,5,85,5,1,1,none,,50m x 50m grid cell,Small edge of tree island.
+AA10046,1/26/2010 0:00,519706,2844717,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA10005,1/26/2010 0:00,519556,2848217,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10007,1/26/2010 0:00,522656,2848617,helicopter,MFGXcr,Sawgrass-Rhynchospora Marsh,40,1,0,2,98,0,1,1,none,,50m x 50m grid cell,Mixed clajam rhytra.
+AA10001,1/26/2010 0:00,522706,2847717,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,2,98,0,1,1,none,,50m x 50m grid cell,Small edge of tree island.
+AA10004,1/26/2010 0:00,530406,2847967,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,80,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10003,1/26/2010 0:00,530656,2847817,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10051,1/26/2010 0:00,531506,2847267,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,2,0,98,5,0,2,none,,50m x 50m grid cell,NW corner has melqui.
+AA10047,1/26/2010 0:00,529956,2846267,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,MFGe is one third of NW.
+AA10044,1/26/2010 0:00,526856,2843967,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10030,1/26/2010 0:00,525456,2841717,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,30,1,0,10,90,0,4,1,none,,50m x 50m grid cell,Lots of periphyton. Tree island in NE corner
+AA10025,1/26/2010 0:00,524256,2840767,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,15,1,0,2,98,0,0,1,none,,50m x 50m grid cell,Borderline MFO with only 15perc veg. Lots of periphyton.
+AA10027,1/26/2010 0:00,527106,2840967,helicopter,MFGe,Spikerush Marsh,30,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10022,1/26/2010 0:00,528006,2840467,helicopter,MFGe,Spikerush Marsh,30,1,0,0,100,0,0,1,none,,50m x 50m grid cell,MFGe with clajam patches. Some periphyton.
+AA10038,1/26/2010 0:00,531306,2842967,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,90,1,0,1,99,0,1,1,none,,50m x 50m grid cell,
+AA10021,1/26/2010 0:00,531306,2840417,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10019,1/26/2010 0:00,530206,2839767,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,35,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10013,1/26/2010 0:00,530356,2838967,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,80,2,5,3,92,5,2,2,none,,50m x 50m grid cell,Gator trail still visible.
+AA10017,1/26/2010 0:00,526256,2839517,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,25,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam elecel. Lots of periphyton.
+AA10015,1/26/2010 0:00,526256,2839317,helicopter,MFGe,Spikerush Marsh,50,1,0,1,99,0,1,1,none,,50m x 50m grid cell,Some periphyton.
+AA10091,1/26/2010 0:00,524206,2836217,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,50,1,0,2,98,0,1,1,none,,50m x 50m grid cell,Mixed clajam elecel.
+AA10095,2/5/2010 0:00,525556,2836817,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,85,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10088,2/5/2010 0:00,526206,2835367,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed elecel panhem. Some periphyton.
+AA10093,2/5/2010 0:00,530756,2836067,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,75,2,0,5,95,0,3,2,none,,50m x 50m grid cell,
+AA10086,2/5/2010 0:00,531906,2835067,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,70,2.5,0,5,95,0,2,3,below threshold,,50m x 50m grid cell,
+AA10082,2/5/2010 0:00,531856,2833767,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,80,3,0,0,100,0,0,3,MFGtS,,50m x 50m grid cell,Some periphyton.
+AA10074,2/5/2010 0:00,531456,2832267,helicopter,MFGr,Beakrush Marsh,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10080,2/5/2010 0:00,527656,2833517,helicopter,CSmGc,Wax Myrtle Scrub-Sawgrass Marsh,100,3,0,10,90,0,3,3,MFGtS,,50m x 50m grid cell,
+AA10083,2/5/2010 0:00,526106,2834117,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,2,98,0,2,2,below threshold,,50m x 50m grid cell,Small patch of MFGe. Lots of periphyton.
+AA10073,2/5/2010 0:00,526356,2832117,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,70,2,0,0,100,0,0,2,none,,50m x 50m grid cell,MFGe patch.
+AA10056,2/5/2010 0:00,525106,2828817,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10065,2/5/2010 0:00,525506,2828917,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,85,2,0,1,99,0,2,2,none,,50m x 50m grid cell,Small patch of MFGe and some rhytra.
+AA10058,2/5/2010 0:00,525956,2828617,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,Some periphyton.
+AA10059,2/5/2010 0:00,526956,2828567,helicopter,MFGe,Spikerush Marsh,30,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10136,2/5/2010 0:00,526806,2827417,helicopter,CSaGc,Pond Apple Scrub-Sawgrass Marsh,90,2.5,0,35,65,0,3,2,below threshold,,50m x 50m grid cell,
+AA10064,2/5/2010 0:00,528606,2828817,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10062,2/5/2010 0:00,530056,2828667,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10063,2/5/2010 0:00,530306,2828667,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Rocky. Lots of periphyton.
+AA10057,2/5/2010 0:00,532556,2828367,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,30,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Rocky. Lots of periphyton.
+AA10130,2/5/2010 0:00,532106,2825467,helicopter,MFGPc,Sawgrass Prairie,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10125,2/5/2010 0:00,529856,2825167,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Not a lot of periphyton.
+AA10119,2/5/2010 0:00,531856,2823517,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed muhcap schnig prairie. Dry prairie.
+AA10118,2/5/2010 0:00,529406,2822667,helicopter,MFGPc,Sawgrass Prairie,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton. There are prairie pockets but this is a marsh.
+AA10121,2/5/2010 0:00,528456,2823367,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Some periphyton.
+AA10123,2/5/2010 0:00,527806,2824417,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,65,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10128,2/5/2010 0:00,527056,2825067,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,75,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10117,2/5/2010 0:00,523206,2822617,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,Found 70perc MFGc 30perc MFGe.
+AA10122,2/5/2010 0:00,520206,2823717,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,90,1.5,0,5,95,0,3,2,none,,50m x 50m grid cell,
+AA10126,2/5/2010 0:00,518906,2824817,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10115,2/5/2010 0:00,514606,2822567,helicopter,MFGe,Spikerush Marsh,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,MFGcSD acceptable. Split cell MFGe on SE and MFGcSD on NW. Classified MFGe.
+AA10137,2/5/2010 0:00,514006,2827417,helicopter,SSs,Willow Shrubland,90,3,0,60,40,0,3,2,below threshold,,50m x 50m grid cell,SSs because salcar 60perc of shrub layer. SSB acceptable with 60perc salcar 20myrcer 10anngla 10ilecas.
+AA10133,2/5/2010 0:00,520306,2825817,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10061,2/5/2010 0:00,519156,2828667,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,70,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10068,2/5/2010 0:00,518506,2829767,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,80,2,0,0,100,0,0,2,none,,50m x 50m grid cell,Rocky.
+AA10081,2/5/2010 0:00,514356,2833617,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,10,90,0,2,2,below threshold,,50m x 50m grid cell,
+AA10134,2/5/2010 0:00,524606,2826117,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,80,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10129,2/5/2010 0:00,524506,2825117,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam elecel. Split cell sparse MFGX on SE and smaller MFGcSD on NW. Vegetation for the entire cell was recorded. It appears that the sawgrass marsh is the dominant habitat
+AA10218,2/12/2010 0:00,528206,2834717,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,80,1,0,5,95,0,2,1,none,,50m x 50m grid cell,Edge of tree island on SE.
+AA10085,2/12/2010 0:00,516656,2834767,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10278,2/12/2010 0:00,516706,2833017,helicopter,FHS,Tropical Hardwood Hammock,90,12,60,20,20,12,4,2,below threshold,,50m x 50m grid cell,
+AA10279,2/12/2010 0:00,514656,2827767,helicopter,FSB,Bayhead Forest,100,10,70,10,20,10,4,2,none,,50m x 50m grid cell,Exotic schter below threshold.
+AA10216,2/12/2010 0:00,517706,2830167,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,70,2,0,0,100,0,0,2,none,,50m x 50m grid cell,Rocky.
+AA10217,2/12/2010 0:00,520906,2830517,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,40,1,0,15,85,0,4,1,none,,50m x 50m grid cell,Mixed clajam elecel rhytra. MFGXcr acceptable. Small tree island in cell.
+AA10070,2/12/2010 0:00,520906,2830117,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,80,2,0,10,90,0,2,1.5,none,,50m x 50m grid cell,herb height overestimated. Sawgrass 1 to 1.5m height
+AA10069,2/12/2010 0:00,522006,2829867,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,85,2,0,10,90,0,2,2,none,,50m x 50m grid cell,
+AA10264,2/12/2010 0:00,523006,2828517,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,5,95,0,2,2,below threshold,,50m x 50m grid cell,
+AA10224,2/12/2010 0:00,525806,2826667,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,Some periphyton.
+AA10225,2/12/2010 0:00,527256,2827067,helicopter,MFGr,Beakrush Marsh,30,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Lots of periphyton. Area with clajam on N.
+AA10235,2/12/2010 0:00,529956,2822117,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA10266,2/12/2010 0:00,531506,2823467,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,70,1,0,2,98,0,1,1,none,,50m x 50m grid cell,Mixed clajam muhcap schnig schrhi prairie.
+AA10107,2/12/2010 0:00,524156,2820917,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10103,2/12/2010 0:00,522356,2819917,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,80,1.5,0,0,100,0,0,2,none,,50m x 50m grid cell,Patch of elecel pelvir poncor.
+AA10111,2/12/2010 0:00,521756,2821367,helicopter,MFGe,Spikerush Marsh,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Round clajam patches.
+AA10110,2/12/2010 0:00,521356,2821317,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,70,1.5,0,0,100,0,0,2,none,,50m x 50m grid cell,May have been burned.
+AA10108,2/12/2010 0:00,514256,2820917,helicopter,MFGe,Spikerush Marsh,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Some periphyton.
+AA10099,2/12/2010 0:00,513956,2818067,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,60,1,0,0,100,0,0,1,below threshold,,50m x 50m grid cell,Mixed clajam elecel.
+AA10177,2/12/2010 0:00,514456,2817017,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10229,2/12/2010 0:00,514056,2816367,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,60,2,0,0,100,0,0,2,MFGtS,,50m x 50m grid cell,Mixed clajam elecel. Small piece of tributary on N with rhiman salcar chrica.
+AA10169,2/12/2010 0:00,516956,2815317,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10171,2/12/2010 0:00,519556,2815767,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,70,2,0,0,100,0,0,2,none,,50m x 50m grid cell,Some periphyton.
+AA10100,2/12/2010 0:00,521956,2818167,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1.5,0,0,100,0,0,2,none,,50m x 50m grid cell,Lots of periphyton.
+AA10097,2/12/2010 0:00,525306,2817617,helicopter,MFGP,Graminoid Freshwater Prairie,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie. Rocky. May be edge of prairie.
+AA10269,2/12/2010 0:00,522006,2816117,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,70,3,0,0,100,0,0,3,MFGtS,,50m x 50m grid cell,Mixed clajam typdom.
+AA10167,2/12/2010 0:00,521506,2814617,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10157,2/12/2010 0:00,519206,2813117,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10164,2/12/2010 0:00,518156,2814067,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10155,2/12/2010 0:00,516756,2812467,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,80,2,0,0,100,0,0,2,none,,50m x 50m grid cell,Some periphyton.
+AA10151,2/12/2010 0:00,515556,2811817,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,70,2,0,0,100,0,0,2,MFGtS,,50m x 50m grid cell,Small MFGe on NW.
+AA10268,2/12/2010 0:00,515156,2811667,helicopter,SSy,Cocoplum Shrubland,100,8,60,35,5,8,4,1,none,,50m x 50m grid cell,SSy because chrica 67perc of cell. Borderline FSB with 28perc bayhead spp. Tree height but chrica is always shrubland. MFGc on N.
+AA10158,2/12/2010 0:00,513506,2813267,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,45,2,0,0,100,0,0,2,none,,50m x 50m grid cell,Some periphyton.
+AA10142,2/12/2010 0:00,513706,2808767,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,Not a lot of periphyton.
+AA10141,2/12/2010 0:00,516056,2808417,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,70,2,0,0,100,0,0,2,below threshold,,50m x 50m grid cell,Some periphyton.
+AA10231,2/12/2010 0:00,515106,2806917,helicopter,FSB,Bayhead Forest,100,8,60,35,5,8,4,1,none,,50m x 50m grid cell,Not enough rhiman for FSBT. MFGc on NW.
+AA10205,2/12/2010 0:00,517256,2807267,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,5,95,0,2,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10199,2/19/2010 0:00,515006,2803867,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,40,2,0,60,40,0,2,1,none,,50m x 50m grid cell,shrub and herb cover adjusted to equal 100
+AA10194,2/19/2010 0:00,515056,2802367,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,83,17,0,2,1,none,,50m x 50m grid cell,
+AA10282,2/19/2010 0:00,517106,2801317,helicopter,FHS,Tropical Hardwood Hammock,90,19,80,15,5,19,3,2,none,,50m x 50m grid cell,"Found 60perc temperate 40 tropical trees. FHT, FHq, and FHg are also acceptable. Went with FHS due to lack of other tempereate species."
+AA10271,2/19/2010 0:00,517506,2800417,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10270,2/19/2010 0:00,518356,2798867,helicopter,CSBTG,Transitional Bayhead Swamp Scrub-Graminoid Marsh,40,2,0,30,70,0,2,1,none,,50m x 50m grid cell,Edge of forest on W is mettox serrep chrica. MFGX clajam elecel understory.
+AA10187,2/19/2010 0:00,518956,2800317,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,60,1,0,5,95,0,3,1,none,,50m x 50m grid cell,
+AA10283,2/19/2010 0:00,519355.17,2800661.07,helicopter,FHS,Tropical Hardwood Hammock,95,14,70,25,5,14,4,1,none,,50m x 50m grid cell,MFGPc on N.
+AA10260,2/19/2010 0:00,520206,2803217,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,60,1,5,15,80,15,2,1,none,,50m x 50m grid cell,Mixed clajam muhcap schnig schrhi prairie. Rocky.
+AA10250,2/19/2010 0:00,523554.83,2801366.44,helicopter,CStGcS,Cypress Scrub-Short Sawgrass Marsh,90,2,0,16,84,0,2,2,none,,50m x 50m grid cell,erigig gives the herb height 2m. The sawgrass is less than 2m in height. Helpin and erigig are the only prairie species.
+AA10182,2/19/2010 0:00,524606,2799767,helicopter,MFGPm,Muhly Grass Prairie,65,1,0,10,90,0,4,1,none,,50m x 50m grid cell,
+AA10181,2/19/2010 0:00,527056,2798367,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed muhcap schnig schrhi prairie.
+AA10189,2/19/2010 0:00,527106,2801417,helicopter,CStGPc,Cypress Scrub-Sawgrass Prairie ,90,3,10,20,70,10,3,1,none,,50m x 50m grid cell,Tree island in NW corner of cell where upland species are. Dominant habitat is surrounding cypress scrub with sawgrass.
+AA10259,2/19/2010 0:00,526456,2803467,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed muhcap schrhi prairie.
+AA10200,2/19/2010 0:00,523556,2805017,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,50,1,0,5,95,0,2,1,none,,50m x 50m grid cell,Mixed muhcap schnig prairie.
+AA10281,2/19/2010 0:00,522752.73,2805418.46,helicopter,WUpRSn,Pine Rockland-Saw Palmetto,100,18,20,70,10,18,2,2,none,,50m x 50m grid cell,FHq on N.
+AA10280,2/19/2010 0:00,522856.27,2806416.69,helicopter,FHS,Tropical Hardwood Hammock,100,10,60,30,10,10,4,1,none,EsS,50m x 50m grid cell,
+AA10204,2/19/2010 0:00,522956,2806667,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,90,10,10,10,80,10,2,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie. Pine woodland on W and E edges.
+AA10202,2/19/2010 0:00,519356,2805667,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,30,1,5,10,85,10,3,1,none,,50m x 50m grid cell,Mixed pasmon schrhi prairie. Rocky.
+AA10206,2/19/2010 0:00,521356,2807267,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,60,1,10,15,75,10,4,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie. Small hardwood patch on S.
+AA10139,2/19/2010 0:00,522006,2808067,helicopter,WUpRX,Pine Rockland-Mixed,80,12,20,30,50,12,2,1,none,,50m x 50m grid cell,
+AA10145,2/19/2010 0:00,521456,2809917,helicopter,CStGPc,Cypress Scrub-Sawgrass Prairie ,80,4,0,20,80,0,4,1,none,,50m x 50m grid cell,Small piece of tree island on SE.
+AA10267,2/19/2010 0:00,521706,2811117,helicopter,CStGcS,Cypress Scrub-Short Sawgrass Marsh,75,3,0,30,70,0,3,1,none,,50m x 50m grid cell,
+AA10154,2/19/2010 0:00,525256,2812217,helicopter,CUWGPc,Upland Hardwood Scrub-Sawgrass Prairie,70,3,10,40,50,10,3,1,none,,50m x 50m grid cell,Rocky.
+AA10150,2/19/2010 0:00,526056,2811617,helicopter,CUWGPX,Upland Hardwood Scrub-Mixed Graminoid Prairie,75,3,10,40,50,10,3,1,none,,50m x 50m grid cell,
+AA10285,2/19/2010 0:00,526657.21,2810965.38,helicopter,FHS,Tropical Hardwood Hammock,90,12,80,20,0,12,4,0,none,,50m x 50m grid cell,
+AA10143,2/19/2010 0:00,528156,2809667,helicopter,WUpRX,Pine Rockland-Mixed,90,13,30,30,40,13,2,1,none,,50m x 50m grid cell,
+AA10207,2/19/2010 0:00,527656,2807367,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,80,1,0,10,90,0,2,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA10146,2/19/2010 0:00,529906,2810517,helicopter,WUpRX,Pine Rockland-Mixed,60,12,30,40,30,12,2,1,none,,50m x 50m grid cell,
+AA10144,2/19/2010 0:00,530856,2809717,helicopter,WUpRX,Pine Rockland-Mixed,70,13,30,40,30,13,2,1,none,,50m x 50m grid cell,
+AA10286,2/19/2010 0:00,532253.58,2809819.74,helicopter,FHS,Tropical Hardwood Hammock,90,13,100,0,0,13,0,0,none,,50m x 50m grid cell,Less than 50% quevir cover. Quevir is a component of FHS.
+AA10140,2/19/2010 0:00,534406,2808267,helicopter,WUpRSn,Pine Rockland-Saw Palmetto,100,6,60,40,0,6,4,0,none,EsD,50m x 50m grid cell,Split cell WUpRSn on SE and EsD on NW. Classified WUpRSn but recorded vegetation data for EsD. Exotic schter 60perc of cell.
+AA10209,2/19/2010 0:00,536856,2807467,helicopter,EsD,Brazilian Pepper Dominant ,100,4,30,70,0,6,4,0,none,EsD,50m x 50m grid cell,Exotic schter 83perc of cell. Found 83perc schter 17myrcer shrubland with emergent trees.
+AA10272,2/19/2010 0:00,537956.38,2807716.66,helicopter,FHS,Tropical Hardwood Hammock,100,13,70,30,0,13,4,0,none,,50m x 50m grid cell,
+AA10258,2/19/2010 0:00,537855.48,2810167.46,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,70,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA10274,2/19/2010 0:00,538506,2809567,helicopter,FHS,Tropical Hardwood Hammock,95,12,60,35,5,12,4,1,none,,50m x 50m grid cell,Exotic schter below threshold.
+AA10276,2/19/2010 0:00,539106,2807167,helicopter,FHS,Tropical Hardwood Hammock,,,,,,,,,none,,50m x 50m grid cell,Too close to visitor center. Specific vegetation data not collected.
+AA10277,2/19/2010 0:00,539206,2807117,helicopter,FHS,Tropical Hardwood Hammock,,,,,,,,,none,,50m x 50m grid cell,Too close to visitor center. Specific vegetation data not collected.
+AA10208,2/19/2010 0:00,540606,2807517,helicopter,SUH,Tropical Hardwood Shrubland,100,4,30,70,0,10,4,0,none,,50m x 50m grid cell,SUH code overrides WUH found here.
+AA10232,2/19/2010 0:00,541306,2807017,helicopter,SUn,Saw Palmetto Shrubland,90,2,0,73,27,0,2,1,none,,50m x 50m grid cell,Found cell has 5perc dead pinell trees.
+AA10275,2/19/2010 0:00,542606,2808817,helicopter,FHS,Tropical Hardwood Hammock,100,12,60,30,10,12,4,1,none,,50m x 50m grid cell,Quevir only 42% of cell
+AA10195,2/26/2010 0:00,530906,2802567,helicopter,CStGcS,Cypress Scrub-Short Sawgrass Marsh,60,2,0,20,80,0,2,1,none,,50m x 50m grid cell,
+AA10190,2/26/2010 0:00,530606,2801967,helicopter,CStGPm,Cypress Scrub-Muhly Grass Prairie ,70,3,0,25,75,0,3,1,none,,50m x 50m grid cell,
+AA10179,2/26/2010 0:00,529556,2797767,helicopter,MFGPc,Sawgrass Prairie,70,1,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA10210,2/26/2010 0:00,533706,2797517,helicopter,MFGe,Spikerush Marsh,20,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Lots of periphyton. MFGe with discrete clajam patches.
+AA10249,2/26/2010 0:00,534406,2797517,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,MFGe to W of this cell.
+AA10255,2/26/2010 0:00,534956,2797467,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,75,1,0,5,95,0,1,1,none,,50m x 50m grid cell,
+AA10248,2/26/2010 0:00,535406,2797467,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,30,1,0,2,98,0,1,1,none,,50m x 50m grid cell,Mixed elecel rhytra.
+AA10254,2/26/2010 0:00,535359.94,2797920.57,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,80,3,5,35,60,6,3,1,none,,50m x 50m grid cell,MFGX elecel rhytra on N.
+AA10244,2/26/2010 0:00,534756,2797917,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,30,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam panhem.
+AA10245,2/26/2010 0:00,534605.5,2798415.55,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,90,1,0,5,95,0,2,1,none,,50m x 50m grid cell,MFGa on W. Some panhem pasgem rhytra elecel.
+AA10247,2/26/2010 0:00,535006,2799017,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,50,1,0,10,90,0,2,1,none,,50m x 50m grid cell,Mixed clajam elecel pasgem rhytra. Bayhead on N.
+AA10243,2/26/2010 0:00,535653.55,2798669.14,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,25,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed elecel rhytra. Tree island on E is rhiman chrica myrcer perbor clajam.
+AA10246,2/26/2010 0:00,535956,2798567,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,80,1,0,10,90,0,1,1,none,,50m x 50m grid cell,
+AA10292,2/26/2010 0:00,535856,2799017,helicopter,CSBGc,Bayhead Swamp Scrub-Sawgrass Marsh,80,4,5,55,40,7,4,2,below threshold,,50m x 50m grid cell,Split cell MFG MFGc tree islands. Classified tree islands. Almost enough rhiman for CSBTGc.
+AA10242,2/26/2010 0:00,535804.46,2800369.55,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,80,2,0,10,90,0,4,2,none,,50m x 50m grid cell,
+AA10191,2/26/2010 0:00,534856,2801967,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,80,1,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA10193,2/26/2010 0:00,536006,2802267,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,60,1,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA10196,2/26/2010 0:00,536356,2803267,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,70,1,0,5,95,0,2,1,none,,50m x 50m grid cell,Cypress dome on S.
+AA10230,2/26/2010 0:00,534706,2803617,helicopter,MFGPm,Muhly Grass Prairie,60,1,0,5,95,0,1,1,none,,50m x 50m grid cell,
+AA10198,2/26/2010 0:00,534506,2803617,helicopter,MFGPm,Muhly Grass Prairie,60,1,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA10203,2/26/2010 0:00,534606,2806017,helicopter,CSsG,Willow Scrub-Graminoid Marsh,40,2,0,40,60,0,2,1,below threshold,,50m x 50m grid cell,pictures show some cattail
+AA10184,2/26/2010 0:00,539006,2799567,helicopter,WStGPX,Cypress Woodland-Mixed Prairie,80,7,30,20,50,7,4,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie. Tree island on NW.
+AA10180,2/26/2010 0:00,542006,2797767,helicopter,CStGPc,Cypress Scrub-Sawgrass Prairie ,80,4,0,30,70,0,4,1,none,,50m x 50m grid cell,
+AA10183,2/26/2010 0:00,541456,2799117,helicopter,CStGPm,Cypress Scrub-Muhly Grass Prairie ,80,4,5,25,70,7,4,1,none,,50m x 50m grid cell,
+AA10185,2/26/2010 0:00,541806,2799767,helicopter,CStGPX,Cypress Scrub-Mixed Graminoid Prairie,70,4,0,20,80,0,4,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA10186,2/26/2010 0:00,540556,2800267,helicopter,MFGP,Graminoid Freshwater Prairie,70,1,0,5,95,0,2,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA10188,2/26/2010 0:00,540456,2800417,helicopter,CStGPc,Cypress Scrub-Sawgrass Prairie ,60,4,5,30,65,6,4,1,none,,50m x 50m grid cell,
+AA10192,2/26/2010 0:00,542556,2802167,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10197,2/26/2010 0:00,539356,2803517,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10201,2/26/2010 0:00,542406,2805117,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10148,2/26/2010 0:00,541456,2810967,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,70,1,0,5,95,0,1,1,below threshold,,50m x 50m grid cell,Mixed clajam muhcap schrhi prairie.
+AA10237,2/26/2010 0:00,540955.36,2811319.29,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,90,2,0,5,95,0,2,2,MFGtS,,50m x 50m grid cell,Graminoids 40perc typdom 20panhem 10elecel 5clajam 5erigig.
+AA10238,2/26/2010 0:00,541204.19,2811817.1,helicopter,SSs,Willow Shrubland,90,5,20,20,60,7,5,3,below threshold,,50m x 50m grid cell,Split cell with salcar and MFGg.
+AA10159,2/26/2010 0:00,539356,2813317,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA10227,2/26/2010 0:00,538256,2813667,helicopter,MFGPm,Muhly Grass Prairie,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10175,2/26/2010 0:00,540256,2816417,helicopter,SUH,Tropical Hardwood Shrubland,80,4,20,75,5,6,4,1,none,,50m x 50m grid cell,SUH code overrides WUH found here. Tree island with MFGPc.
+AA10178,2/26/2010 0:00,539306,2817467,helicopter,FHS,Tropical Hardwood Hammock,90,7,60,35,5,7,4,1,none,,50m x 50m grid cell,
+AA10102,2/26/2010 0:00,539006,2818717,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,75,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam muhcap schrhi prairie. Rocky.
+AA10101,2/26/2010 0:00,543806,2818617,helicopter,CUWGPX,Upland Hardwood Scrub-Mixed Graminoid Prairie,90,4,5,40,55,7,4,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA10223,2/26/2010 0:00,542856,2819667,helicopter,CUWGPc,Upland Hardwood Scrub-Sawgrass Prairie,80,4,0,30,70,0,4,2,below threshold,,50m x 50m grid cell,
+AA10284,3/31/2010 0:00,528255.63,2811216.65,helicopter,FHS,Tropical Hardwood Hammock,100,10,100,0,0,10,0,0,none,,50m x 50m grid cell,FHq because quevir 80perc of cell.
+AA10156,3/31/2010 0:00,528956,2812567,helicopter,WUpRG,Pine Rockland-Graminoid Marsh,90,12,30,20,50,12,2,1,none,,50m x 50m grid cell,
+AA10149,3/31/2010 0:00,529206,2811467,helicopter,WUpRX,Pine Rockland-Mixed,90,12,30,30,40,12,2,1,none,,50m x 50m grid cell,
+AA10147,3/31/2010 0:00,529606,2810867,helicopter,FHS,Tropical Hardwood Hammock,80,7,70,20,10,7,3,1,none,,50m x 50m grid cell,
+AA10152,3/31/2010 0:00,531606,2811817,helicopter,WUpRX,Pine Rockland-Mixed,90,12,30,40,30,12,2,1,none,,50m x 50m grid cell,
+AA10153,3/31/2010 0:00,532256,2812517,helicopter,WUpRG,Pine Rockland-Graminoid Marsh,90,12,30,20,50,12,2,1,none,,50m x 50m grid cell,
+AA10228,3/31/2010 0:00,530506,2813567,helicopter,WUpRG,Pine Rockland-Graminoid Marsh,70,10,20,20,60,10,3,1,none,,50m x 50m grid cell,
+AA10160,3/31/2010 0:00,529806,2813467,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,70,1,0,5,95,0,3,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie. Small tree island on center is sidsal myrcer.
+AA10226,3/31/2010 0:00,529506,2813267,helicopter,WUpRS,Pine Rockland-Shrubs,80,10,25,55,20,10,3,1,none,,50m x 50m grid cell,
+AA10166,3/31/2010 0:00,529706,2814367,helicopter,WUpRG,Pine Rockland-Graminoid Marsh,80,11,20,10,70,11,3,1,none,,50m x 50m grid cell,
+AA10165,3/31/2010 0:00,529956,2814567,helicopter,WUpRG,Pine Rockland-Graminoid Marsh,80,10,15,20,65,10,2,1,none,,50m x 50m grid cell,
+AA10261,3/31/2010 0:00,530959.9,2814568.95,helicopter,CUWGPc,Upland Hardwood Scrub-Sawgrass Prairie,70,3,5,30,65,9,3,1,none,,50m x 50m grid cell,
+AA10172,3/31/2010 0:00,531656,2815967,helicopter,MFGPm,Muhly Grass Prairie,70,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Small tree island on center is sidsal mettox.
+AA10236,3/31/2010 0:00,530156,2815617,helicopter,CUWGPc,Upland Hardwood Scrub-Sawgrass Prairie,80,2,0,30,70,0,2,1,none,,50m x 50m grid cell,
+AA10170,3/31/2010 0:00,529556,2815417,helicopter,MFGPs,Little Bluestem Prairie,75,1,0,10,90,0,2,1,none,,50m x 50m grid cell,Small piece of tree island on SE.
+AA10168,3/31/2010 0:00,528006,2814667,helicopter,CUWGPX,Upland Hardwood Scrub-Mixed Graminoid Prairie,80,1,5,20,75,8,2,1,none,,50m x 50m grid cell,Mixed clajam muhcap schrhi prairie. Piece of tree island at SW.
+AA10176,3/31/2010 0:00,528856,2817217,helicopter,MFGPc,Sawgrass Prairie,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10161,3/31/2010 0:00,534456,2813767,helicopter,CUWGPX,Upland Hardwood Scrub-Mixed Graminoid Prairie,75,2,0,20,80,0,2,1,none,,50m x 50m grid cell,Mixed muhcap schrhi prairie.
+AA10163,3/31/2010 0:00,536606,2813967,helicopter,CUWGPc,Upland Hardwood Scrub-Sawgrass Prairie,70,4,0,50,50,0,4,1,none,,50m x 50m grid cell,Piece of tree island at SE is sidsal cocdiv ilecas.
+AA10173,3/31/2010 0:00,535156,2816117,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,70,1,0,10,90,0,2,1,none,,50m x 50m grid cell,Mixed muhcap schrhi prairie.
+AA10098,3/31/2010 0:00,536156,2817917,helicopter,MFGP,Graminoid Freshwater Prairie,60,1,0,10,90,0,1,1,none,,50m x 50m grid cell,Rocky broken ground.
+AA10222,3/31/2010 0:00,532406,2819467,helicopter,MFGPc,Sawgrass Prairie,75,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10105,3/31/2010 0:00,533256,2820667,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,80,1,0,10,90,0,3,1,none,,50m x 50m grid cell,Mixed clajam muhcap schnig schrhi prairie. Piece of tree island at SW.
+AA10106,3/31/2010 0:00,536806,2820667,helicopter,MFGPc,Sawgrass Prairie,60,1,0,10,90,0,2,1,none,,50m x 50m grid cell,Piece of tree island at N is sidsal myrcer.
+AA10092,3/31/2010 0:00,546056,2836017,helicopter,MFGPc,Sawgrass Prairie,90,4,10,20,70,8,3,1,none,EmS,50m x 50m grid cell,Exotic melqui 25perc of cell and casequi below threshold.
+AA10009,3/31/2010 0:00,543206,2837567,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,5,95,0,1,1,none,,50m x 50m grid cell,muhcap appears in patches on rock outcrops
+AA10096,3/31/2010 0:00,541106,2836967,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,60,1,0,5,95,0,3,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie. Exotic melqui below threshold.
+AA10090,3/31/2010 0:00,542256,2835817,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,40,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie. Exotic melqui below threshold.
+AA10234,3/31/2010 0:00,542906,2835117,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,65,1,0,10,90,0,3,1,none,EcST,50m x 50m grid cell,Mixed clajam muhcap prairie. Treated casequ.
+AA10287,3/31/2010 0:00,541506.38,2833221.63,helicopter,SSB,Bayhead Shrubland,100,4,40,60,0,10,4,0,none,EsS,50m x 50m grid cell,SSB code overrides WSH found here. Exotic schter 12perc of cell.
+AA10288,3/31/2010 0:00,541706,2833317,helicopter,SSB,Bayhead Shrubland,90,4,30,70,0,7,4,0,none,EsS,50m x 50m grid cell,SSB code overrides WSH found here. Exotic schter 32perc of cell.
+AA10078,3/31/2010 0:00,544206,2833217,helicopter,MFGPm,Muhly Grass Prairie,55,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Burned.
+AA10079,3/31/2010 0:00,544606,2833267,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,50,1,0,5,95,0,2.5,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie. Burned and rocky.
+AA10077,3/31/2010 0:00,543206,2832767,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie. Burned and rocky.
+AA10072,3/31/2010 0:00,543706,2831867,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,80,1,0,5,95,0,2,1,none,,50m x 50m grid cell,Mixed andvir clajam muhcap rhydiv prairie. Rocky.
+AA10257,3/31/2010 0:00,538806,2821467,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA10109,3/31/2010 0:00,539956,2821067,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,75,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA10174,3/31/2010 0:00,542206,2816317,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,80,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA10114,3/31/2010 0:00,542006,2822017,helicopter,MFGPc,Sawgrass Prairie,60,1,0,5,95,0,2,1,none,,50m x 50m grid cell,Tree island on NE is mettox sidsal schter myrcer salcar.
+AA10116,3/31/2010 0:00,542606,2822417,helicopter,MFGPc,Sawgrass Prairie,75,1,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA10120,3/31/2010 0:00,538656,2823317,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,70,1,0,10,90,0,3,1,none,,50m x 50m grid cell,Mixed clajam elecel.
+AA10008,6/4/2010 0:00,548856,2848717,helicopter,CSsGc,Willow Scrub-Sawgrass Marsh ,90,3,0,40,60,0,3,2,none,,50m x 50m grid cell,
+AA10042,6/4/2010 0:00,547206,2844117,helicopter,MFGr,Beakrush Marsh,20,1,0,2,98,0,1.5,1,none,,50m x 50m grid cell,
+AA10036,6/4/2010 0:00,549506,2842667,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10032,6/4/2010 0:00,550406,2841717,helicopter,CSmGP,Wax Myrtle Scrub-Graminoid Prairie,100,7,30,20,50,7,2,1,none,EmS,50m x 50m grid cell,Exotic melqui 30perc of cell.
+AA10212,6/4/2010 0:00,546556,2842267,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10211,6/4/2010 0:00,544756,2840167,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10028,6/4/2010 0:00,544056,2841467,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10031,6/4/2010 0:00,541856,2841767,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10039,6/4/2010 0:00,540156,2843367,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10049,6/4/2010 0:00,539856,2847067,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,80,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10239,6/4/2010 0:00,543656,2847767,helicopter,CShGc,Buttonbush Scrub-Sawgrass Marsh,90,2,0,20,80,0,2,2,none,,50m x 50m grid cell,
+AA10041,6/4/2010 0:00,539306,2843617,helicopter,CShGc,Buttonbush Scrub-Sawgrass Marsh,80,2,0,30,70,0,3,2,none,,50m x 50m grid cell,
+AA10040,6/4/2010 0:00,538056,2843517,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,80,2,0,10,90,0,2,2,below threshold,,50m x 50m grid cell,Exotic melqui below threshold. Stand of typdom to N.
+AA10035,6/4/2010 0:00,539156,2842117,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,80,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10033,6/4/2010 0:00,537856,2842017,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,75,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10023,6/4/2010 0:00,537206,2840617,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10024,6/4/2010 0:00,536756,2840717,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,85,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10020,6/4/2010 0:00,535706,2839967,helicopter,CShGc,Buttonbush Scrub-Sawgrass Marsh,100,3,0,30,70,0,3,2,none,,50m x 50m grid cell,CShGc because cepocc 50perc of shrub layer. CSBGc acceptable with 45perc bayhead spp. Exotic melqui below threshold.
+AA10221,6/4/2010 0:00,535056,2836817,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10265,6/4/2010 0:00,533756,2836867,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,100,2,0,5,95,0,2,2,none,,50m x 50m grid cell,
+AA10012,6/4/2010 0:00,532906,2838467,helicopter,SSB,Bayhead Shrubland,100,4,30,60,10,7,4,1,none,,50m x 50m grid cell,SSB code overrides WS found here.
+AA10016,6/4/2010 0:00,533306,2839467,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,80,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Tree island to SW. Split cell with open area along airboat trail.
+AA10034,6/4/2010 0:00,533806,2841967,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10290,6/4/2010 0:00,535956,2842417,helicopter,FSB,Bayhead Forest,100,8,70,20,10,8,4,1,none,,50m x 50m grid cell,Exotic schter below threshold.
+AA10215,6/4/2010 0:00,536006,2844867,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,10,90,0,2,2,none,,50m x 50m grid cell,Edge of tree island on S.
+AA10289,6/4/2010 0:00,535656,2845817,helicopter,FSB,Bayhead Forest,100,8,60,30,10,8,4,1,none,,50m x 50m grid cell,
+AA10048,6/4/2010 0:00,536956,2846267,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,100,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10002,6/4/2010 0:00,536106,2847717,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,60,1,0,2,98,0,2,1,none,,50m x 50m grid cell,Split cell with MFGe.
+AA10052,6/4/2010 0:00,534656,2847267,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,MFGe on W.
+AA10053,6/4/2010 0:00,533156,2847317,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10240,6/4/2010 0:00,533156,2848867,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,80,2,0,10,90,0,1,2,MFGtS,,50m x 50m grid cell,
+AA10241,6/4/2010 0:00,529556,2848567,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,80,2,0,10,90,0,2,2,none,,50m x 50m grid cell,
+AA10233,6/4/2010 0:00,530206,2845517,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA10273,6/4/2010 0:00,529006,2844667,helicopter,SSB,Bayhead Shrubland,100,4,30,60,10,7,4,2,none,,50m x 50m grid cell,SSB code overrides WS found here.
+AA10213,6/4/2010 0:00,533006,2844117,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,80,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10220,6/4/2010 0:00,530106,2836667,helicopter,MFGe,Spikerush Marsh,25,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10291,6/4/2010 0:00,527202.06,2837870.75,helicopter,SSB,Bayhead Shrubland,100,4,0,80,20,0,4,2,none,,50m x 50m grid cell,
+AA10263,6/4/2010 0:00,523706,2847417,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Between tram roads.
+AA10253,6/4/2010 0:00,523056,2848917,helicopter,CSaG,Pond Apple Scrub-Graminoid Marsh,100,1,0,15,85,0,1,1,none,,50m x 50m grid cell,MFGX mixed clajam rhyinu rhytra understory.
+AA10252,6/4/2010 0:00,522807.04,2848667.79,helicopter,MFGr,Beakrush Marsh,90,1,0,10,90,0,1,1,none,,50m x 50m grid cell,Found 50perc rhyinu 20rhytra 20clajam.
+AA10214,6/4/2010 0:00,520606,2843767,helicopter,MFGPc,Sawgrass Prairie,40,1,0,10,90,0,3,1,none,,50m x 50m grid cell,Prairie.
+AA10256,6/4/2010 0:00,521151.55,2838519,helicopter,MFGXcr,Sawgrass-Rhynchospora Marsh,70,1,0,10,90,0,2,1,none,,50m x 50m grid cell,Mixed clajam rhyinu.
+AA10219,6/4/2010 0:00,514256,2835317,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,60,1,0,10,90,0,2,1,none,,50m x 50m grid cell,Rocky. There are prairie pockets but this is a marsh.
+AA10262,6/4/2010 0:00,515406,2845767,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,65,1,0,15,85,0,4,1,none,,50m x 50m grid cell,Part of tree island is perbor some magvir. There are prairie pockets but this is a marsh.
+AA10075,8/6/2010 0:00,532756,2832667,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10076,8/6/2010 0:00,533006,2832667,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10018,8/6/2010 0:00,538856,2839667,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam elecel.
+AA10094,8/6/2010 0:00,536606,2836917,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,50,2,0,0,100,0,0,2,none,,50m x 50m grid cell,
+AA10087,8/6/2010 0:00,536806,2834717,helicopter,MFGe,Spikerush Marsh,30,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10084,8/6/2010 0:00,537856,2834517,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam elecel rhytra. Borderline MFGXcr.
+AA10294,8/6/2010 0:00,538956,2832267,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,10,90,0,2,1,none,,50m x 50m grid cell,Part of tree island on W mostly pteaqu.
+AA10071,8/6/2010 0:00,539356,2831917,helicopter,MFGe,Spikerush Marsh,30,1,0,10,90,0,2,1,none,,50m x 50m grid cell,Part of tree island on NE mostly tremic.
+AA10293,8/6/2010 0:00,539553,2832320.77,helicopter,MFGr,Beakrush Marsh,30,1,0,8,92,0,3,1,below threshold,,50m x 50m grid cell,Parts of tree island on NE and SW are mostly tremic.
+AA10067,8/6/2010 0:00,534856,2829317,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,30,1,0,5,95,0,1,1,below threshold,,50m x 50m grid cell,Small tree island in center.
+AA10066,8/6/2010 0:00,534606,2829017,helicopter,MFGXcr,Sawgrass-Rhynchospora Marsh,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,There are prairie pockets but this is a marsh.
+AA10132,8/6/2010 0:00,534556,2825517,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,40,1,0,10,90,0,2,1,none,,50m x 50m grid cell,Mixed clajam schrhi prairie.
+AA10131,8/6/2010 0:00,535206,2825567,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,40,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Mixed clajam schrhi prairie.
+AA10138,8/6/2010 0:00,536156,2827467,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Part of tree island on S is pteaqu nepexa. There are prairie pockets but this is a marsh.
+AA10060,8/6/2010 0:00,536406,2828617,helicopter,MFGPc,Sawgrass Prairie,30,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Parts of tree islands at NW and S. There are prairie pockets but this is a marsh.
+AA10055,8/6/2010 0:00,540056,2827567,helicopter,MFGPc,Sawgrass Prairie,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10298,8/6/2010 0:00,538206,2826317,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA10296,8/6/2010 0:00,538956,2825617,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,60,1,0,5,95,0,2,1,none,,50m x 50m grid cell,Mixed elecel rhyinu rhytra.
+AA10297,8/6/2010 0:00,539056,2825617,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,50,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Mixed clajam elecel rhytra.
+AA10295,8/6/2010 0:00,538906,2825267,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam elecel rhytra.
+AA10127,8/6/2010 0:00,539856,2825217,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,50,1,0,5,95,0,1,1,none,,50m x 50m grid cell,There are prairie pockets but this is a marsh. Exotic melqui below threshold.
+AA10135,8/6/2010 0:00,542456,2826517,helicopter,MFGP,Graminoid Freshwater Prairie,40,1,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA10124,8/6/2010 0:00,541506,2824517,helicopter,MFGPc,Sawgrass Prairie,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA10299,8/6/2010 0:00,539006,2822017,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA10112,8/6/2010 0:00,537056,2821767,helicopter,MFGPc,Sawgrass Prairie,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,There are prairie pockets but this is a marsh.
+AA20168,9/24/2010 0:00,518056,2784267,helicopter,FMa,Black Mangrove Forest,80,8,100,0,0,8,0,0,none,,50m x 50m grid cell,
+AA20148,9/24/2010 0:00,515956,2784817,helicopter,FMc,Buttonwood Forest,95,8,55,30,15,8,4,8,none,,50m x 50m grid cell,
+AA20015,9/24/2010 0:00,516006,2785067,helicopter,WMcS,Buttonwood Woodland-Succulent Marsh,90,8,50,10,40,8,3,1,none,,50m x 50m grid cell,
+AA20308,9/24/2010 0:00,515856,2785517,helicopter,FMc,Buttonwood Forest,90,8,70,10,20,8,3,1,none,,50m x 50m grid cell,
+AA20307,9/24/2010 0:00,515506,2785417,helicopter,FMc,Buttonwood Forest,90,8,55,45,0,8,4,0,none,,50m x 50m grid cell,N end difficult to fly due to high winds.
+AA20305,9/24/2010 0:00,513956,2785117,helicopter,WMcS,Buttonwood Woodland-Succulent Marsh,90,7,40,40,20,7,3,1,none,,50m x 50m grid cell,
+AA20309,9/24/2010 0:00,514356,2785717,helicopter,FMc,Buttonwood Forest,95,8,55,38,7,8,3,2,none,,50m x 50m grid cell,
+AA20035,9/24/2010 0:00,516256,2787067,helicopter,FMr,Red Mangrove Forest,90,8,60,20,20,8,3,2,none,,50m x 50m grid cell,
+AA20144,9/30/2010 0:00,516256,2787167,helicopter,FMr,Red Mangrove Forest,90,10,60,30,10,10,4,6,none,,50m x 50m grid cell,
+AA20010,9/30/2010 0:00,516806,2787117,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,10,60,20,20,10,4,4,none,,50m x 50m grid cell,
+AA20310,9/30/2010 0:00,517556,2786717,helicopter,FMc,Buttonwood Forest,90,8,60,30,10,8,4,4,none,,50m x 50m grid cell,
+AA20203,9/30/2010 0:00,519306,2788017,helicopter,ONWo,Open Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,No vegetation.
+AA20160,9/30/2010 0:00,519506,2788617,helicopter,ONWo,Open Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,No vegetation.
+AA20008,9/30/2010 0:00,518556,2788917,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,3,5,65,30,5,3,2,none,,50m x 50m grid cell,Borderline SMr. There are patches of clajam but majority is open.
+AA20020,9/30/2010 0:00,516606,2789067,helicopter,FMXcr,Buttonwood-Red Mangrove Forest,95,9,55,30,15,20,4,2,none,,50m x 50m grid cell,Exotic schter below threshold.
+AA20209,9/30/2010 0:00,516356,2787967,helicopter,ONWo,Open Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA20224,9/30/2010 0:00,514406,2788367,helicopter,SMc,Buttonwood Shrubland,90,4,30,60,10,8,4,2,none,EsS,50m x 50m grid cell,SMc code overrides WMcO found here.
+AA20107,9/30/2010 0:00,514156,2788767,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,90,1.5,0,10,90,0,2,2,none,,50m x 50m grid cell,
+AA20095,9/30/2010 0:00,514856,2788817,helicopter,FMXX,Mixed Mangrove Forest-Mixed,90,20,80,10,10,20,4,4,none,EsS,50m x 50m grid cell,
+AA20030,9/30/2010 0:00,514456,2790767,helicopter,SSBT,Transitional Bayhead Shrubland,70,4,30,50,20,10,4,2,none,,50m x 50m grid cell,Excluded MFO patches. Patch of forest on E. SSBT code overrides WSH found here.
+AA20251,9/30/2010 0:00,516006,2790217,helicopter,CMcGc,Buttonwood Scrub-Sawgrass Marsh,70,3,5,30,65,10,3,2,none,,50m x 50m grid cell,Dead conere is resprouting. Exotic schter below threshold.
+AA20102,9/30/2010 0:00,516356,2790367,helicopter,SMc,Buttonwood Shrubland,90,4,35,55,10,8,4,2,none,,50m x 50m grid cell,The buttonwood in the tree layer makes this a buttonwood shrubland
+AA20059,9/30/2010 0:00,517256,2789817,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,100,3,0,10,90,0,3,2,MFGtS,,50m x 50m grid cell,Part of tree island on SW is conere rhiman. MFGcSD understory.
+AA20217,9/30/2010 0:00,517906,2790917,helicopter,CMXcrGc,Buttonwood-Red Mangrove Scrub-Sawgrass Marsh,60,3,15,55,30,7,4,2,none,,50m x 50m grid cell,
+AA20197,9/30/2010 0:00,519206,2791017,helicopter,SSBT,Transitional Bayhead Shrubland,90,4,10,60,30,6,4,2,none,,50m x 50m grid cell,MFGcSS understory.
+AA20261,9/30/2010 0:00,519406,2792667,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,90,4,10,60,30,6,4,2,none,,50m x 50m grid cell,MFGcSS understory.
+AA20109,9/30/2010 0:00,518006,2793217,helicopter,SSBT,Transitional Bayhead Shrubland,90,3,15,65,20,11,3,2,none,,50m x 50m grid cell,SSBT code overrides WSH found here.
+AA20315,9/30/2010 0:00,516506.17,2792517.1,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,100,2,0,5,95,0,2,2,none,,50m x 50m grid cell,SSc on SE.
+AA20314,9/30/2010 0:00,515856.43,2792416.13,helicopter,WMcG,Buttonwood Woodland-Graminoid Marsh,80,7,40,30,30,7,4,2,none,,50m x 50m grid cell,CMcGc understory.
+AA20025,9/30/2010 0:00,516356,2794417,helicopter,SMr,Red Mangrove Shrubland,95,3,5,40,20,7,3,2,none,,50m x 50m grid cell,Split cell with ONWo. SMr with conere and some bayhead spp.
+AA20003,9/30/2010 0:00,519506,2794367,helicopter,SSBT,Transitional Bayhead Shrubland,75,3,15,70,15,6,4,2,none,,50m x 50m grid cell,SSBT code overrides WMcG found here. MFGcSS understory.
+AA20046,9/30/2010 0:00,519906,2794817,helicopter,FMc,Buttonwood Forest,90,10,60,30,10,10,4,2,none,,50m x 50m grid cell,
+AA20012,9/30/2010 0:00,518606,2795867,helicopter,FSBT,Transitional Bayhead Forest,90,10,70,20,10,10,4,1,none,,50m x 50m grid cell,FMc accebtable. Trees 60perc conere 40perc bayhead spp.
+AA20169,9/30/2010 0:00,518456,2795967,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,40,3,0,80,20,0,3,2,none,,50m x 50m grid cell,Only 4perc clajam.
+AA20223,9/30/2010 0:00,516906,2795967,helicopter,SSBT,Transitional Bayhead Shrubland,70,4,50,30,20,8,4,2,none,,50m x 50m grid cell,SSBT code overrides WMcG found here.
+AA20044,9/30/2010 0:00,516806,2795167,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,70,30,0,2,2,none,,50m x 50m grid cell,Understory 11perc clajam. Edge of forest on E. Classified scrub.
+AA20125,9/30/2010 0:00,516056,2795217,helicopter,SSBT,Transitional Bayhead Shrubland,75,4,15,70,15,10,4,2,none,,50m x 50m grid cell,SSBT code overrides WSH found here. MFGcSS understory.
+AA20007,9/30/2010 0:00,513706,2795817,helicopter,ONWo,Open Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,Mostly open water. Parts of tree islands rhiman mettox conere clajam.
+AA20016,9/30/2010 0:00,514756,2797167,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,70,30,0,2,2,none,,50m x 50m grid cell,Understory 9perc clajam. Part of tree island on NW is conere chrica mettox.
+AA20163,9/30/2010 0:00,514606,2798417,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,90,10,0,2,1,none,,50m x 50m grid cell,
+AA20181,9/30/2010 0:00,516706,2797317,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,40,2,0,90,10,0,2,1,none,,50m x 50m grid cell,
+AA20121,9/30/2010 0:00,520606,2797917,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,20,1,0,2,98,0,1,1,none,,50m x 50m grid cell,
+AA20154,9/30/2010 0:00,520406,2798217,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,25,1,0,2,98,0,1,1,none,,50m x 50m grid cell,
+AA20256,9/30/2010 0:00,521156,2797917,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,25,1,0,3,97,0,1,1,none,,50m x 50m grid cell,
+AA20247,9/30/2010 0:00,523506,2796917,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,40,2,0,30,70,0,2,1,none,,50m x 50m grid cell,Tree island is taxdis chrica rhiman.
+AA20249,10/7/2010 0:00,520856,2795367,helicopter,MFGe,Spikerush Marsh,30,2,0,15,85,0,2,1,none,,50m x 50m grid cell,
+AA20255,10/7/2010 0:00,522406,2795567,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,50,50,0,2,1,none,,50m x 50m grid cell,Understory 13perc graminoid elecel dominant.
+AA20196,10/7/2010 0:00,525756,2795867,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,2,98,0,1,1,none,,50m x 50m grid cell,
+AA20151,10/7/2010 0:00,525706,2794217,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,50,2,0,60,40,0,2,1,none,,50m x 50m grid cell,
+AA20136,10/7/2010 0:00,525906,2793967,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,40,2,0,70,30,0,2,1,none,,50m x 50m grid cell,Understory 12perc graminoid clajam dominant.
+AA20130,10/7/2010 0:00,522356,2793867,helicopter,MFO,Open Freshwater Marsh,5,2,0,5,95,0,2,1,none,,50m x 50m grid cell,Overall cover overestimated on datasheet.
+AA20161,10/7/2010 0:00,521856,2793567,helicopter,SSy,Cocoplum Shrubland,100,10,70,25,5,10,4,4,none,,50m x 50m grid cell,SSy because chrica 69perc of cell. FSB borderline.
+AA20165,10/7/2010 0:00,520106,2793267,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,80,2,0,0,100,0,0,2,none,,50m x 50m grid cell,Part of tree island on W mostly rhiman.
+AA20091,10/7/2010 0:00,522656,2792767,helicopter,CSmGc,Wax Myrtle Scrub-Sawgrass Marsh,60,2,0,20,80,0,3,2,MFGtS,,50m x 50m grid cell,
+AA20141,10/7/2010 0:00,523006,2792567,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,70,3,0,50,50,0,3,1,none,,50m x 50m grid cell,
+AA20052,10/7/2010 0:00,525006,2791967,helicopter,FSB,Bayhead Forest,100,10,60,30,10,10,4,2,below threshold,,50m x 50m grid cell,SSy borderline because chrica 51perc of cell.
+AA20167,10/7/2010 0:00,525856,2791367,helicopter,SSBT,Transitional Bayhead Shrubland,90,4,0,90,10,0,4,2,below threshold,,50m x 50m grid cell,
+AA20178,10/7/2010 0:00,525606,2791217,helicopter,SSBT,Transitional Bayhead Shrubland,75,4,0,80,20,0,4,1,none,,50m x 50m grid cell,
+AA20053,10/7/2010 0:00,523556,2791617,helicopter,CSBGc,Bayhead Swamp Scrub-Sawgrass Marsh,90,4,0,40,60,0,4,2,MFGtS,,50m x 50m grid cell,
+AA20093,10/7/2010 0:00,523156,2791917,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,3,2,78,20,,3,1,none,,50m x 50m grid cell,
+AA20079,10/7/2010 0:00,529106,2796867,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,60,5,5,5,90,5,2,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA20128,10/7/2010 0:00,528556,2796717,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,50,1,0,5,95,0,2,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA20075,10/7/2010 0:00,529256,2795867,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,50,1,0,10,90,0,3,1,none,,50m x 50m grid cell,Tree cover densities at cutoff point.
+AA20123,10/7/2010 0:00,529356,2795517,helicopter,CStGc,Cypress Scrub-Sawgrass Marsh,50,4,5,25,70,5,4,1,none,,50m x 50m grid cell,Part of tree island in SW is chrica taxdis.
+AA20028,10/7/2010 0:00,527556,2795667,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,30,70,0,2,1,none,,50m x 50m grid cell,Not CMrGc because rhiman clustered in center.
+AA20226,10/7/2010 0:00,526956,2795917,helicopter,MFGPc,Sawgrass Prairie,50,1,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA20070,10/7/2010 0:00,526956,2796217,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,60,2,0,30,70,0,2,1,none,,50m x 50m grid cell,Part of tree island in NE. Bayhead species are only 5.4% of the cover.
+AA20036,10/7/2010 0:00,526456,2796367,helicopter,MFGPc,Sawgrass Prairie,50,2,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA20031,10/7/2010 0:00,526156,2796967,helicopter,MFGPm,Muhly Grass Prairie,40,1,0,20,80,0,2,1,none,,50m x 50m grid cell,
+AA20234,10/7/2010 0:00,526406,2797117,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,40,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA20201,10/7/2010 0:00,526256,2795867,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,40,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Mixed clajam muhcap prairie.
+AA20068,10/7/2010 0:00,526756,2794917,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,50,2,0,40,60,0,2,1,none,,50m x 50m grid cell,
+AA20191,10/7/2010 0:00,528756,2794517,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,30,1,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA20004,10/7/2010 0:00,530606,2794617,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA20183,10/7/2010 0:00,529656,2793767,helicopter,MFGe,Spikerush Marsh,30,2,0,15,85,0,2,1,none,,50m x 50m grid cell,
+AA20034,10/7/2010 0:00,529806,2792467,helicopter,MFGe,Spikerush Marsh,20,1,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA20204,10/7/2010 0:00,530656,2792067,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,40,1,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA20159,10/7/2010 0:00,530606,2791717,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,30,1,0,20,80,0,2,1,none,,50m x 50m grid cell,Did not take NE photo.
+AA20132,10/7/2010 0:00,530056,2791867,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,25,1,0,8,92,0,2,1,none,,50m x 50m grid cell,
+AA20149,10/15/2010 0:00,520406,2783167,helicopter,FMc,Buttonwood Forest,90,20,60,20,20,20,4,4,none,,50m x 50m grid cell,
+AA20303,10/15/2010 0:00,521706,2783367,helicopter,FMc,Buttonwood Forest,85,20,70,10,20,20,4,4,none,,50m x 50m grid cell,
+AA20304,10/15/2010 0:00,522306,2783417,helicopter,FMc,Buttonwood Forest,80,20,60,20,20,20,4,4,none,,50m x 50m grid cell,
+AA20180,10/15/2010 0:00,522156,2784417,helicopter,MSSb,Saltwort Marsh,90,1,0,10,90,0,3,1,none,,50m x 50m grid cell,White zone.
+AA20306,10/15/2010 0:00,520856,2785117,helicopter,FMc,Buttonwood Forest,90,20,70,25,5,20,4,1,none,,50m x 50m grid cell,
+AA20135,10/15/2010 0:00,523406,2784167,helicopter,ONWo,Open Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA20189,10/15/2010 0:00,523806,2783017,helicopter,WMaS,Black Mangrove Woodland-Succulent Marsh,90,8,30,30,40,8,3,1,none,,50m x 50m grid cell,
+AA20147,10/15/2010 0:00,525406,2784467,helicopter,ONWo,Open Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA20098,10/15/2010 0:00,525456,2783617,helicopter,FMa,Black Mangrove Forest,90,15,70,10,20,15,3,1,none,,50m x 50m grid cell,
+AA20302,10/15/2010 0:00,526556,2781117,helicopter,MSO,Open Salt Marsh,25,2,0,60,40,0,2,1,none,,50m x 50m grid cell,Not CMaSb because aviger clumped on NW.
+AA20032,10/15/2010 0:00,526706,2781517,helicopter,FMa,Black Mangrove Forest,100,10,70,30,0,10,3,0,none,,50m x 50m grid cell,
+AA20011,10/15/2010 0:00,527056,2781667,helicopter,FMa,Black Mangrove Forest,80,10,70,30,0,10,3,0,none,,50m x 50m grid cell,
+AA20106,10/15/2010 0:00,528306,2782217,helicopter,CMaS,Black Mangrove Scrub-Succulent Marsh,90,3,0,50,50,0,3,1,none,,50m x 50m grid cell,MSS understory. Mixed batmat saramb sualin.
+AA20023,10/15/2010 0:00,530006,2783567,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,90,2,20,80,0,8,2,0,none,,50m x 50m grid cell,CMrO code overrides WMcO found here.
+AA20086,10/15/2010 0:00,529856,2783917,helicopter,FMc,Buttonwood Forest,100,8,70,25,5,8,3,1,none,,50m x 50m grid cell,
+AA20231,10/15/2010 0:00,526106,2786567,helicopter,ONWo,Open Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA20131,10/15/2010 0:00,522756,2786617,helicopter,FMc,Buttonwood Forest,90,10,70,30,0,10,4,0,none,EsS,50m x 50m grid cell,Exotic schter 18perc of cell.
+AA20122,10/15/2010 0:00,522306,2785917,helicopter,ONWo,Open Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA20042,10/15/2010 0:00,521506,2789017,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,90,2,5,0,95,5,0,2,MFGtS,,50m x 50m grid cell,
+AA20139,10/15/2010 0:00,521356,2790167,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,75,3,10,70,20,5,3,2,none,,50m x 50m grid cell,
+AA20188,10/15/2010 0:00,520356,2791217,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,70,3,0,60,40,0,3,2,none,,50m x 50m grid cell,
+AA20072,10/15/2010 0:00,520406,2791517,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,80,3,5,75,20,,3,2,none,,50m x 50m grid cell,
+AA20115,10/15/2010 0:00,522256,2790567,helicopter,SSBT,Transitional Bayhead Shrubland,80,4,30,60,10,5,4,2,none,,50m x 50m grid cell,SSBT code overrides WSH found here. SMXry acceptable.
+AA20105,10/15/2010 0:00,524106,2789217,helicopter,CMcO,Buttonwood Scrub-Open Marsh,50,2,5,75,20,8,3,1,none,,50m x 50m grid cell,
+AA20022,10/15/2010 0:00,524306,2788867,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,5,75,20,8,2,2,none,,50m x 50m grid cell,
+AA20150,10/15/2010 0:00,524856,2787967,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,3,15,75,10,7,3,2,none,,50m x 50m grid cell,
+AA20094,10/15/2010 0:00,525306,2789417,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,90,3,0,20,80,0,3,3,MFGtS,,50m x 50m grid cell,conere overestimated. Only 5% bayhead species
+AA20232,10/15/2010 0:00,526956,2788617,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,2,0,90,10,0,3,1,none,,50m x 50m grid cell,Part of tree island on W.
+AA20073,10/15/2010 0:00,528556,2787217,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,60,2,0,40,60,0,2,2,none,,50m x 50m grid cell,
+AA20013,10/15/2010 0:00,528806,2787217,helicopter,CMXcrGc,Buttonwood-Red Mangrove Scrub-Sawgrass Marsh,100,2,0,20,80,0,2,2,MFGtS,,50m x 50m grid cell,
+AA20152,10/15/2010 0:00,530406,2787567,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Understory 7perc graminoid elecel clajam.
+AA20246,10/15/2010 0:00,529756,2789717,helicopter,SSy,Cocoplum Shrubland,100,5,20,70,10,5,4,2,none,,50m x 50m grid cell,SSy because chrica 63perc of cell. SSy code overrides WSH found here.
+AA20096,10/15/2010 0:00,528206,2789817,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,30,2,0,70,30,0,2,1,none,,50m x 50m grid cell,Lots of periphyton.
+AA20264,10/15/2010 0:00,527706,2789967,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,25,2,0,70,30,0,2,1,none,,50m x 50m grid cell,
+AA20019,10/15/2010 0:00,527606,2789517,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,35,2,0,80,20,0,2,1,none,,50m x 50m grid cell,
+AA20099,10/15/2010 0:00,527656,2789317,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,30,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Part of tree island on E is chrica myrcer rhiman.
+AA20158,10/15/2010 0:00,527306,2789217,helicopter,SSBT,Transitional Bayhead Shrubland,90,4,10,80,10,6,4,2,none,,50m x 50m grid cell,
+AA20014,10/15/2010 0:00,526756,2789317,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,80,20,0,2,2,none,,50m x 50m grid cell,Clumped chrica on NE.
+AA20063,10/15/2010 0:00,526306,2791117,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Tree island on SW is chrica rhiman myrcer.
+AA20229,10/15/2010 0:00,526606,2791867,helicopter,MFGe,Spikerush Marsh,25,2,0,30,70,0,2,1,none,,50m x 50m grid cell,
+AA20236,11/10/2010 0:00,527556,2793117,helicopter,MFGe,Spikerush Marsh,25,1,0,30,70,0,2,1,none,,50m x 50m grid cell,
+AA20221,11/10/2010 0:00,527806,2792867,helicopter,MFGe,Spikerush Marsh,25,1,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA20103,11/10/2010 0:00,528406,2792117,helicopter,MFGe,Spikerush Marsh,25,1,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA20156,11/10/2010 0:00,528656,2791317,helicopter,SSy,Cocoplum Shrubland,100,10,100,0,0,10,0,0,none,,50m x 50m grid cell,SSy because 60perc chrica. FSB acceptable. Fringe of rhiman.
+AA20119,11/10/2010 0:00,529056,2790567,helicopter,MFGe,Spikerush Marsh,30,1,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA20252,11/10/2010 0:00,529906,2791017,helicopter,MFGe,Spikerush Marsh,25,1,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA20066,11/10/2010 0:00,531856,2777517,helicopter,SMa,Black Mangrove Shrubland,95,5,20,60,20,7,4,1,none,,50m x 50m grid cell,SMa code overrides WMaS found here. Split cell with MSS minority.
+AA20219,11/10/2010 0:00,534506,2780967,helicopter,FMr,Red Mangrove Forest,90,10,60,40,0,10,4,0,none,,50m x 50m grid cell,
+AA20134,11/10/2010 0:00,532756,2784117,helicopter,FMa,Black Mangrove Forest,90,10,60,20,20,10,4,1,none,,50m x 50m grid cell,
+AA20090,11/10/2010 0:00,531406,2784117,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,80,2,0,95,5,0,2,1,none,,50m x 50m grid cell,
+AA20199,11/10/2010 0:00,531806,2784667,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,70,2,15,80,5,10,2,2,none,,50m x 50m grid cell,CMrO code overrides WMcO found here.
+AA20039,11/10/2010 0:00,533256,2785317,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,70,4,50,40,10,10,4,2,none,,50m x 50m grid cell,SMXcr code overrides WMXcr found here.
+AA20029,11/10/2010 0:00,531556,2785967,helicopter,FMc,Buttonwood Forest,90,12,70,10,20,12,4,2,none,,50m x 50m grid cell,
+AA20157,11/10/2010 0:00,532406,2786567,helicopter,SMc,Buttonwood Shrubland,80,4,20,70,10,10,4,2,none,,50m x 50m grid cell,Only 16% bayhead species for the cell.
+AA20117,11/10/2010 0:00,531356,2787517,helicopter,SSBT,Transitional Bayhead Shrubland,80,4,40,50,10,10,4,2,none,,50m x 50m grid cell,SSB code overrides WSH found here. 34% mangrove species
+AA20215,11/10/2010 0:00,531206,2787767,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,3,0,80,20,0,4,2,none,,50m x 50m grid cell,
+AA20082,11/10/2010 0:00,532506,2788117,helicopter,SSBT,Transitional Bayhead Shrubland,80,4,40,30,30,12,4,2,none,,50m x 50m grid cell,SSBT code overrides WMcG found here.
+AA20001,11/10/2010 0:00,533206,2787667,helicopter,SSBT,Transitional Bayhead Shrubland,90,4,20,60,20,10,4,2,none,,50m x 50m grid cell,SSBT code overrides WMcG found here.
+AA20175,11/10/2010 0:00,533806,2787367,helicopter,FMXcr,Buttonwood-Red Mangrove Forest,100,12,70,20,10,12,4,2,none,EsS,50m x 50m grid cell,
+AA20242,11/10/2010 0:00,534206,2786817,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,80,2,10,70,20,12,4,2,none,,50m x 50m grid cell,Understory 14perc graminoid clajam dominant. CMrGc borderline.
+AA20113,11/10/2010 0:00,536156,2788467,helicopter,FMc,Buttonwood Forest,100,12,80,20,0,15,4,0,none,,50m x 50m grid cell,
+AA20129,11/10/2010 0:00,538006,2790867,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,20,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Mostly open water.
+AA20313,11/10/2010 0:00,536406.83,2790417.33,helicopter,FMXcr,Buttonwood-Red Mangrove Forest,100,12,60,30,10,12,4,2,none,,50m x 50m grid cell,Borderline FSBT. May be good site for Chromolaena frustrata.
+AA20311,11/10/2010 0:00,534808.52,2790515.04,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,40,2,0,80,20,0,2,2,none,,50m x 50m grid cell,
+AA20248,11/10/2010 0:00,533706,2789867,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,40,2,0,60,40,0,2,1,none,,50m x 50m grid cell,
+AA20140,11/10/2010 0:00,532806,2791617,helicopter,SSy,Cocoplum Shrubland,100,10,70,30,0,10,4,0,none,,50m x 50m grid cell,SSy because chrica 63perc of cell. Fringe of rhiman.
+AA20097,11/10/2010 0:00,532056,2791717,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,70,30,0,2,1,none,,50m x 50m grid cell,
+AA20126,11/10/2010 0:00,532456,2792617,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,60,2,0,40,60,0,2,1,none,,50m x 50m grid cell,Found elecel in smaller patches.
+AA20076,11/10/2010 0:00,533156,2792217,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,2,0,70,30,0,4.5,1,none,,50m x 50m grid cell,Borderline CMrGe with clajam patches.
+AA20155,11/10/2010 0:00,534006,2792717,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,60,2,0,30,70,0,2,1,none,,50m x 50m grid cell,Found elecel in smaller patches.
+AA20259,11/10/2010 0:00,534206,2793467,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,70,1,0,5,95,0,2,1,none,,50m x 50m grid cell,Mixed clajam elecel.
+AA20257,11/10/2010 0:00,532256,2793717,helicopter,MFGe,Spikerush Marsh,30,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Deep water marsh with floating periphyton mat. Large patch of rhytra on NW.
+AA20069,11/10/2010 0:00,532206,2794567,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,70,2,0,10,90,0,2,2,none,,50m x 50m grid cell,
+AA20244,11/10/2010 0:00,532856,2794667,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,30,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Mixed elecel rhytra. Tree island on S is chrica myrcer.
+AA20100,11/10/2010 0:00,531356,2796467,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,60,1,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA20240,11/10/2010 0:00,531456,2797267,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,75,2,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA20213,11/10/2010 0:00,532556,2796817,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,60,1,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA20108,11/10/2010 0:00,533806,2796267,helicopter,SSB,Bayhead Shrubland,100,4,10,70,20,7,4,2,none,,50m x 50m grid cell,SSB code overrides WSH found here. Borderline SSy with 40perc chrica. Surrounded by MFGcSD.
+AA20166,11/10/2010 0:00,534656,2795617,helicopter,SSB,Bayhead Shrubland,100,5,30,50,20,10,5,2,none,,50m x 50m grid cell,SSB code overrides WSH found here.
+AA20170,11/17/2010 0:00,536906,2796417,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,60,1,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA20177,11/17/2010 0:00,535756,2795217,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA20235,11/17/2010 0:00,537006,2794667,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,75,1,0,2,98,0,2,1,none,,50m x 50m grid cell,
+AA20214,11/17/2010 0:00,537106,2794267,helicopter,MFGXcr,Sawgrass-Rhynchospora Marsh,70,1,0,5,95,0,1,1,none,,50m x 50m grid cell,
+AA20038,11/17/2010 0:00,537706,2793667,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,80,1,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA20262,11/17/2010 0:00,538006,2793917,helicopter,MFGXcr,Sawgrass-Rhynchospora Marsh,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA20018,11/17/2010 0:00,538256,2795017,helicopter,MFGXcr,Sawgrass-Rhynchospora Marsh,70,1,0,5,95,0,1,1,none,,50m x 50m grid cell,
+AA20190,11/17/2010 0:00,537756,2795967,helicopter,MFGXcr,Sawgrass-Rhynchospora Marsh,75,1,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA20083,11/17/2010 0:00,538856,2796867,helicopter,CStGcS,Cypress Scrub-Short Sawgrass Marsh,60,2,0,20,80,0,2,1,none,,50m x 50m grid cell,MFGXcr understory.
+AA20027,11/17/2010 0:00,538706,2796467,helicopter,MFGXcr,Sawgrass-Rhynchospora Marsh,65,1,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA20033,11/17/2010 0:00,538656,2795117,helicopter,CStGcS,Cypress Scrub-Short Sawgrass Marsh,60,2,0,20,80,0,2,1,none,,50m x 50m grid cell,MFGXcr understory.
+AA20241,11/17/2010 0:00,538956,2795317,helicopter,MFGXcr,Sawgrass-Rhynchospora Marsh,70,1,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA20206,11/17/2010 0:00,539306,2794117,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,80,2,0,60,40,0,2,1,none,,50m x 50m grid cell,
+AA20071,11/17/2010 0:00,539256,2792467,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,50,2,0,70,30,0,2,1,none,,50m x 50m grid cell,
+AA20184,11/17/2010 0:00,538506,2791267,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,30,2,0,80,20,0,2,1,none,,50m x 50m grid cell,CMrGe acceptable.
+AA20040,11/17/2010 0:00,538506,2784767,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,70,2,0,100,0,0,2,0,none,,50m x 50m grid cell,
+AA20077,11/17/2010 0:00,539906,2785867,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,2,0,85,15,0,2,1,none,,50m x 50m grid cell,Understory 9perc graminoid spovir dominant.
+AA20208,11/17/2010 0:00,538606,2787167,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,12,80,20,0,12,3,0,none,,50m x 50m grid cell,Mixed aviger conere rhiman. Exotic thepop below threshold.
+AA20124,11/17/2010 0:00,539056,2788817,helicopter,ONWo,Open Water,,,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA20084,11/17/2010 0:00,540256,2789167,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,2,0,80,20,0,4,1,none,,50m x 50m grid cell,Understory 12perc graminoid elecel dominant. Shrubs are 4m conere and 2m rhiman.
+AA20087,11/17/2010 0:00,541356,2787267,helicopter,FMa,Black Mangrove Forest,85,10,60,40,0,10,4,0,none,,50m x 50m grid cell,Patch of thepop nearby to E.
+AA20301,11/17/2010 0:00,541756,2787967,helicopter,FMc,Buttonwood Forest,70,20,90,0,10,20,0,1,none,,50m x 50m grid cell,
+AA20207,11/17/2010 0:00,544006,2787417,helicopter,ONWl,Lake,10,2,0,100,0,0,2,0,none,,50m x 50m grid cell,Vegetation is clumped therefore this is not a scrub.
+AA20225,11/17/2010 0:00,544106,2788167,helicopter,SMa,Black Mangrove Shrubland,85,10,20,60,20,10,4,1,none,,50m x 50m grid cell,SMa code overrides WMaG found here. Split cell classified SW.
+AA20116,11/17/2010 0:00,541256,2790617,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,60,2,0,70,30,0,2,2,none,,50m x 50m grid cell,
+AA20239,11/17/2010 0:00,542306,2791267,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,2,10,70,20,10,2,1,none,,50m x 50m grid cell,Understory 12perc graminoid elecel dominant.
+AA20089,11/17/2010 0:00,540556,2792167,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,40,2,0,80,20,0,2,1,none,,50m x 50m grid cell,
+AA20258,11/17/2010 0:00,540256,2792367,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,30,2,0,70,30,0,2,1,none,,50m x 50m grid cell,
+AA20227,11/17/2010 0:00,541306,2793367,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,60,2,0,70,30,0,2,1,none,,50m x 50m grid cell,
+AA20173,11/17/2010 0:00,541806,2796517,helicopter,CStGcS,Cypress Scrub-Short Sawgrass Marsh,70,4,0,30,70,0,4,1,none,,50m x 50m grid cell,
+AA20067,11/17/2010 0:00,541156,2796667,helicopter,CStGcS,Cypress Scrub-Short Sawgrass Marsh,70,4,0,30,70,0,4,1,none,,50m x 50m grid cell,
+AA20254,11/17/2010 0:00,540956,2796967,helicopter,CStGcS,Cypress Scrub-Short Sawgrass Marsh,70,3,0,25,75,0,3,1,none,,50m x 50m grid cell,
+AA20186,11/17/2010 0:00,544006,2795917,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,70,1,0,15,85,0,2,1,none,,50m x 50m grid cell,Not CMrGc because 10perc rhiman is clumped.
+AA20104,11/17/2010 0:00,546156,2796017,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,70,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Understory 11perc graminoid elecel dominant.
+AA20078,11/17/2010 0:00,548056,2795967,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,65,2,0,70,30,0,2,1,none,,50m x 50m grid cell,
+AA20002,12/16/2010 0:00,549106,2789617,helicopter,CMrD,Red Mangrove Scrub-Dominant,95,2,0,100,0,0,2,0,none,,50m x 50m grid cell,
+AA20238,12/16/2010 0:00,548056,2790217,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,80,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Taller shrubs by creek.
+AA20176,12/16/2010 0:00,546706,2791767,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,70,2,0,70,30,0,2,1,none,,50m x 50m grid cell,
+AA20220,12/16/2010 0:00,545656,2792067,helicopter,CMcGc,Buttonwood Scrub-Sawgrass Marsh,75,3,10,40,50,5,4,2,none,,50m x 50m grid cell,Only 16% bayhead species for entire cell
+AA20118,12/16/2010 0:00,544656,2793667,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,30,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Understory 6perc elecel.
+AA20187,12/16/2010 0:00,544656,2793967,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,40,2,0,70,30,0,2,1,none,,50m x 50m grid cell,Understory 12perc elecel. Creek on E.
+AA20228,12/16/2010 0:00,545206,2793967,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,30,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Understory 6perc elecel.
+AA20055,12/16/2010 0:00,544906,2794817,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,40,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Understory 8perc graminoid elecel dominant. NW patch of clajam.
+AA20061,12/16/2010 0:00,543706,2794567,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,40,2,0,60,40,0,2,1,none,,50m x 50m grid cell,Small tree island in center is conere rhiman myrcer.
+AA20237,12/16/2010 0:00,542656,2794317,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,20,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Understory 4perc elecel. Very open. some periphyton.
+AA20058,12/16/2010 0:00,547506,2793567,helicopter,FMc,Buttonwood Forest,90,20,70,30,0,20,4,0,none,,50m x 50m grid cell,
+AA20057,12/16/2010 0:00,549056,2795617,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,60,2,0,40,60,0,2,1,none,,50m x 50m grid cell,Many rhiman seedlings in clajam.
+AA20143,12/16/2010 0:00,549106,2796467,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,80,2,0,10,90,0,2,2,none,,50m x 50m grid cell,
+AA20005,12/16/2010 0:00,549856,2795317,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Pieces of tree islands at NW and SW.
+AA20253,12/16/2010 0:00,550406,2794867,helicopter,SMr,Red Mangrove Shrubland,90,3,0,80,20,0,3,1,none,,50m x 50m grid cell,Patch of clajam on SE.
+AA20045,12/16/2010 0:00,549356,2794217,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,40,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Split cell. Minority tree island with conere mettox rhiman aviger cocuvi chrica.
+AA20050,12/16/2010 0:00,550206,2794067,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Understory 10perc elecel. Periphyton mats.
+AA20245,12/16/2010 0:00,555356,2787217,helicopter,SMa,Black Mangrove Shrubland,90,4,30,60,10,10,4,1,none,,50m x 50m grid cell,SMa code overrides WMaS found here
+AA20088,12/16/2010 0:00,549956,2788117,helicopter,FMa,Black Mangrove Forest,80,6,65,35,0,6,4,0,none,,50m x 50m grid cell,
+AA20043,12/16/2010 0:00,551406,2788117,helicopter,WMaG,Black Mangrove-Graminoid Marsh,90,7,20,30,50,7,4,1,none,,50m x 50m grid cell,MSGo understory.
+AA20133,12/16/2010 0:00,552006,2788617,helicopter,WMXac,Black Mangrove-Buttonwood Woodland,90,10,50,14,36,10,2,1,none,,50m x 50m grid cell,MSS understory.
+AA20056,12/16/2010 0:00,550856,2789517,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,80,12,70,30,0,12,4,0,none,,50m x 50m grid cell,
+AA20200,12/16/2010 0:00,549806,2791967,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,2,10,70,20,8,2,2,none,,50m x 50m grid cell,Understory 12perc graminoid elecel dominant.
+AA20112,12/16/2010 0:00,550056,2792467,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,30,2,10,70,20,10,2,1,none,,50m x 50m grid cell,Understory 6perc graminoid elecel dominant.
+AA20317,12/16/2010 0:00,551107.32,2791965.78,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,40,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Understory 4perc elecel.
+AA20174,12/16/2010 0:00,551306,2792817,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,40,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Understory 4perc elecel. Lots of casequ in area.
+AA20164,12/16/2010 0:00,552406,2793267,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,60,2,0,50,50,0,2,1,none,,50m x 50m grid cell,
+AA20218,12/16/2010 0:00,553156,2793717,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,60,2,0,60,40,0,2,1,none,,50m x 50m grid cell,Tree island on S is conere dominated with cocuvi mettox rhiman casequi.
+AA20101,12/16/2010 0:00,553756,2792967,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,20,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Understory 2perc elecel. Tree island on E is conere dominated with rhiman sidrec.
+AA20146,12/16/2010 0:00,555006,2792367,helicopter,ONWo,Open Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA20041,12/16/2010 0:00,554856,2792567,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,70,2,0,50,50,0,2,1,none,,50m x 50m grid cell,
+AA20316,12/16/2010 0:00,554756.35,2793217.68,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,30,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Understory 2perc elecel. Mostly open water.
+AA20230,12/16/2010 0:00,555706,2793267,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,30,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Understory 3perc elecel. Mostly open water.
+AA20064,12/16/2010 0:00,554206,2794717,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Understory 10perc graminoid clajam dominant.
+AA20060,12/16/2010 0:00,552556,2794917,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,50,2,0,70,30,0,2,1,none,,50m x 50m grid cell,
+AA20233,12/16/2010 0:00,552506,2795717,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,70,2,0,50,50,0,2,1,none,,50m x 50m grid cell,
+AA30017,2/23/2012 0:00,494006,2809017,helicopter,MFGn,Sand Cordgrass Marsh,100,1,0,20,80,0,4,1,none,,50m x 50m grid cell,"Shrubs clustered in SE corner of cell, marsh is the dominant community"
+AA30005,2/23/2012 0:00,496356,2807617,helicopter,CMrGj,Red Mangrove Scrub-Black Rush Marsh,100,3,10,30,60,5,3,1,none,,50m x 50m grid cell,
+AA30023,2/23/2012 0:00,494806,2809917,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,100,1.5,0,0,100,0,0,1.5,none,ElS,50m x 50m grid cell,Exotic lygmic returning to this burned area.
+AA30037,2/23/2012 0:00,492906,2810967,helicopter,SSB,Bayhead Shrubland,80,4,20,60,20,5,4,1,none,,50m x 50m grid cell,Burned about a year ago.
+AA30036,2/23/2012 0:00,490756,2810967,helicopter,MSGj,Black Rush Marsh,90,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Much schter in area seen between last point and this one.
+AA30034,2/23/2012 0:00,490356,2810717,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,95,10,95,5,0,10,3,0,none,,50m x 50m grid cell,FMa acceptable.
+AA30051,2/23/2012 0:00,489656,2813167,helicopter,SMl,White Mangrove Shrubland,90,3,10,90,0,7,3,0,none,,50m x 50m grid cell,Dead lagrac with dead tops and resprouts.
+AA30054,2/23/2012 0:00,491406,2813917,helicopter,WMaG,Black Mangrove-Graminoid Marsh,90,9,20,40,40,9,3,1,none,EsS,50m x 50m grid cell,MFG MSG juncus on SE.
+AA30052,2/23/2012 0:00,493556,2813217,helicopter,SMXar,Black Mangrove-Red Mangrove Shrubland,100,3,10,75,10,10,3,1,none,EsS,50m x 50m grid cell,
+AA30048,2/23/2012 0:00,495956,2812717,helicopter,MSGj,Black Rush Marsh,100,3,10,25,65,5,3,1,none,,50m x 50m grid cell,
+AA30050,2/23/2012 0:00,495906,2813167,helicopter,FMr,Red Mangrove Forest,100,10,85,25,0,10,3,0,none,,50m x 50m grid cell,No picture of datasheet
+AA30056,2/23/2012 0:00,496506,2813967,helicopter,MSGj,Black Rush Marsh,90,1.5,0,30,60,0,4,2,none,,50m x 50m grid cell,Mangrove shrubs clumped
+AA30137,2/23/2012 0:00,482756,2790317,helicopter,CUC,Coastal Hardwood Scrub,100,6,20,10,70,6,2,1,none,,50m x 50m grid cell,Peculiar vegetation mix. CUG acceptable if including shorter trees with shrub layer.
+AA30147,2/23/2012 0:00,483256,2791067,helicopter,Fma,Black Mangrove Forest,80,10,60,30,10,10,4,1,none,,50m x 50m grid cell,Tree cover slightly underestimated
+AA30144,2/23/2012 0:00,485756,2790817,helicopter,SMXlr,White Mangrove-Red Mangrove Shrubland,100,7,20,80,0,7,3,0,none,,50m x 50m grid cell,shrubland with some emergent trees
+AA30156,2/23/2012 0:00,484656,2792667,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,100,12,90,10,0,12,2,0,none,,50m x 50m grid cell,
+AA30158,2/23/2012 0:00,485756,2792717,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,100,10,50,45,5,10,4,1,none,,50m x 50m grid cell,Some FMr.
+AA30150,2/23/2012 0:00,486756,2791867,helicopter,FMc,Buttonwood Forest,100,12,84,15,1,12,4,1,none,,50m x 50m grid cell,
+AA30152,2/23/2012 0:00,487206,2792067,helicopter,SMXac,Black Mangrove-Buttonwood Shrubland,90,4,20,80,0,7,4,0,none,,50m x 50m grid cell,shrubland with some emergent trees
+AA30161,2/23/2012 0:00,487706,2792867,helicopter,FMXac,Black Mangrove-Buttonwood Forest,100,8,50,50,0,8,3,0,none,,50m x 50m grid cell,
+AA30171,2/23/2012 0:00,488106,2794317,helicopter,WMXac,Black Mangrove-Buttonwood Woodland,100,8,40,45,15,8,4,1,none,,50m x 50m grid cell,
+AA30169,2/23/2012 0:00,487756,2794217,helicopter,SMa,Black Mangrove Shrubland,70,4,0,80,20,0,4,1,none,,50m x 50m grid cell,
+AA30168,2/23/2012 0:00,485756,2794217,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,95,13,80,20,0,13,3,0,none,,50m x 50m grid cell,No picture of datasheet
+AA30175,2/23/2012 0:00,484306,2795117,helicopter,ONW,Water,25,6,80,20,0,6,4,0,none,,50m x 50m grid cell,Mostly open mud at low tide. Vegetation listed is the minor vegetated component
+AA30182,2/23/2012 0:00,483956,2795617,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,No vegetation.
+AA30181,2/23/2012 0:00,486606,2795817,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,100,10,95,5,0,12,3,0,none,,50m x 50m grid cell,
+AA30177,2/23/2012 0:00,488806,2795167,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,70,3,0,95,5,0,3,1,none,,50m x 50m grid cell,
+AA30011,2/17/2012 0:00,504256,2808917,helicopter,SSBT,Transitional Bayhead Shrubland,95,3,20,40,40,10,3,2,none,,50m x 50m grid cell,Even mix of bayhead and mangrove species
+AA30014,2/17/2012 0:00,505656,2808667,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,35,3,5,85,10,7,3,1,none,,50m x 50m grid cell,Found 65perc ONWo.
+AA30007,2/17/2012 0:00,503306,2807667,helicopter,SSBT,Transitional Bayhead Shrubland,70,3,40,40,20,10,3,1,none,,50m x 50m grid cell,Even mix of bayhead and mangrove species
+AA30002,2/17/2012 0:00,501706,2808317,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,70,3,0,30,70,0,3,1,none,,50m x 50m grid cell,Only 10.5% mangrove cover
+AA30008,2/17/2012 0:00,500356,2807817,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,80,3,5,45,50,7,3,2,none,,50m x 50m grid cell,
+AA30001,2/17/2012 0:00,499606,2808317,helicopter,FMr,Red Mangrove Forest,100,15,70,20,10,15,3,2,none,,50m x 50m grid cell,
+AA30012,2/17/2012 0:00,499506,2808517,helicopter,SMr,Red Mangrove Shrubland,100,3,5,55,40,8,3,2,none,,50m x 50m grid cell,
+AA30015,2/17/2012 0:00,498656,2808667,helicopter,CMXlrGc,White Mangrove-Red Mangrove Scrub-Sawgrass Marsh,80,3,5,55,40,8,3,2,none,,50m x 50m grid cell,There is 15% difference between rhiman and lagrac.
+AA30112,2/17/2012 0:00,500206,2806517,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,65,2,5,80,15,5,2,1,none,,50m x 50m grid cell,Only 9.7% herb cover. Scrub based on height.
+AA30109,2/17/2012 0:00,502956,2805867,helicopter,SMr,Red Mangrove Shrubland,80,3,5,80,15,,3,1,none,,50m x 50m grid cell,
+AA30099,2/17/2012 0:00,503356,2804567,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,2,0,85,15,0,2,1,none,,50m x 50m grid cell,Only 9% herb cover. Scrub based on height.
+AA30094,2/17/2012 0:00,504306,2803767,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,80,2,0,85,15,0,2,1,none,,50m x 50m grid cell,Found 15perc ONWo. Only 12% herb cover. Scrub based on height.
+AA30090,2/17/2012 0:00,504856,2802817,helicopter,CMrD,Red Mangrove Scrub-Dominant,90,2,0,90,10,0,2,2,none,,50m x 50m grid cell,Only 9% herb cover
+AA30091,2/17/2012 0:00,502956,2803217,helicopter,CMXlr,White Mangrove-Red Mangrove Scrub,100,2,10,90,0,7,2,0,none,,50m x 50m grid cell,Went with scrub based on height
+AA30089,2/17/2012 0:00,498606,2802767,helicopter,CMlO,White Mangrove Scrub-Open Marsh,90,2,10,75,15,5,2,1,none,,50m x 50m grid cell,Went with scrub based on height. Herb cover 13.5%
+AA30079,2/17/2012 0:00,498006,2801617,helicopter,SMXlr,White Mangrove-Red Mangrove Shrubland,100,3,30,55,15,8,3,1,none,,50m x 50m grid cell,SMXlr acceptable. No WMl or WMX class. Rhiman 42% of entire cell and lagrac 32%
+AA30075,2/17/2012 0:00,504806,2800917,helicopter,SMr,Red Mangrove Shrubland,100,3,0,100,0,0,3,0,none,,50m x 50m grid cell,Found 15perc old dead snags.
+AA30066,2/17/2012 0:00,504106,2799517,helicopter,SMr,Red Mangrove Shrubland,100,3,25,75,0,8,3,0,none,,50m x 50m grid cell,Found 30perc ONWo. Shrubland with some emergent trees
+AA30063,2/17/2012 0:00,503556,2799067,helicopter,FMr,Red Mangrove Forest,100,10,60,40,0,10,4,0,none,,50m x 50m grid cell,
+AA30057,2/17/2012 0:00,503606,2797867,helicopter,SMr,Red Mangrove Shrubland,100,4,20,50,30,8,4,1,none,,50m x 50m grid cell,Shrubland with some emergent trees
+AA30186,2/17/2012 0:00,499006,2796217,helicopter,SMr,Red Mangrove Shrubland,90,4,30,70,0,8,4,0,none,,50m x 50m grid cell,SMr acceptable.
+AA30180,2/17/2012 0:00,498906,2795567,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA30206,3/1/2012 0:00,504606,2781667,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,85,12,80,10,10,12,2,1,none,,50m x 50m grid cell,
+AA30209,3/1/2012 0:00,506856,2782217,helicopter,WMaS,Black Mangrove Woodland-Succulent Marsh,100,10,40,20,40,10,3,1,none,,50m x 50m grid cell,
+AA30213,3/1/2012 0:00,509556,2782817,helicopter,FMa,Black Mangrove Forest,95,8,85,10,5,8,2,1,none,,50m x 50m grid cell,
+AA30235,3/1/2012 0:00,513106,2786217,helicopter,SMXac,Black Mangrove-Buttonwood Shrubland,95,10,30,60,10,10,3,1,none,,50m x 50m grid cell,Shrubland with some emergent trees.
+AA30237,3/1/2012 0:00,511406,2786467,helicopter,FMc,Buttonwood Forest,100,12,60,39,1,12,4,1,none,,50m x 50m grid cell,
+AA30228,3/1/2012 0:00,506706,2784867,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA30233,3/1/2012 0:00,506406,2786567,helicopter,SMc,Buttonwood Shrubland,100,10,30,60,10,10,4,2,none,,50m x 50m grid cell,Shrubland with some emergent trees.
+AA30245,3/1/2012 0:00,506406,2787367,helicopter,CMXcrO,Buttonwood-Red Mangrove Scrub-Open Marsh,65,2,0,80,20,0,2,2,none,,50m x 50m grid cell,Shrub heights overestimated. Some conere shrubs are taller to 4m.
+AA30119,3/1/2012 0:00,505906,2787767,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,90,8,20,70,10,8,3,1,none,,50m x 50m grid cell,Shrubland with some emergent trees
+AA30125,3/1/2012 0:00,509356,2788367,helicopter,CMXcrGc,Buttonwood-Red Mangrove Scrub-Sawgrass Marsh,75,4,0,40,60,0,4,2,none,,50m x 50m grid cell,
+AA30121,3/1/2012 0:00,513006,2788567,helicopter,CMcGc,Buttonwood Scrub-Sawgrass Marsh,100,8,10,45,45,8,4,2,none,,50m x 50m grid cell,Schinus cover 9%.
+AA30131,3/1/2012 0:00,513106,2789267,helicopter,CSBGc,Bayhead Swamp Scrub-Sawgrass Marsh,95,3,0,35,65,0,3,2,none,,50m x 50m grid cell,
+AA30136,3/1/2012 0:00,512656,2789967,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,70,2,0,50,50,0,2,1,none,,50m x 50m grid cell,
+AA30138,3/1/2012 0:00,513306,2790317,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,95,3,0,30,70,0,3,1,below threshold,,50m x 50m grid cell,No photo of datasheet taken. Trace of lygmic present
+AA30140,3/1/2012 0:00,513356,2790417,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,90,3,0,30,70,0,3,2,below threshold,,50m x 50m grid cell,There is a trace of lygmic in cell.
+AA30139,3/1/2012 0:00,511056,2790417,helicopter,CMcGc,Buttonwood Scrub-Sawgrass Marsh,95,3,0,25,75,0,3,2,none,,50m x 50m grid cell,There is 2% schter cover within cell.
+AA30135,3/1/2012 0:00,510506,2789967,helicopter,CMcGc,Buttonwood Scrub-Sawgrass Marsh,80,3,0,30,70,0,3,2,none,,50m x 50m grid cell,
+AA30155,3/1/2012 0:00,507356,2792467,helicopter,FMXcr,Buttonwood-Red Mangrove Forest,90,7,75,20,5,7,3,1,none,,50m x 50m grid cell,FMX acceptable.
+AA30157,3/1/2012 0:00,511956,2792617,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,80,6,20,70,10,6,4,1,none,,50m x 50m grid cell,Shrubland with some emergent trees
+AA30165,3/6/2012 0:00,513206,2793567,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA30167,3/6/2012 0:00,512356,2793617,helicopter,FSBT,Transitional Bayhead Forest,100,10,65,30,5,10,3,1,none,,50m x 50m grid cell,Found 50perc ONWo. Split cell. Classified vegetation on land.
+AA30170,3/6/2012 0:00,509256,2794217,helicopter,CMrD,Red Mangrove Scrub-Dominant,90,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Clajam cover is 18%
+AA30172,3/6/2012 0:00,507806,2794517,helicopter,CMrD,Red Mangrove Scrub-Dominant,90,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Split cell with 50perc ONWo. Classified the land. Only 9% junroe cover.
+AA30173,3/6/2012 0:00,507356,2794617,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA30174,3/6/2012 0:00,508456,2794967,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,90,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Split cell with 50perc ONWo. Classified the land. Only 9% herb cover.
+AA30179,3/6/2012 0:00,509106,2795367,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,Found 90perc ONWo. Land has rhiman junroe.
+AA30176,3/6/2012 0:00,509756,2795117,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,60,2,0,70,30,0,2,1,none,,50m x 50m grid cell,Found 40perc ONWo.
+AA30187,3/6/2012 0:00,511206,2796367,helicopter,CMrD,Red Mangrove Scrub-Dominant,90,2,0,80,20,0,2,1,none,,50m x 50m grid cell,
+AA30188,3/6/2012 0:00,513156,2796667,helicopter,ONW,Water,100,8,20,60,20,8,3,1,none,,50m x 50m grid cell,Found 65perc ONWo. Classified ONWo but recorded vegetation data for land.
+AA30190,3/6/2012 0:00,511456,2797217,helicopter,ONW,Water,100,4,0,90,10,0,4,1,none,,50m x 50m grid cell,Found 75perc ONWo. Classified ONWo but recorded vegetation data for land.
+AA30183,3/6/2012 0:00,504506,2795617,helicopter,SMr,Red Mangrove Shrubland,90,3,30,70,0,6,3,0,none,,50m x 50m grid cell,Shrubland with some emergent trees.
+AA30189,3/6/2012 0:00,506356,2796667,helicopter,CMrD,Red Mangrove Scrub-Dominant,100,2,5,95,0,5,2,0,none,,50m x 50m grid cell,
+AA30192,3/6/2012 0:00,507406,2797517,helicopter,CMrD,Red Mangrove Scrub-Dominant,90,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Only 9% herb cover
+AA30059,3/6/2012 0:00,506756,2798617,helicopter,ONW,Water,90,2,0,95,5,0,2,1,none,,50m x 50m grid cell,Found 60perc ONWo. Classified ONWo but recorded vegetation data for land.
+AA30069,3/6/2012 0:00,506306,2799867,helicopter,CMrD,Red Mangrove Scrub-Dominant,90,2,0,100,0,0,2,0,none,,50m x 50m grid cell,Split cell with 50perc ONWo. Classified the land.
+AA30044,2/16/2012 0:00,499756,2812667,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,100,2,0,15,85,0,2,2,none,,50m x 50m grid cell,White mangrove cover overestimated
+AA30040,2/16/2012 0:00,500756,2811717,helicopter,SMr,Red Mangrove Shrubland,100,6,20,70,10,6,4,2,none,,50m x 50m grid cell,Mostly mangrove shrubs classified. Split cell.
+AA30042,2/16/2012 0:00,501756,2811867,helicopter,SSBT,Transitional Bayhead Shrubland,100,8,30,65,5,8,4,2,none,,50m x 50m grid cell,Some water 20perc. Not a bayhead.
+AA30046,2/16/2012 0:00,502206,2812467,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,No vegetation. Could be a creek or ONWo
+AA30041,2/16/2012 0:00,502856,2811767,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,No vegetation. Could be a creek or ONWo
+AA30045,2/16/2012 0:00,504006,2812267,helicopter,SSBT,Transitional Bayhead Shrubland,100,7,20,60,20,7,4,2,none,,50m x 50m grid cell,No photo of datasheet taken. Schter 6% overall cover
+AA30049,2/16/2012 0:00,504156,2812867,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,No vegetation. May be creek or ONWo
+AA30043,2/16/2012 0:00,505306,2811917,helicopter,FSB,Bayhead Forest,100,10,50,45,5,10,4,1,none,,50m x 50m grid cell,
+AA30027,2/16/2012 0:00,504906,2810267,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,95,2,0,15,85,0,2,1.5,none,,50m x 50m grid cell,Shrub cover overestimated. Only 10% cover for shrubs.
+AA30026,2/16/2012 0:00,503806,2810117,helicopter,SMr,Red Mangrove Shrubland,100,8,15,65,20,8,4,2,none,,50m x 50m grid cell,Greater than 20% difference between rhiman and lagrac
+AA30024,2/16/2012 0:00,501756,2809917,helicopter,SMr,Red Mangrove Shrubland,90,3,5,65,30,7,3,1,none,,50m x 50m grid cell,Not enough bayhead species
+AA30025,2/16/2012 0:00,499906,2810017,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,60,3,0,80,20,0,3,2,none,,50m x 50m grid cell,48% shrub cover and 12% herb cover
+AA30081,2/3/2012 0:00,506906,2801617,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,90,2,0,90,10,0,2,1,,,50m x 50m grid cell,Understory 9perc graminoid clajam dominant.
+AA30087,2/3/2012 0:00,507756,2802517,helicopter,ONWr,River,15,3,0,90,10,0,3,2,,,50m x 50m grid cell,Mostly open water.
+AA30086,2/3/2012 0:00,508506,2802367,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,90,2,0,80,20,0,2,1,,,50m x 50m grid cell,
+AA30082,2/3/2012 0:00,508506,2801817,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,100,2,0,90,10,0,2,1,none,,50m x 50m grid cell,
+AA30070,2/3/2012 0:00,510306,2800667,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,90,2,0,70,30,0,2,1,,,50m x 50m grid cell,
+AA30071,2/3/2012 0:00,511056,2800567,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,60,3,0,60,40,0,3,2,,,50m x 50m grid cell,
+AA30074,2/3/2012 0:00,511206,2800867,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,65,3,0,70,30,0,3,2,,,50m x 50m grid cell,
+AA30072,2/3/2012 0:00,511856,2800817,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,60,2,0,70,30,0,2,1,,,50m x 50m grid cell,Found 60perc vegetation.
+AA30077,2/3/2012 0:00,512906,2801517,helicopter,SMc,Buttonwood Shrubland,80,6,40,50,10,6,4,1,,,50m x 50m grid cell,shrubland with some emergent trees
+AA30083,2/3/2012 0:00,512606,2801817,helicopter,CMcGc,Buttonwood Scrub-Sawgrass Marsh,90,3,0,40,60,0,3,2,,,50m x 50m grid cell,11% bayhead species in entire cell
+AA30093,2/3/2012 0:00,512956,2803267,helicopter,CSmGc,Wax Myrtle Scrub-Sawgrass Marsh,100,3,0,20,80,0,3,2,MFGtS,,50m x 50m grid cell,CSW and CSWGc acceptable. There is 20% typha cover in cell.
+AA30096,2/3/2012 0:00,508156,2804117,helicopter,SSBT,Transitional Bayhead Shrubland,70,3,5,75,20,6,3,2,,,50m x 50m grid cell,CSBT also acceptable based on a height of 2m.
+AA30097,2/3/2012 0:00,509556,2804167,helicopter,SMr,Red Mangrove Shrubland,90,3,0,80,20,0,3,2,,,50m x 50m grid cell,
+AA30102,2/3/2012 0:00,509806,2805017,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,70,3,0,70,30,0,3,1,,,50m x 50m grid cell,Borderline SSBT. Sawgrass overestimated
+AA30107,2/3/2012 0:00,511056,2805717,helicopter,SMr,Red Mangrove Shrubland,65,3,0,80,20,0,3,1,,,50m x 50m grid cell,
+AA30104,2/16/2012 0:00,512206,2805267,helicopter,SMr,Red Mangrove Shrubland,80,3,0,90,10,0,3,1,,,50m x 50m grid cell,
+AA30004,2/16/2012 0:00,512506,2807617,helicopter,SMr,Red Mangrove Shrubland,95,4,0,45,55,0,4,2,none,,50m x 50m grid cell,"Percentages are for the entire cell. Two habitats, SMr and sawgrass at either end. Density of rhiman and their height make this a SMr."
+AA30003,2/16/2012 0:00,511406,2807617,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,70,1.5,0,20,80,0,2,1,none,,50m x 50m grid cell,Marly periphyton.
+AA30116,2/16/2012 0:00,511056,2807217,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Only 6% herb cover
+AA30009,2/16/2012 0:00,508556,2807817,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,30,2,0,25,75,0,2,1,below threshold,,50m x 50m grid cell,
+AA30117,2/16/2012 0:00,510306,2807517,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,40,2,0,80,20,0,2,1,none,,50m x 50m grid cell,Only 8% herb cover
+AA30111,2/16/2012 0:00,509306,2806417,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,2,0,90,10,0,2,1,none,,50m x 50m grid cell,only 6% herb cover
+AA30108,2/16/2012 0:00,508406,2805867,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,2,0,90,10,0,2,2,,,50m x 50m grid cell,only 6% herb cover
+AA30103,2/16/2012 0:00,507156,2805317,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2.5,0,80,20,0,2.5,2,none,,50m x 50m grid cell,Only 10% herb cover
+AA30106,2/16/2012 0:00,507306,2805667,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Only 5% herb cover
+AA30114,2/16/2012 0:00,508006,2806717,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,50,2,0,90,10,0,2,1,none,,50m x 50m grid cell,Filamentous green algae present. Only 5% herb cover
+AA30016,2/16/2012 0:00,510806,2808967,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,90,1.5,0,0,100,0,0,1.5,none,,50m x 50m grid cell,
+AA30019,2/16/2012 0:00,512306,2809217,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,100,1.5,0,0,100,0,0,1.5,none,,50m x 50m grid cell,
+AA30022,2/16/2012 0:00,512656,2809717,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,95,1.5,0,0,100,0,0,1.5,none,,50m x 50m grid cell,
+AA30021,2/16/2012 0:00,511856,2809717,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,95,1.5,0,0,100,0,0,1.5,none,,50m x 50m grid cell,
+AA30028,2/16/2012 0:00,512456,2810417,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,100,1.5,0,0,100,0,0,1.5,none,,50m x 50m grid cell,No photo of datasheet taken.
+AA30029,2/16/2012 0:00,513206,2810417,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,80,1.5,0,0,100,0,0,1.5,none,,50m x 50m grid cell,Found 60perc clajam 40perc MFGe. Many sweaters.
+AA30032,2/16/2012 0:00,513156,2810617,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,100,1.5,0,0,100,0,0,1.5,MFGtS,,50m x 50m grid cell,
+AA30031,2/16/2012 0:00,508156,2810567,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,80,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA30039,2/16/2012 0:00,506606,2811417,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,10,90,0,2.5,2,below threshold,,50m x 50m grid cell,
+AA30047,2/16/2012 0:00,507706,2812617,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,100,2,0,5,95,0,2,2,MFGtS,,50m x 50m grid cell,
+AA30055,2/16/2012 0:00,507106,2813717,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,100,1,0,0,100,0,0,1,MFGtS,,50m x 50m grid cell,
+AA30053,2/16/2012 0:00,513206,2813517,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,95,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA30020,2/17/2012 0:00,489956,2809417,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,100,15,50,50,0,15,4,0,none,,50m x 50m grid cell,
+AA30033,2/17/2012 0:00,487506,2810717,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,20,80,20,0,20,4,0,none,,50m x 50m grid cell,
+AA30030,2/17/2012 0:00,486656,2810517,helicopter,FMXX,Mixed Mangrove Forest-Mixed,95,20,90,10,0,20,4,0,none,,50m x 50m grid cell,
+AA30038,2/17/2012 0:00,486506,2811317,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,18,90,10,0,18,3,0,none,,50m x 50m grid cell,
+AA30035,2/17/2012 0:00,485556,2810867,helicopter,FMr,Red Mangrove Forest,100,20,80,20,0,20,4,0,none,,50m x 50m grid cell,
+AA30018,2/17/2012 0:00,486056,2809167,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,18,90,10,0,18,4,0,none,,50m x 50m grid cell,
+AA30013,2/17/2012 0:00,485706,2808667,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,18,85,15,0,18,4,0,none,,50m x 50m grid cell,
+AA30010,2/17/2012 0:00,489406,2808167,helicopter,FMXal,Black Mangrove-White Mangrove Forest,100,20,85,10,5,20,4,1,none,,50m x 50m grid cell,No photo taken.
+AA30115,2/17/2012 0:00,490306,2806917,helicopter,ONW,Water,20,15,100,0,0,15,0,0,none,,50m x 50m grid cell,Found 80perc ONWo. Classified ONWo but recorded vegetation data for land.
+AA30113,2/17/2012 0:00,491856,2806517,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,20,90,10,0,20,4,0,none,,50m x 50m grid cell,
+AA30110,2/17/2012 0:00,491806,2805917,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,20,95,5,0,20,4,0,none,,50m x 50m grid cell,
+AA30105,2/17/2012 0:00,495856,2805267,helicopter,SMl,White Mangrove Shrubland,80,3,20,60,20,8,3,1,none,,50m x 50m grid cell,Many dead shrubs. SMl if including dead shrubs
+AA30098,2/17/2012 0:00,494656,2804367,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,20,95,5,0,20,2,0,none,,50m x 50m grid cell,
+AA30095,2/17/2012 0:00,494256,2803817,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,20,100,0,0,20,0,0,none,,50m x 50m grid cell,FMr acceptable.
+AA30092,2/17/2012 0:00,491656,2803267,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,Found 90perc ONWo. Land has 10m tall rhiman aviger.
+AA30101,2/17/2012 0:00,489006,2805117,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,20,95,5,0,20,4,0,none,,50m x 50m grid cell,
+AA30100,2/17/2012 0:00,488456,2804567,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,80,20,90,10,0,20,4,0,none,,50m x 50m grid cell,No photo of datasheet taken.
+AA30204,3/9/2012 0:00,502756,2781117,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,12,80,10,10,12,3,1,none,,50m x 50m grid cell,
+AA30198,3/9/2012 0:00,502756,2780167,helicopter,FMc,Buttonwood Forest,80,12,75,20,5,12,2,1,none,,50m x 50m grid cell,
+AA30200,3/9/2012 0:00,502056,2780467,helicopter,FMc,Buttonwood Forest,80,10,70,20,10,10,3,1,none,,50m x 50m grid cell,
+AA30193,3/9/2012 0:00,499906,2778817,helicopter,MSSb,Saltwort Marsh,100,12,0,5,95,0,2,1,none,,50m x 50m grid cell,
+AA30197,3/9/2012 0:00,499056,2779817,helicopter,FMr,Red Mangrove Forest,90,8,80,20,0,8,3,0,none,,50m x 50m grid cell,
+AA30195,3/9/2012 0:00,497656,2779517,helicopter,FMa,Black Mangrove Forest,100,6,80,20,0,6,3,0,none,,50m x 50m grid cell,
+AA30196,3/9/2012 0:00,496006,2779667,helicopter,MSO,Open Salt Marsh,20,1,0,0,100,0,0,1,none,,50m x 50m grid cell,Vegetation cover at the cusp of cutoff perc. Mud flat.
+AA30199,3/9/2012 0:00,496456,2780267,helicopter,ONW,Water,0,,0,0,0,0,0,0,none,,50m x 50m grid cell,Teeming with fish.
+AA30202,3/9/2012 0:00,497456,2780867,helicopter,ONT,Tidal Flat,25,8,30,50,20,8,3,1,none,,50m x 50m grid cell,Found 75perc ONT. Classified ONT but recorded vegetation data for land.
+AA30205,3/9/2012 0:00,497706,2781317,helicopter,ONT,Tidal Flat,10,4,0,40,60,0,4,1,none,,50m x 50m grid cell,Found 90perc ONT. Classified ONT but recorded vegetation data for land.
+AA30208,3/9/2012 0:00,498356,2782117,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA30210,3/9/2012 0:00,498206,2782617,helicopter,FMr,Red Mangrove Forest,100,7,70,20,10,7,3,1,none,,50m x 50m grid cell,Found 60perc mudflat. 40perc vegetation. TF acceptable.
+AA30214,3/9/2012 0:00,498556,2782917,helicopter,FMr,Red Mangrove Forest,100,10,65,35,0,10,3,0,none,,50m x 50m grid cell,Found 25perc ONWo.
+AA30212,3/9/2012 0:00,502206,2783367,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,70,10,65,25,10,10,3,1,none,,50m x 50m grid cell,Found 46perc tree cover. Borderline FMXar.
+AA30222,3/9/2012 0:00,501906,2784017,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,100,10,80,20,0,10,3,0,none,,50m x 50m grid cell,FMr acceptable.
+AA30218,3/9/2012 0:00,500006,2783467,helicopter,SMr,Red Mangrove Shrubland,100,4,0,100,0,0,4,0,none,,50m x 50m grid cell,
+AA30223,3/9/2012 0:00,499256,2784067,helicopter,FMr,Red Mangrove Forest,90,7,80,20,0,7,3,0,none,,50m x 50m grid cell,
+AA30221,3/9/2012 0:00,496906,2783917,helicopter,FMr,Red Mangrove Forest,100,7,50,50,0,7,4,0,none,,50m x 50m grid cell,FMr acceptable.
+AA30229,3/9/2012 0:00,498056,2785167,helicopter,FMr,Red Mangrove Forest,70,10,75,25,0,10,3,0,none,,50m x 50m grid cell,Found 30perc ONWo.
+AA30178,3/1/2012 0:00,489856,2795317,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,70,3,5,90,5,5,3,1,none,,50m x 50m grid cell,
+AA30231,3/9/2012 0:00,499706,2785667,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,11,80,20,0,11,4,0,none,,50m x 50m grid cell,
+AA30243,3/9/2012 0:00,496106,2786967,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,85,2,0,5,95,0,2,2,below threshold,,50m x 50m grid cell,May have been burned.
+AA30246,3/9/2012 0:00,496606,2787417,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,90,3,0,30,70,0,3,2,below threshold,,50m x 50m grid cell,Schinus cover 2.7 %. Datasheet photo taken after site photos.
+AA30242,3/9/2012 0:00,497656,2786917,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA30239,3/9/2012 0:00,499456,2786767,helicopter,CMXclGn,Buttonwood-White Mangrove Scrub-Cordgrass Marsh,85,2,0,65,35,0,2,2,none,,50m x 50m grid cell,
+AA30244,3/9/2012 0:00,502106,2787017,helicopter,CMcGc,Buttonwood Scrub-Sawgrass Marsh,90,3,0,70,30,0,3,1,none,,50m x 50m grid cell,
+AA30123,3/9/2012 0:00,501806,2788317,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,100,3,40,55,5,6,3,2,none,,50m x 50m grid cell,
+AA30118,3/9/2012 0:00,500656,2787867,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,95,3,5,70,25,0,3,1,none,,50m x 50m grid cell,Lygmic cover 3.5%
+AA30124,3/9/2012 0:00,498206,2788317,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,12,60,35,5,12,3,2,none,EsS,50m x 50m grid cell,Schinus 25% cover
+AA30127,3/9/2012 0:00,497356,2788567,helicopter,CMrGn,Red Mangrove Scrub-Cordgrass Marsh,70,3,0,60,40,0,3,2,below threshold,,50m x 50m grid cell,
+AA30134,3/9/2012 0:00,498956,2789667,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,100,3,0,90,10,0,3,2,none,,50m x 50m grid cell,
+AA30133,3/9/2012 0:00,500306,2789467,helicopter,CMXcrD,Buttonwood-Red Mangrove Scrub-Dominant,100,2,0,100,0,0,2,1,none,,50m x 50m grid cell,
+AA30141,3/9/2012 0:00,500556,2790617,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,2,0,100,0,0,2,0,none,,50m x 50m grid cell,
+AA30143,3/9/2012 0:00,501256,2790667,helicopter,CMrD,Red Mangrove Scrub-Dominant,60,2,0,100,0,0,2,0,none,,50m x 50m grid cell,Found 40perc ONWo.
+AA30145,3/9/2012 0:00,501656,2790767,helicopter,ONW,Water,25,3,0,100,0,0,3,0,none,,50m x 50m grid cell,Found 75perc ONWo. Classified ONWo but recorded vegetation data for land.
+AA30160,3/9/2012 0:00,498906,2792867,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,90,2,0,100,0,0,2,0,none,,50m x 50m grid cell,No photo of datasheet taken.
+AA30154,3/9/2012 0:00,498556,2792367,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,80,2,0,98,2,0,2,1,none,,50m x 50m grid cell,
+AA30159,3/9/2012 0:00,497656,2792767,helicopter,CMrD,Red Mangrove Scrub-Dominant,60,2,0,95,5,0,2,1,none,,50m x 50m grid cell,Found 40perc ONWo.
+AA30185,3/1/2012 0:00,491606,2796167,helicopter,FMr,Red Mangrove Forest,100,10,95,5,0,10,3,0,none,,50m x 50m grid cell,
+AA30184,3/1/2012 0:00,492206,2795867,helicopter,FMr,Red Mangrove Forest,100,12,90,10,0,12,3,0,none,,50m x 50m grid cell,
+AA30062,3/1/2012 0:00,491156,2798967,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,15,90,10,0,15,3,0,none,,50m x 50m grid cell,
+AA30068,3/1/2012 0:00,490256,2799817,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,Found 90perc ONWo. Trees along coast 10m tall rhiman.
+AA30065,3/1/2012 0:00,489506,2799767,helicopter,FMr,Red Mangrove Forest,95,12,90,10,0,12,3,0,none,,50m x 50m grid cell,
+AA30064,3/1/2012 0:00,488856,2799267,helicopter,SMr,Red Mangrove Shrubland,100,4,20,80,0,10,4,0,none,,50m x 50m grid cell,Shrubland with some emergent trees
+AA30067,3/1/2012 0:00,488656,2799667,helicopter,FMr,Red Mangrove Forest,100,10,90,10,0,10,3,0,none,,50m x 50m grid cell,
+AA30060,3/1/2012 0:00,486756,2798917,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,95,10,90,10,0,10,3,0,none,,50m x 50m grid cell,
+AA30191,3/1/2012 0:00,484206,2797367,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,80,12,90,10,0,12,2,0,none,,50m x 50m grid cell,Found 20perc dead trees and open sand.
+AA30058,3/1/2012 0:00,484056,2797867,helicopter,WMaO,Black Mangrove Woodland-Open Marsh,60,12,60,30,10,12,2,1,none,,50m x 50m grid cell,Many dead trees.
+AA30061,3/1/2012 0:00,485906,2798967,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,12,90,10,0,12,2,0,none,,50m x 50m grid cell,FMX acceptable.
+AA30073,3/1/2012 0:00,487006,2800867,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,95,12,90,10,0,12,2,0,none,,50m x 50m grid cell,
+AA30076,3/1/2012 0:00,486506,2801117,helicopter,FMr,Red Mangrove Forest,55,10,80,20,0,10,4,0,none,,50m x 50m grid cell,Forest is the dominant feature
+AA30088,3/1/2012 0:00,487006,2802717,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,13,90,10,0,13,2,0,none,,50m x 50m grid cell,
+AA30085,3/1/2012 0:00,487556,2802067,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,13,80,20,0,13,2,0,none,,50m x 50m grid cell,
+AA30080,3/1/2012 0:00,491106,2801617,helicopter,FMXX,Mixed Mangrove Forest-Mixed,85,12,80,20,0,12,2,0,none,,50m x 50m grid cell,Found 15perc ONWo. FMr acceptable
+AA30078,3/1/2012 0:00,491256,2801467,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,Found 90perc ONWo. Land has 20perc rhiman shrubs 80trees.
+AA30084,3/1/2012 0:00,495156,2802017,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,95,12,90,10,0,12,3,0,none,,50m x 50m grid cell,FMX acceptable.
+AA30203,3/13/2012 0:00,495356,2781067,helicopter,ONW,Water,5,10,100,0,0,10,0,0,none,,50m x 50m grid cell,Found ONWo. Classified ONWo but recorded vegetation data for land.
+AA30201,3/13/2012 0:00,494106,2780817,helicopter,ONW,Water,100,8,70,20,10,8,3,0,none,,50m x 50m grid cell,Found 80perc ONWo. Classified ONWc but recorded vegetation data for land.
+AA30194,3/13/2012 0:00,492556,2779817,helicopter,FMXX,Mixed Mangrove Forest-Mixed,65,6,80,20,0,6,3,0,none,,50m x 50m grid cell,
+AA30207,3/13/2012 0:00,491006,2781867,helicopter,CMaSb,Black Mangrove Scrub-Saltwort Marsh,85,3,0,40,60,0,3,1,none,,50m x 50m grid cell,Many old snags.
+AA30220,3/13/2012 0:00,493056,2783667,helicopter,FMa,Black Mangrove Forest,90,12,80,20,0,12,3,0,none,,50m x 50m grid cell,
+AA30215,3/13/2012 0:00,495256,2782967,helicopter,FMa,Black Mangrove Forest,90,10,70,25,5,10,3,1,none,,50m x 50m grid cell,
+AA30224,3/13/2012 0:00,495606,2784217,helicopter,SMr,Red Mangrove Shrubland,90,3,20,60,20,7,3,1,none,,50m x 50m grid cell,Shrubland with some emergent trees
+AA30225,3/13/2012 0:00,494356,2784417,helicopter,SMr,Red Mangrove Shrubland,80,3,0,80,20,0,3,1,none,,50m x 50m grid cell,Many snags.
+AA30226,3/13/2012 0:00,492506,2784767,helicopter,SMr,Red Mangrove Shrubland,90,3,30,60,10,7,3,1,none,,50m x 50m grid cell,Shrubland with some emergent trees
+AA30227,3/13/2012 0:00,491806,2784867,helicopter,SMr,Red Mangrove Shrubland,85,3,40,60,0,8,3,0,none,,50m x 50m grid cell,Shrubland with some emergent trees
+AA30219,3/13/2012 0:00,491056,2783467,helicopter,Sma,Black Mangrove Shrubland,90,6,30,50,20,6,4,1,none,,50m x 50m grid cell,
+AA30216,3/13/2012 0:00,489856,2783067,helicopter,CMaSb,Black Mangrove Scrub-Saltwort Marsh,45,2.5,0,20,80,0,2.5,1,none,,50m x 50m grid cell,Shrub cover originally underestimated
+AA30211,3/13/2012 0:00,487356,2782667,helicopter,SMXar,Black Mangrove-Red Mangrove Shrubland,70,6,20,80,0,6,4,0,none,,50m x 50m grid cell,
+AA30217,3/13/2012 0:00,486256,2783417,helicopter,ONW,Water,90,5,20,80,0,5,3,0,none,,50m x 50m grid cell,Found 70perc ONWo. Classified ONWo but recorded vegetation data for land.
+AA30230,3/13/2012 0:00,485806,2785517,helicopter,FMa,Black Mangrove Forest,90,10,70,30,0,10,3,0,none,,50m x 50m grid cell,
+AA30240,3/13/2012 0:00,485756,2786817,helicopter,CMaSb,Black Mangrove Scrub-Saltwort Marsh,100,2,0,20,80,0,2,1,none,,50m x 50m grid cell,
+AA30126,3/13/2012 0:00,485406,2788467,helicopter,FMa,Black Mangrove Forest,80,12,70,30,5,12,3,1,none,,50m x 50m grid cell,Many snags.
+AA30120,3/13/2012 0:00,487406,2787867,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,12,70,20,10,12,3,1,none,,50m x 50m grid cell,
+AA30241,3/13/2012 0:00,486756,2786917,helicopter,FMa,Black Mangrove Forest,90,12,70,20,10,12,3,1,none,,50m x 50m grid cell,FMXar acceptable.
+AA30234,3/13/2012 0:00,487606,2786667,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,50,12,70,20,10,12,3,1,none,,50m x 50m grid cell,Split cell. 50perc mud and water. Only 5% herb cover.
+AA30232,3/13/2012 0:00,487706,2785667,helicopter,ONW,Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA30238,3/13/2012 0:00,488706,2786517,helicopter,SMXal,Black Mangrove-White Mangrove Shrubland,90,3,30,70,0,8,3,0,none,,50m x 50m grid cell,A lot of snags probably cold burned.
+AA30236,3/13/2012 0:00,489706,2786267,helicopter,CMlH,White Mangrove Scrub-Herbaceous Marsh,70,1,0,5,95,0,1,1,none,,50m x 50m grid cell,Bushes of dead lagrac possibly cold damaged. Imagery may look like CMl or CMlGn.
+AA30122,3/13/2012 0:00,491856,2788267,helicopter,SMr,Red Mangrove Shrubland,100,9,30,50,20,9,4,1,none,EsS,50m x 50m grid cell,Shrubland with some emergent trees.
+AA30132,3/13/2012 0:00,491506,2789417,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,90,3,0,50,50,0,3,1,none,,50m x 50m grid cell,Burned. Lygmic cover 4.5%.
+AA30128,3/13/2012 0:00,493256,2789167,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,100,3,0,30,70,0,3,2,below threshold,ElS,50m x 50m grid cell,Burned. A lot of exotic lygmic in area around cell.
+AA30129,3/13/2012 0:00,495356,2789267,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,70,3,0,50,50,0,3,2,below threshold,,50m x 50m grid cell,
+AA30130,3/13/2012 0:00,495856,2789217,helicopter,SMr,Red Mangrove Shrubland,90,4,10,70,20,6,4,2,none,,50m x 50m grid cell,
+AA30148,3/13/2012 0:00,495856,2791117,helicopter,CMrD,Red Mangrove Scrub-Dominant,90,2,0,100,0,0,2,0,none,,50m x 50m grid cell,
+AA30146,3/13/2012 0:00,493456,2790817,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,90,2,0,20,80,0,2,2,below threshold,,50m x 50m grid cell,Burned.
+AA30151,3/13/2012 0:00,491906,2791867,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,100,6,10,40,50,6,3,2,none,,50m x 50m grid cell,
+AA30142,3/13/2012 0:00,488906,2790667,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,90,3,0,60,40,0,3,2,none,EsS,50m x 50m grid cell,
+AA30149,3/13/2012 0:00,488656,2791317,helicopter,CMXcr,Buttonwood-Red Mangrove Scrub,100,4,20,80,0,7,4,0,none,EsS,50m x 50m grid cell,
+AA30153,3/13/2012 0:00,490156,2792317,helicopter,CMrO,Red Mangrove Scrub-Open Marsh,60,3,0,90,10,0,3,1,none,,50m x 50m grid cell,
+AA30162,3/13/2012 0:00,492906,2793067,helicopter,CMcGc,Buttonwood Scrub-Sawgrass Marsh,100,6,20,30,50,6,3,1,none,,50m x 50m grid cell,Burned.
+AA30164,3/13/2012 0:00,492956,2793117,helicopter,FMXcr,Buttonwood-Red Mangrove Forest,100,8,70,25,5,8,4,2,none,,50m x 50m grid cell,Schinus cover 7.5%
+AA30163,3/13/2012 0:00,493706,2793067,helicopter,ONW,Water,30,3,0,100,0,0,3,0,none,,50m x 50m grid cell,Found 70perc ONWo. Classified ONWo but recorded vegetation data for land.
+AA30166,3/13/2012 0:00,494406,2793617,helicopter,CMrD,Red Mangrove Scrub-Dominant,90,2,0,100,0,0,2,0,none,,50m x 50m grid cell,Found 20perc ONWo.
+AA40242,7/23/2012 0:00,513056,2815167,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,100,2,0,45,65,0,2,1,none,,50m x 50m grid cell,
+AA40145,7/23/2012 0:00,509406,2815667,helicopter,SSBT,Transitional Bayhead Shrubland,100,3,0,60,40,0,3,1,none,,50m x 50m grid cell,
+AA40232,7/23/2012 0:00,508006,2814867,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,95,2,0,10,90,0,2,2,below threshold,,50m x 50m grid cell,
+AA40095,7/23/2012 0:00,508056,2815617,helicopter,CSmGc,Wax Myrtle Scrub-Sawgrass Marsh,100,2,0,20,80,0,2,1,none,,50m x 50m grid cell,
+AA40078,7/23/2012 0:00,507056,2816367,helicopter,CSmGc,Wax Myrtle Scrub-Sawgrass Marsh,100,2,0,20,80,0,2,1,none,,50m x 50m grid cell,
+AA40103,7/23/2012 0:00,506006,2816017,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,100,3,0,45,55,0,3,1,none,,50m x 50m grid cell,Many dead lagrac shrubs. CSBTGc may also be acceptable.
+AA40175,7/23/2012 0:00,505656,2815567,helicopter,MFGc,Sawgrass Marsh,100,1,0,5,95,0,1,1,below threshold,,50m x 50m grid cell,
+AA40129,7/23/2012 0:00,501956,2814267,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,100,3,0,45,55,0,3,1,none,,50m x 50m grid cell,Shrub cover overestimated
+AA40208,7/23/2012 0:00,503306,2816067,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,100,2,0,30,70,0,2,1,none,,50m x 50m grid cell,
+AA40248,7/23/2012 0:00,503356,2817017,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,65,2,0,50,50,0,2,1,none,,50m x 50m grid cell,
+AA40143,7/23/2012 0:00,501856,2818017,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,80,3,0,60,40,0,3,1,none,,50m x 50m grid cell,"Part of tree island included, shrub cover thus overestimated."
+AA40025,7/23/2012 0:00,502206,2818167,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,80,3,0,50,50,0,3,1,none,,50m x 50m grid cell,
+AA40183,7/23/2012 0:00,505356,2818067,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,95,2,0,10,90,0,2,2,MFGtS,,50m x 50m grid cell,
+AA40235,7/23/2012 0:00,509256,2817567,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,95,1,0,2,98,0,1,1,MFGtS,,50m x 50m grid cell,
+AA40147,7/23/2012 0:00,511906,2817217,helicopter,MFGr,Beakrush Marsh,90,1,0,2,98,0,1,1,below threshold,,50m x 50m grid cell,
+AA40153,7/23/2012 0:00,510706,2819067,helicopter,CShGc,Buttonbush Scrub-Sawgrass Marsh,90,2,0,20,80,0,2,1,none,,50m x 50m grid cell,
+AA40080,7/23/2012 0:00,510206,2818917,helicopter,MFGe,Spikerush Marsh,80,1,0,0,100,0,0,1,below threshold,,50m x 50m grid cell,
+AA40172,7/23/2012 0:00,506006,2820617,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,50,2,0,20,80,0,2,1,below threshold,,50m x 50m grid cell,
+AA40037,7/23/2012 0:00,503706,2819567,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,100,3,0,20,80,0,3,2,below threshold,,50m x 50m grid cell,40% conere cover in shrub layer
+AA40105,7/23/2012 0:00,503106,2820317,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,40,2,0,80,20,0,2,1,none,,50m x 50m grid cell,
+AA40199,7/23/2012 0:00,502856,2821867,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,65,1,0,5,95,0,1,1,below threshold,,50m x 50m grid cell,
+AA40206,7/23/2012 0:00,501906,2822867,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,80,1,0,7,93,0,1,1,none,,50m x 50m grid cell,
+AA40221,7/23/2012 0:00,508756,2821967,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,90,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40081,7/23/2012 0:00,508556,2821217,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,80,1,0,2,98,0,1,1,below threshold,,50m x 50m grid cell,
+AA40050,7/23/2012 0:00,509406,2820767,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,80,1,0,0,100,0,0,1,MFGtS,,50m x 50m grid cell,
+AA40069,7/23/2012 0:00,509856,2820867,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,80,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40144,7/23/2012 0:00,510006,2821317,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,95,1,0,5,95,0,1,1,below threshold,,50m x 50m grid cell,
+AA40059,7/23/2012 0:00,512356,2822417,helicopter,MFGe,Spikerush Marsh,50,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40085,7/23/2012 0:00,512406,2822567,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40045,7/23/2012 0:00,510556,2824967,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,85,1,0,1,99,0,1,1,none,,50m x 50m grid cell,
+AA40159,7/23/2012 0:00,510206,2825317,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,100,1,0,20,80,0,2,1,none,,50m x 50m grid cell,The shrub cover is from a tree island at the SW in the cell. The dominant community is the sawgrass marsh.
+AA40123,7/23/2012 0:00,507156,2825367,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,60,1,0,0,100,0,0,1,below threshold,,50m x 50m grid cell,
+AA40051,7/23/2012 0:00,503906,2824267,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,75,1,0,2,98,0,1,1,none,,50m x 50m grid cell,Tree island in center is 20perc sabpal 50chrica 20myrcer 10perbor.
+AA40071,7/23/2012 0:00,504856,2825217,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,75,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40083,7/23/2012 0:00,505056,2825417,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,75,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40229,7/23/2012 0:00,504156,2826017,helicopter,MFGr,Beakrush Marsh,75,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40148,7/23/2012 0:00,505556,2825917,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,80,1,0,0,100,0,0,1,below threshold,,50m x 50m grid cell,
+AA40174,7/23/2012 0:00,506756,2827217,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,80,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40068,7/23/2012 0:00,507956,2826667,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,75,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40249,7/23/2012 0:00,511156,2827767,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,90,1,0,10,90,0,2,1,none,,50m x 50m grid cell,
+AA40150,7/23/2012 0:00,509906,2828117,helicopter,MFGPm,Muhly Grass Prairie,90,1,0,10,90,0,1,1,none,,50m x 50m grid cell,
+AA40041,7/23/2012 0:00,509256,2828517,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,90,1,0,0,100,0,0,1,none,EsS,50m x 50m grid cell,
+AA40044,7/23/2012 0:00,507256,2827917,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40028,7/23/2012 0:00,506606,2828517,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40155,7/23/2012 0:00,505556,2830267,helicopter,MFGr,Beakrush Marsh,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40065,7/23/2012 0:00,504606,2830567,helicopter,MFGr,Beakrush Marsh,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40216,7/23/2012 0:00,503856,2832117,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40231,7/23/2012 0:00,505306,2831967,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40130,7/23/2012 0:00,505356,2831567,helicopter,MFGe,Spikerush Marsh,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40020,7/23/2012 0:00,506206,2831567,helicopter,FSB,Bayhead Forest,100,7,50,50,0,7,4,0,none,,50m x 50m grid cell,
+AA40017,7/24/2012 0:00,507406,2831117,helicopter,MFGr,Beakrush Marsh,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40076,7/24/2012 0:00,508206,2830467,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,85,1,0,10,90,0,2,1,none,,50m x 50m grid cell,Part of tree island at north in cell
+AA40089,7/24/2012 0:00,509306,2831467,helicopter,MFGPs,Little Bluestem Prairie,90,1,0,5,95,0,,1,none,,50m x 50m grid cell,Prairie.
+AA40177,7/24/2012 0:00,511556,2830917,helicopter,CSB,Bayhead Swamp Scrub,95,2,0,20,80,0,2,1,none,,50m x 50m grid cell,No code for bayhead scrub in prairie.
+AA40038,7/24/2012 0:00,511856,2830517,helicopter,MFGPX,Mixed Graminoid Freshwater Prairie,90,1,0,5,95,0,,1,none,,50m x 50m grid cell,
+AA40192,7/24/2012 0:00,512706,2830317,helicopter,MFGPm,Muhly Grass Prairie,90,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40077,7/24/2012 0:00,513106,2831817,helicopter,MFGXcr,Sawgrass-Rhynchospora Marsh,90,1,0,5,95,0,,1,none,,50m x 50m grid cell,
+AA40161,7/24/2012 0:00,513256,2832467,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,90,1,0,2,98,0,2,1,none,,50m x 50m grid cell,
+AA40220,7/24/2012 0:00,511256,2833067,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,80,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40132,7/24/2012 0:00,511906,2832817,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,75,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40048,7/24/2012 0:00,496556,2814867,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,85,1.5,0,5,95,0,6,1.5,none,,50m x 50m grid cell,
+AA40234,7/24/2012 0:00,494906,2815117,helicopter,MSGn,Gulf Cordgrass Marsh,90,1.5,0,5,95,0,1,1.5,none,,50m x 50m grid cell,
+AA40029,7/24/2012 0:00,491856,2815367,helicopter,WMXar,Black Mangrove-Red Mangrove Woodland,80,12,20,50,30,12,3,1,none,EsS,50m x 50m grid cell,
+AA40031,7/24/2012 0:00,491156,2816217,helicopter,WMaO,Black Mangrove Woodland-Open Marsh,90,10,20,70,10,10,3,1,none,EsD,50m x 50m grid cell,
+AA40094,7/24/2012 0:00,491106,2815267,helicopter,FMXlr,White Mangrove-Red Mangrove Forest,95,12,75,20,5,12,4,2,none,,50m x 50m grid cell,
+AA40057,7/24/2012 0:00,489556,2814317,helicopter,FMXlr,White Mangrove-Red Mangrove Forest,100,15,70,30,0,15,4,0,none,,50m x 50m grid cell,
+AA40093,7/24/2012 0:00,489206,2814867,helicopter,FMXlr,White Mangrove-Red Mangrove Forest,100,15,90,10,0,15,4,0,none,,50m x 50m grid cell,
+AA40121,7/24/2012 0:00,483756,2814267,helicopter,FMXX,Mixed Mangrove Forest-Mixed,90,17,95,5,0,17,4,0,none,,50m x 50m grid cell,Mixed mangrove forest.
+AA40224,7/24/2012 0:00,483706,2815267,helicopter,FMXX,Mixed Mangrove Forest-Mixed,90,20,95,5,0,20,4,0,none,,50m x 50m grid cell,
+AA40046,7/24/2012 0:00,484556,2816567,helicopter,FMXX,Mixed Mangrove Forest-Mixed,90,20,90,10,0,20,4,0,none,,50m x 50m grid cell,
+AA40152,7/24/2012 0:00,486206,2815867,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,20,90,10,0,20,4,0,none,,50m x 50m grid cell,
+AA40062,7/24/2012 0:00,487056,2817667,helicopter,MSGj,Black Rush Marsh,90,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40049,7/24/2012 0:00,489806,2818167,helicopter,WMaO,Black Mangrove Woodland-Open Marsh,100,4,20,80,0,15,4,0,none,EsD,50m x 50m grid cell,
+AA40074,7/24/2012 0:00,489806,2818017,helicopter,MSG,Graminoid Salt Marsh,95,1,0,10,90,0,3,1,none,,50m x 50m grid cell,MSGn or MSGj acceptable. Schinus cover 5% for entire cell.
+AA40193,7/24/2012 0:00,490306,2817067,helicopter,WMaO,Black Mangrove Woodland-Open Marsh,100,20,40,55,5,20,4,2,none,EsS,50m x 50m grid cell,
+AA40176,7/24/2012 0:00,494656,2817017,helicopter,SMc,Buttonwood Shrubland,80,3,5,75,20,7,3,2,none,,50m x 50m grid cell,
+AA40088,7/24/2012 0:00,494756,2817317,helicopter,SMc,Buttonwood Shrubland,75,4,0,90,10,0,4,1,none,,50m x 50m grid cell,
+AA40226,7/24/2012 0:00,496006,2816517,helicopter,CSrGc,Falsewillow Scrub-Sawgrass Marsh,100,2,5,35,60,6,2,2,none,,50m x 50m grid cell,Lygmic cover 6%. CSBGc also acceptable
+AA40026,7/24/2012 0:00,498206,2818117,helicopter,CMcGj,Buttonwood Scrub-Black Rush Marsh,100,2,0,10,90,0,2,2,none,,50m x 50m grid cell,Lygmic cover 9%. Schter cover 3%
+AA40066,7/24/2012 0:00,496256,2818417,helicopter,CSrGc,Falsewillow Scrub-Sawgrass Marsh,100,1.5,0,45,55,0,1.5,1.5,none,,50m x 50m grid cell,CSBGc also acceptable
+AA40223,7/24/2012 0:00,493456,2818817,helicopter,CSBGc,Bayhead Swamp Scrub-Sawgrass Marsh,100,3,2,40,58,,3,1,none,EsS,50m x 50m grid cell,Lygmic 6%
+AA40185,7/24/2012 0:00,491856,2819017,helicopter,CSBGc,Bayhead Swamp Scrub-Sawgrass Marsh,100,4,0,60,40,0,4,1,none,EsS,50m x 50m grid cell,
+AA40106,7/24/2012 0:00,491356,2820517,helicopter,MSGj,Black Rush Marsh,100,1.5,0,2,98,0,2,1.5,none,,50m x 50m grid cell,
+AA40204,7/24/2012 0:00,491856,2821817,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,90,3,0,70,30,0,3,1,none,,50m x 50m grid cell,
+AA40246,7/24/2012 0:00,494856,2820817,helicopter,CMcGj,Buttonwood Scrub-Black Rush Marsh,50,2,0,30,70,0,2,1.5,none,,50m x 50m grid cell,
+AA40111,7/24/2012 0:00,495406,2821767,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,80,2,0,70,30,0,2,1,none,,50m x 50m grid cell,Shrubs 2m in height
+AA40171,7/24/2012 0:00,496706,2820117,helicopter,FMXcr,Buttonwood-Red Mangrove Forest,100,10,85,10,5,10,4,2,none,,50m x 50m grid cell,Schter cover 2.5%
+AA40173,7/24/2012 0:00,498906,2821067,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,100,3,5,70,25,6,3,1,none,,50m x 50m grid cell,
+AA40151,7/24/2012 0:00,498556,2821667,helicopter,CMcGc,Buttonwood Scrub-Sawgrass Marsh,90,3,0,50,50,0,3,1,none,,50m x 50m grid cell,
+AA40196,7/24/2012 0:00,497906,2822417,helicopter,CMcGc,Buttonwood Scrub-Sawgrass Marsh,90,3,0,50,50,0,3,1,none,,50m x 50m grid cell,Shrub cover originally overestimated
+AA40166,8/21/2012 0:00,502606,2824067,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,90,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40063,8/21/2012 0:00,501806,2824567,helicopter,CMrG,Red Mangrove Scrub-Graminoid Marsh,70,2,0,25,75,0,2,1,none,,50m x 50m grid cell,No understory category for rhytra.
+AA40107,8/21/2012 0:00,500856,2825017,helicopter,CSBGc,Bayhead Swamp Scrub-Sawgrass Marsh,80,2,0,20,80,0,2,2,MFGtS,,50m x 50m grid cell,Rhiman habitat is a separate habitat to east in cell
+AA40014,8/21/2012 0:00,498856,2824367,helicopter,SSBT,Transitional Bayhead Shrubland,100,4,0,100,0,0,4,0,none,,50m x 50m grid cell,
+AA40141,8/21/2012 0:00,496756,2825767,helicopter,SSBT,Transitional Bayhead Shrubland,100,4,0,80,20,0,4,1.5,none,,50m x 50m grid cell,Found 20 junroe marsh. Half of the shrub cover is bayhead species.
+AA40178,8/21/2012 0:00,493506,2825517,helicopter,CMcGj,Buttonwood Scrub-Black Rush Marsh,100,4,5,15,80,6,4,1.5,none,,50m x 50m grid cell,Schter cover 3%.
+AA40008,8/21/2012 0:00,493256,2827017,helicopter,FSB,Bayhead Forest,95,10,55,25,20,10,4,2,none,ElS,50m x 50m grid cell,Point from Jimi Sadle. Exotic lygmic 30perc of cell.
+AA40157,8/21/2012 0:00,494206,2827017,helicopter,SSBT,Transitional Bayhead Shrubland,100,4,0,80,20,0,4,2,none,,50m x 50m grid cell,Split cell. Majority forest.
+AA40128,8/21/2012 0:00,498406,2826317,helicopter,SSBT,Transitional Bayhead Shrubland,100,4,0,95,5,0,4,1.5,none,,50m x 50m grid cell,Split cell.
+AA40110,8/21/2012 0:00,498556,2826817,helicopter,MSGj,Black Rush Marsh,95,2,0,10,90,0,2.5,2,none,,50m x 50m grid cell,Creeks with rhiman myrcer 30perc.
+AA40162,8/21/2012 0:00,500056,2827367,helicopter,MFGcSD,Short Sawgrass Marsh-Dense,100,1.5,0,5,95,0,2,1.5,none,,50m x 50m grid cell,
+AA40010,8/21/2012 0:00,501856,2826667,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,100,3,0,40,60,0,3,2,none,,50m x 50m grid cell,Marsh with shrubs following creeks. Shrub layer has 40% mangrove and 60% bayhead species.
+AA40205,8/21/2012 0:00,502856,2826267,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,80,1,0,0,100,0,0,1,below threshold,,50m x 50m grid cell,Typdom cover 8% for entire cell.
+AA40009,8/21/2012 0:00,500906,2828767,helicopter,SSBT,Transitional Bayhead Shrubland,100,4,0,80,20,0,4,2,below threshold,,50m x 50m grid cell,
+AA40181,8/21/2012 0:00,500656,2828467,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,95,2,0,20,80,0,3,2,MFGtS,,50m x 50m grid cell,"Woody species clustered at south in cell. Some salcar within the typha, sawgrass stand but less than 10% cover."
+AA40233,8/21/2012 0:00,499456,2828167,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,95,2,0,20,80,0,3,2,MFGtS,,50m x 50m grid cell,Woody species clustered along creek.
+AA40250,8/21/2012 0:00,496756,2828817,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,75,3,0,30,70,0,3,2,none,,50m x 50m grid cell,
+AA40219,8/21/2012 0:00,495456,2828867,helicopter,SSBT,Transitional Bayhead Shrubland,100,4,0,80,20,0,4,1.5,none,,50m x 50m grid cell,Bayhead species 30% of shrub layer
+AA40072,8/21/2012 0:00,495356,2829017,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,80,4,0,60,40,0,4,1.5,none,,50m x 50m grid cell,CMXcr also acceptable
+AA40033,8/21/2012 0:00,491956,2829067,helicopter,SMr,Red Mangrove Shrubland,90,3,0,80,20,0,3,1,none,,50m x 50m grid cell,
+AA40054,8/21/2012 0:00,490206,2829917,helicopter,SSBT,Transitional Bayhead Shrubland,90,4,0,60,40,0,4,1.5,none,,50m x 50m grid cell,Bayhead species 40% of shrub layer
+AA40189,8/21/2012 0:00,490306,2831617,helicopter,CSBGc,Bayhead Swamp Scrub-Sawgrass Marsh,100,4,10,70,20,7,4,1,none,EsS,50m x 50m grid cell,Shrubland with some emergent trees
+AA40213,8/21/2012 0:00,489506,2833167,helicopter,SSBT,Transitional Bayhead Shrubland,90,4,0,80,20,0,4,1,none,,50m x 50m grid cell,
+AA40131,8/21/2012 0:00,490106,2833017,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,90,3,0,50,50,0,3,1,none,,50m x 50m grid cell,Bayhead species 30% of shrub layer
+AA40055,8/21/2012 0:00,490706,2832917,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,50,3,5,50,45,,3,1,none,,50m x 50m grid cell,CSBT also acceptable due to 50% open water cover.
+AA40127,8/21/2012 0:00,494156,2832067,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,80,2,0,70,30,0,2,1,none,,50m x 50m grid cell,Scrub due to 2m height for shrubs
+AA40122,8/21/2012 0:00,496556,2831217,helicopter,SSBT,Transitional Bayhead Shrubland,80,3,0,80,20,0,3,1,none,,50m x 50m grid cell,Bayhead species 40% in shrub layer
+AA40117,8/21/2012 0:00,499456,2831467,helicopter,MFGe,Spikerush Marsh,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40136,9/11/2012 0:00,501856,2829667,helicopter,SSB,Bayhead Shrubland,100,2,0,70,30,0,2,1,none,,50m x 50m grid cell,
+AA40179,9/11/2012 0:00,502206,2829867,helicopter,FSB,Bayhead Forest,100,6,70,20,10,6,4,2,none,,50m x 50m grid cell,
+AA40210,9/11/2012 0:00,501606,2830217,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,80,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40126,9/11/2012 0:00,502006,2830517,helicopter,MFGr,Beakrush Marsh,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40036,9/11/2012 0:00,501756,2831117,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,75,1,0,0,100,0,0,1,none,,50m x 50m grid cell,No picture of datasheet
+AA40104,9/11/2012 0:00,501356,2830967,helicopter,CSaGc,Pond Apple Scrub-Sawgrass Marsh,90,2,0,15,85,0,2,1,below threshold,,50m x 50m grid cell,
+AA40097,9/11/2012 0:00,500906,2831117,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,75,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40237,9/11/2012 0:00,501306,2832617,helicopter,MFGX,Mixed Graminoid Freshwater Marsh,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40016,9/11/2012 0:00,500406,2832917,helicopter,MFGe,Spikerush Marsh,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,No picture of datasheet
+AA40082,9/11/2012 0:00,499906,2832767,helicopter,MFGr,Beakrush Marsh,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40243,9/11/2012 0:00,498556,2832317,helicopter,MFGr,Beakrush Marsh,70,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40052,9/11/2012 0:00,496606,2832867,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,70,1,0,20,80,0,2,1,none,,50m x 50m grid cell,Near SET site
+AA40194,9/11/2012 0:00,494056,2834217,helicopter,SSBT,Transitional Bayhead Shrubland,90,2,0,80,20,0,2,1,below threshold,,50m x 50m grid cell,
+AA40087,9/11/2012 0:00,491356,2835417,helicopter,CMXcrGc,Buttonwood-Red Mangrove Scrub-Sawgrass Marsh,90,2,0,60,40,0,2,1,none,,50m x 50m grid cell,Scrub based on 2m height of shrubs
+AA40191,9/11/2012 0:00,491506,2835767,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,70,3,0,80,20,0,3,1,none,,50m x 50m grid cell,
+AA40084,9/11/2012 0:00,490656,2836767,helicopter,SSBT,Transitional Bayhead Shrubland,65,3,0,80,20,0,3,1,none,,50m x 50m grid cell,
+AA40209,9/11/2012 0:00,491706,2836667,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,90,3,15,75,10,6,3,1,none,,50m x 50m grid cell,Shrubland with some emergent trees
+AA40138,9/11/2012 0:00,492106,2836917,helicopter,SSBT,Transitional Bayhead Shrubland,80,3,0,90,10,0,3,1,none,,50m x 50m grid cell,
+AA40230,9/11/2012 0:00,483806,2830567,helicopter,MFGn,Sand Cordgrass Marsh,65,2,0,0,100,0,0,2,none,,50m x 50m grid cell,Holes in the photo are ponds.
+AA40096,9/11/2012 0:00,481906,2831517,helicopter,FMa,Black Mangrove Forest,90,17,100,0,0,17,0,0,none,,50m x 50m grid cell,
+AA40034,9/11/2012 0:00,483706,2832267,helicopter,MFGn,Sand Cordgrass Marsh,90,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40064,9/20/2012 0:00,480156,2824517,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,25,100,0,0,25,0,0,none,,50m x 50m grid cell,
+AA40030,9/20/2012 0:00,481256,2821117,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,20,50,50,0,20,4,0,none,EsD,50m x 50m grid cell,
+AA40047,9/20/2012 0:00,482656,2818267,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,25,100,0,0,25,0,0,none,,50m x 50m grid cell,
+AA40165,9/20/2012 0:00,482456,2820817,helicopter,WMaO,Black Mangrove Woodland-Open Marsh,100,22,40,58,2,22,4,1,none,EsS,50m x 50m grid cell,
+AA40137,9/20/2012 0:00,482856,2820617,helicopter,FMa,Black Mangrove Forest,95,22,60,30,10,22,4,1,none,EsS,50m x 50m grid cell,
+AA40042,9/20/2012 0:00,482956,2820867,helicopter,WMaG,Black Mangrove-Graminoid Marsh,100,20,20,70,10,20,4,1,none,EsD,50m x 50m grid cell,
+AA40053,9/20/2012 0:00,483706,2821817,helicopter,MFGn,Sand Cordgrass Marsh,90,1.5,0,0,100,0,0,1.5,none,,50m x 50m grid cell,
+AA40218,9/20/2012 0:00,483806,2821167,helicopter,MFGn,Sand Cordgrass Marsh,90,1.5,0,5,95,0,1.5,1.5,none,,50m x 50m grid cell,
+AA40244,9/20/2012 0:00,485856,2819917,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,22,100,0,0,22,0,0,none,,50m x 50m grid cell,
+AA40013,9/20/2012 0:00,488906,2820017,helicopter,MSGj,Black Rush Marsh,100,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40195,9/20/2012 0:00,488506,2821167,helicopter,WSoS,Cabbage Palm Lowland-Shrubs,100,20,20,80,0,20,4,0,none,EsD,50m x 50m grid cell,WMaO may also be acceptable
+AA40133,9/20/2012 0:00,487256,2821017,helicopter,MFGn,Sand Cordgrass Marsh,90,1.5,0,10,90,0,1.5,1.5,none,,50m x 50m grid cell,Island of lagrac on E.
+AA40027,9/20/2012 0:00,486656,2822117,helicopter,CMcGj,Buttonwood Scrub-Black Rush Marsh,70,4,0,50,50,0,4,2,none,,50m x 50m grid cell,
+AA40124,9/20/2012 0:00,487456,2823217,helicopter,MFGn,Sand Cordgrass Marsh,90,2,0,0,100,0,0,2,none,,50m x 50m grid cell,Ponds with chara.
+AA40021,9/20/2012 0:00,489806,2822867,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,20,75,20,5,20,4,,none,,50m x 50m grid cell,
+AA40007,9/20/2012 0:00,491556,2823917,helicopter,SSBT,Transitional Bayhead Shrubland,100,4,30,50,20,15,4,1,none,"EsS, ElS",50m x 50m grid cell,Point from Jimi Sadle. Exotic lygmic 20perc of cell.
+AA40245,9/20/2012 0:00,490456,2825067,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,80,4,0,80,20,0,4,1,none,,50m x 50m grid cell,
+AA40197,9/20/2012 0:00,488956,2825167,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,90,4,40,55,5,10,4,1,none,EsS,50m x 50m grid cell,Schinus cover 10%. Shrubland with some emergent trees.
+AA40202,9/20/2012 0:00,487756,2825317,helicopter,SMc,Buttonwood Shrubland,90,4,30,40,30,20,4,1,none,EsS,50m x 50m grid cell,Shrubland with some emergent trees.
+AA40090,9/20/2012 0:00,487456,2825567,helicopter,SSBT,Transitional Bayhead Shrubland,100,4,30,50,20,10,4,1,none,,50m x 50m grid cell,
+AA40099,9/20/2012 0:00,487856,2826467,helicopter,SMXcr,Buttonwood-Red Mangrove Shrubland,90,20,30,50,20,20,4,1,none,,50m x 50m grid cell,Exotic lygmic 5perc of cell. Shrubland with some emergent trees
+AA40134,9/20/2012 0:00,487056,2826667,helicopter,CMXclGc,Buttonwood-White Mangrove Scrub-Sawgrass Marsh,90,3,10,40,50,5,3,1,none,,50m x 50m grid cell,
+AA40098,9/20/2012 0:00,485756,2826417,helicopter,SMc,Buttonwood Shrubland,85,3,10,60,30,5,3,1,none,,50m x 50m grid cell,
+AA40060,9/20/2012 0:00,484906,2827667,helicopter,SMc,Buttonwood Shrubland,100,4,30,60,10,20,4,1,none,EsD,50m x 50m grid cell,
+AA40200,9/20/2012 0:00,483156,2827867,helicopter,MFGn,Sand Cordgrass Marsh,90,1,0,10,90,0,3,1,none,,50m x 50m grid cell,
+AA40079,9/20/2012 0:00,482356,2828417,helicopter,WMa,Black Mangrove Woodland,100,25,30,50,20,25,3,1,none,EsS,50m x 50m grid cell,
+AA40035,9/20/2012 0:00,480656,2830067,helicopter,FMa,Black Mangrove Forest,85,22,80,20,0,22,4,0,none,,50m x 50m grid cell,
+AA40212,9/20/2012 0:00,479306,2828767,helicopter,FMa,Black Mangrove Forest,90,20,80,20,0,20,4,0,none,,50m x 50m grid cell,Many birds including white egrets tricolored herons.
+AA40247,9/20/2012 0:00,470956,2837667,helicopter,ONWo,Open Water,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA40214,9/20/2012 0:00,475306,2835317,helicopter,FMa,Black Mangrove Forest,95,25,90,10,0,25,4,0,none,,50m x 50m grid cell,
+AA40067,9/20/2012 0:00,475456,2834917,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,25,90,10,0,25,4,0,none,,50m x 50m grid cell,
+AA40217,9/20/2012 0:00,475906,2835017,helicopter,FMa,Black Mangrove Forest,85,22,80,10,10,22,4,1,none,,50m x 50m grid cell,
+AA40163,9/20/2012 0:00,475706,2834467,helicopter,FMa,Black Mangrove Forest,90,25,90,10,0,25,4,0,none,,50m x 50m grid cell,
+AA40187,9/20/2012 0:00,477606,2832917,helicopter,Fma,Black Mangrove Forest,80,10,70,20,10,10,,1,none,,50m x 50m grid cell,
+AA40158,9/20/2012 0:00,480206,2833367,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,18,70,20,10,18,4,1,none,,50m x 50m grid cell,
+AA40167,9/20/2012 0:00,479856,2834967,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,22,100,0,0,22,0,0,none,,50m x 50m grid cell,
+AA40201,9/20/2012 0:00,478356,2835367,helicopter,WMaO,Black Mangrove Woodland-Open Marsh,70,20,50,40,10,20,4,1,none,,50m x 50m grid cell,
+AA40056,9/20/2012 0:00,475706,2836417,helicopter,CMaSb,Black Mangrove Scrub-Saltwort Marsh,60,4,0,50,50,0,4,1,none,,50m x 50m grid cell,
+AA40188,9/20/2012 0:00,474956,2837167,helicopter,CMaO,Black Mangrove Scrub-Open Marsh,60,3,10,70,20,8,3,1,none,,50m x 50m grid cell,No photos taken. Only 12% herb cover
+AA40040,9/20/2012 0:00,473906,2839917,helicopter,FMa,Black Mangrove Forest,90,22,90,10,0,22,4,0,none,,50m x 50m grid cell,
+AA40039,9/20/2012 0:00,473756,2839917,helicopter,FMa,Black Mangrove Forest,90,22,90,10,0,22,4,0,none,,50m x 50m grid cell,
+AA40112,9/20/2012 0:00,474506,2840217,helicopter,FMa,Black Mangrove Forest,90,20,80,15,5,20,4,1,none,,50m x 50m grid cell,
+AA40012,9/20/2012 0:00,475306,2839867,helicopter,CMlO,White Mangrove Scrub-Open Marsh,40,4,0,90,10,0,4,1,none,,50m x 50m grid cell,Only 4% herb cover
+AA40120,9/20/2012 0:00,476706,2840367,helicopter,FMXX,Mixed Mangrove Forest-Mixed,80,18,90,10,0,18,4,0,none,,50m x 50m grid cell,
+AA40019,9/20/2012 0:00,477056,2840217,helicopter,Fmr,Red Mangrove Forest,80,15,90,10,0,15,4,0,none,,50m x 50m grid cell,
+AA40108,9/20/2012 0:00,477206,2837967,helicopter,FMXX,Mixed Mangrove Forest-Mixed,80,10,70,30,0,10,4,0,none,,50m x 50m grid cell,
+AA40101,9/20/2012 0:00,478756,2837767,helicopter,Fma,Black Mangrove Forest,90,20,60,40,0,20,4,0,none,,50m x 50m grid cell,
+AA40236,9/20/2012 0:00,480756,2835767,helicopter,SMc,Buttonwood Shrubland,90,20,20,60,20,20,4,1,none,EsS,50m x 50m grid cell,
+AA40228,9/20/2012 0:00,482656,2836967,helicopter,SMr,Red Mangrove Shrubland,90,4,5,85,10,,4,1,none,,50m x 50m grid cell,
+AA40139,9/20/2012 0:00,483906,2836117,helicopter,FMr,Red Mangrove Forest,95,10,60,39,1,10,4,,none,,50m x 50m grid cell,
+AA40115,9/20/2012 0:00,485806,2836167,helicopter,SMc,Buttonwood Shrubland,70,4,20,60,20,10,4,1,none,,50m x 50m grid cell,
+AA40238,9/20/2012 0:00,486106,2837667,helicopter,SSBT,Transitional Bayhead Shrubland,70,4,20,60,20,10,4,1,none,,50m x 50m grid cell,
+AA40086,9/21/2012 0:00,484956,2838467,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,85,4,0,40,60,0,4,2,none,,50m x 50m grid cell,Bayhead species 40% of shrub layer
+AA40001,9/21/2012 0:00,483706,2838317,helicopter,CSrGc,Falsewillow Scrub-Sawgrass Marsh,100,1,0,15,85,0,1,1,none,ElS,50m x 50m grid cell,Point from Jimi Sadle. Exotic lygmic 26perc of cell.
+AA40043,9/21/2012 0:00,482606,2839417,helicopter,ONWo,Open Water,5,20,50,50,0,20,4,0,none,,50m x 50m grid cell,Found ONWo. Classified ONWo but recorded vegetation data for land.
+AA40116,9/21/2012 0:00,481256,2840217,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,12,60,35,5,12,4,1,none,,50m x 50m grid cell,
+AA40160,9/21/2012 0:00,478956,2841867,helicopter,FMXcl,Buttonwood-White Mangrove Forest,100,10,50,30,20,10,4,1,none,,50m x 50m grid cell,
+AA40002,9/21/2012 0:00,481656,2841017,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,95,4,5,45,50,10,4,1,none,,50m x 50m grid cell,"Point from Jimi Sadle. Exotic lygmic 0perc of cell. Split cell, sawgrass dominates."
+AA40146,9/21/2012 0:00,485706,2840267,helicopter,CSBGc,Bayhead Swamp Scrub-Sawgrass Marsh,100,2,0,20,80,0,2,2,MFGtS,,50m x 50m grid cell,
+AA40073,9/21/2012 0:00,488106,2837517,helicopter,SMr,Red Mangrove Shrubland,70,4,5,85,10,10,4,1,none,,50m x 50m grid cell,
+AA40091,9/21/2012 0:00,488456,2839217,helicopter,CSBGc,Bayhead Swamp Scrub-Sawgrass Marsh,90,4,0,25,75,0,4,1,MFGtS,,50m x 50m grid cell,rhiman shrubs clumped at north in cell
+AA40154,9/21/2012 0:00,487956,2840967,helicopter,MFGe,Spikerush Marsh,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40061,9/21/2012 0:00,485156,2841367,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,85,3,0,50,50,0,3,1,below threshold,,50m x 50m grid cell,Split cell: CSBT at south and CMrGe at north. Classified both but dominant habitat is rhiman scrub
+AA40125,9/21/2012 0:00,485006,2842267,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,70,2,0,35,65,0,2,1,none,,50m x 50m grid cell,
+AA40114,9/21/2012 0:00,485206,2843967,helicopter,MFGe,Spikerush Marsh,70,1,0,20,80,0,2,1,below threshold,,50m x 50m grid cell,rhiman shrubs clumped at NE
+AA40100,9/21/2012 0:00,486806,2844117,helicopter,FSt,Cypress Forest,90,20,75,20,5,20,4,1,none,,50m x 50m grid cell,
+AA40032,9/21/2012 0:00,487156,2843017,helicopter,FSt,Cypress Forest,75,20,70,10,20,20,4,1,none,,50m x 50m grid cell,
+AA40075,9/21/2012 0:00,487906,2842367,helicopter,CStGe,Cypress Scrub-Spikerush Marsh,70,4,10,40,50,5,4,1,none,,50m x 50m grid cell,
+AA40109,9/21/2012 0:00,490056,2841017,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,60,1,0,0,100,0,0,1,none,,50m x 50m grid cell,
+AA40011,9/21/2012 0:00,482756,2848117,helicopter,MFGcSS,Short Sawgrass Marsh-Sparse,70,1,5,10,85,6,4,1,none,,50m x 50m grid cell,Two small tree islands.
+AA40211,9/21/2012 0:00,482356,2847617,helicopter,MFGcTS,Tall Sawgrass Marsh-Sparse,90,2,0,10,90,0,2,2,MFGtS,,50m x 50m grid cell,
+AA40113,9/21/2012 0:00,481756,2847567,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,80,2,0,70,30,0,2,1,none,,50m x 50m grid cell,
+AA40023,9/21/2012 0:00,478306,2850017,helicopter,CMXcrO,Buttonwood-Red Mangrove Scrub-Open Marsh,65,3,15,75,10,15,3,1,none,,50m x 50m grid cell,Herb cover 6.5%
+AA40022,9/21/2012 0:00,477106,2852217,helicopter,CMrGe,Red Mangrove Scrub-Spikerush Marsh,50,2,0,40,60,0,2,1,none,,50m x 50m grid cell,
+AA40118,9/21/2012 0:00,477106,2853167,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,80,3,5,75,20,5,3,1,below threshold,,50m x 50m grid cell,SSBT at E in cell.
+AA40184,9/21/2012 0:00,474906,2852417,helicopter,CMrGc,Red Mangrove Scrub-Sawgrass Marsh,70,2,0,35,65,0,2,1,none,,50m x 50m grid cell,
+AA40207,9/21/2012 0:00,472756,2851067,helicopter,FMl,White Mangrove Forest,90,20,60,30,10,20,4,2,none,,50m x 50m grid cell,
+AA40140,9/21/2012 0:00,475356,2850167,helicopter,SMr,Red Mangrove Shrubland,100,3,0,80,20,0,3,1,none,,50m x 50m grid cell,Found 30perc ONWo.
+AA40119,1/4/2013 0:00,468156,2848017,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,10,100,0,0,10,0,0,none,,50m x 50m grid cell,
+AA40225,1/4/2013 0:00,467056,2847767,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,12,100,0,0,12,0,0,none,,50m x 50m grid cell,
+AA40190,1/4/2013 0:00,468656,2846917,helicopter,FMa,Black Mangrove Forest,90,10,100,0,0,10,0,0,none,,50m x 50m grid cell,
+AA40170,1/4/2013 0:00,467406,2845067,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,95,15,100,0,0,15,0,0,none,,50m x 50m grid cell,
+AA40102,1/4/2013 0:00,469456,2845567,helicopter,WMaO,Black Mangrove Woodland-Open Marsh,80,12,30,60,10,12,4,1,none,,50m x 50m grid cell,
+AA40092,1/4/2013 0:00,470306,2846267,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,12,100,0,0,12,0,0,none,,50m x 50m grid cell,
+AA40058,1/4/2013 0:00,471156,2847217,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,90,12,100,0,0,12,0,0,none,,50m x 50m grid cell,
+AA40149,1/4/2013 0:00,472256,2846267,helicopter,FMXX,Mixed Mangrove Forest-Mixed,95,12,100,0,0,12,0,0,none,,50m x 50m grid cell,
+AA40180,1/4/2013 0:00,472806,2843567,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,10,100,0,0,10,0,0,none,,50m x 50m grid cell,Some 10perc dieback.
+AA40070,1/4/2013 0:00,471656,2842417,helicopter,ONWc,Creek,100,10,100,0,0,10,0,0,none,,50m x 50m grid cell,Classified land. Dominant feature is the water
+AA40227,1/4/2013 0:00,473956,2842667,helicopter,FMXar,Black Mangrove-Red Mangrove Forest,100,12,100,0,0,12,0,0,none,,50m x 50m grid cell,
+AA40241,1/4/2013 0:00,474806,2842317,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,10,100,0,0,10,0,0,none,,50m x 50m grid cell,
+AA40015,1/4/2013 0:00,474206,2844917,helicopter,FMXlr,White Mangrove-Red Mangrove Forest,90,15,90,0,10,15,0,1,none,,50m x 50m grid cell,
+AA40198,1/4/2013 0:00,473906,2845417,helicopter,FMXal,Black Mangrove-White Mangrove Forest,100,15,100,0,0,15,0,0,none,,50m x 50m grid cell,
+AA40024,1/4/2013 0:00,473706,2846367,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,15,95,5,0,15,4,0,none,,50m x 50m grid cell,No picture of datasheet
+AA40135,1/4/2013 0:00,474706,2845467,helicopter,FMr,Red Mangrove Forest,100,10,60,40,0,10,3,0,none,,50m x 50m grid cell,
+AA40169,1/4/2013 0:00,476006,2844417,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,15,100,0,0,15,0,0,none,,50m x 50m grid cell,
+AA40142,1/4/2013 0:00,477206,2843817,helicopter,SMr,Red Mangrove Shrubland,90,3,20,80,0,,3,0,none,,50m x 50m grid cell,
+AA40003,1/4/2013 0:00,478156,2843017,helicopter,MFGn,Sand Cordgrass Marsh,90,2,0,5,95,0,2,2,none,,50m x 50m grid cell,Point from Jimi Sadle. Exotic lygmic 0perc of cell.
+AA40239,1/4/2013 0:00,477656,2844367,helicopter,SMr,Red Mangrove Shrubland,95,3,0,100,0,0,3,0,none,,50m x 50m grid cell,
+AA40215,1/4/2013 0:00,476956,2844967,helicopter,FMXX,Mixed Mangrove Forest-Mixed,100,12,80,20,0,12,4,0,none,,50m x 50m grid cell,
+AA40005,1/4/2013 0:00,475656,2846067,helicopter,CSMGc,Wax Myrtle Scrub-Sawgrass Marsh,60,3,15,70,15,6,3,2,none,,50m x 50m grid cell,Point from Jimi Sadle. Exotic lygmic 15perc of cell.
+AA40006,1/4/2013 0:00,476106,2846567,helicopter,CSBTGc,Transitional Bayhead Swamp Scrub-Sawgrass Marsh,90,3,5,35,60,,3,2,none,,50m x 50m grid cell,Point from Jimi Sadle. Exotic lygmic 5perc of cell.
+AA40156,1/4/2013 0:00,477706,2845467,helicopter,SSBT,Transitional Bayhead Shrubland,100,3,10,50,40,5,3,1,none,,50m x 50m grid cell,
+AA40203,1/4/2013 0:00,478156,2845417,helicopter,ONWc,Creek,0,0,0,0,0,0,0,0,none,,50m x 50m grid cell,
+AA40182,1/4/2013 0:00,479706,2845417,helicopter,FMXcl,Buttonwood-White Mangrove Forest,100,7,80,20,0,7,4,0,none,,50m x 50m grid cell,
+AA40004,1/4/2013 0:00,480156,2845117,helicopter,MFGcTD,Tall Sawgrass Marsh-Dense,90,2,0,10,90,0,3,2,none,ElS,50m x 50m grid cell,Point from Jimi Sadle. Exotic lygmic 20perc of cell.
+AA40222,1/4/2013 0:00,481156,2844617,helicopter,CMlGc,White Mangrove Scrub-Sawgrass Marsh,30,1,0,50,50,0,1,1,none,,50m x 50m grid cell,
+AA40186,1/4/2013 0:00,480006,2847267,helicopter,SMc,Buttonwood Shrubland,95,3,0,80,20,0,3,2,none,,50m x 50m grid cell,
+AA40240,1/4/2013 0:00,478706,2847517,helicopter,SMr,Red Mangrove Shrubland,90,3,20,70,10,5,3,1,none,EsS,50m x 50m grid cell,Shrubland with some emergent trees
+AA40164,1/4/2013 0:00,477556,2848817,helicopter,SMXX,Mixed Mangrove Shrubland-Mixed,80,3,0,80,20,0,3,1,none,,50m x 50m grid cell,
+AA40018,1/4/2013 0:00,475856,2848617,helicopter,FMr,Red Mangrove Forest,100,12,75,20,5,12,3,1,none,,50m x 50m grid cell,
+AA30006,2/23/2012 0:00,496656,2807617,helicopter,CMlGj,White Mangrove Scrub-Black Rush Marsh,100,6,10,40,50,6,3,1,none,,50m x 50m grid cell,
+AA40168,9/20/2012 0:00,483506,2835317,helicopter,SMr,Red Mangrove Shrubland,90,4,0,90,10,0,4,1,none,,50m x 50m grid cell,

@@ -1,0 +1,7 @@
+keyword	keywordThesaurus
+Everglades	
+EVER	
+map	
+vegetation	
+accuracy assessment	
+accuracy	

@@ -1,0 +1,7 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Point_ID	predetermined name for the point visited in the field	character				
+Vegetation_Layer	the vegetative stratum where this species was observed	categorical				
+Percent_Cover	estimated percent cover of this species within the associated vegetation layer	numeric	percent			
+Species_Code	shorthand code for a plant species observed in the plot; typically the first three letters of the genus and first three of the species	character				
+Scientific_Name	scientific name of a plant species observed in the plot	character				
+Common_Name	common name of a plant species observed in the plot	character				

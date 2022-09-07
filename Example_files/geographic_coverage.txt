@@ -1,0 +1,2 @@
+geographicDescription	westBoundingCoordinate	eastBoundingCoordinate	northBoundingCoordinate	southBoundingCoordinate
+Everglades National Park	-81.518	-80.389	25.89	24.85
