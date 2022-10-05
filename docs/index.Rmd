@@ -13,17 +13,23 @@ This is an early version of this template. Please request enhancements and bug f
 
 # Detailed guide:
 
-  [Prerequisites for EML metadata creation](prereqs.html)
+  * [Prerequisites for EML metadata creation](prereqs.html)
   
-  [Download the template file and associated folders]
+  * [Download the template file and associated folders](https://github.com/nationalparkservice/EML_Template/zipball/master)
   
-  [Example EML creation]
+  * [Template with example EML creation](../EML_creation_template.R)
+  
+    * Two .csv data file inputs for the example:
+      * [qry_Export_AA_Points.csv](../Example_files/qry_Export_AA_Points.csv)
+      * [qry_Export_AA_VegetationDetails.csv](../Example_files/qry_Export_AA_VegetationDetails.csv)
+    
+    * [Example EML metadata file](../Example_files/EVER_AA_metadata.xml
 
-  [Functions for generating metadata templates](create_tmplts.html)
+  * [Functions for generating metadata templates](create_tmplts.html)
   
-  [Functions for editing metadata templates](edit_tmplts.html)
+  * [Guidance on editing metadata templates](edit_tmplts.html)
   
-  [A function to create EML metadata](create_eml.html)
+  * [A function to create EML metadata](create_eml.html)
 
 # Next Steps:
 
