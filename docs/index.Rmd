@@ -19,7 +19,7 @@ This is an early version of this template. Please request enhancements and bug f
   
   [Example EML creation]
 
-  [Functions for generating metadata templates](create_tmplts.hmtml)
+  [Functions for generating metadata templates](create_tmplts.html)
   
   [Functions for editing metadata templates](edit_tmplts.html)
   
