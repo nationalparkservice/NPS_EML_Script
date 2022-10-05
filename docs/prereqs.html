@@ -11,7 +11,7 @@
 
 
 
-<title>Overview</title>
+<title>Prerequisites</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -361,42 +361,57 @@ pre code {
 
 
 
-<h1 class="title toc-ignore">Overview</h1>
+<h1 class="title toc-ignore">Prerequisites</h1>
 
 </div>
 
 
-<div id="guidance-for-using-emlassemblyline-for-nps" class="section level2">
-<h2>Guidance for using EMLassemblyline for NPS</h2>
-<p>This repo contains a template and instructions for using
-EMLassemblyline to generate EML metadata for NPS data packages. It is
-expected that the product of EMLassemblyline will require additional
-editing, which must be accomplished using the <a href="https://github.com/nationalparkservice/EMLeditor">R/EMLeditor</a>
-package.</p>
-<p>This is an early version of this template. Please request
-enhancements and bug fixes through <a href="https://github.com/nationalparkservice/NPS_EML_Template/issues">Issues</a>.</p>
+<div id="prior-to-generating-eml-you-will-need-the-following" class="section level1">
+<h1>Prior to generating EML you will need the following:</h1>
+<div id="data" class="section level3">
+<h3>Data</h3>
+<p>A set of fully QA/QC’d data files in .csv format. If these are
+exported from a database, you may want to think strategically about what
+those files look like and how they will be accessed and utilized by
+future users of the data package (including, potentially, yourself!). It
+is worth running through the example metadata creation to understand how
+these files will be used.</p>
+<p>Data files must be encoded in UTF-8 format. If aren’t sure whether
+your .csvs are in UTF-8 you can convert them to UTF-8. Opening the .csv
+in Excel, then choose to File from the main menu and the “Save As”
+option. Finally, select “CSV UTF-8 (Comma delimited) (*.csv)“) as the
+file format from the drop-down menu.</p>
+<p>All of your files for a single data pakage must be in the same
+directory. There should be no additional .csv files in this
+directory.</p>
 </div>
-<div id="quickstart" class="section level1">
-<h1>Quickstart:</h1>
-<p>To jump right into creating EML, check out our <a href="README.html">quickstart quide</a></p>
+<div id="software" class="section level3">
+<h3>Software</h3>
+<p>Install R (and probably Rstudio) installed on your computer. These
+are both available in Software Center. See the <a href="https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx">R
+Advisory Group’s website</a> for more information. You will also need to
+install the R package EMLassemblyline as well as some other packages
+from CRAN:</p>
+<pre class="r"><code>&gt;install.packages(c(&quot;EMLassemblyline&quot;, &quot;lubridate&quot;, &quot;tidyverse&quot;)</code></pre>
 </div>
-<div id="detailed-guide" class="section level1">
-<h1>Detailed guide:</h1>
-<p><a href="prereqs.html">Prerequisites for EML metadata
-creation</a></p>
-<p>[Download the template file and associated folders]</p>
-<p>[Example EML creation]</p>
-<p><a href="create_tmplts.hmtml">Functions for generating metadata
-templates</a></p>
-<p><a href="edit_tmplts.html">Functions for editing metadata
-templates</a></p>
-<p><a href="create_eml.html">A function to create EML metadata</a></p>
+<div id="internet-access" class="section level3">
+<h3>Internet access</h3>
+<p>A strong internet connection, particularly if you have taxonomic
+information. EMLassemblyline do API searches of various taxonomic
+databases and use the scientific names in your data files to populate
+taxonomic coverage fields from Kingdom down to species (and beyond).</p>
 </div>
-<div id="next-steps" class="section level1">
-<h1>Next Steps:</h1>
+<div id="ms-excel" class="section level3">
+<h3>MS excel</h3>
+<p>Access to MS excel (or any other spreadsheet type program). This will
+really help editing the tab-delimited .txt template files generated
+while using EMLassemblyline.</p>
 </div>
-<div id="additional-documentation" class="section level1">
-<h1>Additional Documentation</h1>
+<div id="a-text-editor" class="section level3">
+<h3>A text editor</h3>
+<p>Access to notepad or other text editor (NOT MS Word) for writing
+abstracts, etc. while avoiding non-UTF-8 encoded characters.</p>
+</div>
 </div>
 
 

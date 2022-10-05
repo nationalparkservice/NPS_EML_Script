@@ -11,7 +11,7 @@
 
 
 
-<title>Overview</title>
+<title>Make EML</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -361,43 +361,24 @@ pre code {
 
 
 
-<h1 class="title toc-ignore">Overview</h1>
+<h1 class="title toc-ignore">Make EML</h1>
 
 </div>
 
 
-<div id="guidance-for-using-emlassemblyline-for-nps" class="section level2">
-<h2>Guidance for using EMLassemblyline for NPS</h2>
-<p>This repo contains a template and instructions for using
-EMLassemblyline to generate EML metadata for NPS data packages. It is
-expected that the product of EMLassemblyline will require additional
-editing, which must be accomplished using the <a href="https://github.com/nationalparkservice/EMLeditor">R/EMLeditor</a>
-package.</p>
-<p>This is an early version of this template. Please request
-enhancements and bug fixes through <a href="https://github.com/nationalparkservice/NPS_EML_Template/issues">Issues</a>.</p>
-</div>
-<div id="quickstart" class="section level1">
-<h1>Quickstart:</h1>
-<p>To jump right into creating EML, check out our <a href="README.html">quickstart quide</a></p>
-</div>
-<div id="detailed-guide" class="section level1">
-<h1>Detailed guide:</h1>
-<p><a href="prereqs.html">Prerequisites for EML metadata
-creation</a></p>
-<p>[Download the template file and associated folders]</p>
-<p>[Example EML creation]</p>
-<p><a href="create_tmplts.hmtml">Functions for generating metadata
-templates</a></p>
-<p><a href="edit_tmplts.html">Functions for editing metadata
-templates</a></p>
-<p><a href="create_eml.html">A function to create EML metadata</a></p>
-</div>
-<div id="next-steps" class="section level1">
-<h1>Next Steps:</h1>
-</div>
-<div id="additional-documentation" class="section level1">
-<h1>Additional Documentation</h1>
-</div>
+<p>The <code>make_eml()</code> function renders templates (and input
+arguments) into EML metadata (click <code>make_eml()</code> for the docs
+and <a href="https://drive.google.com/file/d/13TfCqLQ4t6awYvLHdmF5oREPDchfGeCG/view?usp=sharing"><strong>edi.260.1.xml</strong></a>
+for an example EML file).</p>
+<p><code>make_eml()</code> insists on access to the data objects to keep
+users from the monotonous mind-numbing task of gathering physical
+attributes (e.g. file size, number of rows, checksums, etc.) each time a
+data object changes. This enables automatic rebuild of revised data
+object EML as long as the structure remains constant (i.e. variable
+types and definitions don’t change, only new records are added). This
+highlights the benefit of creating data with stable attributes not to
+mention for the consideration of downstream user workflows depending on
+a specific input data structure.</p>
 
 
 

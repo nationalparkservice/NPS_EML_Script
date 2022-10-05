@@ -11,7 +11,7 @@
 
 
 
-<title>Overview</title>
+<title>Template metadata</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -361,42 +361,56 @@ pre code {
 
 
 
-<h1 class="title toc-ignore">Overview</h1>
+<h1 class="title toc-ignore">Template metadata</h1>
 
 </div>
 
 
-<div id="guidance-for-using-emlassemblyline-for-nps" class="section level2">
-<h2>Guidance for using EMLassemblyline for NPS</h2>
-<p>This repo contains a template and instructions for using
-EMLassemblyline to generate EML metadata for NPS data packages. It is
-expected that the product of EMLassemblyline will require additional
-editing, which must be accomplished using the <a href="https://github.com/nationalparkservice/EMLeditor">R/EMLeditor</a>
-package.</p>
-<p>This is an early version of this template. Please request
-enhancements and bug fixes through <a href="https://github.com/nationalparkservice/NPS_EML_Template/issues">Issues</a>.</p>
-</div>
-<div id="quickstart" class="section level1">
-<h1>Quickstart:</h1>
-<p>To jump right into creating EML, check out our <a href="README.html">quickstart quide</a></p>
-</div>
-<div id="detailed-guide" class="section level1">
-<h1>Detailed guide:</h1>
-<p><a href="prereqs.html">Prerequisites for EML metadata
-creation</a></p>
-<p>[Download the template file and associated folders]</p>
-<p>[Example EML creation]</p>
-<p><a href="create_tmplts.hmtml">Functions for generating metadata
-templates</a></p>
-<p><a href="edit_tmplts.html">Functions for editing metadata
-templates</a></p>
-<p><a href="create_eml.html">A function to create EML metadata</a></p>
-</div>
-<div id="next-steps" class="section level1">
-<h1>Next Steps:</h1>
-</div>
-<div id="additional-documentation" class="section level1">
-<h1>Additional Documentation</h1>
+<div id="functions" class="section level2">
+<h2>Functions</h2>
+<p>Metadata templates store content that is later converted to EML. Most
+templating functions read a data object, to extract as much information
+as possible, then writes it to file for the user to validate the
+inferred content and add any missing info. Each function focuses on a
+data feature enabling a modular build of the metadata (not all data
+contain the same features). The current set of templating functions are
+(click function names for docs):</p>
+<ul>
+<li><strong><code>template_core_metadata()</code></strong> Describes
+core information of a data package (abstract, methods, keywords,
+personnel, license). Communicates what the data are, why and how they
+were created, who was involved in their creation, and under what terms
+the data may be used.</li>
+<li><strong><code>template_table_attributes()</code></strong> Describes
+columns of a data table (classes, units, datetime formats, missing value
+codes).</li>
+<li><strong><code>template_categorical_variables()</code></strong>
+Describes categorical variables of a data table (if any columns are
+classified as categorical in table attributes template).</li>
+<li><strong><code>template_geographic_coverage()</code></strong>
+Describes where the data were collected.</li>
+<li><strong><code>template_taxonomic_coverage()</code></strong>
+Describes biological organisms occuring in the data and helps resolve
+them to authority systems. If matches can be made, then the full
+taxonomic hierarchy of scientific and common names are automatically
+rendered in the final EML metadata. This enables future users to search
+on any taxonomic level of interest across data packages in
+repositories.</li>
+<li><strong><code>template_provenance()</code></strong> Describes source
+datasets. Explicitly listing the DOIs and/or URLs of input data help
+future users understand in greater detail how the derived data were
+created and may some day be able to assign attribution to the creators
+of referenced datasets.</li>
+<li><strong><code>template_annotations()</code></strong> Adds semantic
+meaning to metadata (variables, locations, persons, etc.) through links
+to ontology terms. This enables greater human understanding and machine
+actionability (linked data) and greatly improves the discoverability and
+interoperability of data in general.</li>
+</ul>
+<p><em>NOTE: Data objects should be UTF-8 encoded so metadata extracted
+during the templating process will also be UTF-8, which is the required
+by the EML schema. Non-UTF-8 encoded data may result in metadata
+appearing as malformed character strings.</em></p>
 </div>
 
 
