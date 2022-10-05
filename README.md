@@ -9,14 +9,14 @@ For a comprehensive guide to generating EML via EMLassemblyline, please consult 
 
 ### Prior to generating EML you will need the following:
 
-1) A set of fully QA/QC'd data files in .csv format. If these are exportd from a database, you may want to think strategically about what those files look like and how they will be accessed and utilized by future users of the data package (including, potentially, yourself!). These files must be encoded in UTF-8 format (if aren't sure whether your .csvs are in UTF-8 you can convert them by opening the .csv in Excel, you can choose to File > Save As and then select "CSV UTF-8 (Comma delimited) (*.csv)").
+1) Data: A set of fully QA/QC'd data files in .csv format. If these are exportd from a database, you may want to think strategically about what those files look like and how they will be accessed and utilized by future users of the data package (including, potentially, yourself!). These files must be encoded in UTF-8 format (if aren't sure whether your .csvs are in UTF-8 you can convert them by opening the .csv in Excel, you can choose to File > Save As and then select "CSV UTF-8 (Comma delimited) (*.csv)").
 
-2) R (and probably Rstudio) installed on your computer. You will need to install the R package EMLassemblyline as well as some other packages from CRAN:
+2) Software: R (and probably Rstudio) installed on your computer. These are both available in Software Center. See the [R Advisory Group's website](https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx) for more information. You will also need to install the R package EMLassemblyline as well as some other packages from CRAN:
 ```r
 >install.packages(c("EMLassemblyline", "lubridate", "tidyverse")
 ```
 
-3) A strong internet connection, particularly if you have taxonomic information as EMLassemblyline will use scientific names to populate taxonomic coverage fields from Kingdom down to species (and beyond).
+3) Internet access: A strong internet connection, particularly if you have taxonomic information as EMLassemblyline will use scientific names to populate taxonomic coverage fields from Kingdom down to species (and beyond).
 
 4) Access to MS excel or other spreadsheet type program (this will really help editing tab-delimited files)
 
