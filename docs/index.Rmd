@@ -2,12 +2,29 @@
 title: "Overview"
 output: html_document
 ---
-
-# NPS_EML_Template: guidance for using EMLassemblyline for NPS
+## Guidance for using EMLassemblyline for NPS
 
 This repo contains a template and instructions for using EMLassemblyline to generate EML metadata for NPS data packages. It is expected that the product of EMLassemblyline will require additional editing, which must be accomplished using the [R/EMLeditor](https://github.com/nationalparkservice/EMLeditor) package.
 
 This is an early version of this template. Please request enhancements and bug fixes through [Issues](https://github.com/nationalparkservice/NPS_EML_Template/issues).
 
 # Quickstart:
-To jump right into creating EML, check out our [quickstart quide](../README.html)
+  To jump right into creating EML, check out our [quickstart quide](README.html)
+
+# Detailed guide:
+
+  [Prerequisites for EML metadata creation](prereqs.html)
+  
+  [Download the template file and associated folders]
+  
+  [Example EML creation]
+
+  [Functions for generating metadata templates](create_tmplts.hmtml)
+  
+  [Functions for editing metadata templates](edit_tmplts.html)
+  
+  [A function to create EML metadata](create_eml.html)
+
+# Next Steps:
+
+# Additional Documentation
