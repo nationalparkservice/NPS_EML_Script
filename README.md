@@ -3,7 +3,7 @@ This repo contains a template and instructions for using EMLassemblyline to gene
 
 This is an early version of this template. Please request enhancements and bug fixes through [Issues](https://github.com/nationalparkservice/NPS_EML_Template/issues).
 
-For a comprehensive guide to generating EML via EMLassemblyline, please consult the github website.
+For a comprehensive guide to generating EML via EMLassemblyline, please consult the github website (currently under construction).
 
 # Quickstart:
 
