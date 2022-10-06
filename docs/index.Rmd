@@ -27,7 +27,7 @@ This is an early version of this template. Please request enhancements and bug f
     
     * [Example EML metadata file](../Example_files/EVER_AA_metadata.xml)
     
-  * A step-by-step guide to using the Template (**under development!**)
+  * A [step-by-step guide](stepbystep.html) for using the Template
   
   * Details of specific functions and how to edit the templates:
 
@@ -44,8 +44,9 @@ The example EML file [EVER_AA_metadata.xml](Example_files/EVER_AA_metadata.xml) 
 For a detailed workflow on how to use EMLeditor to generate the highest quality metadata, please see (**under development**)
 
 # Additional Documentation
-1) The NPS guidelines for creating EML using EMLassemblyline on github
-2) The original [EDI guidelines](https://ediorg.github.io/EMLassemblyline/articles/edit_tmplts.html) for creating EML
+1.    The original [EDI guidelines](https://ediorg.github.io/EMLassemblyline/articles/edit_tmplts.html) for creating EML.
+2.    Additional [information about EML](https://eml.ecoinformatics.org/).
+3.    The official [EML schema](https://eml.ecoinformatics.org/schema/index.html).
 
-#Acknowledgements
+# Acknowledgements
 EMLassemblyline and much of the excellent original documentation was developed by the Environmental Data Initiative. We have modified and annotated that documentation to make it more relevant to NPS.
