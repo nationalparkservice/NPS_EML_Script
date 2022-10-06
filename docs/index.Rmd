@@ -26,16 +26,22 @@ This is an early version of this template. Please request enhancements and bug f
       * [qry_Export_AA_VegetationDetails.csv](../Example_files/qry_Export_AA_VegetationDetails.csv)
     
     * [Example EML metadata file](../Example_files/EVER_AA_metadata.xml)
+    
+  * A step-by-step guide to using the Template (**under development!**)
+  
+  * Details of specific functions and how to edit the templates:
 
-  * [Functions for generating metadata templates](create_tmplts.html)
+    * [Functions for generating metadata templates](create_tmplts.html)
   
-  * [Guidance on editing metadata templates](edit_tmplts.html)
+    * [Guidance on editing metadata templates](edit_tmplts.html)
   
-  * [A function to create EML metadata](create_eml.html)
+    * [A function to create EML metadata](create_eml.html)
 
 # Next Steps:
 
-The example EML file [EVER_AA_metadata.xml](Example_files/EVER_AA_metadata.xml) as well as the EML you have created are not the final step in NPS EML creation. At this point you have filled in much of the important scientific information in the metadata. However, to fully utilize DataStore's new capablities and to make sure your data are easily discoverable and reusable, you still need to edit the EML file to provide NPS-specific information (e.g. publisher, unit connections, DOIs, etc). Currently, the only tool available is [R/EMLeditor](https://github.com/nationalparkservice/EMLeditor). Manually editing your metadata by hand is not recommended.
+The example EML file [EVER_AA_metadata.xml](Example_files/EVER_AA_metadata.xml) as well as the EML you have created are not the final step in NPS EML creation. At this point you have filled in much of the important scientific information in the metadata. However, to fully utilize DataStore's new capabilities and to make sure your data are easily discoverable and reusable, you still need to edit the EML file to provide NPS-specific information (e.g. publisher, unit connections, DOIs, etc). Currently, the only tool available is [R/EMLeditor](https://github.com/nationalparkservice/EMLeditor). Manually editing your metadata by hand is not recommended.
+
+For a detailed workflow on how to use EMLeditor to generate the highest quality metadata, please see (**under development**)
 
 # Additional Documentation
 1) The NPS guidelines for creating EML using EMLassemblyline on github

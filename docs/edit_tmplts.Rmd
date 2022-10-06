@@ -71,9 +71,8 @@ Columns:
 
 ## intellectual_rights.txt
 
-Describes how the data may be used. Releasing without restriction ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)) or with minimal attribution ([CC BY](https://creativecommons.org/licenses/by/4.0/)) maximizes value and future use.
+Describes how the data may be used. Releasing without restriction ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
 
-When no CUI are present, CCO is recommended.
 
 [__Example__](https://docs.google.com/document/d/1sNlIY8lAGg1WfFez-PvmP_qS4B3AHEScyqs7sAigrj8/edit?usp=sharing)
 
