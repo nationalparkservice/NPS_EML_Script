@@ -13,8 +13,13 @@ This is a step by step process where each section should be reviewed and edited 
 
 The final section has the *make_eml()* function to put together the full metadata file.
 
-Created By: Judd Patterson by [judd_patterson@nps.gov](mailto:judd_patterson@nps.gov?Subject=NPS EML Template)
-Last Updated: `r Sys.Date()` by Rob Baker [robert_baker@nps.gov](mailto:robert_baker@nps.gov?Subject=NPS EML Template)
+***
+
+Created By: Judd Patterson ([judd_patterson@nps.gov](mailto:judd_patterson@nps.gov?Subject=NPS EML Template))
+
+Last Updated: `r Sys.Date()` by Rob Baker ([robert_baker@nps.gov](mailto:robert_baker@nps.gov?Subject=NPS EML Template))
+
+***
 
 # Before you start
 ## Install required software & packages
