@@ -381,8 +381,8 @@ and edited if necessary, and run one by one. Several sections are
 labeled as optional and may only apply to certain data packages.</p>
 <p>The final section has the <em>make_eml()</em> function to put
 together the full metadata file.</p>
-<p>Created By: Judd Patterson by <a href="mailto:judd_patterson@nps.gov">judd_patterson@nps.gov</a> Last
-Updated: 2022-10-06 by Rob Baker (<a href="mailto:robert_baker@nps.gov" class="email">robert_baker@nps.gov</a>)(<a href="mailto:robert_baker@nps.gov" class="uri">mailto:robert_baker@nps.gov</a>)</p>
+<p>Created By: Judd Patterson by <a href="mailto:judd_patterson@nps.gov?Subject=NPS%20EML%20Template">judd_patterson@nps.gov</a>
+Last Updated: 2022-10-06 by Rob Baker <a href="mailto:robert_baker@nps.gov?Subject=NPS%20EML%20Template">robert_baker@nps.gov</a></p>
 </div>
 <div id="before-you-start" class="section level1">
 <h1>Before you start</h1>
@@ -494,10 +494,10 @@ consider fuzzing them rather than completely removing them. One good
 tool for fuzzing geographic coordinates is the dp_fuzzLocation function
 in the <a href="https://github.com/nationalparkservice/QCkit">R/QCkit</a>
 package.</p>
-<pre class="r"><code>  data_coordinates_table &lt;- &quot;qry_Export_AA_Points.csv&quot;
-  data_latitude &lt;- &quot;Latitude&quot;
-  data_longitude &lt;- &quot;Longitude&quot;
-  data_sitename &lt;- &quot;SiteName&quot;</code></pre>
+<pre class="r"><code>data_coordinates_table &lt;- &quot;qry_Export_AA_Points.csv&quot;
+data_latitude &lt;- &quot;Latitude&quot;
+data_longitude &lt;- &quot;Longitude&quot;
+data_sitename &lt;- &quot;SiteName&quot;</code></pre>
 </div>
 <div id="start-and-end-date-for-data-collection." class="section level2">
 <h2>Start and end date for data collection.</h2>
@@ -508,8 +508,8 @@ that complies with the International Standards Organization’s standard
 8601. The recommended format for EML is: #YYYY-MM-DD, where Y is the
 four digit year, M is the two digit month code (01 - 12 for example,
 January = 01), and D is the two digit day of the month (01 - 31).</p>
-<pre class="r"><code>  startdate &lt;- mdy(&quot;2010-01-26&quot;)
-  enddate &lt;- mdy(&quot;2013-01-04&quot;)</code></pre>
+<pre class="r"><code>startdate &lt;- mdy(&quot;2010-01-26&quot;)
+enddate &lt;- mdy(&quot;2013-01-04&quot;)</code></pre>
 </div>
 <div id="optional-items" class="section level2">
 <h2>Optional Items:</h2>
@@ -608,7 +608,7 @@ for testing/development purposes.</p>
 should see ‘Validation passed’). Additionally there could be some issues
 that review as well. Run the function ‘issues()’ at the end of the
 process to get feedback on items that might be missing.</p>
-<pre class="r"><code>  make_eml(path = working_folder,
+<pre class="r"><code>make_eml(path = working_folder,
            dataset.title = package_title,
            data.table = data_files,
            data.table.name = data_names,
