@@ -21,8 +21,9 @@ Last Updated: `r Sys.Date()` by Rob Baker ([robert_baker@nps.gov](mailto:robert_
 
 ***
 
-# Before you start
-## Install required software & packages
+# Before you Start
+
+## Install Required Software:
 You will need to install R and will find RStudio very helpful. Both can be installed from Software Center without need for admin rights on your machine. For more information, see the R Advisory Group's [website](https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx).
 
 If you've never installed EMLassemblyline, you'll needed to install it (as well as some other packages) and then load them into R's working memory:
@@ -39,14 +40,14 @@ library(lubridate)
 library(tidyverse)
 ```
 
-## Initiate a draft Reference in DataStore
+## Initiate a Draft Reference in DataStore:
 You will need to know the URLs of your data files. These will be located on DataStore. Got to DataStore, select "Create" from the green drop down menu and then choose "Draft Reference". For now, select "Tabular Dataset" as the reference type (Data Package Reference Type coming soon!). Make sure to take note of the 7-digit code for the Reference as you will need it later.
 
 Don't activate the reference yet!
 
 # Using the Template:
 
-## Provide some information about the data package as a whole:
+## Provide Information About the Data Package:
 
 ```{r packageDetails, echo=TRUE, eval=FALSE}
 #Metadata filename - this becomes the filename, so make sure it ends in _metadata to comply with the NPS data package specifications
@@ -59,14 +60,18 @@ package_title <- "TEST_Everglades National Park Accuracy Assessment (AA) Data Pa
 data_type <- "complete"
 ```
 
-## Files: local paths
+## Files: Local paths
 Tell EMLassemblyline where your files are (and what they are). 
+
 For vectors with more than one item, keep the order the same (i.e. item #1 should correspond to the same file in each vector).
 
 ```{r datafiles, echo=TRUE, eval=FALSE}
 #Path to data file(s). The default "getwd()" assumes that your working directory in R is the directory where your data files for your data package are.
+
 #to check your current working directory use >getwd()
+
 #To change your working directory use >setwd("path/to/my/datafiles"). 
+
 #Alternatively you can continue working in your current directory and assign the path to your data files to 'working_folder' instead of 'getwd()'
 working_folder <- getwd() 
 
@@ -80,7 +85,7 @@ data_names <- c("TEST_AA Point Data","TEST_AA Vegetation Data")
 data_descriptions <- c("TEST_Everglades Vegetation Map Accuracy Assessment point data","Everglades Vegetation Map Accuracy Assessment vegetation data")
 ```
 
-## File: ultimate URLs
+## Files: Ultimate URLs
 Tell EMLassemblyline where your files will ultimately be located.
 Create a vector of dataset URLs - for DataStore I recommend setting this to the main reference page. All data files from a single data package can be accessed from the same page so the URLs are the same.
 
@@ -102,7 +107,7 @@ data_taxa_table <- "qry_Export_AA_VegetationDetail.csv"
 data_taxa_field <- "Scientific_Name"
 ```
 
-## Geographic Coordinates
+## Geographic Coordinates:
 Tell EMLassemblyline where to find the table and fields that contain the geographic coordinates and site names that can be used to fill the geographic coverage metadata. Comment these out and do not run OPTIONAL 4 (below) if your data package does not contain geographic information.
 
 Coordinates must be in decimal degrees and include a minus sign (-) for latitudes south of the equator and longitudes west of the prime meridian. For points, repeat latitude and longitude coordinates in respective north/south and east/west columns. If you need to convert from UTMs, try using the UTMtoLL function in the [R/QCkit](https://github.com/nationalparkservice/QCkit) package.
@@ -118,7 +123,7 @@ data_longitude <- "Longitude"
 data_sitename <- "SiteName"
 ```
 
-## Start and end date for data collection.    
+## Start and End Dates:    
 The start date and end date This should indicate the first and last data point in the data package (across all files) and does not include any planning, pre- or post-processing time.  The format should be one that complies with the International Standards Organization's standard 8601. The recommended format for EML is:
 #YYYY-MM-DD, where Y is the four digit year, M is the two digit month code (01 - 12 for example, January = 01), and D is the two digit day of the month (01 - 31).
 
@@ -190,7 +195,7 @@ template_taxonomic_coverage(path = working_folder,
                             write.file = TRUE)
 ```
 
-## Make the EML!
+## Make the EML:
 Run this (it may take a little while) and see if it validates (you should see 'Validation passed'). Additionally there could be some issues that review as well. Run the function 'issues()' at the end of the process to get feedback on items that might be missing.
 
 ```{r makeEML, echo=TRUE, eval=FALSE}
@@ -205,5 +210,5 @@ make_eml(path = working_folder,
            package.id = metadata_id)
 ```
 
-# Once you've generated valid EML metadata
+# Finished? Not quite...
 Now that you have valid EML metadata, you need to add NPS-specific elements and fields. For instance, unit connections, DOIs, referencing a DRR, etc. To do that, use the [R/EMLeditor](https://github.com/nationalparkservice/EML_editor) package.

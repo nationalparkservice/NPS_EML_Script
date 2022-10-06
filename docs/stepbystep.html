@@ -387,9 +387,9 @@ together the full metadata file.</p>
 <hr />
 </div>
 <div id="before-you-start" class="section level1">
-<h1>Before you start</h1>
-<div id="install-required-software-packages" class="section level2">
-<h2>Install required software &amp; packages</h2>
+<h1>Before you Start</h1>
+<div id="install-required-software" class="section level2">
+<h2>Install Required Software:</h2>
 <p>You will need to install R and will find RStudio very helpful. Both
 can be installed from Software Center without need for admin rights on
 your machine. For more information, see the R Advisory Group’s <a href="https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx">website</a>.</p>
@@ -407,7 +407,7 @@ library(lubridate)
 library(tidyverse)</code></pre>
 </div>
 <div id="initiate-a-draft-reference-in-datastore" class="section level2">
-<h2>Initiate a draft Reference in DataStore</h2>
+<h2>Initiate a Draft Reference in DataStore:</h2>
 <p>You will need to know the URLs of your data files. These will be
 located on DataStore. Got to DataStore, select “Create” from the green
 drop down menu and then choose “Draft Reference”. For now, select
@@ -419,8 +419,8 @@ Reference as you will need it later.</p>
 </div>
 <div id="using-the-template" class="section level1">
 <h1>Using the Template:</h1>
-<div id="provide-some-information-about-the-data-package-as-a-whole" class="section level2">
-<h2>Provide some information about the data package as a whole:</h2>
+<div id="provide-information-about-the-data-package" class="section level2">
+<h2>Provide Information About the Data Package:</h2>
 <pre class="r"><code>#Metadata filename - this becomes the filename, so make sure it ends in _metadata to comply with the NPS data package specifications
 metadata_id &lt;- &quot;TEST_EVER_AA_metadata&quot;
 
@@ -431,13 +431,16 @@ package_title &lt;- &quot;TEST_Everglades National Park Accuracy Assessment (AA)
 data_type &lt;- &quot;complete&quot;</code></pre>
 </div>
 <div id="files-local-paths" class="section level2">
-<h2>Files: local paths</h2>
-<p>Tell EMLassemblyline where your files are (and what they are). For
-vectors with more than one item, keep the order the same (i.e. item #1
-should correspond to the same file in each vector).</p>
+<h2>Files: Local paths</h2>
+<p>Tell EMLassemblyline where your files are (and what they are).</p>
+<p>For vectors with more than one item, keep the order the same
+(i.e. item #1 should correspond to the same file in each vector).</p>
 <pre class="r"><code>#Path to data file(s). The default &quot;getwd()&quot; assumes that your working directory in R is the directory where your data files for your data package are.
+
 #to check your current working directory use &gt;getwd()
+
 #To change your working directory use &gt;setwd(&quot;path/to/my/datafiles&quot;). 
+
 #Alternatively you can continue working in your current directory and assign the path to your data files to &#39;working_folder&#39; instead of &#39;getwd()&#39;
 working_folder &lt;- getwd() 
 
@@ -450,8 +453,8 @@ data_names &lt;- c(&quot;TEST_AA Point Data&quot;,&quot;TEST_AA Vegetation Data&
 #Vector of dataset descriptions (about 10 words describing each file). Descriptions will be used in auto-generated tables within the ReadMe and DRR. If need to use more than about 10 words, consider putting that information in the abstract, methods, or additional info sections. Again, be sure these are in the same order as your data files!
 data_descriptions &lt;- c(&quot;TEST_Everglades Vegetation Map Accuracy Assessment point data&quot;,&quot;Everglades Vegetation Map Accuracy Assessment vegetation data&quot;)</code></pre>
 </div>
-<div id="file-ultimate-urls" class="section level2">
-<h2>File: ultimate URLs</h2>
+<div id="files-ultimate-urls" class="section level2">
+<h2>Files: Ultimate URLs</h2>
 <p>Tell EMLassemblyline where your files will ultimately be located.
 Create a vector of dataset URLs - for DataStore I recommend setting this
 to the main reference page. All data files from a single data package
@@ -472,7 +475,7 @@ this step and do not run OPTIONAL 5 (below).</p>
 data_taxa_field &lt;- &quot;Scientific_Name&quot;</code></pre>
 </div>
 <div id="geographic-coordinates" class="section level2">
-<h2>Geographic Coordinates</h2>
+<h2>Geographic Coordinates:</h2>
 <p>Tell EMLassemblyline where to find the table and fields that contain
 the geographic coordinates and site names that can be used to fill the
 geographic coverage metadata. Comment these out and do not run OPTIONAL
@@ -501,8 +504,8 @@ data_latitude &lt;- &quot;Latitude&quot;
 data_longitude &lt;- &quot;Longitude&quot;
 data_sitename &lt;- &quot;SiteName&quot;</code></pre>
 </div>
-<div id="start-and-end-date-for-data-collection." class="section level2">
-<h2>Start and end date for data collection.</h2>
+<div id="start-and-end-dates" class="section level2">
+<h2>Start and End Dates:</h2>
 <p>The start date and end date This should indicate the first and last
 data point in the data package (across all files) and does not include
 any planning, pre- or post-processing time. The format should be one
@@ -605,7 +608,7 @@ for testing/development purposes.</p>
 </div>
 </div>
 <div id="make-the-eml" class="section level2">
-<h2>Make the EML!</h2>
+<h2>Make the EML:</h2>
 <p>Run this (it may take a little while) and see if it validates (you
 should see ‘Validation passed’). Additionally there could be some issues
 that review as well. Run the function ‘issues()’ at the end of the
@@ -621,8 +624,8 @@ process to get feedback on items that might be missing.</p>
            package.id = metadata_id)</code></pre>
 </div>
 </div>
-<div id="once-youve-generated-valid-eml-metadata" class="section level1">
-<h1>Once you’ve generated valid EML metadata</h1>
+<div id="finished-not-quite" class="section level1">
+<h1>Finished? Not quite…</h1>
 <p>Now that you have valid EML metadata, you need to add NPS-specific
 elements and fields. For instance, unit connections, DOIs, referencing a
 DRR, etc. To do that, use the <a href="https://github.com/nationalparkservice/EML_editor">R/EMLeditor</a>
