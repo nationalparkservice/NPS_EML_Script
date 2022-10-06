@@ -390,9 +390,9 @@ together the full metadata file.</p>
 <h1>Before you Start</h1>
 <div id="install-required-software" class="section level2">
 <h2>Install Required Software:</h2>
-<p>You will need to install R and will find RStudio very helpful. Both
-can be installed from Software Center without need for admin rights on
-your machine. For more information, see the R Advisory Group’s <a href="https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx">website</a>.</p>
+<p>You will need to install R and may find RStudio helpful. Both can be
+installed from Software Center without need for admin rights on your
+machine. For more information, see the R Advisory Group’s <a href="https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx">website</a>.</p>
 <p>If you’ve never installed EMLassemblyline, you’ll needed to install
 it (as well as some other packages) and then load them into R’s working
 memory:</p>
@@ -430,8 +430,8 @@ package_title &lt;- &quot;TEST_Everglades National Park Accuracy Assessment (AA)
 #Description of data collection status - choose from &#39;ongoing&#39; or &#39;complete&#39;
 data_type &lt;- &quot;complete&quot;</code></pre>
 </div>
-<div id="files-local-paths" class="section level2">
-<h2>Files: Local paths</h2>
+<div id="files-local-path" class="section level2">
+<h2>Files: Local path</h2>
 <p>Tell EMLassemblyline where your files are (and what they are).</p>
 <p>For vectors with more than one item, keep the order the same
 (i.e. item #1 should correspond to the same file in each vector).</p>
@@ -453,8 +453,8 @@ data_names &lt;- c(&quot;TEST_AA Point Data&quot;,&quot;TEST_AA Vegetation Data&
 #Vector of dataset descriptions (about 10 words describing each file). Descriptions will be used in auto-generated tables within the ReadMe and DRR. If need to use more than about 10 words, consider putting that information in the abstract, methods, or additional info sections. Again, be sure these are in the same order as your data files!
 data_descriptions &lt;- c(&quot;TEST_Everglades Vegetation Map Accuracy Assessment point data&quot;,&quot;Everglades Vegetation Map Accuracy Assessment vegetation data&quot;)</code></pre>
 </div>
-<div id="files-ultimate-urls" class="section level2">
-<h2>Files: Ultimate URLs</h2>
+<div id="files-ultimate-url" class="section level2">
+<h2>Files: Ultimate URL</h2>
 <p>Tell EMLassemblyline where your files will ultimately be located.
 Create a vector of dataset URLs - for DataStore I recommend setting this
 to the main reference page. All data files from a single data package

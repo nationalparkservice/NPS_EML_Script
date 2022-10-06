@@ -24,7 +24,7 @@ Last Updated: `r Sys.Date()` by Rob Baker ([robert_baker@nps.gov](mailto:robert_
 # Before you Start
 
 ## Install Required Software:
-You will need to install R and will find RStudio very helpful. Both can be installed from Software Center without need for admin rights on your machine. For more information, see the R Advisory Group's [website](https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx).
+You will need to install R and may find RStudio helpful. Both can be installed from Software Center without need for admin rights on your machine. For more information, see the R Advisory Group's [website](https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx).
 
 If you've never installed EMLassemblyline, you'll needed to install it (as well as some other packages) and then load them into R's working memory:
 
@@ -60,7 +60,7 @@ package_title <- "TEST_Everglades National Park Accuracy Assessment (AA) Data Pa
 data_type <- "complete"
 ```
 
-## Files: Local paths
+## Files: Local path
 Tell EMLassemblyline where your files are (and what they are). 
 
 For vectors with more than one item, keep the order the same (i.e. item #1 should correspond to the same file in each vector).
@@ -85,7 +85,7 @@ data_names <- c("TEST_AA Point Data","TEST_AA Vegetation Data")
 data_descriptions <- c("TEST_Everglades Vegetation Map Accuracy Assessment point data","Everglades Vegetation Map Accuracy Assessment vegetation data")
 ```
 
-## Files: Ultimate URLs
+## Files: Ultimate URL
 Tell EMLassemblyline where your files will ultimately be located.
 Create a vector of dataset URLs - for DataStore I recommend setting this to the main reference page. All data files from a single data package can be accessed from the same page so the URLs are the same.
 
