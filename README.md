@@ -11,7 +11,7 @@ This is an early version of the NPS EML creation script. Please request enhancem
 
 # Comprehensive Guide 
 
-For a comprehensive guide to generating EML via EMLassemblyline for NPS data packages, please consult the accompanying NPS [EML Creation github website - DEV VERSION UPDATE LINK!](https://roblbaker.github.io/NPS_EML_Template/).
+For a comprehensive guide to generating EML via EMLassemblyline for NPS data packages, please consult the accompanying NPS [EML Creation github website - DEV VERSION UPDATE LINK!](https://roblbaker.github.io/NPS_EML_Script/).
 
 # Quickstart
 
