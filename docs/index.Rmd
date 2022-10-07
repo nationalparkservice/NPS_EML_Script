@@ -15,23 +15,23 @@ You can also directly access the [source files](https://github.com/nationalparks
 
 # Quickstart:
 
-  To jump right into creating EML, check out our [quickstart quide](../README.html)
+  To jump right into creating EML, check out our [quickstart quide](README.html)
 
 # Detailed guide:
 
   * [Prerequisites for EML metadata creation](prereqs.html)
   
-  * Download the NPS [EML Creation script and associated folders](https://github.com/nationalparkservice/EML_Template/zipball/master)
+  * Download the NPS [EML Creation script and associated folders](https://github.com/nationalparkservice/NPS_EML_Script/zipball/master)
   
-  * [NPS EML Script with example EML creation](../EML_Creation_Script.R)
+  * [NPS EML Script with example EML creation](https://github.com/nationalparkservice/NPS_EML_Script/EML_Creation_Script.R)
   
     * Two .csv data file inputs for the example:
     
-      * [qry_Export_AA_Points.csv](../Example_files/qry_Export_AA_Points.csv)
+      * [qry_Export_AA_Points.csv](https://github.com/nationalparkservice/NPS_EML_Script/Example_files/qry_Export_AA_Points.csv)
     
-      * [qry_Export_AA_VegetationDetails.csv](../Example_files/qry_Export_AA_VegetationDetails.csv)
+      * [qry_Export_AA_VegetationDetails.csv](https://github.com/nationalparkservice/NPS_EML_Script/Example_files/qry_Export_AA_VegetationDetails.csv)
     
-    * [Example EML metadata file](../Example_files/EVER_AA_metadata.xml)
+    * [Example EML metadata file](https://github.com/nationalparkservice/NPS_EML_Script/Example_files/EVER_AA_metadata.xml)
     
   * A [step-by-step guide](stepbystep.html) for using the NPS EML Creation Script
   
@@ -45,7 +45,7 @@ You can also directly access the [source files](https://github.com/nationalparks
 
 # Next Steps:
 
-The example EML file [EVER_AA_metadata.xml](Example_files/EVER_AA_metadata.xml) as well as the EML you have created are not the final step in NPS EML creation. At this point you have filled in much of the important scientific information in the metadata. However, to fully utilize DataStore's new capabilities and to make sure your data are easily discoverable and reusable, you still need to edit the EML file to provide NPS-specific information (e.g. publisher, unit connections, DOIs, etc). Currently, the only tool available is [R/EMLeditor](https://github.com/nationalparkservice/EMLeditor). Manually editing your metadata by hand is not recommended.
+The example EML file [EVER_AA_metadata.xml](https://github.com/nationalparkservice/NPS_EML_Script/EVER_AA_metadata.xml) as well as the EML you have created are not the final step in NPS EML creation. At this point you have filled in much of the important scientific information in the metadata. However, to fully utilize DataStore's new capabilities and to make sure your data are easily discoverable and reusable, you still need to edit the EML file to provide NPS-specific information (e.g. publisher, unit connections, DOIs, etc). Currently, the only tool available is [R/EMLeditor](https://github.com/nationalparkservice/EMLeditor). Manually editing your metadata by hand is not recommended.
 
 For a detailed workflow on how to use EMLeditor to generate the highest quality metadata, please see (**under development**)
 
