@@ -373,6 +373,10 @@ by the user and missing info added. Use spreadsheet and text editors for
 this process. Template specific guides are listed below.</p>
 <p><em>NOTES:</em></p>
 <ul>
+<li><em>Templates can be generated as .docx, .md, or .txt files. Here we
+focus on .txt. This is the default file format and also the simplest and
+least error-prone format.</em><br />
+</li>
 <li><em>Tabular templates: Leave empty cells blank, don’t fill with
 NAs.</em></li>
 <li><em>Free-text templates: Keep template content simple. Complex
@@ -381,6 +385,7 @@ formatting can lead to errors.</em></li>
 </div>
 <div id="abstract-.docx-.md-.txt" class="section level2">
 <h2>abstract (.docx, .md, .txt)</h2>
+<p><a href="https://docs.google.com/document/d/1c0hkaA8iLKhMBBvnvdvSJq8Y1g4CCUlSJG2a2MFCK08/edit?usp=sharing"><strong>Example</strong></a></p>
 <p>Describes the salient features of a dataset in a concise summary much
 like an abstract does in a journal article. It should cover what the
 data are and why they were created. A good rule of thumb is that an
@@ -392,29 +397,32 @@ data package but also for the Data Release Report (DRR).</p>
 <p>If you write your abstract in a word processor (such as MS Word) and
 paste it in to the abstract.txt template file, please pass it through a
 text editor (such as Notepad) to make sure it is UTF-8 encoded and does
-not have special characters.</p>
-<p><a href="https://docs.google.com/document/d/1c0hkaA8iLKhMBBvnvdvSJq8Y1g4CCUlSJG2a2MFCK08/edit?usp=sharing"><strong>Example</strong></a></p>
+not have special characters, including line breaks such as <br>.</p>
+<p><em>Note:</em> editing abstract.txt is best done via a text
+editor.</p>
 </div>
 <div id="methods-.docx-.md-.txt" class="section level2">
 <h2>methods (.docx, .md, .txt)</h2>
+<p><a href="https://docs.google.com/document/d/1a7BIGrmLrU6eTlIsQvWALU4moByYR3eND2_a42bxIkg/edit?usp=sharing"><strong>Example</strong></a></p>
 <p>Describes the data creation methods. Includes enough detail for
 future users to correctly use the data. Lists instrument descriptions,
 protocols, etc. Methods sections can include citations. It may be
 appropriate to cite the Protocol, datasets that were ingested to
 generate the data package, software (e.g. R), packages (e.g. dplyr,
 ggplot2) or custom scripts.</p>
-<p>Note: editing methods.txt is best done via a text editor.</p>
-<p><a href="https://docs.google.com/document/d/1a7BIGrmLrU6eTlIsQvWALU4moByYR3eND2_a42bxIkg/edit?usp=sharing"><strong>Example</strong></a></p>
+<p><em>Note:</em> editing methods.txt is best done via a text
+editor.</p>
 </div>
 <div id="keywords.txt" class="section level2">
 <h2>keywords.txt</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/1u9LzpfeyBMet4AMe9SLbHb8pRsHwT_7Qx87ZP-SlTKI/edit?usp=sharing"><strong>Example</strong></a></p>
 <p>Describes the data in a small set of terms. Keywords facilitate
 search and discovery on scientific terms, as well as names of research
 groups, field stations, and other organizations. Using a controlled
 vocabulary or thesaurus vastly improves discovery. We recommend using
 the <a href="http://vocab.lternet.edu/vocab/vocab/index.php">LTER
 Controlled Vocabulary</a> when possible.</p>
-<p>Note: editing keywords.txt is best done via a spreadsheet
+<p><em>Note:</em> editing keywords.txt is best done via a spreadsheet
 application.</p>
 <p>Columns:</p>
 <ul>
@@ -422,17 +430,27 @@ application.</p>
 <li><strong>keywordThesaurus</strong> URI of the vocabulary from which
 the keyword originates.</li>
 </ul>
-<p><a href="https://docs.google.com/spreadsheets/d/1u9LzpfeyBMet4AMe9SLbHb8pRsHwT_7Qx87ZP-SlTKI/edit?usp=sharing"><strong>Example</strong></a></p>
 </div>
 <div id="personnel.txt" class="section level2">
 <h2>personnel.txt</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/14vFIC1wyR6_tExz3QkI8O82jQepei8po87uxaeJvyak/edit?usp=sharing"><strong>Example</strong></a></p>
 <p>Describes the personnel and funding sources involved in the creation
 of the data. This facilitates attribution and reporting.</p>
 <p>Valid EML requires at least one person with a
 <strong>creator</strong> role. Creator is a synonym for Author in
 DataStore.</p>
-<p>Note: editing personnel.txt is best done through a spreadsheet
-application.</p>
+<p>DataStore also requires at least one person with the role if
+<strong>contact</strong>. If this is the same person, list that person
+twice (i.e. on two separate rows).</p>
+<p>Additional personnel (field technicians, consultants, collaborators,
+contributers, etc) may be added to give credit as necessary. Any roles
+other than “creator” or “contact” will be listed as
+associatedParties.</p>
+<p>For the purposes of NPS data packages, it is likely that you will not
+have Principle Investigators (PIs), or information about funding or
+funding agencies.</p>
+<p><em>Note:</em> editing personnel.txt is best done through a
+spreadsheet application.</p>
 <p>Columns:</p>
 <ul>
 <li><strong>givenName</strong> First name</li>
@@ -451,7 +469,8 @@ Valid options:
 <li><strong>creator</strong> Author(s) of the data. Will appear in the
 data citation.</li>
 <li><strong>PI</strong> Principal investigator the data were created
-under. Will appear with project level metadata.</li>
+under. Will appear with project level metadata. It is OK to leave this
+blank as there will be no PIs for many NPS data packages.</li>
 <li><strong>contact</strong> A point of contact for questions about the
 data. Can be an organization or position (e.g. data manager). To do
 this, enter the organization or position name under <em>givenName</em>
@@ -472,22 +491,60 @@ This can be left blank.</li>
 this blank.</li>
 </ul></li>
 </ul>
-<p><a href="https://docs.google.com/spreadsheets/d/14vFIC1wyR6_tExz3QkI8O82jQepei8po87uxaeJvyak/edit?usp=sharing"><strong>Example</strong></a></p>
 </div>
 <div id="intellectual_rights.txt" class="section level2">
 <h2>intellectual_rights.txt</h2>
-<p>Describes how the data may be used. Releasing without restriction (<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>) or
-with minimal attribution (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY</a>) maximizes
-value and future use.</p>
-<p>When no CUI are present, CCO is recommended.</p>
 <p><a href="https://docs.google.com/document/d/1sNlIY8lAGg1WfFez-PvmP_qS4B3AHEScyqs7sAigrj8/edit?usp=sharing"><strong>Example</strong></a></p>
+<p>You must edit the “intellectual_rights.txt” file:</p>
+<ul>
+<li>If the data package contains Controlled Unclassified Information
+(CUI), replace the CCO license in the .txt file with the following
+text:</li>
+</ul>
+<style type="text/css">
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 12px;
+    border-left: 5px solid #eee;
+}
+</style>
+<blockquote>
+<p>“This product has been determined to contain Controlled Unclassified
+Information (CUI) by the National Park Service, and is intended for
+internal use only. It is not published under an open license.
+Unauthorized access, use, and distribution are prohibited.”</p>
+</blockquote>
+<ul>
+<li>If you have no CUI, the default is the public domain. Replace the
+CCO text in the .txt file with the following text:</li>
+</ul>
+<blockquote>
+<p>“This work is in the public domain. There is no copy right or
+license.”</p>
+</blockquote>
+<ul>
+<li>If you need a license, for instance because the data were generated
+by non-NPS contractors or in collaboration with non-NPS partners, use
+the text generated by <em>template_core_metadata</em>
+(license=“CCO”).</li>
+</ul>
+<p>More information about the (<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>)
+license.</p>
+<p><em>Note:</em> editing the intellectual_rights.txt file is best done
+through a text editor.</p>
 </div>
 <div id="attributes_.txt" class="section level2">
 <h2>attributes_*.txt</h2>
-<p>Describes columns of a data table (classes, units, datetime formats,
-missing value codes).</p>
-<p>Note: editing attribute_<data file name>.txt is best done using a
-spreadsheet application.</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1VV6SY_757j5R7anJNXGTo7U2PQ_GSgg-F6YZNBwzqM0/edit?usp=sharing"><strong>Example
+1</strong></a>, <a href="https://docs.google.com/spreadsheets/d/1e7eZAQHmQIPKUwaqGjC3htK-7YK9brBuVFVY03HED5E/edit?usp=sharing"><strong>Example
+2</strong></a></p>
+<p>If you have multiple data files (.csvs), multiple text files will be
+generated, each starting with “attributes”, followed by your csv file
+name, and having the extension “.txt”. These files Describe columns of a
+data table (classes, units, datetime formats, missing value codes).</p>
+<p><em>Note:</em> editing attribute_<data file name>.txt is best done
+using a spreadsheet application.</p>
 <p>Columns:</p>
 <ul>
 <li><strong>attributeName</strong> Column name. Make sure that each
@@ -523,15 +580,13 @@ columns containing a missing value code).</li>
 <li><strong>missingValueCodeExplanation</strong> Definition of missing
 value code.</li>
 </ul>
-<p><a href="https://docs.google.com/spreadsheets/d/1VV6SY_757j5R7anJNXGTo7U2PQ_GSgg-F6YZNBwzqM0/edit?usp=sharing"><strong>Example
-1</strong></a>, <a href="https://docs.google.com/spreadsheets/d/1e7eZAQHmQIPKUwaqGjC3htK-7YK9brBuVFVY03HED5E/edit?usp=sharing"><strong>Example
-2</strong></a></p>
 </div>
 <div id="custom_units.txt" class="section level2">
 <h2>custom_units.txt</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/1XPoFiegWw7BIugkRmmMqBdC6hqKtIEfdN4g-QSImUxI/edit?usp=sharing"><strong>Example</strong></a></p>
 <p>Describes non-standard units used in a data table attribute
 template.</p>
-<p>Note: custom-units.txt is best edited via a spreadsheet
+<p><em>Note:</em> custom-units.txt is best edited via a spreadsheet
 application.</p>
 <p>Columns:</p>
 <ul>
@@ -543,25 +598,30 @@ attributes template (e.g. feetPerSecond)</li>
 (e.g. 0.3048)</li>
 <li><strong>description</strong> Abbreviation (e.g. ft/s)</li>
 </ul>
-<p><a href="https://docs.google.com/spreadsheets/d/1XPoFiegWw7BIugkRmmMqBdC6hqKtIEfdN4g-QSImUxI/edit?usp=sharing"><strong>Example</strong></a></p>
 </div>
 <div id="catvars_.txt" class="section level2">
 <h2>catvars_*.txt</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/1cKgLv9ffLtTqHrGX0WbpTCeWQkHXw1lbMRIt6IccuaQ/edit?usp=sharing"><strong>Example
+1</strong></a>, <a href="https://docs.google.com/spreadsheets/d/13lRuvBElEr8RQWQrWUyBei6rlE9xoDRkEOxhysHZ2J4/edit?usp=sharing"><strong>Example
+2</strong></a></p>
 <p>Describes categorical variables of a data table (if any columns are
-classified as categorical in table attributes template).</p>
+classified as categorical in table attributes template). If you have
+multiple data files (csvs), multiple catvars files will be created, one
+for each csv.</p>
+<p><em>Note:</em> The catvars files are best edited with a spreadsheet
+application.</p>
 <p>Columns:</p>
 <ul>
 <li><strong>attributeName</strong> Column name</li>
 <li><strong>code</strong> Categorical variable</li>
 <li><strong>definition</strong> Definition of categorical variable</li>
 </ul>
-<p><a href="https://docs.google.com/spreadsheets/d/1cKgLv9ffLtTqHrGX0WbpTCeWQkHXw1lbMRIt6IccuaQ/edit?usp=sharing"><strong>Example
-1</strong></a>, <a href="https://docs.google.com/spreadsheets/d/13lRuvBElEr8RQWQrWUyBei6rlE9xoDRkEOxhysHZ2J4/edit?usp=sharing"><strong>Example
-2</strong></a></p>
 </div>
 <div id="geographic_coverage.txt" class="section level2">
 <h2>geographic_coverage.txt</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/1lSvQsA6tG35egBp-ueXoCKFxVdd_6rzknBz1gFew3aA/edit?usp=sharing"><strong>Example</strong></a></p>
 <p>Describes where the data were collected.</p>
+<p><em>Note:</em> Hopefully you don’t have to edit these.</p>
 <p>Columns:</p>
 <ul>
 <li><strong>geographicDescription</strong> Brief description of
@@ -593,16 +653,17 @@ consider fuzzing them rather than completely removing them. One good
 tool for fuzzing geographic coordinates is the
 <strong>dp_fuzzLocation</strong> function in the <a href="https://github.com/nationalparkservice/QCkit">R/QCkit</a>
 package.</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1lSvQsA6tG35egBp-ueXoCKFxVdd_6rzknBz1gFew3aA/edit?usp=sharing"><strong>Example</strong></a></p>
 </div>
 <div id="taxonomic_coverage.txt" class="section level2">
 <h2>taxonomic_coverage.txt</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/1jpOmcSq93KOpWnC26pHrxPtt4dFhB9SHXNHLs5Du7MQ/edit?usp=sharing"><strong>Example</strong></a></p>
 <p>Describes biological organisms occurring in the data and helps
 resolve them to authority systems. If matches can be made, then the full
 taxonomic hierarchy of scientific and common names are automatically
 rendered in the final EML metadata. This enables future users to search
 on any taxonomic level of interest across data packages in
 repositories.</p>
+<p><em>Note:</em> Hopefully you don’t have to edit these.</p>
 <p>Columns:</p>
 <ul>
 <li><strong>taxa_raw</strong> Taxon name as it occurs in the data and as
@@ -617,10 +678,10 @@ taxa’s name was found. Can be: “<a href="https://www.itis.gov/">ITIS</a>”,
 <li><strong>authority_id</strong> Taxa’s identifier in the authority
 system (e.g. 168469).</li>
 </ul>
-<p><a href="https://docs.google.com/spreadsheets/d/1jpOmcSq93KOpWnC26pHrxPtt4dFhB9SHXNHLs5Du7MQ/edit?usp=sharing"><strong>Example</strong></a></p>
 </div>
 <div id="provenance.txt" class="section level2">
 <h2>provenance.txt</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/1P7NwIgntemkAciZi3uZgZ_ponZ73cXSh-pEihydwrsM/edit?usp=sharing"><strong>Example</strong></a></p>
 <p>Describes source datasets. Explicitly listing the DOIs and/or URLs of
 input data help future users understand in greater detail how the
 derived data were created and may some day be able to assign attribution
@@ -668,10 +729,10 @@ packageID and systemID.</li>
 <li><strong>email</strong> Email of the creator or contact. Required
 when a source can’t be defined by a packageID and systemID.</li>
 </ul>
-<p><a href="https://docs.google.com/spreadsheets/d/1P7NwIgntemkAciZi3uZgZ_ponZ73cXSh-pEihydwrsM/edit?usp=sharing"><strong>Example</strong></a></p>
 </div>
 <div id="annotations.txt" class="section level2">
 <h2>annotations.txt</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/1TOS1-yCKUJEvDZwenZs88ok8L3tQkIAUQp24m-6WuL8/edit?usp=sharing"><strong>Example</strong></a></p>
 <p>Adds semantic meaning to metadata (variables, locations, persons,
 etc.) through links to ontology terms. This enables greater human
 understanding and machine actionability (linked data) and greatly
@@ -697,12 +758,11 @@ ontology.</li>
 <li><strong>object_uri</strong> The object URI copied from an
 ontology.</li>
 </ul>
-<p><a href="https://docs.google.com/spreadsheets/d/1TOS1-yCKUJEvDZwenZs88ok8L3tQkIAUQp24m-6WuL8/edit?usp=sharing"><strong>Example</strong></a></p>
 </div>
 <div id="additional_info-.docx-.md-.txt" class="section level2">
 <h2>additional_info (.docx, .md, .txt)</h2>
-<p>Ancillary info not captured by any of the other templates.</p>
 <p><a href="https://docs.google.com/document/d/1bbZ8iR9MOtTNGbbcev7fdjNCT7va9I8v-Ryv6jFCJYU/edit?usp=sharing"><strong>Example</strong></a></p>
+<p>Ancillary info not captured by any of the other templates.</p>
 </div>
 
 
