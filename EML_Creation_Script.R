@@ -1,14 +1,15 @@
-##### Summary: This code creates an EML file for a data package. In this case the example is an EVER AA dataset.
+##### Summary: This code creates an EML file for a data package. In this case the example inputs are for a EVER Veg Map AA dataset and are
+#meant to either be run as a test of the process or to be replaced with your own content.
+#
+#This is a step by step process where each section (indicated by #####) should be reviewed and edited if necessary,and run one by one.
+#Several sections are labeled as OPTIONAL and may only apply to certain data packages. The final section has the make_eml() function to
+#put together the full, validated EML metadata file.
 
-#This is a step by step process where each section (indicated by #####) should be reviewed and edited if necessary,and run one by one. Several sections are labeled as optional and may only apply to certain data packages. 
-
-#The final section has the make_eml() function to put together the full metadata file.
-
-#Created By: Judd Patterson / judd_patterson@nps.gov
-#Last Updated: September 7, 2022 (robert_baker@nps.gov)
+#Created By: Judd Patterson (judd_patterson@nps.gov)
+#Last Updated: October 7, 2022 (robert_baker@nps.gov)
 #####
 
-##### Install required packages - needed if you've never installed EMLassemblyline before
+##### Install required packages - uncomment these lines the first time if you've never installed EMLassemblyline before
   #install.packages("devtools")
   #library(devtools)
   #install_github("EDIorg/EMLassemblyline")
