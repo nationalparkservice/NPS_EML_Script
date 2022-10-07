@@ -365,113 +365,107 @@ pre code {
 </div>
 
 
-<div id="nps_eml_template" class="section level1">
-<h1>NPS_EML_Template</h1>
-<p>This repo contains a template and instructions for using
-EMLassemblyline to generate EML metadata for NPS data packages. It is
-expected that the product of EMLassemblyline will require additional
-editing, which must be accomplished using the <a href="https://github.com/nationalparkservice/EMLeditor">R/EMLeditor</a>
-package.</p>
-<p>This is an early version of this template. Please request
-enhancements and bug fixes through <a href="https://github.com/nationalparkservice/NPS_EML_Template/issues">Issues</a>.</p>
-<p>For a comprehensive guide to generating EML via EMLassemblyline,
-please consult the accompanying <a href="https://roblbaker.github.io/NPS_EML_Template/">EML Template github
+<div id="nps-eml-creation" class="section level1">
+<h1>NPS EML Creation</h1>
+<p>Creating Ecological Metadata Language (EML) metadata for NPS data
+packages is a two-step process.</p>
+<p>The first step is to generate an EML formatted .xml file. There are a
+number of tools for generating this initial file. This repo contains an
+R script, instructions, and an example of how to use EMLassemblyline to
+generate an initial EML metadata file while taking into consideration
+NPS data package specifications and requirements for uploading to
+DataStore.</p>
+<p>No matter the method of generating the initial EML file, the second
+step is to add NPS-specific information to the EML metadata (for
+instance, the data pacakge DOI, links to the DRR, information about CUI,
+producing units and unit connections). Currently, the only tool for
+adding NPS-specific metadata is the <a href="https://github.com/nationalparkservice/EMLeditor">R/EMLeditor</a>
+package. Editing EML by hand is not advised.</p>
+<p>This is an early version of the NPS EML creation script. Please
+request enhancements and bug fixes through <a href="https://github.com/nationalparkservice/NPS_EML_Template/issues">Issues</a>.</p>
+</div>
+<div id="comprehensive-guide" class="section level1">
+<h1>Comprehensive Guide</h1>
+<p>For a comprehensive guide to generating EML via EMLassemblyline for
+NPS data packages, please consult the accompanying NPS <a href="https://roblbaker.github.io/NPS_EML_Template/">EML Creation github
 website - DEV VERSION UPDATE LINK!</a>.</p>
 </div>
 <div id="quickstart" class="section level1">
-<h1>Quickstart:</h1>
+<h1>Quickstart</h1>
 <div id="prior-to-generating-eml-you-will-need-the-following" class="section level3">
 <h3>Prior to generating EML you will need the following:</h3>
 <ol style="list-style-type: decimal">
-<li><p>Data: A set of fully QA/QC’d data files in .csv format. If these
-are exported from a database, you may want to think strategically about
-what those files look like and how they will be accessed and utilized by
-future users of the data package (including, potentially, yourself!).
-These files must be encoded in UTF-8 format (if aren’t sure whether your
-.csvs are in UTF-8 you can convert them by opening the .csv in Excel,
-you can choose to File &gt; Save As and then select “CSV UTF-8 (Comma
-delimited) (*.csv)“).</p></li>
+<li><p>Data: A set of fully QA/QC’d data files in .csv format using
+UTF-8 encoding.</p></li>
+<li><p>Internet access: for downloading software and packages. A strong
+internet connection is necessary, particularly if you have taxonomic
+information as EMLassemblyline will use scientific names to populate
+taxonomic coverage fields from Kingdom down to species (and
+beyond)</p></li>
 <li><p>Software: R (and probably Rstudio) installed on your computer.
 These are both available in Software Center. See the <a href="https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx">R
 Advisory Group’s website</a> for more information. You will also need to
-install the R package EMLassemblyline as well as some other packages
-from CRAN:</p></li>
+install the R package <a href="https://github.com/EDIorg/EMLassemblyline">EMLassemblyline</a>
+from github as well as some other packages from CRAN:</p></li>
 </ol>
-<pre class="r"><code>&gt;install.packages(c(&quot;EMLassemblyline&quot;, &quot;lubridate&quot;, &quot;tidyverse&quot;)</code></pre>
-<ol start="3" style="list-style-type: decimal">
-<li><p>Internet access: A strong internet connection, particularly if
-you have taxonomic information as EMLassemblyline will use scientific
-names to populate taxonomic coverage fields from Kingdom down to species
-(and beyond).</p></li>
-<li><p>Access to MS excel or other spreadsheet type program (this will
-really help editing tab-delimited files)</p></li>
-<li><p>Access to notepad or other text editor (NOT MS Word) for writing
-abstracts, etc. while avoiding non-UTF8 encoded characters.</p></li>
+<pre class="r"><code>install.packages(c(&quot;devtools&quot;, &quot;lubridate&quot;, &quot;tidyverse&quot;)
+devtools::install_github(&quot;EDIorg/EMLassemblyline&quot;)</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Access to MS excel (or any spreadsheet type programs) and Notepad
+(or any text editor). These will facilitate editing tab-delimited
+files.</li>
 </ol>
 </div>
-<div id="download-the-template-and-associated-foldersfiles" class="section level3">
-<h3>Download the template (and associated folders/files):</h3>
-<p>This is where the download link will go</p>
+<div id="download-the-script" class="section level3">
+<h3>Download the Script</h3>
+<p>A stand-alone version of the NPS <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/RobLBaker/NPS_EML_Template/blob/main/EML_creation_template.R">EML
+Creation script - DEV LINK - NEEDS UPDATING</a> is available for
+download. You don’t have to download the entire repository to make
+EML.</p>
 </div>
-<div id="example-eml-creation" class="section level3">
-<h3>Example EML creation:</h3>
-<p>Note that there are only two data files for the example package and
-they are both in the Example_files folder. For your EML document you
-need only supply data files; the other files will be generated during
-EML creation. The example data files are: 1) qry_Export_AA_Points.csv 2)
-qry_Export_AA_VegetationDetail.csv</p>
-<p>Take a look at the other example files in the Example_files folder.
-All of the files generated by EMLassemblyline via the <a href="./EML_creation_template.R">EML_creation_template.R Script</a> are
-there. To generate EML all you need to do is supply the .csv datafiles
-and use the EML_creation_template.R script - all the other files will be
-generated by the Template (and subsequently edited prior to making the
-EML document).</p>
-<p>Note that some of these files will be best edited in a text editor
-(e.g. abstract.txt).</p>
-<p>Some files are tab-separated and are best edited in a spreadsheet
-application such as excel (e.g. personnel.txt).</p>
-<p>Some files likely will not need to be edited at all!
-(e.g. taxonomic_coverage.txt)</p>
-</div>
-<div id="generate-your-eml" class="section level3">
-<h3>Generate your EML:</h3>
+<div id="generate-eml" class="section level3">
+<h3>Generate EML</h3>
 <ol style="list-style-type: decimal">
-<li>Download and edit the <a href="./EML_creation_template.R">EML_creation_template.R</a> script as
-necessary and run each line or set of code (except the
-<code>r make_eml</code> function). This script can function as a
-stand-alone document. You do not need to download the entire repository
-(although if you want to you can do so as a .zip using <a href="https://github.com/nationalparkservice/NPS_EML_Template/zipball/master">this
-link</a>.</li>
-<li>Edit the auto-generated .txt files using a text editor or
-spreadsheet application as necessary.</li>
-<li>Run the <code>r make_eml</code> function (this could take a little
-while - particularly if you have a lot of taxonomic data).</li>
-<li>Be sure to read and address any Issues or Warnings after running the
-<code>r make_eml</code> function</li>
+<li><p>Edit the <em>EML_Creation_Script.R</em> file as necessary and run
+each line or set of code (except the <code>r make_eml</code>
+function).</p></li>
+<li><p>Edit the auto-generated .txt files using a text editor or
+spreadsheet application as necessary. For details, look at the <a href="docs/edit_tmplts.html">NPS template editing
+guidelines</a>.</p></li>
+<li><p>Run the <code>r make_eml</code> function (this could take a
+little while - particularly if you have a lot of taxonomic
+data).</p></li>
+<li><p>Be sure to read and address any Issues or Warnings after running
+the <code>r make_eml</code> function</p></li>
 </ol>
 </div>
 <div id="next-steps" class="section level3">
-<h3>Next steps:</h3>
-<p>The example EML file <a href="Example_files/EVER_AA_metadata.xml">EVER_AA_metadata.xml</a> as
-well as the EML you have created are not the final step in NPS EML
-creation. At this point you have filled in much of the important
-scientific information in the metadata. However, to fully utilize
-DataStore’s new capabilities and to make sure your data are easily
-discoverable and reusable, you still need to edit the EML file to
-provide NPS-specific information (e.g. publisher, unit connections,
-DOIs, etc). Currently, the only tool available is <a href="https://github.com/nationalparkservice/EMLeditor">R/EMLeditor</a>.
+<h3>Next steps</h3>
+<p>The EML you have created is not the final step in NPS EML creation.
+To fully utilize DataStore’s new capabilities and to make sure your data
+are easily discoverable and reusable, you still need to edit the EML
+file to provide NPS-specific information (e.g. publisher, unit
+connections, DOIs, etc).</p>
+<p>Currently, the only tool available to add NPS-specific information to
+EML is <a href="https://github.com/nationalparkservice/EMLeditor">R/EMLeditor</a>.
 Manually editing your metadata by hand is not recommended.</p>
 </div>
-<div id="for-additional-documentation-please-see" class="section level3">
-<h3>For additional documentation please see:</h3>
+<div id="additional-documentation" class="section level3">
+<h3>Additional documentation</h3>
 <ol style="list-style-type: decimal">
-<li>The <a href="https://roblbaker.github.io/NPS_EML_Template/">NPS
-guidelines - DEV LINK UPDATE ME!</a> for creating EML using
-EMLassemblyline on github.</li>
+<li>The <a href="https://roblbaker.github.io/NPS_EML_Template/">guide to
+using the NPS EML creation script - DEV LINK UPDATE ME!</a> for creating
+EML using EMLassemblyline on github.</li>
 <li>The original <a href="https://ediorg.github.io/EMLassemblyline/articles/edit_tmplts.html">EDI
 guidelines</a> for creating EML.</li>
 </ol>
 </div>
+</div>
+<div id="acknowledgements" class="section level1">
+<h1>Acknowledgements</h1>
+<p>EMLassemblyline and much of the excellent original documentation was
+developed by the Environmental Data Initiative. We have modified and
+annotated that documentation to make it more relevant to NPS.</p>
 </div>
 
 
