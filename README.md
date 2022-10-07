@@ -58,7 +58,7 @@ Currently, the only tool available to add NPS-specific information to EML is [R/
 
 ### Additional documentation
 
-1) The [guide to using the NPS EML creation script - DEV LINK UPDATE ME!](https://roblbaker.github.io/NPS_EML_Template/) for creating EML using EMLassemblyline on github.
+1) The [guide to using the NPS EML creation script - DEV LINK UPDATE ME!](https://roblbaker.github.io/NPS_EML_Script/) for creating EML using EMLassemblyline on github.
 2) The original [EDI guidelines](https://ediorg.github.io/EMLassemblyline/articles/edit_tmplts.html) for creating EML.
 
 # Acknowledgements
