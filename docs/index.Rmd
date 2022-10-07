@@ -9,9 +9,9 @@ The first step is to generate an EML formatted .xml file. There are a number of 
 
 No matter the method of generating the initial EML file, the second step is to add NPS-specific information to the EML metadata (for instance, the data pacakge DOI, links to the DRR, information about CUI, producing units and unit connections). Currently, the only tool for adding NPS-specific metadata is the [R/EMLeditor](https://github.com/nationalparkservice/EMLeditor) package. Editing EML by hand is not advised.
 
-This is an early version of this template. Please request enhancements and bug fixes through [Issues](https://github.com/nationalparkservice/NPS_EML_Template/issues).
+This is an early version of this template. Please request enhancements and bug fixes through [Issues](https://github.com/nationalparkservice/NPS_EML_Script/issues).
 
-You can also directly access the [source files](https://github.com/nationalparkservice/NPS_EML_Template) for this webpage and the entire repo, as well as download the entire repo as [zip file](https://github.com/nationalparkservice/NPS_EML_Templat/zipball/master).
+You can also directly access the [source files](https://github.com/nationalparkservice/NPS_EML_Script) for this webpage and the entire repo, as well as download the entire repo as [zip file](https://github.com/nationalparkservice/NPS_EML_Script/zipball/master).
 
 # Quickstart:
 
