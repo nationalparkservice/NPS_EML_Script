@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  word_document: default
+---
 # NPS EML Creation
 
 Creating Ecological Metadata Language (EML) metadata for NPS data packages is a two-step process. 
@@ -39,7 +44,7 @@ A stand-alone version of the NPS [EML Creation script - DEV LINK - NEEDS UPDATIN
 
 1) Edit the *EML_Creation_Script.R* file as necessary and run each line or set of code (except the `r make_eml` function). 
 
-2) Edit the auto-generated .txt files using a text editor or spreadsheet application as necessary. For details, look at the [NPS template editing guidelines](docs/edit_tmplts.html). 
+2) Edit the auto-generated .txt files using a text editor or spreadsheet application as necessary. For details, look at the [NPS template editing guidelines - DEV LINK NEEDS UPDATED](https://roblbaker.github.io/NPS_EML_Script/edit_tmplts.html). 
 
 3) Run the `r make_eml` function (this could take a little while - particularly if you have a lot of taxonomic data).
 
