@@ -23,8 +23,8 @@
   #Metadata filename - this becomes the filename, so make sure it ends in _metadata to comply with the NPS data package specifications
   metadata_id <- "TEST_EVER_AA_metadata"
 
-  #Overall package title
-  package_title <- "TEST_Everglades National Park Accuracy Assessment (AA) Data Package"
+  #Overall package title (replace with our title)
+  package_title <- "TEST_Title"
 
   #Description of data collection status - choose from 'ongoing' or 'complete'
   data_type <- "complete"
