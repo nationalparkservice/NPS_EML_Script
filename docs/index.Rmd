@@ -21,17 +21,17 @@ You can also directly access the [source files](https://github.com/nationalparks
 
   * [Prerequisites for EML metadata creation](prereqs.html)
   
-  * Download the NPS [EML Creation script and associated folders](https://github.com/nationalparkservice/NPS_EML_Script/zipball/master)
+    * Download the NPS [EML Creation script and associated folders](https://github.com/nationalparkservice/NPS_EML_Script/zipball/master)
   
-  * [NPS EML Script with example EML creation](https://github.com/nationalparkservice/NPS_EML_Script/EML_Creation_Script.R)
+    * [NPS EML Script with example EML creation](https://github.com/nationalparkservice/NPS_EML_Script/EML_Creation_Script.R)
   
-    * Two .csv data file inputs for the example:
+      * Two .csv data file inputs for the example:
     
-      * [qry_Export_AA_Points.csv](https://github.com/nationalparkservice/NPS_EML_Script/Example_files/qry_Export_AA_Points.csv)
+        * [qry_Export_AA_Points.csv](https://github.com/nationalparkservice/NPS_EML_Script/Example_files/qry_Export_AA_Points.csv)
     
-      * [qry_Export_AA_VegetationDetails.csv](https://github.com/nationalparkservice/NPS_EML_Script/Example_files/qry_Export_AA_VegetationDetails.csv)
+        * [qry_Export_AA_VegetationDetails.csv](https://github.com/nationalparkservice/NPS_EML_Script/Example_files/qry_Export_AA_VegetationDetails.csv)
     
-    * [Example EML metadata file](https://github.com/nationalparkservice/NPS_EML_Script/Example_files/EVER_AA_metadata.xml)
+      * [Example EML metadata file](https://github.com/nationalparkservice/NPS_EML_Script/Example_files/EVER_AA_metadata.xml)
     
   * A [step-by-step guide](stepbystep.html) for using the NPS EML Creation Script
   
