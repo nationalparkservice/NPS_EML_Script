@@ -33,7 +33,7 @@ devtools::install_github("EDIorg/EMLassemblyline")
 
 ### Download the Script 
 
-A stand-alone version of the NPS [EML Creation script - DEV LINK - NEEDS UPDATING](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/RobLBaker/NPS_EML_Template/blob/main/EML_creation_template.R) is available for download. You don't have to download the entire repository to make EML.
+A stand-alone version of the NPS [EML Creation script - DEV LINK - NEEDS UPDATING](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/RobLBaker/NPS_EML_Script/blob/main/EML_Creation_Script.R) is available for download. You don't have to download the entire repository to make EML.
 
 ### Generate EML
 
