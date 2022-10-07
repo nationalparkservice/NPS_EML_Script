@@ -1,7 +1,7 @@
-#####
+#####Script Overview-------------------------------------------------------------
 #Title: NPS EML Creation Script
 #
-#Overview: This code creates an EML file for a data package by leveraging several functions within the EMLassemblyline packages. In this case
+#Summary: This code creates an EML file for a data package by leveraging several functions within the EMLassemblyline packages. In this case
 #the example inputs are for a EVER Veg Map AA dataset and are meant to either be run as a test of the process or to be replaced with your own
 #content. This is a step by step process where each section (indicated by #####) should be reviewed and edited if necessary,and run one by one. 
 #Several sections are labeled as OPTIONAL and may only apply to certain data packages. The final section has the make_eml() function to put
@@ -10,18 +10,17 @@
 
 #Created By: Judd Patterson (judd_patterson@nps.gov)
 #Last Updated: October 7, 2022 (robert_baker@nps.gov)
-#####
------------------------------------------------------
 
-##### Install required packages - uncomment the next three lines if you've never installed EMLassemblyline before
-  #install.packages("devtools")
-  #library(devtools)
-  #install_github("EDIorg/EMLassemblyline")
-  
-##### Load required packages
-  library(EMLassemblyline)
-  library(lubridate)
-  library(tidyverse)
+#####Install and Load Packages--------------------------------------------------
+#Uncomment the next three lines if you've never installed EMLassemblyline before
+#install.packages("devtools")
+#library(devtools)
+#install_github("EDIorg/EMLassemblyline")
+library(EMLassemblyline)
+library(lubridate)
+library(tidyverse)
+
+#####-----------------------------------------------------
 
 ##### Package Details: Review and update these items. For vectors with more than one item, keep the order the same (i.e. item #1 should
 #correspond to the same file in each vector)
