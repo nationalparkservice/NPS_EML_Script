@@ -1,20 +1,20 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-Point_ID	predetermined name for the point/plot visited in the field	character				
-Visit_Date	date of the field visit to the plot	Date		MM/DD/YYYY		
-UTM_X_East	UTM Zone 17 easting coordinate of the plot centroid	numeric	meter			
-UTM_Y_North	UTM Zone 17 northing coordinate of the plot centroid	numeric	meter			
-Transport_Type	method of transportation used to reach the plot	character				
-Veg_Code	most detailed vegetation code determined from the plot visit; based on the Vegetation Classification System for South Florida Natural Areas as modified for the Everglades National Park vegetation map; see Appendix A of the report for more details (https://irma.nps.gov/DataStore/Reference/Profile/2286460)	categorical				
-Veg_Code_Name	full name of the vegetation code determined from the plot visit	categorical				
-Overall_Veg_Cover	overall vegetatitive cover of the plot	numeric	percent			
-Overall_Canopy_Height	overall canopy height of the plot	numeric	meter			
-Percentage_Tree	percent cover of trees in the plot	numeric	percent			
-Percentage_Shrub	percent cover of shrubs in the plot	numeric	percent			
-Percentage_Herb	percent cover of herbs in the plot	numeric	percent			
-Canopy_Tree	canopy height of trees in the plot	numeric	meter			
-Canopy_Shrub	canopy height of shrubs in the plot	numeric	meter			
-Canopy_Herb	canopy height of herbs in the plot	numeric	meter			
-Cattail	additional cattail codes applicable to the plot	character				
-Exotics	additional exotic species codes applicable to the plot	character				
-Cell_Shape	size and shape of the plot that was assessed	character				
-Notes	additional details from the field visit to the plot	character				
+Point_ID	site location	character				
+Visit_Date	date of data collection	Date		MM/DD/YY		
+Transport_Type	transport type	categorical				
+Veg_Code	code listing veg type	character				
+Veg_Code_Name	name of veg code	character				
+Overall_Veg_Cover	description of veg cover	numeric	percent			
+Overall_Canopy_Height	height to top of canopy	numeric	meter			
+Percentage_Tree	percentage of tree coverage	numeric	percent			
+Percentage_Shrub	percentage of shrub coverage	numeric	percent			
+Percentage_Herb	percentage of herb coverage	numeric	percent			
+Canopy_Tree	number of trees in canopy	numeric	dimensionless			
+Canopy_Shrub	number of shrubs in canopy	numeric	dimensionless			
+Canopy_Herb	number of herbs	numeric	dimensionless			
+Cattail	type of cattail	categorical				
+Exotics	non-natives	categorical				
+Cell_Shape	shape of something	categorical				
+Notes	additional notes	categorical				
+decimalLongitude	longitude	numeric	degree			
+decimalLatitude	latitude	numeric	degree			

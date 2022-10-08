@@ -1,245 +1,400 @@
 attributeName	code	definition
-Veg_Code	CMaO	Black Mangrove Scrub-Open Marsh
-Veg_Code	CMaS	Black Mangrove Scrub-Succulent Marsh
-Veg_Code	CMaSb	Black Mangrove Scrub-Saltwort Marsh
-Veg_Code	CMcGc	Buttonwood Scrub-Sawgrass Marsh
-Veg_Code	CMcGj	Buttonwood Scrub-Black Rush Marsh
-Veg_Code	CMcO	Buttonwood Scrub-Open Marsh
-Veg_Code	CMlGc	White Mangrove Scrub-Sawgrass Marsh
-Veg_Code	CMlGj	White Mangrove Scrub-Black Rush Marsh
-Veg_Code	CMlH	White Mangrove Scrub-Herbaceous Marsh
-Veg_Code	CMlO	White Mangrove Scrub-Open Marsh
-Veg_Code	CMrD	Red Mangrove Scrub-Dominant
-Veg_Code	CMrG	Red Mangrove Scrub-Graminoid Marsh
-Veg_Code	CMrGc	Red Mangrove Scrub-Sawgrass Marsh
-Veg_Code	CMrGe	Red Mangrove Scrub-Spikerush Marsh
-Veg_Code	CMrGj	Red Mangrove Scrub-Black Rush Marsh
-Veg_Code	CMrGn	Red Mangrove Scrub-Cordgrass Marsh
-Veg_Code	CMrO	Red Mangrove Scrub-Open Marsh
-Veg_Code	CMXclGc	Buttonwood-White Mangrove Scrub-Sawgrass Marsh
-Veg_Code	CMXclGn	Buttonwood-White Mangrove Scrub-Cordgrass Marsh
-Veg_Code	CMXcr	Buttonwood-Red Mangrove Scrub
-Veg_Code	CMXcrD	Buttonwood-Red Mangrove Scrub-Dominant
-Veg_Code	CMXcrGc	Buttonwood-Red Mangrove Scrub-Sawgrass Marsh
-Veg_Code	CMXcrO	Buttonwood-Red Mangrove Scrub-Open Marsh
-Veg_Code	CMXlr	White Mangrove-Red Mangrove Scrub
-Veg_Code	CMXlrGc	White Mangrove-Red Mangrove Scrub-Sawgrass Marsh
-Veg_Code	CSaG	Pond Apple Scrub-Graminoid Marsh
-Veg_Code	CSaGc	Pond Apple Scrub-Sawgrass Marsh
-Veg_Code	CSB	Bayhead Swamp Scrub
-Veg_Code	CSBGc	Bayhead Swamp Scrub-Sawgrass Marsh
-Veg_Code	CSBTG	Transitional Bayhead Swamp Scrub-Graminoid Marsh
-Veg_Code	CSBTGc	Transitional Bayhead Swamp Scrub-Sawgrass Marsh
-Veg_Code	CShGc	Buttonbush Scrub-Sawgrass Marsh
-Veg_Code	CSmGc	Wax Myrtle Scrub-Sawgrass Marsh
-Veg_Code	CSMGc	Wax Myrtle Scrub-Sawgrass Marsh
-Veg_Code	CSmGP	Wax Myrtle Scrub-Graminoid Prairie
-Veg_Code	CSrGc	Falsewillow Scrub-Sawgrass Marsh
-Veg_Code	CSsG	Willow Scrub-Graminoid Marsh
-Veg_Code	CSsGc	Willow Scrub-Sawgrass Marsh 
-Veg_Code	CStGc	Cypress Scrub-Sawgrass Marsh
-Veg_Code	CStGcS	Cypress Scrub-Short Sawgrass Marsh
-Veg_Code	CStGe	Cypress Scrub-Spikerush Marsh
-Veg_Code	CStGPc	Cypress Scrub-Sawgrass Prairie 
-Veg_Code	CStGPm	Cypress Scrub-Muhly Grass Prairie 
-Veg_Code	CStGPX	Cypress Scrub-Mixed Graminoid Prairie
-Veg_Code	CUC	Coastal Hardwood Scrub
-Veg_Code	CUWGPc	Upland Hardwood Scrub-Sawgrass Prairie
-Veg_Code	CUWGPX	Upland Hardwood Scrub-Mixed Graminoid Prairie
-Veg_Code	EsD	Brazilian Pepper Dominant 
-Veg_Code	FHS	Tropical Hardwood Hammock
-Veg_Code	Fma	Black Mangrove Forest
-Veg_Code	FMa	Black Mangrove Forest
-Veg_Code	FMc	Buttonwood Forest
-Veg_Code	FMl	White Mangrove Forest
-Veg_Code	Fmr	Red Mangrove Forest
-Veg_Code	FMr	Red Mangrove Forest
-Veg_Code	FMXac	Black Mangrove-Buttonwood Forest
-Veg_Code	FMXal	Black Mangrove-White Mangrove Forest
-Veg_Code	FMXar	Black Mangrove-Red Mangrove Forest
-Veg_Code	FMXcl	Buttonwood-White Mangrove Forest
-Veg_Code	FMXcr	Buttonwood-Red Mangrove Forest
-Veg_Code	FMXlr	White Mangrove-Red Mangrove Forest
-Veg_Code	FMXX	Mixed Mangrove Forest-Mixed
-Veg_Code	FSB	Bayhead Forest
-Veg_Code	FSBT	Transitional Bayhead Forest
-Veg_Code	FSt	Cypress Forest
-Veg_Code	MFGc	Sawgrass Marsh
-Veg_Code	MFGcSD	Short Sawgrass Marsh-Dense
-Veg_Code	MFGcSS	Short Sawgrass Marsh-Sparse
-Veg_Code	MFGcTD	Tall Sawgrass Marsh-Dense
-Veg_Code	MFGcTS	Tall Sawgrass Marsh-Sparse
-Veg_Code	MFGe	Spikerush Marsh
-Veg_Code	MFGn	Sand Cordgrass Marsh
-Veg_Code	MFGP	Graminoid Freshwater Prairie
-Veg_Code	MFGPc	Sawgrass Prairie
-Veg_Code	MFGPh	Black Sedge Prairie
-Veg_Code	MFGPm	Muhly Grass Prairie
-Veg_Code	MFGPs	Little Bluestem Prairie
-Veg_Code	MFGPX	Mixed Graminoid Freshwater Prairie
-Veg_Code	MFGr	Beakrush Marsh
-Veg_Code	MFGX	Mixed Graminoid Freshwater Marsh
-Veg_Code	MFGXcr	Sawgrass-Rhynchospora Marsh
-Veg_Code	MFO	Open Freshwater Marsh
-Veg_Code	MSG	Graminoid Salt Marsh
-Veg_Code	MSGj	Black Rush Marsh
-Veg_Code	MSGn	Gulf Cordgrass Marsh
-Veg_Code	MSO	Open Salt Marsh
-Veg_Code	MSSb	Saltwort Marsh
-Veg_Code	ONT	Tidal Flat
-Veg_Code	ONW	Water
-Veg_Code	ONWc	Creek
-Veg_Code	ONWl	Lake
-Veg_Code	ONWo	Open Water
-Veg_Code	ONWr	River
-Veg_Code	Sma	Black Mangrove Shrubland
-Veg_Code	SMa	Black Mangrove Shrubland
-Veg_Code	SMc	Buttonwood Shrubland
-Veg_Code	SMl	White Mangrove Shrubland
-Veg_Code	SMr	Red Mangrove Shrubland
-Veg_Code	SMXac	Black Mangrove-Buttonwood Shrubland
-Veg_Code	SMXal	Black Mangrove-White Mangrove Shrubland
-Veg_Code	SMXar	Black Mangrove-Red Mangrove Shrubland
-Veg_Code	SMXcr	Buttonwood-Red Mangrove Shrubland
-Veg_Code	SMXlr	White Mangrove-Red Mangrove Shrubland
-Veg_Code	SMXX	Mixed Mangrove Shrubland-Mixed
-Veg_Code	SSB	Bayhead Shrubland
-Veg_Code	SSBT	Transitional Bayhead Shrubland
-Veg_Code	SSs	Willow Shrubland
-Veg_Code	SSy	Cocoplum Shrubland
-Veg_Code	SUH	Tropical Hardwood Shrubland
-Veg_Code	SUn	Saw Palmetto Shrubland
-Veg_Code	WMa	Black Mangrove Woodland
-Veg_Code	WMaG	Black Mangrove-Graminoid Marsh
-Veg_Code	WMaO	Black Mangrove Woodland-Open Marsh
-Veg_Code	WMaS	Black Mangrove Woodland-Succulent Marsh
-Veg_Code	WMcG	Buttonwood Woodland-Graminoid Marsh
-Veg_Code	WMcS	Buttonwood Woodland-Succulent Marsh
-Veg_Code	WMXac	Black Mangrove-Buttonwood Woodland
-Veg_Code	WMXar	Black Mangrove-Red Mangrove Woodland
-Veg_Code	WSoS	Cabbage Palm Lowland-Shrubs
-Veg_Code	WStGPX	Cypress Woodland-Mixed Prairie
-Veg_Code	WUpRG	Pine Rockland-Graminoid Marsh
-Veg_Code	WUpRS	Pine Rockland-Shrubs
-Veg_Code	WUpRSn	Pine Rockland-Saw Palmetto
-Veg_Code	WUpRX	Pine Rockland-Mixed
-Veg_Code_Name	Bayhead Forest	"Mix of Swamp Bay (Persea palustris), Red Bay (Persea borbonia), Cocoplum (Chrysobalanus icaco), Dahoon Holly (Ilex cassine), Willow (Salix caroliniana), Wax Myrtle (Myrica cerifera), Sweetbay (Magnolia virginiana), Pond Apple (Annona glabra), and occasion"
-Veg_Code_Name	Bayhead Shrubland	"Mix of flood tolerant fresh water tree and shrub species like Swamp Bay (Persea palustris), Red Bay (Persea borbonia), Cocoplum (Chrysobalanus icaco), Dahoon Holly (Ilex cassine), Willow (Salix caroliniana), Wax Myrtle (Myrica cerifera), Sweetbay (Magnoli"
-Veg_Code_Name	Bayhead Swamp Scrub	"Mixed assemblage of dwarf trees and/or shrubs such as Red Bay (Persea borbonia), Sweet Bay (Magnolia virginiana), Pond Apple (Annona glabra), Willow (Salix caroliniana), Wax Myrtle (Myrica cerifera), Dahoon Holly (Ilex cassine), and/or Cocoplum (Chrysobal"
-Veg_Code_Name	Bayhead Swamp Scrub-Sawgrass Marsh	Bayhead Swamp Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	Beakrush Marsh	Beakrush (Rhynchospora spp.) dominated marsh. Found commonly growing with Sawgrass (Cladium jamaicense). Beakrush found in the substantial presence of Little Bluestem (Schizachyrium scoparium) and/or Muhly Grass (Muhlenbergia capillaris var. filipes) is c
-Veg_Code_Name	Black Mangrove-Buttonwood Forest	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and Buttonwood (Conocarpus erectus) trees.
-Veg_Code_Name	Black Mangrove-Buttonwood Shrubland	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and Buttonwood (Conocarpus erectus) shrubs.
-Veg_Code_Name	Black Mangrove-Buttonwood Woodland	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and Buttonwood (Conocarpus erectus) trees.
-Veg_Code_Name	Black Mangrove-Graminoid Marsh	Black Mangrove (Avicennia germinans) in a matrix composed predominately of graminoids.
-Veg_Code_Name	Black Mangrove-Red Mangrove Forest	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and Red Mangrove (Rhizophora mangle) trees.
-Veg_Code_Name	Black Mangrove-Red Mangrove Shrubland	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and Red Mangrove (Rhizophora mangle) shrubs.
-Veg_Code_Name	Black Mangrove-Red Mangrove Woodland	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and Red Mangrove (Rhizophora mangle) trees.
-Veg_Code_Name	Black Mangrove-White Mangrove Forest	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and White Mangrove (Laguncularia racemosa) trees.
-Veg_Code_Name	Black Mangrove-White Mangrove Shrubland	Co-dominant mix (20% or less difference in percent cover) of Black Mangrove (Avicennia germinans) and White Mangrove (Laguncularia racemosa) shrubs.
-Veg_Code_Name	Black Mangrove Forest	Black Mangrove (Avicennia germinans) dominant forest. This community is usually characterized by a minimum of 50% Black Mangrove (Avicennia germinans) trees and shrubs found in a matrix of other species.
-Veg_Code_Name	Black Mangrove Scrub-Open Marsh	"Black Mangrove (Avicennia germinans) scrub in a matrix composed predominately of Open Freshwater Marsh or Open Saltwater Marsh, both of which have less than 15% marsh vegetation. Mangroves can occur in both salt and freshwater dominated marshes."
-Veg_Code_Name	Black Mangrove Scrub-Saltwort Marsh	Black Mangrove (Avicennia germinans) scrub in a matrix composed predominately of Saltwort (Batis maritima).
-Veg_Code_Name	Black Mangrove Scrub-Succulent Marsh	Black Mangrove (Avicennia germinans) scrub in a matrix composed predominately of succulents.
-Veg_Code_Name	Black Mangrove Shrubland	Black Mangrove (Avicennia germinans) dominant Shrubland.
-Veg_Code_Name	Black Mangrove Woodland	"Black Mangrove (Avicennia germinans) in a matrix composed of salt marsh graminoids, herbs, and/or succulents."
-Veg_Code_Name	Black Mangrove Woodland-Open Marsh	"Black Mangrove (Avicennia germinans) in a matrix composed predominately of Open Freshwater Marsh or Open Saltwater Marsh, both of which have less than 15% marsh vegetation. Mangroves can occur in both salt and freshwater dominated marshes."
-Veg_Code_Name	Black Mangrove Woodland-Succulent Marsh	Black Mangrove (Avicennia germinans) in a matrix composed predominately of succulents.
-Veg_Code_Name	Black Rush Marsh	Black Rush (Juncus roemerianus) dominated salt marsh.
-Veg_Code_Name	Black Sedge Prairie	Black Sedge (Schoenus nigricans) dominated wet prairie.
-Veg_Code_Name	Brazilian Pepper Dominant	50% to 89% areal coverage of Brazilian Pepper.
-Veg_Code_Name	Buttonbush Scrub-Sawgrass Marsh	Buttonbush Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	Buttonwood-Red Mangrove Forest	Co-dominant mix (20% or less difference in percent cover) of Buttonwood (Conocarpus erectus) and Red Mangrove (Rhizophora mangle) trees.
-Veg_Code_Name	Buttonwood-Red Mangrove Scrub	Co-dominant mix (20% or less difference in percent cover) of Buttonwood (Conocarpus erectus) and Red Mangrove (Rhizophora mangle) scrub.
-Veg_Code_Name	Buttonwood-Red Mangrove Scrub-Dominant	"Buttonwood-Red Mangrove Scrub with an average height up to 2m, and mangrove cover of 85% or more."
-Veg_Code_Name	Buttonwood-Red Mangrove Scrub-Open Marsh	"Buttonwood-Red Mangrove Scrub in a matrix composed predominately of Open Freshwater Marsh or Open Saltwater Marsh, both of which have less than 15% marsh vegetation. Mangroves can occur in both salt and freshwater dominated marshes."
-Veg_Code_Name	Buttonwood-Red Mangrove Scrub-Sawgrass Marsh	Buttonwood-Red Mangrove Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	Buttonwood-Red Mangrove Shrubland	Co-dominant mix (20% or less difference in percent cover) of Buttonwood (Conocarpus erectus) and Red Mangrove (Rhizophora mangle) shrubs.
-Veg_Code_Name	Buttonwood-White Mangrove Forest	Co-dominant mix (20% or less difference in percent cover) of Buttonwood (Conocarpus erectus) and White Mangrove (Laguncularia racemosa) trees.
-Veg_Code_Name	Buttonwood-White Mangrove Scrub-Cordgrass Marsh	Buttonwood-White Mangrove Scrub in a matrix composed predominately of Cordgrass (Spartina spp.).
-Veg_Code_Name	Buttonwood-White Mangrove Scrub-Sawgrass Marsh	Buttonwood-White Mangrove Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	Buttonwood Forest	Buttonwood (Conocarpus erectus) dominant forest. This community is usually characterized by a minimum of 50% Buttonwood (Conocarpus erectus) trees and shrubs found in a matrix of other species.
-Veg_Code_Name	Buttonwood Scrub-Black Rush Marsh	Buttonwood (Conocarpus erectus) scrub in a matrix composed predominately of Black Rush (Juncus roemerianus).
-Veg_Code_Name	Buttonwood Scrub-Open Marsh	"Buttonwood (Conocarpus erectus) scrub in a matrix composed predominately of Open Freshwater Marsh or Open Saltwater Marsh, both of which have less than 15% marsh vegetation. Mangroves can occur in both salt and freshwater dominated marshes."
-Veg_Code_Name	Buttonwood Scrub-Sawgrass Marsh	Buttonwood (Conocarpus erectus) scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	Buttonwood Shrubland	Buttonwood (Conocarpus erectus) dominant Shrubland.
-Veg_Code_Name	Buttonwood Woodland-Graminoid Marsh	Buttonwood (Conocarpus erectus) in a matrix composed predominately of graminoids.
-Veg_Code_Name	Buttonwood Woodland-Succulent Marsh	Buttonwood (Conocarpus erectus) in a matrix composed predominately of succulents.
-Veg_Code_Name	Cabbage Palm Lowland-Shrubs	"Cabbage Palm (Sabal palmetto) in a matrix composed predominately of marsh shrubs, such as Buttonwood (Conocarpus erectus), Wax Myrtle (Myrica cerifera), among others."
-Veg_Code_Name	Coastal Hardwood Scrub	"Coastal Scrub characterized by a mixed species assemblage of Sea Grape (Coccoloba uvifera), Gumbo Limbo (Bursera simaruba), Mahogany (Swietenia mahagoni), Spanish Stopper (Eugenia foetida), Poisonwood (Metopium toxiferum), Willow Bustic (Dipholis salicifo"
-Veg_Code_Name	Cocoplum Shrubland	"Seasonally flooded dominant to monotypic stands of Cocoplum (Chrysobalanus icaco) trees and shrubs in association with other wetland species, e.g., Swamp Bay (Persea palustris), Red Bay (Persea borbonia), Dahoon Holly (Ilex cassine), Willow (Salix carolin"
-Veg_Code_Name	Creek	"A narrow body of water with a current that flows into a river, bay, or ocean."
-Veg_Code_Name	Cypress Forest	"Pond Cypress (Taxodium ascendens) and/or Bald Cypress (T. distichum) dominant forest with common understory vegetation consisting of Pond Apple (Annona glabra), Wax Myrtle (Myrica cerifera), Pop Ash (Fraxinus caroliniana), Cocoplum (Chrysobalanus icaco), "
-Veg_Code_Name	Cypress Scrub-Mixed Graminoid Prairie	"Cypress (Taxodium spp.) Scrub in a matrix composed of a mixed prairie species assemblage of Sawgrass (Cladium jamaicense), Muhly Grass (Muhlenbergia capillaris var. filipes), and/or Little Bluestem (Schizachyrium rhizomatum). This community is characteriz"
-Veg_Code_Name	Cypress Scrub-Muhly Grass Prairie	Cypress (Taxodium spp.) Scrub in a matrix composed predominately of Muhly Grass (Muhlenbergia capillaris var. filipes) Prairie.
-Veg_Code_Name	Cypress Scrub-Sawgrass Marsh	Cypress Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	Cypress Scrub-Sawgrass Prairie	Cypress (Taxodium spp.) Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense) Prairie.
-Veg_Code_Name	Cypress Scrub-Short Sawgrass Marsh	Cypress Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense) with average height less than 2 meters.
-Veg_Code_Name	Cypress Scrub-Spikerush Marsh	Cypress Scrub in a matrix composed predominately of Spikerush (Eleocharis spp.).
-Veg_Code_Name	Cypress Woodland-Mixed Prairie	"Bald Cypress (Taxodium distichum) and/or Pond Cypress (T. ascendens) in in a matrix composed of a mixed prairie species assemblage of Sawgrass (Cladium jamaicense), Muhly Grass (Muhlenbergia capillaris var. filipes), and/or Little Bluestem (Schizachyrium "
-Veg_Code_Name	Falsewillow Scrub-Sawgrass Marsh	"Saltwater Falsewillow (Baccharis angustifolia), Silverling (B. glomeruliflora), and/or Groundsel Bush (B. halimifolia) Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense)."
-Veg_Code_Name	Graminoid Freshwater Prairie	"Short hydroperiod marsh characterized by a mix of graminoids that includes low-stature Sawgrass (Cladium jamaicense), Muhly Grass (Muhlenbergia capillaris var. filipes), Little Bluestem (Schizachyrium rhizomatum), and Black Sedge (Schoenus nigricans), amo"
-Veg_Code_Name	Graminoid Salt Marsh	Graminoid dominated salt marsh.
-Veg_Code_Name	Gulf Cordgrass Marsh	Gulf Cordgrass (Spartina spartinae) and/or Marshhay Cordgrass (Spartina patens) dominated salt marsh.
-Veg_Code_Name	Lake	A large (greater than or equal to 5 ha) body of water that is surrounded by land.
-Veg_Code_Name	Little Bluestem Prairie	Little Bluestem (Schizachyrium rhizomatum) dominated wet prairie. Found commonly growing with Sawgrass (Cladium jamaicense) or Muhly Grass (Muhlenbergia capillaris var. filipes).
-Veg_Code_Name	Mixed Graminoid Freshwater Marsh	"Co-dominant mix of two or more graminoid marsh species like Spikerush (Eleocharis spp.), Panicgrass (Panicum spp.), Sawgrass (Cladium jamaicense), and/or Beakrush (Rhynchospora spp.). This community is characterized by having no particular graminoid speci"
-Veg_Code_Name	Mixed Graminoid Freshwater Prairie	"Co-dominant mix of two or more graminoid prairie species like Sawgrass (Cladium jamaicense), Muhly Grass (Muhlenbergia capillaris var. filipes), Little Bluestem (Schizachyrium rhizomatum), and/or Black Sedge (Schoenus nigricans). This community is charact"
-Veg_Code_Name	Mixed Mangrove Forest-Mixed	"Co-dominant mix of trees of three or more mangrove species including Black Mangrove (Avicennia germinans), Buttonwood (Conocarpus erectus), Red Mangrove (Rhizophora mangle), and White Mangrove (Laguncularia racemosa). This community is characterized by ha"
-Veg_Code_Name	Mixed Mangrove Shrubland-Mixed	"Co-dominant mix of shrubs of three or more mangrove species including Black Mangrove (Avicennia germinans), Buttonwood (Conocarpus erectus), Red Mangrove (Rhizophora mangle), and White Mangrove (Laguncularia racemosa). This community is characterized by h"
-Veg_Code_Name	Muhly Grass Prairie	Muhly Grass (Muhlenbergia capillaris var. filipes) dominated wet prairie. Found commonly growing with Sawgrass (Cladium jamaicense) or Little Bluestem (Schizachyrium rhizomatum).
-Veg_Code_Name	Open Freshwater Marsh	"Open water (less than 15% vegetation) dominated freshwater marsh often with a mix of sparse graminoids, herbaceous, and/or emergent freshwater vegetation, such as Spikerush (Eleocharis spp.), Panicgrass (Panicum spp.), Sawgrass (Cladium jamaicense), Catta"
-Veg_Code_Name	Open Salt Marsh	"Open (less than 15% vegetation) dominated salt marsh often with a mix of sparse graminoids and/or herbaceous salt marsh vegetation, such as Black Rush (Juncus roemerianus) and/or Cordgrass (Spartina spp.)."
-Veg_Code_Name	Open Water	A large open body of water associated with an ocean or bay.
-Veg_Code_Name	Pine Rockland-Graminoid Marsh	"Pine Rockland in a matrix composed predominately of graminoids, such as Bluestem (Andropogon spp.), Gamagrass (Tripsacum spp.), Threeawn (Aristida spp.), Lovegrass (Eragrostis spp.), Witchgrass (Dichanthelium spp.), Panicgrass (Panicum spp.), among others"
-Veg_Code_Name	Pine Rockland-Mixed	Pine Rockland in a matrix composed of a co-dominant mix (20% or less difference in percent cover) of upland graminoids and shrubs.
-Veg_Code_Name	Pine Rockland-Saw Palmetto	Pine Rockland in a matrix composed predominately of Saw Palmetto (Serenoa repens).
-Veg_Code_Name	Pine Rockland-Shrubs	"Pine Rockland in a matrix composed predominately of shrubs and trees, such as Wax Myrtle (Myrica cerifera), Saw Palmetto (Serenoa repens), Cabbage Palm (Sabal palmetto), Rough velvetseed (Guettarda scabra), Varnishleaf (Dodonaea viscosa), St. John's-Wort "
-Veg_Code_Name	Pond Apple Scrub-Graminoid Marsh	Pond Apple Scrub in a matrix composed predominately of Freshwater Graminoid Marsh.
-Veg_Code_Name	Pond Apple Scrub-Sawgrass Marsh	Pond Apple Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	Red Mangrove Forest	Red Mangrove (Rhizophora mangle) dominant forest. This community is usually characterized by a minimum of 50% Red Mangrove (Rhizophora mangle) trees and shrubs found in a matrix of other species.
-Veg_Code_Name	Red Mangrove Scrub-Black Rush Marsh	Red Mangrove (Rhizophora mangle) scrub in a matrix composed predominately of Black Rush (Juncus roemerianus).
-Veg_Code_Name	Red Mangrove Scrub-Cordgrass Marsh	Red Mangrove (Rhizophora mangle) scrub in a matrix composed predominately of Cordgrass (Spartina spp.).
-Veg_Code_Name	Red Mangrove Scrub-Dominant	"Red Mangrove (Rhizophora mangle) scrub with an average height up to 2m, and mangrove cover of 85% or more."
-Veg_Code_Name	Red Mangrove Scrub-Graminoid Marsh	Red Mangrove (Rhizophora mangle) scrub in a matrix composed predominately of graminoids.
-Veg_Code_Name	Red Mangrove Scrub-Open Marsh	"Red Mangrove (Rhizophora mangle) scrub in a matrix composed predominately of Open Freshwater Marsh or Open Saltwater Marsh, both of which have less than 15% marsh vegetation. Mangroves can occur in both salt and freshwater dominated marshes."
-Veg_Code_Name	Red Mangrove Scrub-Sawgrass Marsh	Red Mangrove (Rhizophora mangle) scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	Red Mangrove Scrub-Spikerush Marsh	Red Mangrove (Rhizophora mangle) scrub in a matrix composed predominately of Spikerush (Eleocharis spp.).
-Veg_Code_Name	Red Mangrove Shrubland	Red Mangrove (Rhizophora mangle) dominant Shrubland.
-Veg_Code_Name	River	"A body of water with a current that flows into a larger river system, bay or ocean."
-Veg_Code_Name	Saltwort Marsh	Saltwort (Batis maritima) dominated salt marsh.
-Veg_Code_Name	Sand Cordgrass Marsh	Sand Cordgrass (Spartina bakeri) dominated freshwater marsh.
-Veg_Code_Name	Saw Palmetto Shrubland	Saw Palmetto (Serenoa repens) dominant Shrubland.
-Veg_Code_Name	Sawgrass-Rhynchospora Marsh	"Co-dominant mix of Sawgrass (Cladium jamaicense) and Beakrush (Rhynchospora tracyi). This community is characterized by having no particular graminoid species in dominance, meaning there is 15% or less difference in percent cover between two or more grami"
-Veg_Code_Name	Sawgrass Marsh	Sawgrass (Cladium jamaicense) dominated marsh.
-Veg_Code_Name	Sawgrass Prairie	"Sawgrass (Cladium jamaicense) dominated wet prairie. Muhly Grass (Muhlenbergia capillaris var. filipes), Little Bluestem (Schizachyrium rhizomatum), Black Sedge (Schoenus nigricans) may be present."
-Veg_Code_Name	Short Sawgrass Marsh-Dense	Short Sawgrass Marsh with 50-100% Sawgrass (Cladium jamaicense) cover.
-Veg_Code_Name	Short Sawgrass Marsh-Sparse	Short Sawgrass Marsh with 15-49% Sawgrass (Cladium jamaicense) cover.
-Veg_Code_Name	Spikerush Marsh	"Coastal Spikerush (Eleocharis cellulosa), Slim Spikerush (E. elongata), and/or Knotted Spikerush (E. interstincta) dominated marsh."
-Veg_Code_Name	Tall Sawgrass Marsh-Dense	Tall Sawgrass Marsh with 50-100% Sawgrass (Cladium jamaicense) cover.
-Veg_Code_Name	Tall Sawgrass Marsh-Sparse	Tall Sawgrass Marsh with 15-49% Sawgrass (Cladium jamaicense) cover.
-Veg_Code_Name	Tidal Flat	Shallow intertidal sand or mud areas which are regularly exposed to the atmosphere at low tide.
-Veg_Code_Name	Transitional Bayhead Forest	"Mix of trees characterized by Buttonwood (Conocarpus erectus), Red Mangrove (Rhizophora mangle), Cocoplum (Chrysobalanus icaco), Wax Myrtle (Myrica cerifera), Poisonwood (Metopium toxiferum), and occasionally West Indian Mahogany (Swietenia mahagoni), Swa"
-Veg_Code_Name	Transitional Bayhead Shrubland	"Mixed assemblage of shrubs characterized by Buttonwood (Conocarpus erectus), Red Mangrove (Rhizophora mangle), Cocoplum (Chrysobalanus icaco), Wax Myrtle (Myrica cerifera), Poisonwood (Metopium toxiferum), Swamp Bay (Persea palustris), Red Bay (Persea bor"
-Veg_Code_Name	Transitional Bayhead Swamp Scrub-Graminoid Marsh	Transitional Bayhead Swamp Scrub in a matrix composed predominately of Freshwater Graminoid Marsh.
-Veg_Code_Name	Transitional Bayhead Swamp Scrub-Sawgrass Marsh	Transitional Bayhead Swamp Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	Tropical Hardwood Hammock	"Mix species assemblage of False Tamarind (Lysiloma latisiliquum), Gumbo Limbo (Bursera simaruba), Poisonwood (Metopium toxiferum), Pigeon Plum (Coccoloba diversifolia), False Mastic (Sideroxylon foetidissimum), Live Oak (Quercus virginiana), Sugarberry (C"
-Veg_Code_Name	Tropical Hardwood Shrubland	"Mix of Gumbo Limbo (Bursera simaruba), Poisonwood (Metopium toxiferum), Pigeon Plum (Coccoloba diversifolia), White Stopper (Eugenia axillaris), Strangler Fig (Ficus aurea), Red Bay (Persea borbonia), Dahoon Holly (Ilex Cassine), Saffron Plum (Sideroxylon"
-Veg_Code_Name	Upland Hardwood Scrub-Mixed Graminoid Prairie	"Upland Hardwood Scrub in a matrix composed of a mixed prairie species assemblage of Sawgrass (Cladium jamaicense), Muhly Grass (Muhlenbergia capillaris var. filipes), and/or Little Bluestem (Schizachyrium rhizomatum). This community is characterized by ha"
-Veg_Code_Name	Upland Hardwood Scrub-Sawgrass Prairie	Upland Hardwood Scrub in a matrix composed predominately of short stature Sawgrass (Cladium jamaicense) Prairie.
-Veg_Code_Name	Water	"Open water areas such as ponds, lakes, rivers, bays, and estuaries."
-Veg_Code_Name	Wax Myrtle Scrub-Graminoid Prairie	Wax Myrtle Scrub in a matrix composed predominately of Freshwater Graminoid Prairie species.
-Veg_Code_Name	Wax Myrtle Scrub-Sawgrass Marsh	Wax Myrtle Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	White Mangrove-Red Mangrove Forest	Co-dominant mix (20% or less difference in percent cover) of White Mangrove (Laguncularia racemosa) and Red Mangrove (Rhizophora mangle) trees.
-Veg_Code_Name	White Mangrove-Red Mangrove Scrub	Co-dominant mix (20% or less difference in percent cover) of White Mangrove (Laguncularia racemosa) and Red Mangrove (Rhizophora mangle) scrub.
-Veg_Code_Name	White Mangrove-Red Mangrove Scrub-Sawgrass Marsh	White Mangrove-Red Mangrove Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	White Mangrove-Red Mangrove Shrubland	Co-dominant mix (20% or less difference in percent cover) of White Mangrove (Laguncularia racemosa) and Red Mangrove (Rhizophora mangle) shrubs.
-Veg_Code_Name	White Mangrove Forest	White Mangrove (Laguncularia racemosa) dominant forest. This community is usually characterized by a minimum of 50% White Mangrove (Laguncularia racemosa) trees and shrubs found in a matrix of other species.
-Veg_Code_Name	White Mangrove Scrub-Black Rush Marsh	White Mangrove (Laguncularia racemosa) scrub in a matrix composed predominately of Black Rush (Juncus roemerianus).
-Veg_Code_Name	White Mangrove Scrub-Herbaceous Marsh	White Mangrove (Laguncularia racemosa) scrub in a matrix composed predominately of herbaceous vegetation.
-Veg_Code_Name	White Mangrove Scrub-Open Marsh	"White Mangrove (Laguncularia racemosa) scrub in a matrix composed predominately of Open Freshwater Marsh or Open Saltwater Marsh, both of which have less than 15% marsh vegetation. Mangroves can occur in both salt and freshwater dominated marshes."
-Veg_Code_Name	White Mangrove Scrub-Sawgrass Marsh	White Mangrove (Laguncularia racemosa) scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	White Mangrove Shrubland	White Mangrove (Laguncularia racemosa) dominant Shrubland.
-Veg_Code_Name	Willow Scrub-Graminoid Marsh	Willow Scrub in a matrix composed predominately of Freshwater Graminoid Marsh.
-Veg_Code_Name	Willow Scrub-Sawgrass Marsh	Willow Scrub in a matrix composed predominately of Sawgrass (Cladium jamaicense).
-Veg_Code_Name	Willow Shrubland	"Seasonally to semi-permanently flooded dominant to monotypic stands of Willow (Salix caroliniana) trees and shrubs in association with Leather Fern (Acrostichum danaeifolium), Cattail (Typha spp.), Sawgrass (Cladium jamaicense), Arrowhead (Sagittaria spp."
+Cattail	below threshold	threshold
+Cattail	MFGtS	MFGts
+Cattail	none	none
+Cell_Shape	50m x 50m grid cell	size of sampling cell
+Exotics	EcST	Exotics_test
+Exotics	ElS	Exotics_test
+Exotics	EmS	Exotics_test
+Exotics	EsD	Exotics_test
+Exotics	EsS	Exotics_test
+Exotics	"EsS, ElS"	Exotics_test
+Notes	11% bayhead species in entire cell	Notes outside of data collection
+Notes	40% conere cover in shrub layer	Notes outside of data collection
+Notes	48% shrub cover and 12% herb cover	Notes outside of data collection
+Notes	A lot of snags probably cold burned.	Notes outside of data collection
+Notes	Bayhead species 30% of shrub layer	Notes outside of data collection
+Notes	Bayhead species 40% in shrub layer	Notes outside of data collection
+Notes	Bayhead species 40% of shrub layer	Notes outside of data collection
+Notes	Between tram roads.	Notes outside of data collection
+Notes	Borderline CMrGe with clajam patches.	Notes outside of data collection
+Notes	Borderline FSBT. May be good site for Chromolaena frustrata.	Notes outside of data collection
+Notes	Borderline MFO with only 15perc veg. Lots of periphyton.	Notes outside of data collection
+Notes	Borderline SMr. There are patches of clajam but majority is open.	Notes outside of data collection
+Notes	Borderline SSBT. Sawgrass overestimated	Notes outside of data collection
+Notes	Burned about a year ago.	Notes outside of data collection
+Notes	Burned.	Notes outside of data collection
+Notes	Burned. A lot of exotic lygmic in area around cell.	Notes outside of data collection
+Notes	Burned. Lygmic cover 4.5%.	Notes outside of data collection
+Notes	Bushes of dead lagrac possibly cold damaged. Imagery may look like CMl or CMlGn.	Notes outside of data collection
+Notes	Clajam cover is 18%	Notes outside of data collection
+Notes	Classified land. Dominant feature is the water	Notes outside of data collection
+Notes	Clumped chrica on NE.	Notes outside of data collection
+Notes	CMcGc understory.	Notes outside of data collection
+Notes	CMrGe acceptable.	Notes outside of data collection
+Notes	CMrO code overrides WMcO found here.	Notes outside of data collection
+Notes	CMXcr also acceptable	Notes outside of data collection
+Notes	conere overestimated. Only 5% bayhead species	Notes outside of data collection
+Notes	Creeks with rhiman myrcer 30perc.	Notes outside of data collection
+Notes	CSBGc also acceptable	Notes outside of data collection
+Notes	CSBT also acceptable based on a height of 2m.	Notes outside of data collection
+Notes	CSBT also acceptable due to 50% open water cover.	Notes outside of data collection
+Notes	CShGc because cepocc 50perc of shrub layer. CSBGc acceptable with 45perc bayhead spp. Exotic melqui below threshold.	Notes outside of data collection
+Notes	CSW and CSWGc acceptable. There is 20% typha cover in cell.	Notes outside of data collection
+Notes	Cypress dome on S.	Notes outside of data collection
+Notes	Dead conere is resprouting. Exotic schter below threshold.	Notes outside of data collection
+Notes	Dead lagrac with dead tops and resprouts.	Notes outside of data collection
+Notes	Deep water marsh with floating periphyton mat. Large patch of rhytra on NW.	Notes outside of data collection
+Notes	Did not take NE photo.	Notes outside of data collection
+Notes	Edge of forest on W is mettox serrep chrica. MFGX clajam elecel understory.	Notes outside of data collection
+Notes	Edge of tree island on S.	Notes outside of data collection
+Notes	Edge of tree island on SE.	Notes outside of data collection
+Notes	erigig gives the herb height 2m. The sawgrass is less than 2m in height. Helpin and erigig are the only prairie species.	Notes outside of data collection
+Notes	Even mix of bayhead and mangrove species	Notes outside of data collection
+Notes	Excluded MFO patches. Patch of forest on E. SSBT code overrides WSH found here.	Notes outside of data collection
+Notes	Exotic lygmic 5perc of cell. Shrubland with some emergent trees	Notes outside of data collection
+Notes	Exotic lygmic returning to this burned area.	Notes outside of data collection
+Notes	Exotic melqui 25perc of cell and casequi below threshold.	Notes outside of data collection
+Notes	Exotic melqui 30perc of cell.	Notes outside of data collection
+Notes	Exotic melqui below threshold. Stand of typdom to N.	Notes outside of data collection
+Notes	Exotic schter 18perc of cell.	Notes outside of data collection
+Notes	Exotic schter 83perc of cell. Found 83perc schter 17myrcer shrubland with emergent trees.	Notes outside of data collection
+Notes	Exotic schter below threshold.	Notes outside of data collection
+Notes	FHq because quevir 80perc of cell.	Notes outside of data collection
+Notes	FHq on N.	Notes outside of data collection
+Notes	Filamentous green algae present. Only 5% herb cover	Notes outside of data collection
+Notes	FMa acceptable.	Notes outside of data collection
+Notes	FMc accebtable. Trees 60perc conere 40perc bayhead spp.	Notes outside of data collection
+Notes	FMr acceptable.	Notes outside of data collection
+Notes	FMX acceptable.	Notes outside of data collection
+Notes	FMXar acceptable.	Notes outside of data collection
+Notes	Forest is the dominant feature	Notes outside of data collection
+Notes	Found 15perc old dead snags.	Notes outside of data collection
+Notes	Found 15perc ONWo. FMr acceptable	Notes outside of data collection
+Notes	Found 15perc ONWo. Only 12% herb cover. Scrub based on height.	Notes outside of data collection
+Notes	Found 20 junroe marsh. Half of the shrub cover is bayhead species.	Notes outside of data collection
+Notes	Found 20perc dead trees and open sand.	Notes outside of data collection
+Notes	Found 20perc ONWo.	Notes outside of data collection
+Notes	Found 25perc ONWo.	Notes outside of data collection
+Notes	Found 30perc ONWo.	Notes outside of data collection
+Notes	Found 30perc ONWo. Shrubland with some emergent trees	Notes outside of data collection
+Notes	Found 40perc ONWo.	Notes outside of data collection
+Notes	Found 46perc tree cover. Borderline FMXar.	Notes outside of data collection
+Notes	Found 50perc ONWo. Split cell. Classified vegetation on land.	Notes outside of data collection
+Notes	Found 50perc rhyinu 20rhytra 20clajam.	Notes outside of data collection
+Notes	Found 60perc clajam 40perc MFGe. Many sweaters.	Notes outside of data collection
+Notes	Found 60perc mudflat. 40perc vegetation. TF acceptable.	Notes outside of data collection
+Notes	Found 60perc ONWo. Classified ONWo but recorded vegetation data for land.	Notes outside of data collection
+Notes	"Found 60perc temperate 40 tropical trees. FHT, FHq, and FHg are also acceptable. Went with FHS due to lack of other tempereate species."	Notes outside of data collection
+Notes	Found 60perc vegetation.	Notes outside of data collection
+Notes	Found 65perc ONWo.	Notes outside of data collection
+Notes	Found 65perc ONWo. Classified ONWo but recorded vegetation data for land.	Notes outside of data collection
+Notes	Found 70perc MFGc 30perc MFGe.	Notes outside of data collection
+Notes	Found 70perc ONWo. Classified ONWo but recorded vegetation data for land.	Notes outside of data collection
+Notes	Found 75perc ONT. Classified ONT but recorded vegetation data for land.	Notes outside of data collection
+Notes	Found 75perc ONWo. Classified ONWo but recorded vegetation data for land.	Notes outside of data collection
+Notes	Found 80perc ONWo. Classified ONWc but recorded vegetation data for land.	Notes outside of data collection
+Notes	Found 80perc ONWo. Classified ONWo but recorded vegetation data for land.	Notes outside of data collection
+Notes	Found 90perc ONT. Classified ONT but recorded vegetation data for land.	Notes outside of data collection
+Notes	Found 90perc ONWo. Land has 10m tall rhiman aviger.	Notes outside of data collection
+Notes	Found 90perc ONWo. Land has 20perc rhiman shrubs 80trees.	Notes outside of data collection
+Notes	Found 90perc ONWo. Land has rhiman junroe.	Notes outside of data collection
+Notes	Found 90perc ONWo. Trees along coast 10m tall rhiman.	Notes outside of data collection
+Notes	Found cell has 5perc dead pinell trees.	Notes outside of data collection
+Notes	Found elecel in smaller patches.	Notes outside of data collection
+Notes	Found ONWo. Classified ONWo but recorded vegetation data for land.	Notes outside of data collection
+Notes	Gator trail still visible.	Notes outside of data collection
+Notes	Graminoids 40perc typdom 20panhem 10elecel 5clajam 5erigig.	Notes outside of data collection
+Notes	Greater than 20% difference between rhiman and lagrac	Notes outside of data collection
+Notes	Herb cover 6.5%	Notes outside of data collection
+Notes	herb height overestimated. Sawgrass 1 to 1.5m height	Notes outside of data collection
+Notes	Holes in the photo are ponds.	Notes outside of data collection
+Notes	Island of lagrac on E.	Notes outside of data collection
+Notes	Less than 50% quevir cover. Quevir is a component of FHS.	Notes outside of data collection
+Notes	Lots of periphyton.	Notes outside of data collection
+Notes	Lots of periphyton. Area with clajam on N.	Notes outside of data collection
+Notes	Lots of periphyton. MFGe with discrete clajam patches.	Notes outside of data collection
+Notes	Lots of periphyton. There are prairie pockets but this is a marsh.	Notes outside of data collection
+Notes	Lots of periphyton. Tree island in NE corner	Notes outside of data collection
+Notes	Lygmic 6%	Notes outside of data collection
+Notes	Lygmic cover 3.5%	Notes outside of data collection
+Notes	Lygmic cover 6%. CSBGc also acceptable	Notes outside of data collection
+Notes	Lygmic cover 9%. Schter cover 3%	Notes outside of data collection
+Notes	Mangrove shrubs clumped	Notes outside of data collection
+Notes	Many birds including white egrets tricolored herons.	Notes outside of data collection
+Notes	Many dead lagrac shrubs. CSBTGc may also be acceptable.	Notes outside of data collection
+Notes	Many dead shrubs. SMl if including dead shrubs	Notes outside of data collection
+Notes	Many dead trees.	Notes outside of data collection
+Notes	Many old snags.	Notes outside of data collection
+Notes	Many rhiman seedlings in clajam.	Notes outside of data collection
+Notes	Many snags.	Notes outside of data collection
+Notes	Marly periphyton.	Notes outside of data collection
+Notes	Marsh with shrubs following creeks. Shrub layer has 40% mangrove and 60% bayhead species.	Notes outside of data collection
+Notes	May have been burned.	Notes outside of data collection
+Notes	MFG MSG juncus on SE.	Notes outside of data collection
+Notes	MFGa on W. Some panhem pasgem rhytra elecel.	Notes outside of data collection
+Notes	MFGcSD acceptable. Split cell MFGe on SE and MFGcSD on NW. Classified MFGe.	Notes outside of data collection
+Notes	MFGcSS understory.	Notes outside of data collection
+Notes	MFGe is one third of NW.	Notes outside of data collection
+Notes	MFGe on W.	Notes outside of data collection
+Notes	MFGe patch.	Notes outside of data collection
+Notes	MFGe to W of this cell.	Notes outside of data collection
+Notes	MFGe with clajam patches. Some periphyton.	Notes outside of data collection
+Notes	MFGPc on N.	Notes outside of data collection
+Notes	MFGX elecel rhytra on N.	Notes outside of data collection
+Notes	MFGX mixed clajam rhyinu rhytra understory.	Notes outside of data collection
+Notes	MFGXcr understory.	Notes outside of data collection
+Notes	Mixed andvir clajam muhcap rhydiv prairie. Rocky.	Notes outside of data collection
+Notes	Mixed aviger conere rhiman. Exotic thepop below threshold.	Notes outside of data collection
+Notes	Mixed clajam elecel pasgem rhytra. Bayhead on N.	Notes outside of data collection
+Notes	Mixed clajam elecel rhytra.	Notes outside of data collection
+Notes	Mixed clajam elecel rhytra. Borderline MFGXcr.	Notes outside of data collection
+Notes	Mixed clajam elecel rhytra. MFGXcr acceptable. Small tree island in cell.	Notes outside of data collection
+Notes	Mixed clajam elecel.	Notes outside of data collection
+Notes	Mixed clajam elecel. Lots of periphyton.	Notes outside of data collection
+Notes	Mixed clajam elecel. Small piece of tributary on N with rhiman salcar chrica.	Notes outside of data collection
+Notes	Mixed clajam elecel. Split cell sparse MFGX on SE and smaller MFGcSD on NW. Vegetation for the entire cell was recorded. It appears that the sawgrass marsh is the dominant habitat	Notes outside of data collection
+Notes	Mixed clajam muhcap prairie.	Notes outside of data collection
+Notes	Mixed clajam muhcap prairie. Burned and rocky.	Notes outside of data collection
+Notes	Mixed clajam muhcap prairie. Exotic melqui below threshold.	Notes outside of data collection
+Notes	Mixed clajam muhcap prairie. Pine woodland on W and E edges.	Notes outside of data collection
+Notes	Mixed clajam muhcap prairie. Rocky. May be edge of prairie.	Notes outside of data collection
+Notes	Mixed clajam muhcap prairie. Small hardwood patch on S.	Notes outside of data collection
+Notes	Mixed clajam muhcap prairie. Small tree island on center is sidsal myrcer.	Notes outside of data collection
+Notes	Mixed clajam muhcap prairie. Treated casequ.	Notes outside of data collection
+Notes	Mixed clajam muhcap prairie. Tree island on NW.	Notes outside of data collection
+Notes	Mixed clajam muhcap schnig schrhi prairie.	Notes outside of data collection
+Notes	Mixed clajam muhcap schnig schrhi prairie. Piece of tree island at SW.	Notes outside of data collection
+Notes	Mixed clajam muhcap schnig schrhi prairie. Rocky.	Notes outside of data collection
+Notes	Mixed clajam muhcap schrhi prairie.	Notes outside of data collection
+Notes	Mixed clajam muhcap schrhi prairie. Piece of tree island at SW.	Notes outside of data collection
+Notes	Mixed clajam muhcap schrhi prairie. Rocky.	Notes outside of data collection
+Notes	Mixed clajam panhem.	Notes outside of data collection
+Notes	Mixed clajam rhyinu.	Notes outside of data collection
+Notes	Mixed clajam rhytra.	Notes outside of data collection
+Notes	Mixed clajam schrhi prairie.	Notes outside of data collection
+Notes	Mixed clajam typdom.	Notes outside of data collection
+Notes	Mixed elecel panhem. Some periphyton.	Notes outside of data collection
+Notes	Mixed elecel rhyinu rhytra.	Notes outside of data collection
+Notes	Mixed elecel rhytra.	Notes outside of data collection
+Notes	Mixed elecel rhytra. Tree island on E is rhiman chrica myrcer perbor clajam.	Notes outside of data collection
+Notes	Mixed elecel rhytra. Tree island on S is chrica myrcer.	Notes outside of data collection
+Notes	Mixed mangrove forest.	Notes outside of data collection
+Notes	Mixed muhcap schnig prairie.	Notes outside of data collection
+Notes	Mixed muhcap schnig prairie. Dry prairie.	Notes outside of data collection
+Notes	Mixed muhcap schnig schrhi prairie.	Notes outside of data collection
+Notes	Mixed muhcap schrhi prairie.	Notes outside of data collection
+Notes	Mixed pasmon schrhi prairie. Rocky.	Notes outside of data collection
+Notes	Mostly mangrove shrubs classified. Split cell.	Notes outside of data collection
+Notes	Mostly open mud at low tide. Vegetation listed is the minor vegetated component	Notes outside of data collection
+Notes	Mostly open water.	Notes outside of data collection
+Notes	Mostly open water. Parts of tree islands rhiman mettox conere clajam.	Notes outside of data collection
+Notes	MSGn or MSGj acceptable. Schinus cover 5% for entire cell.	Notes outside of data collection
+Notes	MSGo understory.	Notes outside of data collection
+Notes	MSS understory.	Notes outside of data collection
+Notes	MSS understory. Mixed batmat saramb sualin.	Notes outside of data collection
+Notes	Much schter in area seen between last point and this one.	Notes outside of data collection
+Notes	muhcap appears in patches on rock outcrops	Notes outside of data collection
+Notes	N end difficult to fly due to high winds.	Notes outside of data collection
+Notes	Near SET site	Notes outside of data collection
+Notes	No code for bayhead scrub in prairie.	Notes outside of data collection
+Notes	No photo of datasheet taken.	Notes outside of data collection
+Notes	No photo of datasheet taken. Schter 6% overall cover	Notes outside of data collection
+Notes	No photo of datasheet taken. Trace of lygmic present	Notes outside of data collection
+Notes	No photo taken.	Notes outside of data collection
+Notes	No photos taken. Only 12% herb cover	Notes outside of data collection
+Notes	No picture of datasheet	Notes outside of data collection
+Notes	No understory category for rhytra.	Notes outside of data collection
+Notes	No vegetation.	Notes outside of data collection
+Notes	No vegetation. Could be a creek or ONWo	Notes outside of data collection
+Notes	No vegetation. May be creek or ONWo	Notes outside of data collection
+Notes	Not a lot of periphyton.	Notes outside of data collection
+Notes	Not CMaSb because aviger clumped on NW.	Notes outside of data collection
+Notes	Not CMrGc because 10perc rhiman is clumped.	Notes outside of data collection
+Notes	Not CMrGc because rhiman clustered in center.	Notes outside of data collection
+Notes	Not enough bayhead species	Notes outside of data collection
+Notes	Not enough rhiman for FSBT. MFGc on NW.	Notes outside of data collection
+Notes	NW corner has melqui.	Notes outside of data collection
+Notes	Only 10% herb cover	Notes outside of data collection
+Notes	Only 10.5% mangrove cover	Notes outside of data collection
+Notes	Only 16% bayhead species for entire cell	Notes outside of data collection
+Notes	Only 16% bayhead species for the cell.	Notes outside of data collection
+Notes	Only 4% herb cover	Notes outside of data collection
+Notes	Only 4perc clajam.	Notes outside of data collection
+Notes	Only 5% herb cover	Notes outside of data collection
+Notes	only 6% herb cover	Notes outside of data collection
+Notes	Only 6% herb cover	Notes outside of data collection
+Notes	Only 8% herb cover	Notes outside of data collection
+Notes	Only 9% herb cover	Notes outside of data collection
+Notes	Only 9% herb cover. Scrub based on height.	Notes outside of data collection
+Notes	Only 9.7% herb cover. Scrub based on height.	Notes outside of data collection
+Notes	Overall cover overestimated on datasheet.	Notes outside of data collection
+Notes	Part of tree island at north in cell	Notes outside of data collection
+Notes	Part of tree island in NE. Bayhead species are only 5.4% of the cover.	Notes outside of data collection
+Notes	Part of tree island in SW is chrica taxdis.	Notes outside of data collection
+Notes	"Part of tree island included, shrub cover thus overestimated."	Notes outside of data collection
+Notes	Part of tree island is perbor some magvir. There are prairie pockets but this is a marsh.	Notes outside of data collection
+Notes	Part of tree island on E is chrica myrcer rhiman.	Notes outside of data collection
+Notes	Part of tree island on NE mostly tremic.	Notes outside of data collection
+Notes	Part of tree island on S is pteaqu nepexa. There are prairie pockets but this is a marsh.	Notes outside of data collection
+Notes	Part of tree island on SW is conere rhiman. MFGcSD understory.	Notes outside of data collection
+Notes	Part of tree island on W mostly pteaqu.	Notes outside of data collection
+Notes	Part of tree island on W mostly rhiman.	Notes outside of data collection
+Notes	Part of tree island on W.	Notes outside of data collection
+Notes	Parts of tree island on NE and SW are mostly tremic.	Notes outside of data collection
+Notes	Parts of tree islands at NW and S. There are prairie pockets but this is a marsh.	Notes outside of data collection
+Notes	Patch of clajam on SE.	Notes outside of data collection
+Notes	Patch of elecel pelvir poncor.	Notes outside of data collection
+Notes	Patch of thepop nearby to E.	Notes outside of data collection
+Notes	Peculiar vegetation mix. CUG acceptable if including shorter trees with shrub layer.	Notes outside of data collection
+Notes	"Percentages are for the entire cell. Two habitats, SMr and sawgrass at either end. Density of rhiman and their height make this a SMr."	Notes outside of data collection
+Notes	pictures show some cattail	Notes outside of data collection
+Notes	Piece of tree island at N is sidsal myrcer.	Notes outside of data collection
+Notes	Piece of tree island at SE is sidsal cocdiv ilecas.	Notes outside of data collection
+Notes	Pieces of tree islands at NW and SW.	Notes outside of data collection
+Notes	Point from Jimi Sadle. Exotic lygmic 0perc of cell.	Notes outside of data collection
+Notes	"Point from Jimi Sadle. Exotic lygmic 0perc of cell. Split cell, sawgrass dominates."	Notes outside of data collection
+Notes	Point from Jimi Sadle. Exotic lygmic 15perc of cell.	Notes outside of data collection
+Notes	Point from Jimi Sadle. Exotic lygmic 20perc of cell.	Notes outside of data collection
+Notes	Point from Jimi Sadle. Exotic lygmic 26perc of cell.	Notes outside of data collection
+Notes	Point from Jimi Sadle. Exotic lygmic 30perc of cell.	Notes outside of data collection
+Notes	Point from Jimi Sadle. Exotic lygmic 5perc of cell.	Notes outside of data collection
+Notes	Ponds with chara.	Notes outside of data collection
+Notes	Prairie.	Notes outside of data collection
+Notes	Quevir only 42% of cell	Notes outside of data collection
+Notes	Rhiman habitat is a separate habitat to east in cell	Notes outside of data collection
+Notes	rhiman shrubs clumped at NE	Notes outside of data collection
+Notes	rhiman shrubs clumped at north in cell	Notes outside of data collection
+Notes	Rocky broken ground.	Notes outside of data collection
+Notes	Rocky.	Notes outside of data collection
+Notes	Rocky. Lots of periphyton.	Notes outside of data collection
+Notes	Rocky. There are prairie pockets but this is a marsh.	Notes outside of data collection
+Notes	Round clajam patches.	Notes outside of data collection
+Notes	Schinus 25% cover	Notes outside of data collection
+Notes	Schinus cover 10%. Shrubland with some emergent trees.	Notes outside of data collection
+Notes	Schinus cover 2.7 %. Datasheet photo taken after site photos.	Notes outside of data collection
+Notes	Schinus cover 7.5%	Notes outside of data collection
+Notes	Schinus cover 9%.	Notes outside of data collection
+Notes	Schter cover 2.5%	Notes outside of data collection
+Notes	Schter cover 3%.	Notes outside of data collection
+Notes	Scrub based on 2m height of shrubs	Notes outside of data collection
+Notes	Scrub due to 2m height for shrubs	Notes outside of data collection
+Notes	shrub and herb cover adjusted to equal 100	Notes outside of data collection
+Notes	Shrub cover originally overestimated	Notes outside of data collection
+Notes	Shrub cover originally underestimated	Notes outside of data collection
+Notes	Shrub cover overestimated	Notes outside of data collection
+Notes	Shrub cover overestimated. Only 10% cover for shrubs.	Notes outside of data collection
+Notes	Shrub heights overestimated. Some conere shrubs are taller to 4m.	Notes outside of data collection
+Notes	shrubland with some emergent trees	Notes outside of data collection
+Notes	Shrubland with some emergent trees	Notes outside of data collection
+Notes	Shrubland with some emergent trees.	Notes outside of data collection
+Notes	Shrubs 2m in height	Notes outside of data collection
+Notes	"Shrubs clustered in SE corner of cell, marsh is the dominant community"	Notes outside of data collection
+Notes	SMa code overrides WMaG found here. Split cell classified SW.	Notes outside of data collection
+Notes	SMa code overrides WMaS found here	Notes outside of data collection
+Notes	SMa code overrides WMaS found here. Split cell with MSS minority.	Notes outside of data collection
+Notes	Small edge of tree island.	Notes outside of data collection
+Notes	Small MFGe on NW.	Notes outside of data collection
+Notes	Small patch of MFGe and some rhytra.	Notes outside of data collection
+Notes	Small patch of MFGe. Lots of periphyton.	Notes outside of data collection
+Notes	Small piece of tree island on SE.	Notes outside of data collection
+Notes	Small tree island in center is conere rhiman myrcer.	Notes outside of data collection
+Notes	Small tree island in center.	Notes outside of data collection
+Notes	Small tree island on center is sidsal mettox.	Notes outside of data collection
+Notes	SMc code overrides WMcO found here.	Notes outside of data collection
+Notes	SMr acceptable.	Notes outside of data collection
+Notes	SMXcr code overrides WMXcr found here.	Notes outside of data collection
+Notes	SMXlr acceptable. No WMl or WMX class. Rhiman 42% of entire cell and lagrac 32%	Notes outside of data collection
+Notes	Some 10perc dieback.	Notes outside of data collection
+Notes	Some FMr.	Notes outside of data collection
+Notes	Some periphyton.	Notes outside of data collection
+Notes	Some water 20perc. Not a bayhead.	Notes outside of data collection
+Notes	Split cell MFG MFGc tree islands. Classified tree islands. Almost enough rhiman for CSBTGc.	Notes outside of data collection
+Notes	Split cell with 50perc ONWo. Classified the land.	Notes outside of data collection
+Notes	Split cell with 50perc ONWo. Classified the land. Only 9% herb cover.	Notes outside of data collection
+Notes	Split cell with 50perc ONWo. Classified the land. Only 9% junroe cover.	Notes outside of data collection
+Notes	Split cell with MFGe.	Notes outside of data collection
+Notes	Split cell with ONWo. SMr with conere and some bayhead spp.	Notes outside of data collection
+Notes	Split cell with salcar and MFGg.	Notes outside of data collection
+Notes	Split cell WUpRSn on SE and EsD on NW. Classified WUpRSn but recorded vegetation data for EsD. Exotic schter 60perc of cell.	Notes outside of data collection
+Notes	Split cell.	Notes outside of data collection
+Notes	Split cell. 50perc mud and water. Only 5% herb cover.	Notes outside of data collection
+Notes	Split cell. Majority forest.	Notes outside of data collection
+Notes	Split cell. Minority tree island with conere mettox rhiman aviger cocuvi chrica.	Notes outside of data collection
+Notes	Split cell: CSBT at south and CMrGe at north. Classified both but dominant habitat is rhiman scrub	Notes outside of data collection
+Notes	SSB code overrides WS found here.	Notes outside of data collection
+Notes	SSB code overrides WSH found here.	Notes outside of data collection
+Notes	SSB code overrides WSH found here. 34% mangrove species	Notes outside of data collection
+Notes	SSB code overrides WSH found here. Borderline SSy with 40perc chrica. Surrounded by MFGcSD.	Notes outside of data collection
+Notes	SSB code overrides WSH found here. Exotic schter 12perc of cell.	Notes outside of data collection
+Notes	SSB code overrides WSH found here. Exotic schter 32perc of cell.	Notes outside of data collection
+Notes	SSBT at E in cell.	Notes outside of data collection
+Notes	SSBT code overrides WMcG found here.	Notes outside of data collection
+Notes	SSBT code overrides WMcG found here. MFGcSS understory.	Notes outside of data collection
+Notes	SSBT code overrides WSH found here.	Notes outside of data collection
+Notes	SSBT code overrides WSH found here. MFGcSS understory.	Notes outside of data collection
+Notes	SSBT code overrides WSH found here. SMXry acceptable.	Notes outside of data collection
+Notes	SSc on SE.	Notes outside of data collection
+Notes	SSs because salcar 60perc of shrub layer. SSB acceptable with 60perc salcar 20myrcer 10anngla 10ilecas.	Notes outside of data collection
+Notes	SSy because 60perc chrica. FSB acceptable. Fringe of rhiman.	Notes outside of data collection
+Notes	SSy because chrica 63perc of cell. Fringe of rhiman.	Notes outside of data collection
+Notes	SSy because chrica 63perc of cell. SSy code overrides WSH found here.	Notes outside of data collection
+Notes	SSy because chrica 67perc of cell. Borderline FSB with 28perc bayhead spp. Tree height but chrica is always shrubland. MFGc on N.	Notes outside of data collection
+Notes	SSy because chrica 69perc of cell. FSB borderline.	Notes outside of data collection
+Notes	SSy borderline because chrica 51perc of cell.	Notes outside of data collection
+Notes	SUH code overrides WUH found here.	Notes outside of data collection
+Notes	SUH code overrides WUH found here. Tree island with MFGPc.	Notes outside of data collection
+Notes	Taller shrubs by creek.	Notes outside of data collection
+Notes	Teeming with fish.	Notes outside of data collection
+Notes	The buttonwood in the tree layer makes this a buttonwood shrubland	Notes outside of data collection
+Notes	The shrub cover is from a tree island at the SW in the cell. The dominant community is the sawgrass marsh.	Notes outside of data collection
+Notes	There are prairie pockets but this is a marsh.	Notes outside of data collection
+Notes	There are prairie pockets but this is a marsh. Exotic melqui below threshold.	Notes outside of data collection
+Notes	There is 15% difference between rhiman and lagrac.	Notes outside of data collection
+Notes	There is 2% schter cover within cell.	Notes outside of data collection
+Notes	There is a trace of lygmic in cell.	Notes outside of data collection
+Notes	Too close to visitor center. Specific vegetation data not collected.	Notes outside of data collection
+Notes	Tree cover densities at cutoff point.	Notes outside of data collection
+Notes	Tree cover slightly underestimated	Notes outside of data collection
+Notes	Tree island in center is 20perc sabpal 50chrica 20myrcer 10perbor.	Notes outside of data collection
+Notes	Tree island in NW corner of cell where upland species are. Dominant habitat is surrounding cypress scrub with sawgrass.	Notes outside of data collection
+Notes	Tree island is taxdis chrica rhiman.	Notes outside of data collection
+Notes	Tree island on NE is mettox sidsal schter myrcer salcar.	Notes outside of data collection
+Notes	Tree island on S is conere dominated with cocuvi mettox rhiman casequi.	Notes outside of data collection
+Notes	Tree island on SW is chrica rhiman myrcer.	Notes outside of data collection
+Notes	Tree island to SW. Split cell with open area along airboat trail.	Notes outside of data collection
+Notes	Two small tree islands.	Notes outside of data collection
+Notes	Typdom cover 8% for entire cell.	Notes outside of data collection
+Notes	Understory 10perc elecel. Periphyton mats.	Notes outside of data collection
+Notes	Understory 10perc graminoid clajam dominant.	Notes outside of data collection
+Notes	Understory 11perc clajam. Edge of forest on E. Classified scrub.	Notes outside of data collection
+Notes	Understory 11perc graminoid elecel dominant.	Notes outside of data collection
+Notes	Understory 12perc elecel. Creek on E.	Notes outside of data collection
+Notes	Understory 12perc graminoid clajam dominant.	Notes outside of data collection
+Notes	Understory 12perc graminoid elecel dominant.	Notes outside of data collection
+Notes	Understory 12perc graminoid elecel dominant. Shrubs are 4m conere and 2m rhiman.	Notes outside of data collection
+Notes	Understory 13perc graminoid elecel dominant.	Notes outside of data collection
+Notes	Understory 14perc graminoid clajam dominant. CMrGc borderline.	Notes outside of data collection
+Notes	Understory 2perc elecel. Mostly open water.	Notes outside of data collection
+Notes	Understory 2perc elecel. Tree island on E is conere dominated with rhiman sidrec.	Notes outside of data collection
+Notes	Understory 3perc elecel. Mostly open water.	Notes outside of data collection
+Notes	Understory 4perc elecel.	Notes outside of data collection
+Notes	Understory 4perc elecel. Lots of casequ in area.	Notes outside of data collection
+Notes	Understory 4perc elecel. Very open. some periphyton.	Notes outside of data collection
+Notes	Understory 6perc elecel.	Notes outside of data collection
+Notes	Understory 6perc graminoid elecel dominant.	Notes outside of data collection
+Notes	Understory 7perc graminoid elecel clajam.	Notes outside of data collection
+Notes	Understory 8perc graminoid elecel dominant. NW patch of clajam.	Notes outside of data collection
+Notes	Understory 9perc clajam. Part of tree island on NW is conere chrica mettox.	Notes outside of data collection
+Notes	Understory 9perc graminoid clajam dominant.	Notes outside of data collection
+Notes	Understory 9perc graminoid spovir dominant.	Notes outside of data collection
+Notes	Vegetation cover at the cusp of cutoff perc. Mud flat.	Notes outside of data collection
+Notes	Vegetation is clumped therefore this is not a scrub.	Notes outside of data collection
+Notes	Went with scrub based on height	Notes outside of data collection
+Notes	Went with scrub based on height. Herb cover 13.5%	Notes outside of data collection
+Notes	White mangrove cover overestimated	Notes outside of data collection
+Notes	White zone.	Notes outside of data collection
+Notes	WMaO may also be acceptable	Notes outside of data collection
+Notes	Woody species clustered along creek.	Notes outside of data collection
+Notes	"Woody species clustered at south in cell. Some salcar within the typha, sawgrass stand but less than 10% cover."	Notes outside of data collection
+Transport_Type	helicopter	transportation type
