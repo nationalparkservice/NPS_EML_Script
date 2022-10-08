@@ -378,12 +378,14 @@ located in the <a href="../Example_files">Example_files</a> folder:</p>
 </ul>
 <p>This is a step by step process where each section should be reviewed
 and edited if necessary, and run one by one. Several sections are
-labeled as optional and may only apply to certain data packages.</p>
+labeled as DECISION POINTS and may only apply to certain data
+packages.</p>
 <p>The final section has the <em>make_eml()</em> function to put
 together the full metadata file.</p>
 <hr />
-<p>Created By: Judd Patterson (<a href="mailto:judd_patterson@nps.gov?Subject=NPS%20EML%20Template">judd_patterson@nps.gov</a>)</p>
-<p>Last Updated: 2022-10-07 by Rob Baker (<a href="mailto:robert_baker@nps.gov?Subject=NPS%20EML%20Template">robert_baker@nps.gov</a>)</p>
+<p>Contributors: Judd Patterson (<a href="mailto:judd_patterson@nps.gov?Subject=NPS%20EML%20Template">judd_patterson@nps.gov</a>)
+and Rob Baker (<a href="mailto:robert_baker@nps.gov?Subject=NPS%20EML%20Template">robert_baker@nps.gov</a>)</p>
+<p>Last Updated: 2022-10-07</p>
 <hr />
 </div>
 <div id="before-you-start" class="section level1">
@@ -397,14 +399,15 @@ machine. For more information, see the R Advisory Group’s <a href="https://doi
 it (as well as some other packages) and then load them into R’s working
 memory:</p>
 <pre class="r"><code>## install necessary packages:
-install.packages(c(&quot;devtools&quot;, &quot;lubridate&quot;, &quot;tidyverse&quot;)
+install.packages(c(&quot;devtools&quot;, &quot;lubridate&quot;, &quot;tidyverse&quot;, &quot;stringr&quot;)
 library(devtools)
 devtools::install_github(&quot;EDIorg/EMLassemblyline&quot;)
   
 #Load required packages
 library(EMLassemblyline)
 library(lubridate)
-library(tidyverse)</code></pre>
+library(tidyverse)
+library(stringr)</code></pre>
 </div>
 <div id="initiate-a-draft-reference-in-datastore" class="section level2">
 <h2>Initiate a Draft Reference in DataStore:</h2>
@@ -437,12 +440,12 @@ data_type &lt;- &quot;complete&quot;</code></pre>
 (i.e. item #1 should correspond to the same file in each vector).</p>
 <pre class="r"><code>#Path to data file(s). The default &quot;getwd()&quot; assumes that your working directory in R is the directory where your data files for your data package are.
 
-#to check your current working directory use &gt;getwd()
+#to check your current working directory use getwd()
 
 #To change your working directory use &gt;setwd(&quot;path/to/my/datafiles&quot;). 
 
 #Alternatively you can continue working in your current directory and assign the path to your data files to &#39;working_folder&#39; instead of &#39;getwd()&#39;
-working_folder &lt;- getwd() 
+working_folder &lt;- getwd()
 
 #Vector of dataset filenames. Tell EMLassemblyline what the names of your datafiles are. Watch out for spelling and case. 
 data_files &lt;- c(&quot;qry_Export_AA_Points.csv&quot;, &quot;qry_Export_AA_VegetationDetail.csv&quot;)
@@ -465,8 +468,8 @@ DSRefCode&lt;-2293181
 #No need to edit this
 DSURL&lt;-paste0(&quot;https://irma.nps.gov/DataStore/Reference/Profile/&quot;, DSRefCode)
 
-#Change the number of reps to correspond to the number of datafiles in your data package (in this example, 2):
-data_urls &lt;-c(rep(DSURL, 2))</code></pre>
+#No need to edit this
+DSURL&lt;-paste0(&quot;https://irma.nps.gov/DataStore/Reference/Profile/&quot;, DSRefCode)</code></pre>
 <p>Tell EMLassembly line where to find the table and field that contains
 scientific names. These will be used to fill the taxonomic coverage
 metadata. If you don’t have scientific names (e.g. water quality), skip
@@ -500,9 +503,9 @@ tool for fuzzing geographic coordinates is the dp_fuzzLocation function
 in the <a href="https://github.com/nationalparkservice/QCkit">R/QCkit</a>
 package.</p>
 <pre class="r"><code>data_coordinates_table &lt;- &quot;qry_Export_AA_Points.csv&quot;
-data_latitude &lt;- &quot;Latitude&quot;
-data_longitude &lt;- &quot;Longitude&quot;
-data_sitename &lt;- &quot;SiteName&quot;</code></pre>
+data_latitude &lt;- &quot;decimalLatitude&quot;
+data_longitude &lt;- &quot;decimalLongitude&quot;
+data_sitename &lt;- &quot;Point_ID&quot;</code></pre>
 </div>
 <div id="start-and-end-dates" class="section level2">
 <h2>Start and End Dates:</h2>
@@ -513,18 +516,18 @@ that complies with the International Standards Organization’s standard
 8601. The recommended format for EML is: #YYYY-MM-DD, where Y is the
 four digit year, M is the two digit month code (01 - 12 for example,
 January = 01), and D is the two digit day of the month (01 - 31).</p>
-<pre class="r"><code>startdate &lt;- mdy(&quot;2010-01-26&quot;)
-enddate &lt;- mdy(&quot;2013-01-04&quot;)</code></pre>
+<pre class="r"><code>startdate &lt;- ymd(&quot;2010-01-26&quot;)
+enddate &lt;- ymd(&quot;2013-01-04&quot;)</code></pre>
 </div>
-<div id="optional-items" class="section level2">
-<h2>Optional Items:</h2>
+<div id="emlassembly-functions" class="section level2">
+<h2>EMLassembly Functions:</h2>
 <p>The next set of optional items are meant to be considered one by one
 and only run if applicable to a particular data package. The first year
 will typically see all of these run, but if the data format and protocol
 stays constant over time it may be possible to skip some or all of these
 in future years.</p>
-<div id="optional-1" class="section level3">
-<h3>OPTIONAL 1</h3>
+<div id="function-1" class="section level3">
+<h3>Function 1:</h3>
 <p>Creates blank TXT template files for the abstract, additional
 information, custom units, intellectual rights, keywords, methods, and
 personnel. Some of these .txt files are easily edited in text editors
@@ -564,22 +567,26 @@ license.”</p>
 by non-NPS contractors or in collaboration with non-NPS partners, use
 the default license=“CCO”.</li>
 </ul>
-<pre class="r"><code>template_core_metadata(path = working_folder, license = &quot;CC0&quot;)</code></pre>
+<pre class="r"><code>template_core_metadata(path = working_folder, 
+                       license = &quot;CC0&quot;)</code></pre>
 </div>
-<div id="optional-2" class="section level3">
-<h3>OPTIONAL 2</h3>
+<div id="function-2" class="section level3">
+<h3>Function 2</h3>
 <p>Creates an “attributes_datafilename.txt” file for each data file.
-This can be opened in Excel (I recommend against trying to update these
+This can be opened in Excel (We recommend against trying to update these
 in a text editor) and fill in/adjust the columns for
 attributeDefinition, class, unit, etc. refer to the <a href="edit_tmplts.html">webpage on editing templates</a> for helpful
-hints and use <em>view_unit_dictionary()</em> for potential units. This
-will only need to be run again if the attributes (name, order or
-new/deleted fields) are modified from the previous year. NOTE that if
-this already exists from a previous run, it is not overwritten.</p>
-<pre class="r"><code>template_table_attributes(path = working_folder, data.table = data_files, write.file = TRUE)</code></pre>
+hints and use <em>EMLassemblyline::view_unit_dictionary()</em> for
+potential units. This will only need to be run again if the attributes
+(name, order or new/deleted fields) are modified from the previous year.
+NOTE that if this already exists from a previous run, it is not
+overwritten.</p>
+<pre class="r"><code>template_table_attributes(path = working_folder,
+                          data.table = data_files,
+                          write.file = TRUE)</code></pre>
 </div>
-<div id="optional-3" class="section level3">
-<h3>OPTIONAL 3</h3>
+<div id="function-3" class="section level3">
+<h3>Function 3</h3>
 <p>Creates a “catvars_datafilename.txt” file for each data file that has
 columns with a class = categorical. These txt files will include each
 unique ‘code’ and allow input of the corresponding ‘definition’.NOTE
@@ -591,10 +598,12 @@ dataset DPL values are all set to “Accepted” this function will not
 include “Raw” or “Provisional” in the resulting file and you may want to
 add those manually). NOTE that if this already exists from a previous
 run, it is not overwritten.</p>
-<pre class="r"><code>template_categorical_variables(path = working_folder, data.path = working_folder, write.file = TRUE)</code></pre>
+<pre class="r"><code>template_categorical_variables(path = working_folder,
+                               data.path = working_folder, 
+                               write.file = TRUE)</code></pre>
 </div>
-<div id="optional-4" class="section level3">
-<h3>OPTIONAL 4</h3>
+<div id="function-4" class="section level3">
+<h3>Function 4</h3>
 <p>Creates a geographic_coverage.txt file that lists your sites as
 points as long as your coordinates are in lat/long. If your coordinates
 are in UTM it is probably easiest to convert them first or create the
@@ -608,8 +617,8 @@ UTMtoLL function in <a href="https://github.com/nationalparkservice/QCkit">R/QCk
                              site.col = data_sitename, 
                              write.file = TRUE)</code></pre>
 </div>
-<div id="optional-5" class="section level3">
-<h3>OPTIONAL 5</h3>
+<div id="function-5" class="section level3">
+<h3>Function 5</h3>
 <p>Creates a taxonomic_coverage.txt file if you have taxonomic data. In
 terms of authorities 3 = ITIS, 9 = WORMS, and 11 = GBIF. Turning this
 function on may dramatically increase the time it takes for the

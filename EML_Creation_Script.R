@@ -5,8 +5,7 @@
 # package. In this case the example inputs are for a EVER Veg Map AA dataset and are meant to either be run as a test
 # of the process or to be replaced with your own content. This is a step by step process where each section (indicated
 # by dashed lines) should be reviewed, edited if necessary, and run one at a tune. After completing a section there is
-# often something to do external to R (e.g. open a text file and add content). Several sections are labeled as
-# DECISION POINTS and may only apply to certain data packages. The final section has the make_eml() function to put
+# often something to do external to R (e.g. open a text file and add content). Several EMLassembly line functions are decision points and may only apply to certain data packages. The final section has the make_eml() function to put
 # together a validated EML metadata file. Future updates to this script will help bring in additional functions from the
 # EMLeditor package (part of the NPSdataverse) that are used to populate NPS DataStore specific tags.
 
@@ -15,9 +14,9 @@
 
 ## Install and Load R Packages -----------------------------------------------------------------------------------------
 # Install packages - uncomment the next three lines if you've never installed EMLassemblyline before
-#install.packages("devtools")
-#library(devtools)
-#install_github("EDIorg/EMLassemblyline")
+install.packages("devtools")
+library(devtools)
+devtools::install_github("EDIorg/EMLassemblyline")
 
 # Load packages
 library(EMLassemblyline)
@@ -54,10 +53,16 @@ data_names <- c("TEST_AA Point Data",
 data_descriptions <- c("TEST_Everglades Vegetation Map Accuracy Assessment point data",
                        "TEST_Everglades Vegetation Map Accuracy Assessment vegetation data")
 
-# Vector of dataset URLs - For DataStore we recommend setting this to the main reference page. All data files from a
-# single data package can be accessed from the same page so the URLs are the same. This function will repeat the URL you
-# provide the appropriate number of times.
-data_urls <- c(rep("https://irma.nps.gov/DataStore/Reference/Profile/2293181", length(data_files)))
+#Tell EMLassemblyline where your files will ultimately be located. Create a vector of dataset URLs - for DataStore. I recommend setting this to the main reference page. All data files from a single data package can be accessed from the same page so the URLs are the same.
+
+#The code from the draft reference you initiated above (replace 293181 with your code)
+DSRefCode<-2293181
+
+#No need to edit this
+DSURL<-paste0("https://irma.nps.gov/DataStore/Reference/Profile/", DSRefCode)
+
+#No need to edit this
+data_urls <-c(rep(DSURL, length(data_files)))
   
 # Table and field that contains scientific names that can be used to fill the taxonomic coverage metadata.
 # Comment these out and do not run OPTIONAL 5 (below) if your data package does not contain species information.
@@ -67,9 +72,9 @@ data_taxa_field <- "Scientific_Name"
 # Table and fields that contain geographic coordinates and site names to fill the geographic coverage metadata
 # Comment these out and do not run OPTIONAL 4 (below) if your data package does not contain geographic information.
 data_coordinates_table <- "qry_Export_AA_Points.csv"
-data_latitude <- "Latitude"
-data_longitude <- "Longitude"
-data_sitename <- "SiteName"
+data_latitude <- "decimalLatitude"
+data_longitude <- "decimalLongitude"
+data_sitename <- "Point_ID"
     
 # Start date and end date. This should indicate the first and last data point in the data package (across all files) and
 # does not include any planning, pre- or post-processing time. The format should be one that complies with the
@@ -90,7 +95,8 @@ enddate <- ymd("2013-01-04")
 # rights, keywords, methods, and personnel. Be sure the edit the personnel text file in Excel as it has columns.
 # Typically these files can be reused between years. Currently this inserts a Creative Common 0 license.
 # NOTE that if these files already exist from a previous run, they are not overwritten.
-template_core_metadata(path = working_folder, license = "CC0")
+template_core_metadata(path = working_folder, 
+                       license = "CC0")
 
 # FUNCTION 2 - Data Table Attributes
 # Creates an "attributes_datafilename.txt" file for each data file. This can be opened in Excel
@@ -99,7 +105,9 @@ template_core_metadata(path = working_folder, license = "CC0")
 # view_unit_dictionary() for potential units. This will only need to be run again if the attributes (name, order or
 # new/deleted fields) are modified from the previous year.
 # NOTE that if these files already exist from a previous run, they are not overwritten.
-template_table_attributes(path = working_folder, data.table = data_files, write.file = TRUE)
+template_table_attributes(path = working_folder, 
+                          data.table = data_files, 
+                          write.file = TRUE)
 
 # FUNCTION 3 - Data Table Categorical Variable
 # Creates a "catvars_datafilename.txt" file for each data file that has columns with a class = categorical.
@@ -109,23 +117,33 @@ template_table_attributes(path = working_folder, data.table = data_files, write.
 # be included (e.g if your dataset DPL values are all set to "Accepted" this function will not include "Raw" or
 # "Provisional" in the resulting file and you may want to add those manually).
 # NOTE that if these files already exist from a previous run, they are not overwritten.
-template_categorical_variables(path = working_folder, data.path = working_folder, write.file = TRUE)
+template_categorical_variables(path = working_folder, 
+                               data.path = working_folder, 
+                               write.file = TRUE)
 
 # FUNCTION 4 - Geographic Coverage
 # Creates a geographic_coverage.txt file that lists your sites as points as long as your coordinates are
 # in lat/long. If your coordinates are in UTM it is probably easiest to convert them first or create the
 # geographic_coverage.txt file another way (see https://github.com/nationalparkservice/QCkit for R functions that will
 # convert UTM to lat/long).
-template_geographic_coverage(path = working_folder, data.path = working_folder,
-                             data.table = data_coordinates_table, lat.col = data_latitude, lon.col = data_longitude,
-                             site.col = data_sitename, write.file = TRUE)
+template_geographic_coverage(path = working_folder, 
+                             data.path = working_folder,
+                             data.table = data_coordinates_table, 
+                             lat.col = data_latitude, 
+                             lon.col = data_longitude,
+                             site.col = data_sitename, 
+                             write.file = TRUE)
 
 # FUNCTION 5 - Taxonomic Coverage
 # Creates a taxonomic_coverage.txt file if you have taxonomic data. Currently supported authorities are
 # 3 = ITIS, 9 = WORMS, and 11 = GBIF.
-template_taxonomic_coverage(path = working_folder, data.path = working_folder, taxa.table = data_taxa_table,
-                            taxa.col = data_taxa_field, taxa.authority = c(3,11),
-                            taxa.name.type = 'scientific', write.file = TRUE)
+template_taxonomic_coverage(path = working_folder, 
+                            data.path = working_folder, 
+                            taxa.table = data_taxa_table,
+                            taxa.col = data_taxa_field, 
+                            taxa.authority = c(3,11),
+                            taxa.name.type = 'scientific', 
+                            write.file = TRUE)
 
 ## Create an EML File ----------------------------------------------------------------------------------------------------
 # Run this (it may take a little while) and see if it validates (you should see 'Validation passed'). Additionally there
@@ -142,4 +160,8 @@ make_eml(path = working_folder,
          package.id = metadata_id)
   
 ## EMLeditor Functions (COMING SOON!) ----------------------------------------------------------------------------------
-# This is where we will continue to improve this EML creation script over time.
+#Now that you have valid EML metadata, you need to add NPS-specific elements and fields. For instance, unit connections, DOIs, referencing a DRR, etc. To do that, use the R/EMLeditor package at https://github.com/nationalparkservice/EML_editor.
+
+#Some functions from EMLeditor that will be critical to run include:
+
+#set.CUI, set.DOI, set.DRRdoi and set.parkUnits (with more to come soon).
