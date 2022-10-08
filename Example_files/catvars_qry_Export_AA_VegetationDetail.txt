@@ -1,0 +1,4 @@
+attributeName	code	definition
+Vegetation_Layer	Herb	Layer of non-woody vascular plants species
+Vegetation_Layer	Shrub	Layer of woody plants that are shorter than 5 meters tall
+Vegetation_Layer	Tree	Layer of woody plants that are at least 5 meters tall

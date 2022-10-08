@@ -1,0 +1,3 @@
+﻿These accuracy assessment points were collected via helicopter and recorded on paper datasheets. Back at the office they were entered into a Microsoft Access database. A secondary comparison of the database to the original data sheets was done to confirm there had been no transciption errors.
+
+Details on how these data were used to assess the Everglades vegetation map can be found in the final report: https://irma.nps.gov/DataStore/Reference/Profile/2286460

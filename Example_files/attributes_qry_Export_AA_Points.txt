@@ -1,0 +1,20 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Point_ID	site location	character				
+Visit_Date	date of data collection	Date		MM/DD/YY		
+Transport_Type	transport type	categorical				
+Veg_Code	code listing veg type	character				
+Veg_Code_Name	name of veg code	character				
+Overall_Veg_Cover	description of veg cover	numeric	percent			
+Overall_Canopy_Height	height to top of canopy	numeric	meter			
+Percentage_Tree	percentage of tree coverage	numeric	percent			
+Percentage_Shrub	percentage of shrub coverage	numeric	percent			
+Percentage_Herb	percentage of herb coverage	numeric	percent			
+Canopy_Tree	number of trees in canopy	numeric	dimensionless			
+Canopy_Shrub	number of shrubs in canopy	numeric	dimensionless			
+Canopy_Herb	number of herbs	numeric	dimensionless			
+Cattail	type of cattail	categorical				
+Exotics	non-natives	categorical				
+Cell_Shape	shape of something	categorical				
+Notes	additional notes	categorical				
+decimalLongitude	longitude	numeric	degree			
+decimalLatitude	latitude	numeric	degree			
