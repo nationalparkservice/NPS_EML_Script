@@ -387,8 +387,8 @@ request enhancements and bug fixes through <a href="https://github.com/nationalp
 <div id="comprehensive-guide" class="section level1">
 <h1>Comprehensive Guide</h1>
 <p>For a comprehensive guide to generating EML via EMLassemblyline for
-NPS data packages, please consult the accompanying NPS <a href="https://roblbaker.github.io/NPS_EML_Script/">EML Creation github
-website - DEV VERSION UPDATE LINK!</a>.</p>
+NPS data packages, please consult the accompanying NPS <a href="https://nationalparkservice.github.io/NPS_EML_Script/">EML
+Creation github website</a>.</p>
 </div>
 <div id="quickstart" class="section level1">
 <h1>Quickstart</h1>
@@ -408,7 +408,7 @@ Advisory Group’s website</a> for more information. You will also need to
 install the R package <a href="https://github.com/EDIorg/EMLassemblyline">EMLassemblyline</a>
 from github as well as some other packages from CRAN:</p></li>
 </ol>
-<pre class="r"><code>install.packages(c(&quot;devtools&quot;, &quot;lubridate&quot;, &quot;tidyverse&quot;)
+<pre class="r"><code>install.packages(c(&quot;devtools&quot;, &quot;lubridate&quot;, &quot;tidyverse&quot;, &quot;stringr&quot;)
 devtools::install_github(&quot;EDIorg/EMLassemblyline&quot;)</code></pre>
 <ol start="4" style="list-style-type: decimal">
 <li>Access to MS excel (or any spreadsheet type programs) and Notepad
@@ -418,10 +418,9 @@ files.</li>
 </div>
 <div id="download-the-script" class="section level3">
 <h3>Download the Script</h3>
-<p>A stand-alone version of the NPS <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/RobLBaker/NPS_EML_Script/blob/main/EML_Creation_Script.R">EML
-Creation script - DEV LINK - NEEDS UPDATING</a> is available for
-download. You don’t have to download the entire repository to make
-EML.</p>
+<p>A stand-alone version of the NPS <a href="https://downgit.github.io/#/home?url=https://github.com/nationalparkservice/NPS_EML_Script/blob/main/EML_Creation_Script.R">EML
+Creation script</a> is available for download. You don’t have to
+download the entire repository to make EML.</p>
 </div>
 <div id="generate-eml" class="section level3">
 <h3>Generate EML</h3>
@@ -430,8 +429,8 @@ EML.</p>
 each line or set of code (except the <code>r make_eml</code>
 function).</p></li>
 <li><p>Edit the auto-generated .txt files using a text editor or
-spreadsheet application as necessary. For details, look at the <a href="https://roblbaker.github.io/NPS_EML_Script/edit_tmplts.html">NPS
-template editing guidelines - DEV LINK NEEDS UPDATED</a>.</p></li>
+spreadsheet application as necessary. For details, look at the NPS <a href="https://nationalparkservice.github.io/NPS_EML_Script/edit_tmplts.htmll">template
+editing guideline</a>.</p></li>
 <li><p>Run the <code>r make_eml</code> function (this could take a
 little while - particularly if you have a lot of taxonomic
 data).</p></li>
@@ -453,9 +452,9 @@ Manually editing your metadata by hand is not recommended.</p>
 <div id="additional-documentation" class="section level3">
 <h3>Additional documentation</h3>
 <ol style="list-style-type: decimal">
-<li>The <a href="https://roblbaker.github.io/NPS_EML_Script/">guide to
-using the NPS EML creation script - DEV LINK UPDATE ME!</a> for creating
-EML using EMLassemblyline on github.</li>
+<li>The <a href="https://nationalparkservice.github.io/NPS_EML_Script/">guide to
+using the NPS EML creation script</a> for creating EML using
+EMLassemblyline on github.</li>
 <li>The original <a href="https://ediorg.github.io/EMLassemblyline/articles/edit_tmplts.html">EDI
 guidelines</a> for creating EML.</li>
 </ol>

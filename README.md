@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
-  word_document: default
----
 # NPS EML Creation
 
 Creating Ecological Metadata Language (EML) metadata for NPS data packages is a two-step process. 
@@ -16,7 +11,7 @@ This is an early version of the NPS EML creation script. Please request enhancem
 
 # Comprehensive Guide 
 
-For a comprehensive guide to generating EML via EMLassemblyline for NPS data packages, please consult the accompanying NPS [EML Creation github website - DEV VERSION UPDATE LINK!](https://roblbaker.github.io/NPS_EML_Script/).
+For a comprehensive guide to generating EML via EMLassemblyline for NPS data packages, please consult the accompanying NPS [EML Creation github website](https://nationalparkservice.github.io/NPS_EML_Script/).
 
 # Quickstart
 
@@ -29,7 +24,7 @@ For a comprehensive guide to generating EML via EMLassemblyline for NPS data pac
 3) Software: R (and probably Rstudio) installed on your computer. These are both available in Software Center. See the [R Advisory Group's website](https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx) for more information. You will also need to install the R package [EMLassemblyline](https://github.com/EDIorg/EMLassemblyline) from github as well as some other packages from CRAN:
 
 ```r
-install.packages(c("devtools", "lubridate", "tidyverse")
+install.packages(c("devtools", "lubridate", "tidyverse", "stringr")
 devtools::install_github("EDIorg/EMLassemblyline")
 ```
 
@@ -38,13 +33,13 @@ devtools::install_github("EDIorg/EMLassemblyline")
 
 ### Download the Script 
 
-A stand-alone version of the NPS [EML Creation script - DEV LINK - NEEDS UPDATING](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/RobLBaker/NPS_EML_Script/blob/main/EML_Creation_Script.R) is available for download. You don't have to download the entire repository to make EML.
+A stand-alone version of the NPS [EML Creation script](https://downgit.github.io/#/home?url=https://github.com/nationalparkservice/NPS_EML_Script/blob/main/EML_Creation_Script.R) is available for download. You don't have to download the entire repository to make EML.
 
 ### Generate EML
 
 1) Edit the *EML_Creation_Script.R* file as necessary and run each line or set of code (except the `r make_eml` function). 
 
-2) Edit the auto-generated .txt files using a text editor or spreadsheet application as necessary. For details, look at the [NPS template editing guidelines - DEV LINK NEEDS UPDATED](https://roblbaker.github.io/NPS_EML_Script/edit_tmplts.html). 
+2) Edit the auto-generated .txt files using a text editor or spreadsheet application as necessary. For details, look at the NPS [template editing guideline](https://nationalparkservice.github.io/NPS_EML_Script/edit_tmplts.htmll). 
 
 3) Run the `r make_eml` function (this could take a little while - particularly if you have a lot of taxonomic data).
 
@@ -58,7 +53,7 @@ Currently, the only tool available to add NPS-specific information to EML is [R/
 
 ### Additional documentation
 
-1) The [guide to using the NPS EML creation script - DEV LINK UPDATE ME!](https://roblbaker.github.io/NPS_EML_Script/) for creating EML using EMLassemblyline on github.
+1) The [guide to using the NPS EML creation script](https://nationalparkservice.github.io/NPS_EML_Script/) for creating EML using EMLassemblyline on github.
 2) The original [EDI guidelines](https://ediorg.github.io/EMLassemblyline/articles/edit_tmplts.html) for creating EML.
 
 # Acknowledgements
