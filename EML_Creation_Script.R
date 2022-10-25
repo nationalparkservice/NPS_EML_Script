@@ -68,13 +68,13 @@ DSURL<-paste0("https://irma.nps.gov/DataStore/Reference/Profile/", DSRefCode)
 data_urls <-c(rep(DSURL, length(data_files)))
   
 # Vector of tables and fields with scientific names that can be used to fill the taxonomic coverage metadata. Add
-# additional items as necessary. Comment these out and do not run OPTIONAL 5 (below) if your data package does not
+# additional items as necessary. Comment these out and do not run FUNCTION 5 (below) if your data package does not
 # contain species information.
 data_taxa_tables <- c("qry_Export_AA_VegetationDetail.csv")
 data_taxa_fields <- c("Scientific_Name")
 
 # Table and fields that contain geographic coordinates and site names to fill the geographic coverage metadata
-# Comment these out and do not run OPTIONAL 4 (below) if your data package does not contain geographic information.
+# Comment these out and do not run FUNCTION 4 (below) if your data package does not contain geographic information.
 data_coordinates_table <- "qry_Export_AA_Points.csv"
 data_latitude <- "decimalLatitude"
 data_longitude <- "decimalLongitude"
@@ -170,4 +170,4 @@ make_eml(path = working_folder,
 
 # Some functions from EMLeditor that will be critical to run include:
 
-#set.CUI, set.DOI, set.DRRdoi and set.parkUnits (with more to come soon).
+# set.CUI, set.DOI, set.DRRdoi and set.parkUnits (with more to come soon).
