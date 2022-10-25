@@ -32,7 +32,7 @@ If you've never installed EMLassemblyline, you'll needed to install it (as well 
 
 ```{r install_packages, echo=TRUE, eval=FALSE} 
 ## install necessary packages:
-install.packages(c("devtools", "lubridate", "tidyverse", "stringr")
+install.packages(c("devtools", "lubridate", "tidyverse", "stringr"))
 library(devtools)
 devtools::install_github("EDIorg/EMLassemblyline")
   
