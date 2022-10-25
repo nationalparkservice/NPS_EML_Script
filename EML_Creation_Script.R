@@ -70,8 +70,8 @@ data_urls <-c(rep(DSURL, length(data_files)))
 # Vector of tables and fields with scientific names that can be used to fill the taxonomic coverage metadata. Add
 # additional items as necessary. Comment these out and do not run OPTIONAL 5 (below) if your data package does not
 # contain species information.
-data_taxa_table <- c("qry_Export_AA_VegetationDetail.csv")
-data_taxa_field <- c("Scientific_Name")
+data_taxa_tables <- c("qry_Export_AA_VegetationDetail.csv")
+data_taxa_fields <- c("Scientific_Name")
 
 # Table and fields that contain geographic coordinates and site names to fill the geographic coverage metadata
 # Comment these out and do not run OPTIONAL 4 (below) if your data package does not contain geographic information.
@@ -143,8 +143,8 @@ template_geographic_coverage(path = working_folder,
 # 3 = ITIS, 9 = WORMS, and 11 = GBIF.
 template_taxonomic_coverage(path = working_folder, 
                             data.path = working_folder, 
-                            taxa.table = data_taxa_table,
-                            taxa.col = data_taxa_field, 
+                            taxa.table = data_taxa_tables,
+                            taxa.col = data_taxa_fields, 
                             taxa.authority = c(3,11),
                             taxa.name.type = 'scientific', 
                             write.file = TRUE)
