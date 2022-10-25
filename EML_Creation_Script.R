@@ -6,9 +6,9 @@
 # of the process or to be replaced with your own content. This is a step by step process where each section (indicated
 # by dashed lines) should be reviewed, edited if necessary, and run one at a tune. After completing a section there is
 # often something to do external to R (e.g. open a text file and add content). Several EMLassembly line functions are
-# decision points and may only apply to certain data packages. The final section has the make_eml() function to put
-# together a validated EML metadata file. Future updates to this script will help bring in additional functions from the
-# EMLeditor package (part of the NPSdataverse) that are used to populate NPS DataStore specific tags.
+# decision points and may only apply to certain data packages. The 'Create an EML File' section has the make_eml()
+# function to put together a validated EML metadata file. Future updates to this script will help bring in additional
+# functions from the EMLeditor package (part of the NPSdataverse) that are used to populate NPS DataStore specific tags.
 
 # Contributors: Judd Patterson (judd_patterson@nps.gov) and Rob Baker (robert_baker@nps.gov)
 # Last Updated: October 24, 2022
