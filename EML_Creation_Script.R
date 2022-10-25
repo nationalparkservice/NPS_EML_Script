@@ -5,12 +5,13 @@
 # package. In this case the example inputs are for a EVER Veg Map AA dataset and are meant to either be run as a test
 # of the process or to be replaced with your own content. This is a step by step process where each section (indicated
 # by dashed lines) should be reviewed, edited if necessary, and run one at a tune. After completing a section there is
-# often something to do external to R (e.g. open a text file and add content). Several EMLassembly line functions are decision points and may only apply to certain data packages. The final section has the make_eml() function to put
+# often something to do external to R (e.g. open a text file and add content). Several EMLassembly line functions are
+# decision points and may only apply to certain data packages. The final section has the make_eml() function to put
 # together a validated EML metadata file. Future updates to this script will help bring in additional functions from the
 # EMLeditor package (part of the NPSdataverse) that are used to populate NPS DataStore specific tags.
 
 # Contributors: Judd Patterson (judd_patterson@nps.gov) and Rob Baker (robert_baker@nps.gov)
-# Last Updated: October 7, 2022
+# Last Updated: October 24, 2022
 
 ## Install and Load R Packages -----------------------------------------------------------------------------------------
 # Install packages - uncomment the next three lines if you've never installed EMLassemblyline before
@@ -25,7 +26,7 @@ library(tidyverse)
 
 ## Set Overall Package Details -----------------------------------------------------------------------------------------
 # All of the following items should be reviewed and updated to fit the package at hand. For vectors with more than one
-#item, keep the order the same (i.e. item #1 should correspond to the same file in each vector)
+# item, keep the order the same (i.e. item #1 should correspond to the same file in each vector)
 
 # Metadata filename - becomes the filename, so make sure it ends in _metadata to comply with data package specifications
 metadata_id <- "TEST_EVER_AA_metadata"
@@ -53,15 +54,17 @@ data_names <- c("TEST_AA Point Data",
 data_descriptions <- c("TEST_Everglades Vegetation Map Accuracy Assessment point data",
                        "TEST_Everglades Vegetation Map Accuracy Assessment vegetation data")
 
-#Tell EMLassemblyline where your files will ultimately be located. Create a vector of dataset URLs - for DataStore. I recommend setting this to the main reference page. All data files from a single data package can be accessed from the same page so the URLs are the same.
+# Tell EMLassemblyline where your files will ultimately be located. Create a vector of dataset URLs - for DataStore. I
+# recommend setting this to the main reference page. All data files from a single data package can be accessed from the
+# same page so the URLs are the same.
 
-#The code from the draft reference you initiated above (replace 293181 with your code)
+# The code from the draft reference you initiated above (replace 293181 with your code)
 DSRefCode<-2293181
 
-#No need to edit this
+# No need to edit this
 DSURL<-paste0("https://irma.nps.gov/DataStore/Reference/Profile/", DSRefCode)
 
-#No need to edit this
+# No need to edit this
 data_urls <-c(rep(DSURL, length(data_files)))
   
 # Table and field that contains scientific names that can be used to fill the taxonomic coverage metadata.
@@ -145,7 +148,7 @@ template_taxonomic_coverage(path = working_folder,
                             taxa.name.type = 'scientific', 
                             write.file = TRUE)
 
-## Create an EML File ----------------------------------------------------------------------------------------------------
+## Create an EML File --------------------------------------------------------------------------------------------------
 # Run this (it may take a little while) and see if it validates (you should see 'Validation passed'). Additionally there
 # could be some issues to review as well. Run the function 'issues()' at the end of the process to get feedback on items
 # that might be missing or need attention.
@@ -160,8 +163,10 @@ make_eml(path = working_folder,
          package.id = metadata_id)
   
 ## EMLeditor Functions (COMING SOON!) ----------------------------------------------------------------------------------
-#Now that you have valid EML metadata, you need to add NPS-specific elements and fields. For instance, unit connections, DOIs, referencing a DRR, etc. To do that, use the R/EMLeditor package at https://github.com/nationalparkservice/EML_editor.
+# Now that you have valid EML metadata, you need to add NPS-specific elements and fields. For instance, unit
+# connections, DOIs, referencing a DRR, etc. To do that, use the R/EMLeditor package at
+# https://github.com/nationalparkservice/EML_editor.
 
-#Some functions from EMLeditor that will be critical to run include:
+# Some functions from EMLeditor that will be critical to run include:
 
 #set.CUI, set.DOI, set.DRRdoi and set.parkUnits (with more to come soon).
