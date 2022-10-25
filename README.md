@@ -37,13 +37,13 @@ A stand-alone version of the NPS [EML Creation script](https://downgit.github.io
 
 ### Generate EML
 
-1) Edit the *EML_Creation_Script.R* file as necessary and run each line or set of code (except the `r make_eml` function). 
+1) Edit the *EML_Creation_Script.R* file as necessary and run each line or set of code (except the `make_eml` function). 
 
 2) Edit the auto-generated .txt files using a text editor or spreadsheet application as necessary. For details, look at the NPS [template editing guideline](https://nationalparkservice.github.io/NPS_EML_Script/edit_tmplts.html). 
 
-3) Run the `r make_eml` function (this could take a little while - particularly if you have a lot of taxonomic data).
+3) Run the `make_eml` function (this could take a little while - particularly if you have a lot of taxonomic data).
 
-4) Be sure to read and address any Issues or Warnings after running the `r make_eml` function
+4) Be sure to read and address any Issues or Warnings after running the `make_eml` function
 
 ### Next steps
 
@@ -59,5 +59,3 @@ Currently, the only tool available to add NPS-specific information to EML is [R/
 # Acknowledgements
 
 EMLassemblyline and much of the excellent original documentation was developed by the Environmental Data Initiative. We have modified and annotated that documentation to make it more relevant to NPS.
-
-
