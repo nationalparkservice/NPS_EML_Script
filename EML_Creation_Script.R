@@ -67,10 +67,12 @@ DSURL<-paste0("https://irma.nps.gov/DataStore/Reference/Profile/", DSRefCode)
 # No need to edit this
 data_urls <-c(rep(DSURL, length(data_files)))
   
-# Vector of tables and fields with scientific names that can be used to fill the taxonomic coverage metadata. Add
+# Single file or Vector (list) of tables and fields with scientific names that can be used to fill the taxonomic coverage metadata. Add
 # additional items as necessary. Comment these out and do not run FUNCTION 5 (below) if your data package does not
 # contain species information.
 data_taxa_tables <- c("qry_Export_AA_VegetationDetail.csv")
+#alternatively, if you have multiple files with taxanomic info:
+# data_taxa_tables <-c("qry_Export_AA_VegetationDetails1.csv", "qry_Export_AA_VegetationDetails2.csv", "etc.csv")
 data_taxa_fields <- c("Scientific_Name")
 
 # Table and fields that contain geographic coordinates and site names to fill the geographic coverage metadata
