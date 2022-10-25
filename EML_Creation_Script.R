@@ -4,7 +4,7 @@
 # Summary: This code creates an EML file for a data package by leveraging several functions within the EMLassemblyline
 # package. In this case the example inputs are for a EVER Veg Map AA dataset and are meant to either be run as a test
 # of the process or to be replaced with your own content. This is a step by step process where each section (indicated
-# by dashed lines) should be reviewed, edited if necessary, and run one at a tune. After completing a section there is
+# by dashed lines) should be reviewed, edited if necessary, and run one at a time After completing a section there is
 # often something to do external to R (e.g. open a text file and add content). Several EMLassembly line functions are
 # decision points and may only apply to certain data packages. The 'Create an EML File' section has the make_eml()
 # function to put together a validated EML metadata file. Future updates to this script will help bring in additional
