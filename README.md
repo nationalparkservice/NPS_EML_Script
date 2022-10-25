@@ -4,7 +4,7 @@ Creating Ecological Metadata Language (EML) metadata for NPS data packages is a 
 
 The first step is to generate an EML formatted .xml file. There are a number of tools for generating this initial file. This repo contains an R script, instructions, and an example of how to use EMLassemblyline to generate an initial EML metadata file while taking into consideration NPS data package specifications and requirements for uploading to DataStore. 
 
-No matter the method of generating the initial EML file, the second step is to add NPS-specific information to the EML metadata (for instance, the data pacakge DOI, links to the DRR, information about CUI, producing units and unit connections). Currently, the only tool for adding NPS-specific metadata is the [R/EMLeditor](https://github.com/nationalparkservice/EMLeditor) package. Editing EML by hand is not advised.
+No matter the method of generating the initial EML file, the second step is to add NPS-specific information to the EML metadata (for instance, the data package DOI, links to the DRR, information about CUI, producing units and content unit connections). Currently, the only tool for adding NPS-specific metadata is the [R/EMLeditor](https://github.com/nationalparkservice/EMLeditor) package. Editing EML by hand is not advised.
 
 This is an early version of the NPS EML creation script. Please request enhancements and bug fixes through [Issues](https://github.com/nationalparkservice/NPS_EML_Template/issues).
 
@@ -19,7 +19,7 @@ For a comprehensive guide to generating EML via EMLassemblyline for NPS data pac
 
 1) Data: A set of fully QA/QC'd data files in .csv format using UTF-8 encoding. 
 
-2) Internet access: for downloading software and packages. A strong internet connection is necessary, particularly if you have taxonomic information as EMLassemblyline will use scientific names to populate taxonomic coverage fields from Kingdom down to species (and beyond)
+2) Internet access: for downloading software and packages. A strong internet connection is necessary, particularly if you have taxonomic information as EMLassemblyline will use scientific names to reach out to ITIS and/or GBIF to populate taxonomic coverage fields from Kingdom down to species (and beyond).
 
 3) Software: R (and probably Rstudio) installed on your computer. These are both available in Software Center. See the [R Advisory Group's website](https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx) for more information. You will also need to install the R package [EMLassemblyline](https://github.com/EDIorg/EMLassemblyline) from github as well as some other packages from CRAN:
 
