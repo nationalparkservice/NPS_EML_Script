@@ -28,7 +28,7 @@ install.packages(c("devtools", "lubridate", "tidyverse", "stringr")
 devtools::install_github("EDIorg/EMLassemblyline")
 ```
 
-4) Access to MS excel (or any spreadsheet type programs) and Notepad (or any text editor). These will facilitate editing tab-delimited files. 
+4) Access to MS Excel (or any spreadsheet type programs) and Notepad (or any text editor). These will facilitate editing tab-delimited files. 
 
 
 ### Download the Script 
