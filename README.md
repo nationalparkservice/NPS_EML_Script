@@ -11,7 +11,7 @@ This is an early version of the NPS EML creation script. Please request enhancem
 
 # Comprehensive Guide 
 
-For a comprehensive guide to generating EML via EMLassemblyline for NPS data packages, please consult the accompanying NPS [EML Creation github website](https://nationalparkservice.github.io/NPS_EML_Script/).
+For a comprehensive guide to generating EML via EMLassemblyline for NPS data packages, please consult the accompanying NPS [EML Creation GitHub website](https://nationalparkservice.github.io/NPS_EML_Script/).
 
 # Quickstart
 
@@ -21,7 +21,7 @@ For a comprehensive guide to generating EML via EMLassemblyline for NPS data pac
 
 2) Internet access: for downloading software and packages. A strong internet connection is necessary, particularly if you have taxonomic information as EMLassemblyline will use scientific names to reach out to ITIS and/or GBIF to populate taxonomic coverage fields from Kingdom down to species (and beyond).
 
-3) Software: R (and probably Rstudio) installed on your computer. These are both available in Software Center. See the [R Advisory Group's website](https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx) for more information. You will also need to install the R package [EMLassemblyline](https://github.com/EDIorg/EMLassemblyline) from github as well as some other packages from CRAN:
+3) Software: R (and probably RStudio) installed on your computer. These are both available in Software Center. See the [R Advisory Group's website](https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx) for more information. You will also need to install the R package [EMLassemblyline](https://github.com/EDIorg/EMLassemblyline) from GitHub as well as some other packages from CRAN:
 
 ```r
 install.packages(c("devtools", "lubridate", "tidyverse", "stringr")
