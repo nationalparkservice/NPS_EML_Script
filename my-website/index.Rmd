@@ -1,0 +1,60 @@
+---
+title: "NPS EML Scripting"
+description: |
+  Resources and Guides for using EMLassemblyline to create EML for National Park Service data packages
+site: distill::distill_website
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 6
+    toc_float: true
+    css: toc-styles.css
+    self_contained: false
+---
+
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+# Overview
+
+Creating Ecological Metadata Language (EML) metadata for NPS data packages is a two-step process.
+
+The first step is to generate an EML formatted .xml file. There are a number of tools for generating this initial file. This repo contains an R script, instructions, and an example of how to use EMLassemblyline to generate an initial EML metadata file while taking into consideration NPS data package specifications and requirements for uploading to DataStore.
+
+No matter the method of generating the initial EML file, the second step is to add NPS-specific information to the EML metadata (for instance, the data pacakge DOI, links to the DRR, information about CUI, producing units and unit connections). Currently, the only tool for adding NPS-specific metadata is the [R/EMLeditor](https://github.com/nationalparkservice/EMLeditor) package. Editing EML by hand is not advised.
+
+This is an early version of this template. Please request enhancements and bug fixes through [Issues](https://github.com/nationalparkservice/NPS_EML_Script/issues).
+
+You can also directly access the [source files](https://github.com/nationalparkservice/NPS_EML_Script) for this webpage and the entire repo, as well as download the entire repo as [zip file](https://github.com/nationalparkservice/NPS_EML_Script/zipball/master).
+
+# Quickstart
+
+  To jump right into creating EML, check out our [quickstart quide](quick_start.html).
+
+# Comprehensive guide
+
+  For more details including:
+    * Prerequisites and installation instructions
+    * A step-by-step guide
+    * Example files and code as well as examples of results
+    * Detailed examples on how to edit templates
+    * Much, much more
+  
+  Please see the [Comprehensive Guide](comprehensive_guide.html) to using EMLassemblyline for NPS metadata creation.
+
+# Additional Documentation
+1.    The original [EDI guidelines](https://ediorg.github.io/EMLassemblyline/articles/edit_tmplts.html) for creating EML.
+2.    Additional [information about EML](https://eml.ecoinformatics.org/).
+3.    The official [EML schema](https://eml.ecoinformatics.org/schema/index.html).
+
+# Acknowledgements
+EMLassemblyline and much of the excellent original documentation was developed by the Environmental Data Initiative. We have simply modified and annotated that documentation to make it more relevant to NPS.

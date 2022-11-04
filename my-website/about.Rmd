@@ -1,0 +1,26 @@
+---
+title: "NPS EML Scripting"
+author:
+- name: Robert Baker
+  affiliation: National Park Service
+  affiliation_url: https://www.nps.gov
+  orcid_id: 0000-0001-7591-5035
+- name: Judd Patterson
+  affiliation: National Park service
+  affiliation_url: https://www.nps.gov
+  orcid_id: 0000-0002-0951-7917
+date: "November 04, 2022"
+description: |
+  Resources and Guides for using EMLassemblyline to create EML for National Park Service data packages
+citation_url: https://nationalparkservice.github.io/NPS_EML_Script/
+bibliography: biblio.bib
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The NPS EML Script is an R script and accompanying documentation to facilitate using EMLassemblyline to generate EML metadata for data NPS packages prior to uploading to DataStore.
+
+To report bugs or request enhancements, please use post an  [issue](https://github.com/nationalparkservice/NPS_EML_Script/issues) on github or email [Rob Baker](mailto:robert_baker@nps.gov%20?subject="NPS EML Script")
