@@ -53,7 +53,10 @@ website](https://nationalparkservice.github.io/NPS_EML_Script/).
 
 ``` r
 install.packages(c("devtools", "lubridate", "tidyverse", "stringr")
-devtools::install_github("EDIorg/EMLassemblyline")
+library(devtools)
+
+devtools::install_github("nationalparkservice/NPSdataverse")
+library("NPSdataverse", "lubridate", "tidyverse", "stringr")
 ```
 
 4)  Access to MS Excel (or any spreadsheet type programs) and Notepad
