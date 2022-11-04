@@ -1,0 +1,43 @@
+---
+title: "NPS EML Scripting"
+description: |
+  Resources and Guides for using EMLassemblyline to create EML for National Park Service data packages
+site: distill::distill_website
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 6
+    toc_float: true
+    css: toc-styles.css
+    self_contained: false
+---
+
+---
+output: github_document
+---
+# Functions
+
+Metadata templates store content that is later converted to EML. Most templating functions read a data object, to extract as much information as possible, then writes it to file for the user to validate the inferred content and add any missing info. Each function focuses on a data feature enabling a modular build of the metadata (not all data contain the same features). The current set of templating functions are (click function names for docs):
+
+### Core metadata
+`template_core_metadata()` Describes core information of a data package (abstract, methods, keywords, personnel, license). Communicates what the data are, why and how they were created, who was involved in their creation, and under what terms the data may be used.
+
+### Table attributes
+`template_table_attributes()` Describes columns of a data table (classes, units, datetime formats, missing value codes).
+
+### Categorical variables
+`template_categorical_variables()` Describes categorical variables of a data table (if any columns are classified as categorical in table attributes template).
+
+### Geography
+`template_geographic_coverage()` Describes where the data were collected.
+
+### Taxonomy
+`template_taxonomic_coverage()` Describes biological organisms occurring in the data and helps resolve them to authority systems. If matches can be made, then the full taxonomic hierarchy of scientific and common names are automatically rendered in the final EML metadata. This enables future users to search on any taxonomic level of interest across data packages in repositories.
+
+### Provenance
+`template_provenance()` Describes source datasets. Explicitly listing the DOIs and/or URLs of input data help future users understand in greater detail how the derived data were created and may some day be able to assign attribution to the creators of referenced datasets.
+
+### Annotations
+`template_annotations()` Adds semantic meaning to metadata (variables, locations, persons, etc.) through links to ontology terms. This enables greater human understanding and machine actionability (linked data) and greatly improves the discoverability and interoperability of data in general.
+
+_NOTE: Data objects should be UTF-8 encoded so metadata extracted during the templating process will also be UTF-8, which is the required by the EML schema. Non-UTF-8 encoded data may result in metadata appearing as malformed character strings._

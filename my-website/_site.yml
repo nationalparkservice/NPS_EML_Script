@@ -1,0 +1,19 @@
+name: "my-website"
+title: "NPS EML Scripting"
+description: |
+  NPS EML Scripting
+output_dir: "../docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Making EML"
+      menu:
+          - text: "Quick Start"
+            href: quick_start.html
+          - text: "Comprehensive Guide"
+            href: comprehensive_guide.html
+            
+output: distill::distill_article

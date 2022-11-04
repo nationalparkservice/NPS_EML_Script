@@ -1,0 +1,33 @@
+---
+title: "NPS EML Scripting"
+description: |
+  Resources and Guides for using EMLassemblyline to create EML for National Park Service data packages
+site: distill::distill_website
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 6
+    toc_float: true
+    self_contained: false
+---
+
+---
+output: github_document
+---
+
+## The data package
+
+A data package forms a collection of data objects and metadata enabling understanding, use, and citation of a dataset. Metadata play an important role in understanding each object and how they relate to each other. EAL works for all digital object formats and has been used by the [Environmental Data Initiative](https://environmentaldatainitiative.org/) (EDI) to create and manage over 500 data packages for a nearly equal number of researchers. Revising data packages with EAL is easy but requires some forethought about file organization.
+
+## An organization scheme
+
+A useful organization scheme is a single directory for each data package containing:
+
+*  __data_objects__ A directory of data and other digital objects to be packaged (e.g. data files, scripts, .zip files, etc.).
+*  __metadata_templates__ A directory of EAL template files.
+*  __eml__ A directory of EML files created by EAL.
+*  __run_EMLassemblyline.R__ An R file for scripting an EAL workflow.
+
+Run `template_directories()` to create this organization scheme.
+
+An even simpler organization scheme, albeit more cluttered, is a single directory containing all files belonging to a data package. A third option is to customize file location, use the `path`, `data.path`, and `eml.path` arguments of EAL functions.
