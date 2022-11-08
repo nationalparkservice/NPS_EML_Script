@@ -16,7 +16,7 @@ output:
 output: github_document
 ---
 
-# Editing EMLassemblyline-generated Templates
+# Editing EMLassemblyline Templates
 
 Metadata inferred during the templating process should be validated by the user and missing info added. Use spreadsheet and text editors for this process. Template specific guides are listed below.
 
@@ -260,7 +260,7 @@ Columns:
 * **object_label** The object label (a.k.a. value) describing the subject. This label should be copied directly from an ontology.
 * **object_uri** The object URI copied from an ontology.
 
-## additional_info (.docx, .md, .txt)
+## additional_info
 
 [__Example__](https://docs.google.com/document/d/1bbZ8iR9MOtTNGbbcev7fdjNCT7va9I8v-Ryv6jFCJYU/edit?usp=sharing)
 
