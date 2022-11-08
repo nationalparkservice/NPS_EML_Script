@@ -21,7 +21,7 @@ This code creates an EML file for a data package. In this case the example is an
   * [qry_Export_AA_Points.csv](../Example_files/qry_Export_AA_Points.csv)
   * [qr_Export_AA_VegetationDetails.csv](../Example_files/qry_Export_AA_VegetationDetails.csv)
 
-This is a step by step process where each section should be reviewed and edited if necessary, and run one by one. Several sections are labeled as DECISION POINTS and may only apply to certain data packages.
+The first set of steps involves inputing information about your data package. The second set of steps ("EMLassemblyline Functions") is a step by step process where each section should be reviewed and edited if necessary, and run one by one. Not all of the functions apply to all data packages. The EMLassemblyline functions will generate .txt files that need to be manually edited. 
 
 The final section has the *make_eml()* function to put together the full metadata file.
 
@@ -113,7 +113,7 @@ data_taxa_field <- "Scientific_Name"
 ```
 
 ## Geographic Coordinates
-Tell EMLassemblyline where to find the table and fields that contain the geographic coordinates and site names that can be used to fill the geographic coverage metadata. Comment these out and do not run OPTIONAL 4 (below) if your data package does not contain geographic information.
+Tell EMLassemblyline where to find the table and fields that contain the geographic coordinates and site names that can be used to fill the geographic coverage metadata. Comment these out and do not run Function 4 (below) if your data package does not contain geographic information.
 
 Coordinates must be in decimal degrees and include a minus sign (-) for latitudes south of the equator and longitudes west of the prime meridian. For points, repeat latitude and longitude coordinates in respective north/south and east/west columns. If you need to convert from UTMs, try using the UTMtoLL function in the [R/QCkit](https://github.com/nationalparkservice/QCkit) package.
 
@@ -137,7 +137,7 @@ startdate <- ymd("2010-01-26")
 enddate <- ymd("2013-01-04")
 ```
 
-## EMLassembly Functions
+## EMLassemblyline Functions
 The next set of optional items are meant to be considered one by one and only run if applicable to a particular data package. The first year will typically see all of these run, but if the data format and protocol stays constant over time it may be possible to skip some or all of these in future years.
   
 ### Function 1: Core metadata 
