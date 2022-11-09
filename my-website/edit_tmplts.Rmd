@@ -23,7 +23,7 @@ Metadata inferred during the templating process should be validated by the user 
 _NOTES:_
 
 *  _Templates can be generated as .docx, .md, or .txt files. Here we focus on .txt. This is the default file format and also the simplest and least error-prone format._  
-*  _Tabular templates: Leave empty cells blank, don't fill with NAs._
+*  _Tabular templates: Leave empty cells blank, don't fill with NAs.
 *  _Free-text templates: Keep template content simple. Complex formatting can lead to errors._
 
 ## abstract.txt
