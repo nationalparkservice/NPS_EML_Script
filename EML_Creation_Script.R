@@ -11,7 +11,7 @@
 # functions from the EMLeditor package (part of the NPSdataverse) that are used to populate NPS DataStore specific tags.
 
 # Contributors: Judd Patterson (judd_patterson@nps.gov) and Rob Baker (robert_baker@nps.gov)
-# Last Updated: October 24, 2022
+# Last Updated: November 21, 2022
 
 ## Install and Load R Packages -----------------------------------------------------------------------------------------
 # Install packages - uncomment the next three lines if you've never installed EMLassemblyline before
@@ -40,9 +40,11 @@ data_type <- "complete"
 # Path to data file(s)
 working_folder <- paste0(str_trim(getwd()),"/","Example_files")
   
-# Vector of dataset filenames 
+# Vector of dataset filenames: 
 data_files <- c("qry_Export_AA_Points.csv",
                 "qry_Export_AA_VegetationDetail.csv")
+# If the only .csv files in your working_folder are datasets for your data package, you can use:
+# data_files <- list.files(pattern="*.csv")
   
 # Vector of dataset names (brief name for each file)
 data_names <- c("TEST_AA Point Data",
@@ -171,4 +173,4 @@ make_eml(path = working_folder,
 # https://github.com/nationalparkservice/EML_editor.
 
 # Some functions from EMLeditor that will be critical to run include:
-# set.CUI, set.DOI, set.DRRdoi and set.parkUnits (with more to come soon).
+# set_cui, set_doi, set_drr and set_content_units, set_producing_units (with more to come soon).
