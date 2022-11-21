@@ -24,7 +24,7 @@ d-article {
   opacity: 1;
   position: fixed;
   left: calc(2%);
-  top: calc(5.5%);
+  top: calc(10%);
   /* width: 20%; */
   max-width: 260px;
   max-height: 85%;

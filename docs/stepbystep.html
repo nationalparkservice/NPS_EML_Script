@@ -2154,7 +2154,7 @@ Making EML
 <li><a href="#files-ultimate-url">Files: Ultimate URL</a></li>
 <li><a href="#geographic-coordinates">Geographic Coordinates</a></li>
 <li><a href="#start-and-end-dates">Start and End Dates</a></li>
-<li><a href="#emlassembly-functions">EMLassembly Functions</a>
+<li><a href="#emlassemblyline-functions">EMLassemblyline Functions</a>
 <ul>
 <li><a href="#function-1-core-metadata">Function 1: Core metadata</a></li>
 <li><a href="#function-2-attributes">Function 2: Attributes</a></li>
@@ -2175,8 +2175,8 @@ Making EML
 <li><a href="../Example_files/qry_Export_AA_Points.csv">qry_Export_AA_Points.csv</a></li>
 <li><a href="../Example_files/qry_Export_AA_VegetationDetails.csv">qr_Export_AA_VegetationDetails.csv</a></li>
 </ul>
-<p>This is a step by step process where each section should be reviewed and edited if necessary, and run one by one. Several sections are labeled as DECISION POINTS and may only apply to certain data packages.</p>
-<p>The final section has the <em>make_eml()</em> function to put together the full metadata file.</p>
+<p>The first set of steps involves inputting information about your data package. The second set of steps (“EMLassemblyline Functions”) is a step by step process where each section should be reviewed and edited if necessary, and run one by one. Not all of the functions apply to all data packages. The EMLassemblyline functions will generate .txt files that need to be manually edited.</p>
+<p>The final section has the <code>make_eml()</code> function to put together the full metadata file.</p>
 <h1 id="before-you-start">Before you Start</h1>
 <h2 id="install-required-software">Install Required Software</h2>
 <p>You will need to install R and may find RStudio helpful. Both can be installed from Software Center without need for admin rights on your machine. For more information, see the R Advisory Group’s <a href="https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx">website</a>.</p>
@@ -2226,8 +2226,11 @@ Making EML
 <span><span class='co'>#Alternatively you can continue working in your current directory and assign the path to your data files to 'working_folder' instead of 'getwd()'</span></span>
 <span><span class='va'>working_folder</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/getwd.html'>getwd</a></span><span class='op'>(</span><span class='op'>)</span></span>
 <span></span>
-<span><span class='co'>#Vector of dataset filenames. Tell EMLassemblyline what the names of your datafiles are. Watch out for spelling and case. </span></span>
+<span><span class='co'>#Vector of dataset file names. Tell EMLassemblyline what the names of your data files are. Watch out for spelling and case.  </span></span>
 <span><span class='va'>data_files</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"qry_Export_AA_Points.csv"</span>, <span class='st'>"qry_Export_AA_VegetationDetail.csv"</span><span class='op'>)</span></span>
+<span></span>
+<span><span class='co'>#If the only .csv files in your working_folder are datafiles for your data package, you could instead use:</span></span>
+<span><span class='co'>#data_files &lt;- c(list.file(pattern="*.csv"))</span></span>
 <span>  </span>
 <span><span class='co'>#Vector of dataset names (brief name for each file). Make sure the names of are in the same order as the file names!</span></span>
 <span><span class='va'>data_names</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"TEST_AA Point Data"</span>,<span class='st'>"TEST_AA Vegetation Data"</span><span class='op'>)</span></span>
@@ -2259,10 +2262,10 @@ Create a vector of dataset URLs - for DataStore I recommend setting this to the 
 </div>
 </div>
 <h2 id="geographic-coordinates">Geographic Coordinates</h2>
-<p>Tell EMLassemblyline where to find the table and fields that contain the geographic coordinates and site names that can be used to fill the geographic coverage metadata. Comment these out and do not run OPTIONAL 4 (below) if your data package does not contain geographic information.</p>
-<p>Coordinates must be in decimal degrees and include a minus sign (-) for latitudes south of the equator and longitudes west of the prime meridian. For points, repeat latitude and longitude coordinates in respective north/south and east/west columns. If you need to convert from UTMs, try using the UTMtoLL function in the <a href="https://github.com/nationalparkservice/QCkit">R/QCkit</a> package.</p>
-<p>The example below will generate a single point for each site. We strongly encourage you to be as precise as possible with your geographicCoverage and provide sampling pionts (e.g. along a transect) whenever possible. This information will (eventually) be displayed on a map on the DataStore Reference page for the data package and these points will also be directly discoverable through DataStore searches.</p>
-<p>If you have CUI concerns about the specific locations of your sites, consider fuzzing them rather than completely removing them. One good tool for fuzzing geographic coordinates is the dp_fuzzLocation function in the <a href="https://github.com/nationalparkservice/QCkit">R/QCkit</a> package.</p>
+<p>Tell EMLassemblyline where to find the table and fields that contain the geographic coordinates and site names that can be used to fill the geographic coverage metadata. Comment these out and do not run Function 4 (below) if your data package does not contain geographic information.</p>
+<p>Coordinates must be in decimal degrees and include a minus sign (-) for latitudes south of the equator and longitudes west of the prime meridian. For points, repeat latitude and longitude coordinates in respective north/south and east/west columns. If you need to convert from UTMs, try using the <code>utm_to_ll()</code> function in the <a href="https://nationalparkservice.github.io/QCkit/">R/QCkit</a> package.</p>
+<p>The example below will generate a single point for each site. We strongly encourage you to be as precise as possible with your geographicCoverage and provide sampling points (e.g. along a transect) whenever possible. This information will (eventually) be displayed on a map on the DataStore Reference page for the data package and these points will also be directly discoverable through DataStore searches.</p>
+<p>If you have CUI concerns about the specific locations of your sites, consider fuzzing them rather than completely removing them. One good tool for fuzzing geographic coordinates is the <code>fuzz_location()</code> function in the [R/QCkit]<a href="https://nationalparkservice.github.io/QCkit/" class="uri">https://nationalparkservice.github.io/QCkit/</a>) package.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>data_coordinates_table</span> <span class='op'>&lt;-</span> <span class='st'>"qry_Export_AA_Points.csv"</span></span>
@@ -2280,7 +2283,7 @@ Create a vector of dataset URLs - for DataStore I recommend setting this to the 
 <span><span class='va'>enddate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/lubridate/man/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2013-01-04"</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
-<h2 id="emlassembly-functions">EMLassembly Functions</h2>
+<h2 id="emlassemblyline-functions">EMLassemblyline Functions</h2>
 <p>The next set of optional items are meant to be considered one by one and only run if applicable to a particular data package. The first year will typically see all of these run, but if the data format and protocol stays constant over time it may be possible to skip some or all of these in future years.</p>
 <h3 id="function-1-core-metadata">Function 1: Core metadata</h3>
 <p>Creates blank TXT template files for the abstract, additional information, custom units, intellectual rights, keywords, methods, and personnel. Some of these .txt files are easily edited in text editors (e.g. abstract.txt) but some are best edited in Excel (or another spreadsheet application), for instance the personnel.txt file.</p>
@@ -2319,7 +2322,7 @@ blockquote {
 </div>
 </div>
 <h3 id="function-2-attributes">Function 2: Attributes</h3>
-<p>Creates an “attributes_datafilename.txt” file for each data file. This can be opened in Excel (We recommend against trying to update these in a text editor) and fill in/adjust the columns for attributeDefinition, class, unit, etc. refer to the <a href="edit_tmplts.html">webpage on editing templates</a> for helpful hints and use <em>EMLassemblyline::view_unit_dictionary()</em> for potential units. This will only need to be run again if the attributes (name, order or new/deleted fields) are modified from the previous year. NOTE that if this already exists from a previous run, it is not overwritten.</p>
+<p>Creates an “attributes_datafilename.txt” file for each data file. This can be opened in Excel (We recommend against trying to update these in a text editor) and fill in/adjust the columns for attributeDefinition, class, unit, etc. refer to the <a href="edit_tmplts.html">webpage on editing templates</a> for helpful hints and use <code>EMLassemblyline::view_unit_dictionary()</code> for potential units. This will only need to be run again if the attributes (name, order or new/deleted fields) are modified from the previous year. NOTE that if this already exists from a previous run, it is not overwritten.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/template_table_attributes.html'>template_table_attributes</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>,</span>
@@ -2337,7 +2340,7 @@ blockquote {
 </div>
 </div>
 <h3 id="function-4-geography">Function 4: Geography</h3>
-<p>Creates a geographic_coverage.txt file that lists your sites as points as long as your coordinates are in lat/long. If your coordinates are in UTM it is probably easiest to convert them first or create the geographic_coverage.txt file another way. For isntance, try using the UTMtoLL function in <a href="https://github.com/nationalparkservice/QCkit">R/QCkit</a>.</p>
+<p>Creates a geographic_coverage.txt file that lists your sites as points as long as your coordinates are in lat/long. If your coordinates are in UTM it is probably easiest to convert them first or create the geographic_coverage.txt file another way. For instance, try using the <code>utm_to_ll()</code> function in <a href="https://nationalparkservice.github.io/QCkit/">R/QCkit</a>.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/template_geographic_coverage.html'>template_geographic_coverage</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
@@ -2350,7 +2353,7 @@ blockquote {
 </div>
 </div>
 <h3 id="function-5-taxonomy">Function 5: Taxonomy</h3>
-<p>Creates a taxonomic_coverage.txt file if you have taxonomic data. In terms of authorities 3 = ITIS, 9 = WORMS, and 11 = GBIF. Turning this function on may dramatically increase the time it takes for the <em>make_eml()</em> function to run, especially if you have many taxa or a slow internet connection. You may want to consider turning this off for testing/development purposes.</p>
+<p>Creates a taxonomic_coverage.txt file if you have taxonomic data. In terms of authorities 3 = ITIS, 9 = WORMS, and 11 = GBIF. Turning this function on may dramatically increase the time it takes for the <code>make_eml()</code> function to run, especially if you have many taxa or a slow internet connection. You may want to consider turning this off for testing/development purposes.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/template_taxonomic_coverage.html'>template_taxonomic_coverage</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
@@ -2378,7 +2381,7 @@ blockquote {
 </div>
 </div>
 <h1 id="finished-not-quite">Finished? Not quite…</h1>
-<p>Now that you have valid EML metadata, you need to add NPS-specific elements and fields. For instance, unit connections, DOIs, referencing a DRR, etc. To do that, use the <a href="https://github.com/nationalparkservice/EML_editor">R/EMLeditor</a> package.</p>
+<p>Now that you have valid EML metadata, you need to add NPS-specific elements and fields. For instance, unit connections, DOIs, referencing a DRR, etc. To do that, use the <a href="https://nationalparkservice.github.io/EMLeditor/">R/EMLeditor</a> package.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
