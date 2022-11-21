@@ -73,18 +73,18 @@ repository to make EML.
 ### Generate EML
 
 1)  Edit the *EML_Creation_Script.R* file as necessary and run each line
-    or set of code (except the `make_eml` function).
+    or set of code (except the `make_eml()` function).
 
 2)  Edit the auto-generated .txt files using a text editor or
     spreadsheet application as necessary. For details, look at the NPS
     [template editing
     guideline](https://nationalparkservice.github.io/NPS_EML_Script/edit_tmplts.html).
 
-3)  Run the `make_eml` function (this could take a little while -
+3)  Run the `make_eml()` function (this could take a little while -
     particularly if you have a lot of taxonomic data).
 
 4)  Be sure to read and address any Issues or Warnings after running the
-    `make_eml` function
+    `make_eml()` function
 
 ### Next steps
 
