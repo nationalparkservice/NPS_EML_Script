@@ -6,7 +6,7 @@ author:
   affiliation_url: https://www.nps.gov
   orcid_id: 0000-0001-7591-5035
 - name: Judd Patterson
-  affiliation: National Park service
+  affiliation: National Park Service
   affiliation_url: https://www.nps.gov
   orcid_id: 0000-0002-0951-7917
 date: "November 04, 2022"
