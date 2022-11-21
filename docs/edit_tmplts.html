@@ -2140,7 +2140,7 @@ Making EML
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#editing-emlassemblyline-generated-templates">Editing EMLassemblyline-generated Templates</a>
+<li><a href="#editing-emlassemblyline-templates">Editing EMLassemblyline Templates</a>
 <ul>
 <li><a href="#abstract.txt">abstract.txt</a></li>
 <li><a href="#methods.txt">methods.txt</a></li>
@@ -2154,18 +2154,18 @@ Making EML
 <li><a href="#taxonomic_coverage.txt">taxonomic_coverage.txt</a></li>
 <li><a href="#provenance.txt">provenance.txt</a></li>
 <li><a href="#annotations.txt">annotations.txt</a></li>
-<li><a href="#additional_info-.docx-.md-.txt">additional_info (.docx, .md, .txt)</a></li>
+<li><a href="#additional_info">additional_info</a></li>
 </ul></li>
 </ul>
 </nav>
 </div>
-<h1 id="editing-emlassemblyline-generated-templates">Editing EMLassemblyline-generated Templates</h1>
+<h1 id="editing-emlassemblyline-templates">Editing EMLassemblyline Templates</h1>
 <p>Metadata inferred during the templating process should be validated by the user and missing info added. Use spreadsheet and text editors for this process. Template specific guides are listed below.</p>
 <p><em>NOTES:</em></p>
 <ul>
 <li><em>Templates can be generated as .docx, .md, or .txt files. Here we focus on .txt. This is the default file format and also the simplest and least error-prone format.</em><br />
 </li>
-<li><em>Tabular templates: Leave empty cells blank, don’t fill with NAs.</em></li>
+<li>_Tabular templates: Leave empty cells blank, don’t fill with NAs.</li>
 <li><em>Free-text templates: Keep template content simple. Complex formatting can lead to errors.</em></li>
 </ul>
 <h2 id="abstract.txt">abstract.txt</h2>
@@ -2309,10 +2309,10 @@ Common separators of format string components (e.g. - /  :) are supported.</li
 <li><strong>eastBoundingCoordinate</strong> East coordinate</li>
 <li><strong>westBoundingCoordinate</strong> West coordinate</li>
 </ul>
-<p>Coordinates must be in decimal degrees and include a minus sign (-) for latitudes south of the equator and longitudes west of the prime meridian. For points, repeat latitude and longitude coordinates in respective north/south and east/west columns. If you need to convert from UTMs, try using the <strong>UTMtoLL</strong> function in the <a href="https://github.com/nationalparkservice/QCkit">R/QCkit</a> package.</p>
-<p>Currently EML handles points and rectangles well. At the least precise end of spectrum you could enter an entire park unit as geographic For a convenient way to get these coordinates, see the <strong>get.unitPolygon</strong> function in the <a href="https://github.com/nationalparkservice/EMLeditor">R/EMLeditor</a> package.</p>
-<p>We strongly encourage you to be as precise as possible with your geographicCoverage and provide sampling pionts (e.g. along a transect) whenever possible. This information will (eventually) be displayed on a map on the DataStore Reference page for the data package and these points will also be directly discoverable through DataStore searches.</p>
-<p>If you have CUI concerns about the specific locations of your sites, consider fuzzing them rather than completely removing them. One good tool for fuzzing geographic coordinates is the <strong>dp_fuzzLocation</strong> function in the <a href="https://github.com/nationalparkservice/QCkit">R/QCkit</a> package.</p>
+<p>Coordinates must be in decimal degrees and include a minus sign (-) for latitudes south of the equator and longitudes west of the prime meridian. For points, repeat latitude and longitude coordinates in respective north/south and east/west columns. If you need to convert from UTMs, try using the <code>utm_to_ll()</code> function in the <a href="https://github.com/nationalparkservice/QCkit">R/QCkit</a> package.</p>
+<p>Currently EML handles points and rectangles well. At the least precise end of spectrum you could enter an entire park unit as geographic For a convenient way to get these coordinates, see the <code>get_park_polygon()</code> function in the <a href="https://github.com/nationalparkservice/EMLeditor">R/EMLeditor</a> package.</p>
+<p>We strongly encourage you to be as precise as possible with your geographicCoverage and provide sampling points (e.g. along a transect) whenever possible. This information will (eventually) be displayed on a map on the DataStore Reference page for the data package and these points will also be directly discoverable through DataStore searches.</p>
+<p>If you have CUI concerns about the specific locations of your sites, consider fuzzing them rather than completely removing them. One good tool for fuzzing geographic coordinates is the <code>fuzz_location()</code> function in the <a href="https://github.com/nationalparkservice/QCkit">R/QCkit</a> package.</p>
 <h2 id="taxonomic_coverage.txt">taxonomic_coverage.txt</h2>
 <p><a href="https://docs.google.com/spreadsheets/d/1jpOmcSq93KOpWnC26pHrxPtt4dFhB9SHXNHLs5Du7MQ/edit?usp=sharing"><strong>Example</strong></a></p>
 <p>Describes biological organisms occurring in the data and helps resolve them to authority systems. If matches can be made, then the full taxonomic hierarchy of scientific and common names are automatically rendered in the final EML metadata. This enables future users to search on any taxonomic level of interest across data packages in repositories.</p>
@@ -2358,7 +2358,7 @@ Common separators of format string components (e.g. - /  :) are supported.</li
 <li><strong>object_label</strong> The object label (a.k.a. value) describing the subject. This label should be copied directly from an ontology.</li>
 <li><strong>object_uri</strong> The object URI copied from an ontology.</li>
 </ul>
-<h2 id="additional_info-.docx-.md-.txt">additional_info (.docx, .md, .txt)</h2>
+<h2 id="additional_info">additional_info</h2>
 <p><a href="https://docs.google.com/document/d/1bbZ8iR9MOtTNGbbcev7fdjNCT7va9I8v-Ryv6jFCJYU/edit?usp=sharing"><strong>Example</strong></a></p>
 <p>Ancillary info not captured by any of the other templates.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
