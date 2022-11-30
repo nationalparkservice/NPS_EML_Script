@@ -16,7 +16,9 @@
 ## Install and Load R Packages -----------------------------------------------------------------------------------------
 # Install packages - uncomment the next three lines if you've never installed EMLassemblyline before
 install.packages("devtools")
-library(devtools)
+# If you run into errors installing packages from github on NPS computers you
+#may first need to run:
+# options(download.file.method="wininet")
 devtools::install_github("EDIorg/EMLassemblyline")
 
 # Load packages
