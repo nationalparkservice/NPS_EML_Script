@@ -27,7 +27,7 @@ The final section has the `make_eml()` function to put together the full metadat
 
 # Before you Start
 
-## Install Required Software
+## Required Software
 You will need to install R and may find RStudio helpful. Both can be installed from Software Center without need for admin rights on your machine. For more information, see the R Advisory Group's [website](https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx).
 
 If you've never installed EMLassemblyline, you'll needed to install it (as well as some other packages) and then load them into R's working memory:
@@ -45,14 +45,14 @@ library(tidyverse)
 library(stringr)
 ```
 
-## Initiate a Draft Reference in DataStore
-You will need to know the URLs of your data files. These will be located on DataStore. Got to DataStore, select "Create" from the green drop down menu and then choose "Draft Reference". For now, select "Tabular Dataset" as the reference type (Data Package Reference Type coming soon!). Make sure to take note of the 7-digit code for the Reference as you will need it later.
+## DataStore
+You will need to initiate a draft reference on DataStore. You will also need to know the URLs of your data files. These will be located on DataStore. Go to [DataStore](https://irma.nps.gov/DataStore/), select "Create" from the green drop down menu and then choose "Draft Reference". For now, select "Tabular Dataset" as the reference type (Data Package Reference Type coming soon!). Make sure to take note of the 7-digit code for the Reference as you will need it later.
 
 Don't activate the reference yet!
 
 # Using the Template
 
-## Provide Information About the Data Package
+## Data Package Info
 
 ```{r packageDetails, echo=TRUE, eval=FALSE}
 #Metadata filename - this becomes the filename, so make sure it ends in _metadata to comply with the NPS data package specifications
@@ -71,26 +71,38 @@ Tell EMLassemblyline where your files are (and what they are).
 For vectors with more than one item, keep the order the same (i.e. item #1 should correspond to the same file in each vector).
 
 ```{r datafiles, echo=TRUE, eval=FALSE}
-#Path to data file(s). The default "getwd()" assumes that your working directory in R is the directory where your data files for your data package are.
+#Path to data file(s). The default "getwd()" assumes that your working
+#directory in R is where your data files for your data package are.
 
 #to check your current working directory use getwd()
 
 #To change your working directory use >setwd("path/to/my/datafiles"). 
 
-#Alternatively you can continue working in your current directory and assign the path to your data files to 'working_folder' instead of 'getwd()'
+#Alternatively you can continue working in your current directory and assign
+#the path to your data files to 'working_folder' instead of 'getwd()'
 working_folder <- getwd()
 
-#Vector of dataset file names. Tell EMLassemblyline what the names of your data files are. Watch out for spelling and case.  
-data_files <- c("qry_Export_AA_Points.csv", "qry_Export_AA_VegetationDetail.csv")
+#Vector of dataset file names. Tell EMLassemblyline what the names of your 
+#data files are. Watch out for spelling and case.  
+data_files <- c("qry_Export_AA_Points.csv", 
+                "qry_Export_AA_VegetationDetail.csv")
 
-#If the only .csv files in your working_folder are datafiles for your data package, you could instead use:
+#If the only .csv files in your working_folder are datafiles for your data 
+#package, you could instead use:
 #data_files <- c(list.file(pattern="*.csv"))
   
-#Vector of dataset names (brief name for each file). Make sure the names of are in the same order as the file names!
-data_names <- c("TEST_AA Point Data","TEST_AA Vegetation Data")
+#Vector of dataset names (brief name for each file). Make sure the names of are
+#in the same order as the file names!
+data_names <- c("TEST_AA Point Data",
+                "TEST_AA Vegetation Data")
   
-#Vector of dataset descriptions (about 10 words describing each file). Descriptions will be used in auto-generated tables within the ReadMe and DRR. If need to use more than about 10 words, consider putting that information in the abstract, methods, or additional info sections. Again, be sure these are in the same order as your data files!
-data_descriptions <- c("TEST_Everglades Vegetation Map Accuracy Assessment point data","Everglades Vegetation Map Accuracy Assessment vegetation data")
+#Vector of dataset descriptions (about 10 words describing each file). 
+#Descriptions will be used in auto-generated tables within the ReadMe and DRR. 
+#If need to use more than about 10 words, consider putting that information in
+#the abstract, methods, or additional info sections. Again, be sure these are
+#in the same order as your data files!
+data_descriptions <- c("TEST_Everglades Vegetation Map Accuracy Assessment point data",
+                       "Everglades Vegetation Map Accuracy Assessment vegetation data")
 ```
 
 ## Files: Ultimate URL
@@ -122,7 +134,7 @@ Coordinates must be in decimal degrees and include a minus sign (-) for latitude
 
 The example below will generate a single point for each site. We strongly encourage you to be as precise as possible with your geographicCoverage and provide sampling points (e.g. along a transect) whenever possible. This information will (eventually) be displayed on a map on the DataStore Reference page for the data package and these points will also be directly discoverable through DataStore searches.
 
-If you have CUI concerns about the specific locations of your sites, consider fuzzing them rather than completely removing them. One good tool for fuzzing geographic coordinates is the `fuzz_location()` function in the [R/QCkit]https://nationalparkservice.github.io/QCkit/) package.
+If you have CUI concerns about the specific locations of your sites, consider fuzzing them rather than completely removing them. One good tool for fuzzing geographic coordinates is the `fuzz_location()` function in the [R/QCkit](https://nationalparkservice.github.io/QCkit/) package.
 
 ```{r goeCov, echo=TRUE, eval=FALSE}
 data_coordinates_table <- "qry_Export_AA_Points.csv"
@@ -143,16 +155,25 @@ enddate <- ymd("2013-01-04")
 ## EMLassemblyline Functions
 The next set of optional items are meant to be considered one by one and only run if applicable to a particular data package. The first year will typically see all of these run, but if the data format and protocol stays constant over time it may be possible to skip some or all of these in future years.
   
-### Function 1: Core metadata 
-Creates blank TXT template files for the abstract, additional information, custom units, intellectual rights, keywords, methods, and personnel. Some of these .txt files are easily edited in text editors (e.g. abstract.txt) but some are best edited in Excel (or another spreadsheet application), for instance the personnel.txt file.
+### Function 1: Core Metadata 
+The `template_core_metadata()` function Creates blank TXT template files for the abstract, additional information, custom units, intellectual rights, keywords, methods, and personnel. Some of these .txt files are easily edited in text editors (e.g. abstract.txt) but some are best edited in Excel (or another spreadsheet application), for instance the personnel.txt file.
+
+```{r core_metadata, echo=TRUE, eval=FALSE}  
+template_core_metadata(path = working_folder, 
+                       license = "CC0")
+```
+
+#### Editing Templates
  
-For specific guidance on editing these templates, see the [documentation on editing templates](edit_tmplts.html).
+For specific guidance on editing these templates as well as example templates, see the [documentation on editing templates](edit_tmplts.html).
   
 Typically these files can be reused between years. 
 
-You must edit the "intellectual_rights.txt" file:
+#### Intellectual Rights
 
-  *   If you have CUI, replace the CCO license with the following text:
+You **must edit** the "intellectual_rights.txt" file:
+
+  *   If you have CUI, replace the CC0 license with the following text:
   
 ```{css style settings, echo = FALSE}
 blockquote {
@@ -165,19 +186,20 @@ blockquote {
   
   > "This product has been determined to contain Controlled Unclassified Information (CUI) by the National Park Service, and is intended for internal use only. It is not published under an open license. Unauthorized access, use, and distribution are prohibited.” 
   
-  * If you have no CUI, the default is the public domain. Replace the CCO text with the following text:
+  * If you have no CUI you can choose one of two options, both of which mean there are no licenses, copyrights, or restrictions on use or re-use of the data. The CC0 license makes the free use of the data explicit and is recognized globally whereas for works in the public domain the lack of restrictions is implicit and may be subject to local jurisdiction. Replace the text in the license.txt file with one of the following:
   
-  > "This work is in the public domain. There is no copy right or license."
+  CC0 License:
   
-  * If you need a license, for instance because the data were generated by non-NPS contractors or in collaboration with non-NPS partners, use the default license="CCO".
+  > This product is released to the "public domain" under Creative Commons CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/).."
   
-```{r core_metadata, echo=TRUE, eval=FALSE}  
-template_core_metadata(path = working_folder, 
-                       license = "CC0")
-```
+  Public Domain:
+  
+  > This product is released to the "public domain" under U.S. Government Works "No Rights Reserved (see: http://www.usa.gov/publicdomain/label/1.0/).
+  
+  * If you need a license, for instance because the data were generated by non-NPS contractors or in collaboration with non-NPS partners, use the CC0 license.
 
 ### Function 2: Attributes
-Creates an "attributes_datafilename.txt" file for each data file. This can be opened in Excel (We recommend against trying to update these in a text editor) and fill in/adjust the columns for attributeDefinition, class, unit, etc. refer to the [webpage on editing templates](edit_tmplts.html) for helpful hints and use `EMLassemblyline::view_unit_dictionary()` for potential units. This will only need to be run again if the attributes (name, order or new/deleted fields) are modified from the previous year. NOTE that if this already exists from a previous run, it is not overwritten.
+Creates an "attributes_datafilename.txt" file for each data file. This can be opened in Excel (We recommend against trying to update these in a text editor) and fill in/adjust the columns for attributeDefinition, class, unit, etc. refer to the [webpage on editing templates](edit_tmplts.html) for helpful hints and examples. You can use `EMLassemblyline::view_unit_dictionary()` for a list of potential units. This will only need to be run again if the attributes (name, order or new/deleted fields) are modified from the previous year. NOTE that if this already exists from a previous run, it is not overwritten.
 
 ```{r attributes, echo=TRUE, eval=FALSE}
 template_table_attributes(path = working_folder,
@@ -186,7 +208,7 @@ template_table_attributes(path = working_folder,
 ```
 
 ### Function 3: Categoricals
-Creates a "catvars_datafilename.txt" file for each data file that has columns with a class = categorical. These txt files will include each unique 'code' and allow input of the corresponding 'definition'.NOTE that since the list of codes is harvested from the data itself, it's possible that additional codes may have been relevant/possible but they are not automatically included here. Consider your lookup lists carefully to see if additional options should be included (e.g if your dataset DPL values are all set to "Accepted" this function will not include "Raw" or "Provisional" in the resulting file and you may want to add those manually). NOTE that if this already exists from a previous run, it is not overwritten.
+Creates a "catvars_datafilename.txt" file for each data file that has columns with a class = categorical. These txt files will include each unique 'code' and allow input of the corresponding 'definition'. Note that since the list of codes is harvested from the data itself, it's possible that additional codes may have been relevant/possible but they are not automatically included here. Consider your lookup lists carefully to see if additional options should be included (e.g if your dataset quality control flagging values are all set to "Accepted" this function will not include "Raw" or "Provisional" in the resulting file and you may want to add those manually). NOTE that if this already exists from a previous run, it is not overwritten.
 
 ```{r catvars, echo=TRUE, eval=FALSE}
 template_categorical_variables(path = working_folder,
@@ -236,4 +258,4 @@ make_eml(path = working_folder,
 ```
 
 # Finished? Not quite...
-Now that you have valid EML metadata, you need to add NPS-specific elements and fields. For instance, unit connections, DOIs, referencing a DRR, etc. To do that, use the [R/EMLeditor](https://nationalparkservice.github.io/EMLeditor/) package.
+Now that you have valid EML metadata, you need to add NPS-specific elements and fields. For instance, unit connections, DOIs, referencing a DRR, etc. To do that, use the [R/EMLeditor](https://nationalparkservice.github.io/EMLeditor/) package, which includes instructions for a [minimal EMLeditor workflow](https://nationalparkservice.github.io/EMLeditor/articles/EMLeditor.html#a-minimal-workflow) for creating compliant EML metadata.
