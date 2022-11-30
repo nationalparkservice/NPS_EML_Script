@@ -2189,7 +2189,10 @@ Making EML
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'>## install necessary packages:</span></span>
 <span><span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"devtools"</span>, <span class='st'>"lubridate"</span>, <span class='st'>"tidyverse"</span>, <span class='st'>"stringr"</span><span class='op'>)</span><span class='op'>)</span></span>
-<span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://devtools.r-lib.org/'>devtools</a></span><span class='op'>)</span></span>
+<span></span>
+<span><span class='co'># If you run into errors installing packages from github on NPS computers you</span></span>
+<span><span class='co'>#may first need to run:</span></span>
+<span><span class='co'># options(download.file.method="wininet")</span></span>
 <span><span class='fu'>devtools</span><span class='fu'>::</span><span class='fu'><a href='https://remotes.r-lib.org/reference/install_github.html'>install_github</a></span><span class='op'>(</span><span class='st'>"EDIorg/EMLassemblyline"</span><span class='op'>)</span></span>
 <span>  </span>
 <span><span class='co'>#Load required packages</span></span>

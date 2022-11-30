@@ -35,7 +35,10 @@ If you've never installed EMLassemblyline, you'll needed to install it (as well 
 ```{r install_packages, echo=TRUE, eval=FALSE} 
 ## install necessary packages:
 install.packages(c("devtools", "lubridate", "tidyverse", "stringr"))
-library(devtools)
+
+# If you run into errors installing packages from github on NPS computers you
+#may first need to run:
+# options(download.file.method="wininet")
 devtools::install_github("EDIorg/EMLassemblyline")
   
 #Load required packages
