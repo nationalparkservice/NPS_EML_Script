@@ -2144,19 +2144,23 @@ Making EML
 <li><a href="#summary">Summary</a></li>
 <li><a href="#before-you-start">Before you Start</a>
 <ul>
-<li><a href="#install-required-software">Install Required Software</a></li>
-<li><a href="#initiate-a-draft-reference-in-datastore">Initiate a Draft Reference in DataStore</a></li>
+<li><a href="#required-software">Required Software</a></li>
+<li><a href="#datastore">DataStore</a></li>
 </ul></li>
 <li><a href="#using-the-template">Using the Template</a>
 <ul>
-<li><a href="#provide-information-about-the-data-package">Provide Information About the Data Package</a></li>
+<li><a href="#data-package-info">Data Package Info</a></li>
 <li><a href="#files-local-path">Files: Local path</a></li>
 <li><a href="#files-ultimate-url">Files: Ultimate URL</a></li>
 <li><a href="#geographic-coordinates">Geographic Coordinates</a></li>
 <li><a href="#start-and-end-dates">Start and End Dates</a></li>
 <li><a href="#emlassemblyline-functions">EMLassemblyline Functions</a>
 <ul>
-<li><a href="#function-1-core-metadata">Function 1: Core metadata</a></li>
+<li><a href="#function-1-core-metadata">Function 1: Core Metadata</a>
+<ul>
+<li><a href="#editing-templates">Editing Templates</a></li>
+<li><a href="#intellectual-rights">Intellectual Rights</a></li>
+</ul></li>
 <li><a href="#function-2-attributes">Function 2: Attributes</a></li>
 <li><a href="#function-3-categoricals">Function 3: Categoricals</a></li>
 <li><a href="#function-4-geography">Function 4: Geography</a></li>
@@ -2178,15 +2182,18 @@ Making EML
 <p>The first set of steps involves inputting information about your data package. The second set of steps (“EMLassemblyline Functions”) is a step by step process where each section should be reviewed and edited if necessary, and run one by one. Not all of the functions apply to all data packages. The EMLassemblyline functions will generate .txt files that need to be manually edited.</p>
 <p>The final section has the <code>make_eml()</code> function to put together the full metadata file.</p>
 <h1 id="before-you-start">Before you Start</h1>
-<h2 id="install-required-software">Install Required Software</h2>
+<h2 id="required-software">Required Software</h2>
 <p>You will need to install R and may find RStudio helpful. Both can be installed from Software Center without need for admin rights on your machine. For more information, see the R Advisory Group’s <a href="https://doimspp.sharepoint.com/sites/nps-nrss-imdiv/SitePages/R-Adv.aspx">website</a>.</p>
 <p>If you’ve never installed EMLassemblyline, you’ll needed to install it (as well as some other packages) and then load them into R’s working memory:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'>## install necessary packages:</span></span>
 <span><span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"devtools"</span>, <span class='st'>"lubridate"</span>, <span class='st'>"tidyverse"</span>, <span class='st'>"stringr"</span><span class='op'>)</span><span class='op'>)</span></span>
-<span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://devtools.r-lib.org/'>devtools</a></span><span class='op'>)</span></span>
-<span><span class='fu'>devtools</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/remotes/man/install_github.html'>install_github</a></span><span class='op'>(</span><span class='st'>"EDIorg/EMLassemblyline"</span><span class='op'>)</span></span>
+<span></span>
+<span><span class='co'># If you run into errors installing packages from github on NPS computers you</span></span>
+<span><span class='co'>#may first need to run:</span></span>
+<span><span class='co'># options(download.file.method="wininet")</span></span>
+<span><span class='fu'>devtools</span><span class='fu'>::</span><span class='fu'><a href='https://remotes.r-lib.org/reference/install_github.html'>install_github</a></span><span class='op'>(</span><span class='st'>"EDIorg/EMLassemblyline"</span><span class='op'>)</span></span>
 <span>  </span>
 <span><span class='co'>#Load required packages</span></span>
 <span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/EDIorg/EMLassemblyline'>EMLassemblyline</a></span><span class='op'>)</span></span>
@@ -2195,11 +2202,11 @@ Making EML
 <span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://stringr.tidyverse.org'>stringr</a></span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
-<h2 id="initiate-a-draft-reference-in-datastore">Initiate a Draft Reference in DataStore</h2>
-<p>You will need to know the URLs of your data files. These will be located on DataStore. Got to DataStore, select “Create” from the green drop down menu and then choose “Draft Reference”. For now, select “Tabular Dataset” as the reference type (Data Package Reference Type coming soon!). Make sure to take note of the 7-digit code for the Reference as you will need it later.</p>
+<h2 id="datastore">DataStore</h2>
+<p>You will need to initiate a draft reference on DataStore. You will also need to know the URLs of your data files. These will be located on DataStore. Go to <a href="https://irma.nps.gov/DataStore/">DataStore</a>, select “Create” from the green drop down menu and then choose “Draft Reference”. For now, select “Tabular Dataset” as the reference type (Data Package Reference Type coming soon!). Make sure to take note of the 7-digit code for the Reference as you will need it later.</p>
 <p>Don’t activate the reference yet!</p>
 <h1 id="using-the-template">Using the Template</h1>
-<h2 id="provide-information-about-the-data-package">Provide Information About the Data Package</h2>
+<h2 id="data-package-info">Data Package Info</h2>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'>#Metadata filename - this becomes the filename, so make sure it ends in _metadata to comply with the NPS data package specifications</span></span>
@@ -2217,26 +2224,38 @@ Making EML
 <p>For vectors with more than one item, keep the order the same (i.e. item #1 should correspond to the same file in each vector).</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'>#Path to data file(s). The default "getwd()" assumes that your working directory in R is the directory where your data files for your data package are.</span></span>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'>#Path to data file(s). The default "getwd()" assumes that your working</span></span>
+<span><span class='co'>#directory in R is where your data files for your data package are.</span></span>
 <span></span>
 <span><span class='co'>#to check your current working directory use getwd()</span></span>
 <span></span>
 <span><span class='co'>#To change your working directory use &gt;setwd("path/to/my/datafiles"). </span></span>
 <span></span>
-<span><span class='co'>#Alternatively you can continue working in your current directory and assign the path to your data files to 'working_folder' instead of 'getwd()'</span></span>
+<span><span class='co'>#Alternatively you can continue working in your current directory and assign</span></span>
+<span><span class='co'>#the path to your data files to 'working_folder' instead of 'getwd()'</span></span>
 <span><span class='va'>working_folder</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/getwd.html'>getwd</a></span><span class='op'>(</span><span class='op'>)</span></span>
 <span></span>
-<span><span class='co'>#Vector of dataset file names. Tell EMLassemblyline what the names of your data files are. Watch out for spelling and case.  </span></span>
-<span><span class='va'>data_files</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"qry_Export_AA_Points.csv"</span>, <span class='st'>"qry_Export_AA_VegetationDetail.csv"</span><span class='op'>)</span></span>
+<span><span class='co'>#Vector of dataset file names. Tell EMLassemblyline what the names of your </span></span>
+<span><span class='co'>#data files are. Watch out for spelling and case.  </span></span>
+<span><span class='va'>data_files</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"qry_Export_AA_Points.csv"</span>, </span>
+<span>                <span class='st'>"qry_Export_AA_VegetationDetail.csv"</span><span class='op'>)</span></span>
 <span></span>
-<span><span class='co'>#If the only .csv files in your working_folder are datafiles for your data package, you could instead use:</span></span>
+<span><span class='co'>#If the only .csv files in your working_folder are datafiles for your data </span></span>
+<span><span class='co'>#package, you could instead use:</span></span>
 <span><span class='co'>#data_files &lt;- c(list.file(pattern="*.csv"))</span></span>
 <span>  </span>
-<span><span class='co'>#Vector of dataset names (brief name for each file). Make sure the names of are in the same order as the file names!</span></span>
-<span><span class='va'>data_names</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"TEST_AA Point Data"</span>,<span class='st'>"TEST_AA Vegetation Data"</span><span class='op'>)</span></span>
+<span><span class='co'>#Vector of dataset names (brief name for each file). Make sure the names of are</span></span>
+<span><span class='co'>#in the same order as the file names!</span></span>
+<span><span class='va'>data_names</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"TEST_AA Point Data"</span>,</span>
+<span>                <span class='st'>"TEST_AA Vegetation Data"</span><span class='op'>)</span></span>
 <span>  </span>
-<span><span class='co'>#Vector of dataset descriptions (about 10 words describing each file). Descriptions will be used in auto-generated tables within the ReadMe and DRR. If need to use more than about 10 words, consider putting that information in the abstract, methods, or additional info sections. Again, be sure these are in the same order as your data files!</span></span>
-<span><span class='va'>data_descriptions</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"TEST_Everglades Vegetation Map Accuracy Assessment point data"</span>,<span class='st'>"Everglades Vegetation Map Accuracy Assessment vegetation data"</span><span class='op'>)</span></span></code></pre>
+<span><span class='co'>#Vector of dataset descriptions (about 10 words describing each file). </span></span>
+<span><span class='co'>#Descriptions will be used in auto-generated tables within the ReadMe and DRR. </span></span>
+<span><span class='co'>#If need to use more than about 10 words, consider putting that information in</span></span>
+<span><span class='co'>#the abstract, methods, or additional info sections. Again, be sure these are</span></span>
+<span><span class='co'>#in the same order as your data files!</span></span>
+<span><span class='va'>data_descriptions</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"TEST_Everglades Vegetation Map Accuracy Assessment point data"</span>,</span>
+<span>                       <span class='st'>"Everglades Vegetation Map Accuracy Assessment vegetation data"</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
 <h2 id="files-ultimate-url">Files: Ultimate URL</h2>
@@ -2265,7 +2284,7 @@ Create a vector of dataset URLs - for DataStore I recommend setting this to the 
 <p>Tell EMLassemblyline where to find the table and fields that contain the geographic coordinates and site names that can be used to fill the geographic coverage metadata. Comment these out and do not run Function 4 (below) if your data package does not contain geographic information.</p>
 <p>Coordinates must be in decimal degrees and include a minus sign (-) for latitudes south of the equator and longitudes west of the prime meridian. For points, repeat latitude and longitude coordinates in respective north/south and east/west columns. If you need to convert from UTMs, try using the <code>utm_to_ll()</code> function in the <a href="https://nationalparkservice.github.io/QCkit/">R/QCkit</a> package.</p>
 <p>The example below will generate a single point for each site. We strongly encourage you to be as precise as possible with your geographicCoverage and provide sampling points (e.g. along a transect) whenever possible. This information will (eventually) be displayed on a map on the DataStore Reference page for the data package and these points will also be directly discoverable through DataStore searches.</p>
-<p>If you have CUI concerns about the specific locations of your sites, consider fuzzing them rather than completely removing them. One good tool for fuzzing geographic coordinates is the <code>fuzz_location()</code> function in the [R/QCkit]<a href="https://nationalparkservice.github.io/QCkit/" class="uri">https://nationalparkservice.github.io/QCkit/</a>) package.</p>
+<p>If you have CUI concerns about the specific locations of your sites, consider fuzzing them rather than completely removing them. One good tool for fuzzing geographic coordinates is the <code>fuzz_location()</code> function in the <a href="https://nationalparkservice.github.io/QCkit/">R/QCkit</a> package.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>data_coordinates_table</span> <span class='op'>&lt;-</span> <span class='st'>"qry_Export_AA_Points.csv"</span></span>
@@ -2279,19 +2298,27 @@ Create a vector of dataset URLs - for DataStore I recommend setting this to the 
 #YYYY-MM-DD, where Y is the four digit year, M is the two digit month code (01 - 12 for example, January = 01), and D is the two digit day of the month (01 - 31).</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>startdate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/lubridate/man/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2010-01-26"</span><span class='op'>)</span></span>
-<span><span class='va'>enddate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/lubridate/man/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2013-01-04"</span><span class='op'>)</span></span></code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>startdate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2010-01-26"</span><span class='op'>)</span></span>
+<span><span class='va'>enddate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2013-01-04"</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
 <h2 id="emlassemblyline-functions">EMLassemblyline Functions</h2>
 <p>The next set of optional items are meant to be considered one by one and only run if applicable to a particular data package. The first year will typically see all of these run, but if the data format and protocol stays constant over time it may be possible to skip some or all of these in future years.</p>
-<h3 id="function-1-core-metadata">Function 1: Core metadata</h3>
-<p>Creates blank TXT template files for the abstract, additional information, custom units, intellectual rights, keywords, methods, and personnel. Some of these .txt files are easily edited in text editors (e.g. abstract.txt) but some are best edited in Excel (or another spreadsheet application), for instance the personnel.txt file.</p>
-<p>For specific guidance on editing these templates, see the <a href="edit_tmplts.html">documentation on editing templates</a>.</p>
+<h3 id="function-1-core-metadata">Function 1: Core Metadata</h3>
+<p>The <code>template_core_metadata()</code> function Creates blank TXT template files for the abstract, additional information, custom units, intellectual rights, keywords, methods, and personnel. Some of these .txt files are easily edited in text editors (e.g. abstract.txt) but some are best edited in Excel (or another spreadsheet application), for instance the personnel.txt file.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/template_core_metadata.html'>template_core_metadata</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
+<span>                       license <span class='op'>=</span> <span class='st'>"CC0"</span><span class='op'>)</span></span></code></pre>
+</div>
+</div>
+<h4 id="editing-templates">Editing Templates</h4>
+<p>For specific guidance on editing these templates as well as example templates, see the <a href="edit_tmplts.html">documentation on editing templates</a>.</p>
 <p>Typically these files can be reused between years.</p>
-<p>You must edit the “intellectual_rights.txt” file:</p>
+<h4 id="intellectual-rights">Intellectual Rights</h4>
+<p>You <strong>must edit</strong> the “intellectual_rights.txt” file:</p>
 <ul>
-<li>If you have CUI, replace the CCO license with the following text:</li>
+<li>If you have CUI, replace the CC0 license with the following text:</li>
 </ul>
 <div class="layout-chunk" data-layout="l-body">
 <style type="text/css">
@@ -2307,22 +2334,21 @@ blockquote {
 <p>“This product has been determined to contain Controlled Unclassified Information (CUI) by the National Park Service, and is intended for internal use only. It is not published under an open license. Unauthorized access, use, and distribution are prohibited.”</p>
 </blockquote>
 <ul>
-<li>If you have no CUI, the default is the public domain. Replace the CCO text with the following text:</li>
+<li>If you have no CUI you can choose one of two options, both of which mean there are no licenses, copyrights, or restrictions on use or re-use of the data. The CC0 license makes the free use of the data explicit and is recognized globally whereas for works in the public domain the lack of restrictions is implicit and may be subject to local jurisdiction. Replace the text in the license.txt file with one of the following:</li>
 </ul>
+<p>CC0 License:</p>
 <blockquote>
-<p>“This work is in the public domain. There is no copy right or license.”</p>
+<p>This product is released to the “public domain” under Creative Commons CC0 1.0 “No Rights Reserved” (see: <a href="https://creativecommons.org/publicdomain/zero/1.0/" class="uri">https://creativecommons.org/publicdomain/zero/1.0/</a>)..”</p>
+</blockquote>
+<p>Public Domain:</p>
+<blockquote>
+<p>This product is released to the “public domain” under U.S. Government Works “No Rights Reserved (see: <a href="http://www.usa.gov/publicdomain/label/1.0/" class="uri">http://www.usa.gov/publicdomain/label/1.0/</a>).</p>
 </blockquote>
 <ul>
-<li>If you need a license, for instance because the data were generated by non-NPS contractors or in collaboration with non-NPS partners, use the default license=“CCO”.</li>
+<li>If you need a license, for instance because the data were generated by non-NPS contractors or in collaboration with non-NPS partners, use the CC0 license.</li>
 </ul>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/template_core_metadata.html'>template_core_metadata</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
-<span>                       license <span class='op'>=</span> <span class='st'>"CC0"</span><span class='op'>)</span></span></code></pre>
-</div>
-</div>
 <h3 id="function-2-attributes">Function 2: Attributes</h3>
-<p>Creates an “attributes_datafilename.txt” file for each data file. This can be opened in Excel (We recommend against trying to update these in a text editor) and fill in/adjust the columns for attributeDefinition, class, unit, etc. refer to the <a href="edit_tmplts.html">webpage on editing templates</a> for helpful hints and use <code>EMLassemblyline::view_unit_dictionary()</code> for potential units. This will only need to be run again if the attributes (name, order or new/deleted fields) are modified from the previous year. NOTE that if this already exists from a previous run, it is not overwritten.</p>
+<p>Creates an “attributes_datafilename.txt” file for each data file. This can be opened in Excel (We recommend against trying to update these in a text editor) and fill in/adjust the columns for attributeDefinition, class, unit, etc. refer to the <a href="edit_tmplts.html">webpage on editing templates</a> for helpful hints and examples. You can use <code>EMLassemblyline::view_unit_dictionary()</code> for a list of potential units. This will only need to be run again if the attributes (name, order or new/deleted fields) are modified from the previous year. NOTE that if this already exists from a previous run, it is not overwritten.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/template_table_attributes.html'>template_table_attributes</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>,</span>
@@ -2331,7 +2357,7 @@ blockquote {
 </div>
 </div>
 <h3 id="function-3-categoricals">Function 3: Categoricals</h3>
-<p>Creates a “catvars_datafilename.txt” file for each data file that has columns with a class = categorical. These txt files will include each unique ‘code’ and allow input of the corresponding ‘definition’.NOTE that since the list of codes is harvested from the data itself, it’s possible that additional codes may have been relevant/possible but they are not automatically included here. Consider your lookup lists carefully to see if additional options should be included (e.g if your dataset DPL values are all set to “Accepted” this function will not include “Raw” or “Provisional” in the resulting file and you may want to add those manually). NOTE that if this already exists from a previous run, it is not overwritten.</p>
+<p>Creates a “catvars_datafilename.txt” file for each data file that has columns with a class = categorical. These txt files will include each unique ‘code’ and allow input of the corresponding ‘definition’. Note that since the list of codes is harvested from the data itself, it’s possible that additional codes may have been relevant/possible but they are not automatically included here. Consider your lookup lists carefully to see if additional options should be included (e.g if your dataset quality control flagging values are all set to “Accepted” this function will not include “Raw” or “Provisional” in the resulting file and you may want to add those manually). NOTE that if this already exists from a previous run, it is not overwritten.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/template_categorical_variables.html'>template_categorical_variables</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>,</span>
@@ -2381,7 +2407,7 @@ blockquote {
 </div>
 </div>
 <h1 id="finished-not-quite">Finished? Not quite…</h1>
-<p>Now that you have valid EML metadata, you need to add NPS-specific elements and fields. For instance, unit connections, DOIs, referencing a DRR, etc. To do that, use the <a href="https://nationalparkservice.github.io/EMLeditor/">R/EMLeditor</a> package.</p>
+<p>Now that you have valid EML metadata, you need to add NPS-specific elements and fields. For instance, unit connections, DOIs, referencing a DRR, etc. To do that, use the <a href="https://nationalparkservice.github.io/EMLeditor/">R/EMLeditor</a> package, which includes instructions for a <a href="https://nationalparkservice.github.io/EMLeditor/articles/EMLeditor.html#a-minimal-workflow">minimal EMLeditor workflow</a> for creating compliant EML metadata.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

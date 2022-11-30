@@ -17,7 +17,7 @@ output: github_document
 
 ---
 
-# Comprehensive guide:
+# Comprehensive guide
 
   * [Prerequisites for EML metadata creation](prereqs.html)
   
@@ -45,11 +45,11 @@ output: github_document
   
     * [A function to create EML metadata](create_eml.html)
 
-# Next Steps:
+# Next Steps
 
-The example EML file [EVER_AA_metadata.xml](https://github.com/nationalparkservice/NPS_EML_Script/EVER_AA_metadata.xml) as well as the EML you have created are not the final step in NPS EML creation. At this point you have filled in much of the important scientific information in the metadata. However, to fully utilize DataStore's new capabilities and to make sure your data are easily discoverable and reusable, you still need to edit the EML file to provide NPS-specific information (e.g. publisher, unit connections, DOIs, etc). Currently, the only tool available is [R/EMLeditor](https://github.com/nationalparkservice/EMLeditor). Manually editing your metadata by hand is not recommended.
+The example EML file [EVER_AA_metadata.xml](https://github.com/nationalparkservice/NPS_EML_Script/EVER_AA_metadata.xml) as well as the EML you have created are not the final step in NPS EML creation. At this point you have filled in much of the important scientific information in the metadata. However, to fully utilize DataStore's new capabilities and to make sure your data are easily discoverable and reusable, you still need to edit the EML file to provide NPS-specific information (e.g. publisher, unit connections, DOIs, etc). Currently, the only tool available is [R/EMLeditor](https://nationalparkservice.github.io/EMLeditor/index.html). Manually editing your metadata by hand is not recommended.
 
-For a detailed workflow on how to use EMLeditor to generate the highest quality metadata, please see (**under development**)
+We have generated a [detailed workflow](https://nationalparkservice.github.io/EMLeditor/articles/EMLeditor.html#a-minimal-workflow) on how to use EMLeditor to generate the highest quality metadata for data pacakges on DataStore.
 
 # Additional Documentation
 1.    The original [EDI guidelines](https://ediorg.github.io/EMLassemblyline/articles/edit_tmplts.html) for creating EML.

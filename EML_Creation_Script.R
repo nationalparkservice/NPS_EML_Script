@@ -11,12 +11,14 @@
 # functions from the EMLeditor package (part of the NPSdataverse) that are used to populate NPS DataStore specific tags.
 
 # Contributors: Judd Patterson (judd_patterson@nps.gov) and Rob Baker (robert_baker@nps.gov)
-# Last Updated: November 21, 2022
+# Last Updated: November 30, 2022
 
 ## Install and Load R Packages -----------------------------------------------------------------------------------------
 # Install packages - uncomment the next three lines if you've never installed EMLassemblyline before
 install.packages("devtools")
-library(devtools)
+# If you run into errors installing packages from github on NPS computers you
+#may first need to run:
+# options(download.file.method="wininet")
 devtools::install_github("EDIorg/EMLassemblyline")
 
 # Load packages
