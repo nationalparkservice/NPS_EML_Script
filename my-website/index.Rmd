@@ -24,6 +24,10 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+<!-- badges: end -->
+
 # Overview
 
 Creating Ecological Metadata Language (EML) metadata for NPS data packages is a two-step process.
