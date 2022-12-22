@@ -45,16 +45,17 @@ output: github_document
   
     * [A function to create EML metadata](create_eml.html)
 
+# Additional Resources
+
+1.    The original [EDI guidelines](https://ediorg.github.io/EMLassemblyline/articles/edit_tmplts.html) for creating EML.
+2.    Additional [information about EML](https://eml.ecoinformatics.org/).
+3.    The official [EML schema](https://eml.ecoinformatics.org/schema/index.html).
+
 # Next Steps
 
 The example EML file [EVER_AA_metadata.xml](https://github.com/nationalparkservice/NPS_EML_Script/EVER_AA_metadata.xml) as well as the EML you have created are not the final step in NPS EML creation. At this point you have filled in much of the important scientific information in the metadata. However, to fully utilize DataStore's new capabilities and to make sure your data are easily discoverable and reusable, you still need to edit the EML file to provide NPS-specific information (e.g. publisher, unit connections, DOIs, etc). Currently, the only tool available is [R/EMLeditor](https://nationalparkservice.github.io/EMLeditor/index.html). Manually editing your metadata by hand is not recommended.
 
-We have generated a [detailed workflow](https://nationalparkservice.github.io/EMLeditor/articles/EMLeditor.html#a-minimal-workflow) on how to use EMLeditor to generate the highest quality metadata for data packages on DataStore.
-
-# Additional Documentation
-1.    The original [EDI guidelines](https://ediorg.github.io/EMLassemblyline/articles/edit_tmplts.html) for creating EML.
-2.    Additional [information about EML](https://eml.ecoinformatics.org/).
-3.    The official [EML schema](https://eml.ecoinformatics.org/schema/index.html).
+We have generated a [detailed workflow](https://nationalparkservice.github.io/EMLeditor/articles/EMLeditor.html#a-minimal-workflow) on how to use EMLeditor to generate the highest quality metadata for data packages on DataStore. EMLeditor also includes a host of functions for editing EML without re-running EMLassemblyline should you want to make changes to things like the data package title, abstract, DOI, etc. 
 
 # Acknowledgements
 EMLassemblyline and much of the excellent original documentation was developed by the Environmental Data Initiative. We have modified and annotated that documentation to make it more relevant to NPS.
