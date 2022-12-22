@@ -2117,6 +2117,11 @@ Making EML
 <div class="nav-dropdown-content">
 <a href="quick_start.html">Quick Start</a>
 <a href="comprehensive_guide.html">Comprehensive Guide</a>
+<a href="stepbystep.html">Using the Script: step by step</a>
+<a href="edit_tmplts.html">Editing templates</a>
+<a href="comprehensive_guide.html#additional-documentation">Additional Resources</a>
+<a href="comprehensive_guide.html#next-steps">Next Steps: EMLeditor</a>
+<a href="comprehensive_guide.html#acknowledgements">Acknowledgements</a>
 </div>
 </div>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
@@ -2193,7 +2198,7 @@ Making EML
 <span><span class='co'># If you run into errors installing packages from github on NPS computers you</span></span>
 <span><span class='co'>#may first need to run:</span></span>
 <span><span class='co'># options(download.file.method="wininet")</span></span>
-<span><span class='fu'>devtools</span><span class='fu'>::</span><span class='fu'><a href='https://remotes.r-lib.org/reference/install_github.html'>install_github</a></span><span class='op'>(</span><span class='st'>"EDIorg/EMLassemblyline"</span><span class='op'>)</span></span>
+<span><span class='fu'>devtools</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/remotes/man/install_github.html'>install_github</a></span><span class='op'>(</span><span class='st'>"EDIorg/EMLassemblyline"</span><span class='op'>)</span></span>
 <span>  </span>
 <span><span class='co'>#Load required packages</span></span>
 <span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/EDIorg/EMLassemblyline'>EMLassemblyline</a></span><span class='op'>)</span></span>
@@ -2298,8 +2303,8 @@ Create a vector of dataset URLs - for DataStore I recommend setting this to the 
 #YYYY-MM-DD, where Y is the four digit year, M is the two digit month code (01 - 12 for example, January = 01), and D is the two digit day of the month (01 - 31).</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>startdate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2010-01-26"</span><span class='op'>)</span></span>
-<span><span class='va'>enddate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2013-01-04"</span><span class='op'>)</span></span></code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>startdate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/lubridate/man/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2010-01-26"</span><span class='op'>)</span></span>
+<span><span class='va'>enddate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/lubridate/man/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2013-01-04"</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
 <h2 id="emlassemblyline-functions">EMLassemblyline Functions</h2>

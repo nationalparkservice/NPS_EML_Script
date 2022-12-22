@@ -15,5 +15,15 @@ navbar:
             href: quick_start.html
           - text: "Comprehensive Guide"
             href: comprehensive_guide.html
+          - text: "Using the Script: step by step"
+            href: stepbystep.html
+          - text: "Editing templates"
+            href: edit_tmplts.html
+          - text: "Additional Resources"
+            href: comprehensive_guide.html#additional-documentation
+          - text: "Next Steps: EMLeditor"
+            href: comprehensive_guide.html#next-steps
+          - text: "Acknowledgements"
+            href: comprehensive_guide.html#acknowledgements
             
 output: distill::distill_article
