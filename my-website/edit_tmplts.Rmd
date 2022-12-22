@@ -16,7 +16,7 @@ output:
 output: github_document
 ---
 
-# Editing EMLassemblyline Templates
+# Editing Templates
 
 Metadata inferred during the templating process should be validated by the user and missing info added. Use spreadsheet and text editors for this process. Template specific guides are listed below.
 
@@ -67,7 +67,7 @@ Valid EML requires at least one person with a **creator** role. Creator is a syn
 
 DataStore also requires at least one person with the role if **contact**. If this is the same person, list that person twice (i.e. on two separate rows). 
 
-Additional personnel (field technicians, consultants, collaborators, contributers, etc) may be added to give credit as necessary. Any roles other than "creator" or "contact" will be listed as associatedParties. 
+Additional personnel (field technicians, consultants, collaborators, contributors, etc) may be added to give credit as necessary. Any roles other than "creator" or "contact" will be listed as associatedParties. 
 
 For the purposes of NPS data packages, it is likely that you will not have Principle Investigators (PIs), or information about funding or funding agencies.
 
@@ -85,7 +85,7 @@ Columns:
     + **creator** Author(s) of the data. Will appear in the data citation.
     + **PI** Principal investigator the data were created under. Will appear with project level metadata. It is OK to leave this blank as there will be no PIs for many NPS data packages.
     + **contact** A point of contact for questions about the data. Can be an organization or position (e.g. data manager). To do this, enter the organization or position name under *givenName* and leave *middleInitial* and *surName* empty.
-    + Other roles (e.g. Field Technician) will be listed as associated parties to the data. Their specific role (e.g. "data ranger" will also be listed in metadata)
+    + Other roles (e.g. Field Technician) will be listed as associated parties to the data. Their specific role (e.g. "Field Tech" will also be listed in metadata)
 * Funding information is listed with PIs
     + **projectTitle** Title of project the data were created under. If ancillary projects were involved, then add as new lines below the primary project with the PIs info replicated. This can typically be left blank.
     + **fundingAgency** Agency the project was funded by. This can be left blank.
