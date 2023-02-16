@@ -132,11 +132,10 @@ enddate <- ymd("2013-01-04")
 # include a "PI" role, but you can ignore the warning; this role is not
 # required. Typically these files can be reused between years. 
 
-#Currently this inserts a Creative Common 0 license. However, the EDI version of
-# the CC0 license needs to be updated. Please see the following URL for text:
-# https://nationalparkservice.github.io/NPS_EML_Script/stepbystep.html#intellectual-rights
-# NOTE that if these files already exist from a previous run, they are not
-#overwritten.
+# Currently this inserts a Creative Common 0 license. The CC0 license will need 
+# to be updated. However, to ensure that the licence meets NPS specifications
+# and properly coincides with CUI designations, the best way to update the 
+# license information is during a later step using EMLeditor::set_int_rights().
 template_core_metadata(path = working_folder, 
                        license = "CC0")
 
@@ -169,7 +168,16 @@ template_categorical_variables(path = working_folder,
                                write.file = TRUE)
 
 # FUNCTION 4 - Geographic Coverage
-# Creates a geographic_coverage.txt file that lists your sites as points as long
+# If the only geographic coverage information you plan on using are park 
+#boundaries, you can skip this step. You can add park unit connections using 
+#EMLeditor, which will automatically generate properly formatted GPS coordinates
+#for the park bounding boxes.
+
+#If you would like to add additional GPS coordinates (such as for specific site 
+#locations, survey plots, or bounding boxes for locations within a park, etc) 
+#please do. 
+
+#Creates a geographic_coverage.txt file that lists your sites as points as long
 # as your coordinates are in lat/long. If your coordinates are in UTM it is 
 # probably easiest to convert them first or create the geographic_coverage.txt 
 #file another way (see https://nationalparkservice.github.io/QCkit/ for R 
