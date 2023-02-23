@@ -285,9 +285,9 @@ eml_validate(my_metadata)
 # dissemination codes. Watch out for the spaces! These are:
 # PUBLIC - Does NOT contain CUI.
 # FED ONLY - Contains CUI. Only federal employees should have access 
-#  (similar to “internal only” in DataStore).
+#  (similar to "internal only" in DataStore).
 # FEDCON - Contains CUI. Only federal employees and federal contractors should
-#  have access (also very much like current “internal only” setting in 
+#  have access (also very much like current "internal only" setting in 
 #  DataStore).
 # DL ONLY - Contains CUI. Should only be available to a named list of 
 #  individuals (where and how to list those individuals TBD)
@@ -309,28 +309,28 @@ my_metadata <- set_cui(my_metadata, "PUBLIC")
 # in the intellectualRights tag. Use set_int_rights() to replace the text with
 # NPS-approved text. Note: You must first add the CUI dissemination code using
 # set_cui() as the dissemination code and license must agree. That is, you 
-# cannot give a data package with a PUBLIC dissemination code a “restricted” 
+# cannot give a data package with a PUBLIC dissemination code a "restricted" 
 # license (and vise versa: a restricted data package that contains CUI cannot 
 # have a public domain or CC0 license). You can choose from one of three
 # options:
 
-# “restricted”: If the data contains Controlled Unclassified Information (CUI), 
-# the intellectual rights must read: “This product has been determined to 
+# "restricted": If the data contains Controlled Unclassified Information (CUI), 
+# the intellectual rights must read: "This product has been determined to 
 # contain Controlled Unclassified Information (CUI) by the National Park 
 # Service, and is intended for internal use only. It is not published under an
-# open license. Unauthorized access, use, and distribution are prohibited.”
+# open license. Unauthorized access, use, and distribution are prohibited."
 
-# “public”: If the data do not contain CUI, the default is the public domain. 
-# The intellectual rights must read: “This work is in the public domain. There 
-# is no copyright or license.”
+# "public": If the data do not contain CUI, the default is the public domain. 
+# The intellectual rights must read: "This work is in the public domain. There 
+# is no copyright or license."
 
-# “CC0”: If you need a license, for instance if you are working with a partner
-# organization that requires a license, use CC0: “The person who associated a 
+# "CC0": If you need a license, for instance if you are working with a partner
+# organization that requires a license, use CC0: "The person who associated a 
 # work with this deed has dedicated the work to the public domain by waiving all
 # of his or her rights to the work worldwide under copyright law, including all
 # related and neighboring rights, to the extent allowed by law. You can copy, 
 # modify, distribute and perform the work, even for commercial purposes, all
-# without asking permission.”
+# without asking permission."
 
 # The set_int_rights() function will also put the name of your license in a 
 # field in EML for DataStore harvesting.
@@ -371,7 +371,7 @@ my_metadata <- set_drr(my_metadata, 7654321, "DRR Title")
 # This is the human language (as opposed to computer language) that the data
 # package and metadata are constructed in. Examples include English, Spanish, 
 # Navajo, etc. A full list of available languages is available from the Library
-# of Congress. Please use the “English Name of Language” as an input. The 
+# of Congress. Please use the "English Name of Language" as an input. The 
 # function will then convert your input to the appropriate 3-character ISO 
 # 639-2 code.
 # Available languages: https://www.loc.gov/standards/iso639-2/php/code_list.php
