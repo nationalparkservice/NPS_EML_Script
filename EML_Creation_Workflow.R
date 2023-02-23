@@ -2,10 +2,11 @@
 # Title: NPS EML Creation Workflow
 #
 # Summary: This script acts as a template file for end-to-end creation of EML 
-# metadata in R for DataStore. Using this script, you can start from scratch and
-# create an EML document for upload to DataStore. The script utilizes mulitiple
-# R packages and the example inputs are for an EVER Veg Map AA dataset. The
-# example script is meant to either be run as a test of the process or to be 
+# metadata in R for DataStore. The metadata generated will be of sufficient
+# quality for the Data Package Reference Type and can be used to automatically
+# populate the DataStore fields for this reference type. The script utilizes 
+# multiple R packages and the example inputs are for an EVER Veg Map AA dataset.
+# The example script is meant to either be run as a test of the process or to be 
 # replaced with your own content. This is a step by step process where each 
 # section (indicated by dashed lines) should be reviewed, edited if necessary, 
 # and run one at a time. After completing a section there is often something to
@@ -22,6 +23,8 @@
 # EMLassemblyline: https://ediorg.github.io/EMLassemblyline/
 # EMLeditor: https://nationalparkservice.github.io/EMLeditor/index.html
 # NPS EML Script: https://nationalparkservice.github.io/NPS_EML_Script/
+# EVER Veg Map AA dataset for testing purposes:
+# https://github.com/nationalparkservice/NPS_EML_Script/tree/main/Example_files
 
 # Contributors: Judd Patterson (judd_patterson@nps.gov) and Rob Baker 
 # (robert_baker@nps.gov)
