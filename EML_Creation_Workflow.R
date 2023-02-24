@@ -50,7 +50,7 @@ library(lubridate)
 library(tidyverse)
 
 # When loading packages, you may be advised to update to more recent versions
-# of dependnt packages. Most of these updates likely are not critical.  However,
+# of dependent packages. Most of these updates likely are not critical.  However,
 # it is important that you update to the latest versions of EMLeditor and 
 # DPchecker as these NPS packages are under constant development.
 
@@ -176,7 +176,7 @@ enddate <- ymd("2013-01-04")
 # update the license information is during a later step using 
 # EMLeditor::set_int_rights(). There is no need to edit this .txt file.
 template_core_metadata(path = working_folder, 
-                       license = "CC0")
+                       license = "CC0") # that '0' is a zero!
 
 # FUNCTION 2 - Data Table Attributes
 # Creates an "attributes_datafilename.txt" file for each data file. This can be
@@ -193,7 +193,7 @@ template_table_attributes(path = working_folder,
 
 # FUNCTION 3 - Data Table Categorical Variable
 # Creates a "catvars_datafilename.txt" file for each data file that has columns 
-# with a class = categorical. These txt files will include each unique 'code' 
+# with a class = categorical. These .txt files will include each unique 'code' 
 # and allow input of the corresponding 'definition'.NOTE that since the
 # list of codes is harvested from the data itself, it's possible that additional
 # codes may have been relevant/possible but they are not automatically included
@@ -339,27 +339,31 @@ my_metadata <- set_cui(my_metadata, "PUBLIC")
 my_metadata <- set_int_rights(my_metadata, "public")
 
 ## Add a data package DOI (optional) -------------------------------------------
-# If you have not already inclueded a DOI for your data package, you can add
-# one. Regardless of whether you add a DOI or not, all data packages will be
-# assigned a DOI. The DOI will not be registered/become active until after the
-# data package is reviewed and published.
-
-# To add a DOI, you will need the 7-digit DataStore reference code for your
-# data package. To get the codee, go to DataStore and initiate a draft 
-# reference (do not activate it!). This act reserves your DOI, but it is not
-# activated until the data package is published.
-
+# Add your data package's Digital Object Identifier (DOI) to the metadata. The 
+# set_datastore_doi() function requires that you are logged on to the VPN. It 
+# initiates a draft data package reference on DataStore, and populates the 
+# reference with a title pulled from your metadata, “[DRAFT] : <your data 
+# package title>”. This temporary title is purely for your tracking purposes and
+# can easily be updated later. The set_datastore_doi() function will then insert
+# the corresponding DOI for your data package into your metadata. There are a 
+# few things to keep in mind:
+#   1) Your DOI and the data package reference are not yet active and are not 
+#      publicly accessible until after review and activation/publication.
+#   2) Be sure to upload your data package to the correct draft reference! It is
+#      easy to create several draft references with the same draft title so 
+#      check the reference ID number carefully (We are working on making this 
+#      process easier and less error prone).
 # There is no need to fill in additional fields in DataStore at this point - 
 # many of them will be auto-populated based on the metadata you upload. Any
 # fields you do populate will be over-written by the content in your metadata.
-my_metadata <- set_doi(my_metadata, 1234567)
+my_metadata <- set_datastore_doi(my_metadata)
 
 ## Add information about a DRR (optional) --------------------------------------
 # If you are producing (or plan to produce) a DRR, add links to the DRR 
 # describing the data package.
 
 # Similar to when you added the data package DOI, you will need the DOI for the
-# DRR you are drafting as well as the DRR’s Title. Again, go to DataStore and 
+# DRR you are drafting as well as the DRR's Title. Again, go to DataStore and 
 # initiate a draft DRR, including a title. For the purposes of the data package,
 # there is no need to populate any other fields. At this point, you do not need
 # to activate the DRR reference and, while a DOI has been reserved for your DRR,
@@ -442,8 +446,3 @@ run_congruence_checks("C:/Users/yourusername/Documents/my_data_package")
 # it to the correct draft reference that corresponds to your DOI. Remember, you
 # can upload multiple files simultaneously by highlighting them all rather than
 # uploading one-by-one. 
-
-
-
-
-# check 
