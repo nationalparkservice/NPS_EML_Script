@@ -458,8 +458,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -829,9 +829,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     display: none !important;
   }
 
+  hr.section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0px;
+  }
+
+
+  d-byline {
+    border-top: none;
+  }
+
   d-article {
     padding-top: 2.5rem;
     padding-bottom: 30px;
+    border-top: none;
   }
 
   d-appendix {
@@ -926,6 +938,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article div.sourceCode pre {
     padding-left: 18px;
     font-size: 14px;
+  }
+
+  /* tweak for Pandoc numbered line within distill */
+  d-article pre.numberSource code > span {
+      left: -2em;
   }
 
   d-article pre {
@@ -1687,6 +1704,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // create d-title
     $('.d-title').changeElementType('d-title');
 
+    // separator
+    var separator = '<hr class="section-separator" style="clear: both"/>';
+    // prepend separator above appendix
+    $('.d-byline').before(separator);
+    $('.d-article').before(separator);
+
     // create d-byline
     var byline = $('<d-byline></d-byline>');
     $('.d-byline').replaceWith(byline);
@@ -1764,8 +1787,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     $('.distill-force-highlighting-css').parent().remove();
 
     // remove empty line numbers inserted by pandoc when using a
-    // custom syntax highlighting theme
-    $('code.sourceCode a:empty').remove();
+    // custom syntax highlighting theme, except when numbering line
+    // in code chunk
+    $('pre:not(.numberLines) code.sourceCode a:empty').remove();
 
     // load distill framework
     load_distill_framework();
@@ -1791,12 +1815,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       // add orcid ids
       $('.authors-affiliations').find('.author').each(function(i, el) {
         var orcid_id = front_matter.authors[i].orcidID;
+        var author_name = front_matter.authors[i].author
         if (orcid_id) {
           var a = $('<a></a>');
           a.attr('href', 'https://orcid.org/' + orcid_id);
           var img = $('<img></img>');
           img.addClass('orcid-id');
-          img.attr('alt', 'ORCID ID');
+          img.attr('alt', author_name ? 'ORCID ID for ' + author_name : 'ORCID ID');
           img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
           a.append(img);
           $(this).append(a);
@@ -2074,7 +2099,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2134,6 +2159,7 @@ Making EML
 
 <div class="d-title">
 <h1>NPS EML Scripting</h1>
+
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 <p><p>Resources and Guides for using EMLassemblyline to create EML for National Park Service data packages</p></p>
@@ -2145,35 +2171,35 @@ Making EML
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#step-by-step-guide">Step-by-step-guide</a></li>
-<li><a href="#summary">Summary</a></li>
-<li><a href="#before-you-start">Before you Start</a>
+<li><a href="#step-by-step-guide" id="toc-step-by-step-guide">Step-by-step-guide</a></li>
+<li><a href="#summary" id="toc-summary">Summary</a></li>
+<li><a href="#before-you-start" id="toc-before-you-start">Before you Start</a>
 <ul>
-<li><a href="#required-software">Required Software</a></li>
-<li><a href="#datastore">DataStore</a></li>
+<li><a href="#required-software" id="toc-required-software">Required Software</a></li>
+<li><a href="#datastore" id="toc-datastore">DataStore</a></li>
 </ul></li>
-<li><a href="#using-the-template">Using the Template</a>
+<li><a href="#using-the-template" id="toc-using-the-template">Using the Template</a>
 <ul>
-<li><a href="#data-package-info">Data Package Info</a></li>
-<li><a href="#files-local-path">Files: Local path</a></li>
-<li><a href="#files-ultimate-url">Files: Ultimate URL</a></li>
-<li><a href="#geographic-coordinates">Geographic Coordinates</a></li>
-<li><a href="#start-and-end-dates">Start and End Dates</a></li>
-<li><a href="#emlassemblyline-functions">EMLassemblyline Functions</a>
+<li><a href="#data-package-info" id="toc-data-package-info">Data Package Info</a></li>
+<li><a href="#files-local-path" id="toc-files-local-path">Files: Local path</a></li>
+<li><a href="#files-ultimate-url" id="toc-files-ultimate-url">Files: Ultimate URL</a></li>
+<li><a href="#geographic-coordinates" id="toc-geographic-coordinates">Geographic Coordinates</a></li>
+<li><a href="#start-and-end-dates" id="toc-start-and-end-dates">Start and End Dates</a></li>
+<li><a href="#emlassemblyline-functions" id="toc-emlassemblyline-functions">EMLassemblyline Functions</a>
 <ul>
-<li><a href="#function-1-core-metadata">Function 1: Core Metadata</a>
+<li><a href="#function-1-core-metadata" id="toc-function-1-core-metadata">Function 1: Core Metadata</a>
 <ul>
-<li><a href="#editing-templates">Editing Templates</a></li>
-<li><a href="#intellectual-rights">Intellectual Rights</a></li>
+<li><a href="#editing-templates" id="toc-editing-templates">Editing Templates</a></li>
+<li><a href="#intellectual-rights" id="toc-intellectual-rights">Intellectual Rights</a></li>
 </ul></li>
-<li><a href="#function-2-attributes">Function 2: Attributes</a></li>
-<li><a href="#function-3-categoricals">Function 3: Categoricals</a></li>
-<li><a href="#function-4-geography">Function 4: Geography</a></li>
-<li><a href="#function-5-taxonomy">Function 5: Taxonomy</a></li>
+<li><a href="#function-2-attributes" id="toc-function-2-attributes">Function 2: Attributes</a></li>
+<li><a href="#function-3-categoricals" id="toc-function-3-categoricals">Function 3: Categoricals</a></li>
+<li><a href="#function-4-geography" id="toc-function-4-geography">Function 4: Geography</a></li>
+<li><a href="#function-5-taxonomy" id="toc-function-5-taxonomy">Function 5: Taxonomy</a></li>
 </ul></li>
-<li><a href="#make-eml-function">Make EML function</a></li>
+<li><a href="#make-eml-function" id="toc-make-eml-function">Make EML function</a></li>
 </ul></li>
-<li><a href="#finished-not-quite">Finished? Not quite…</a></li>
+<li><a href="#finished-not-quite" id="toc-finished-not-quite">Finished? Not quite…</a></li>
 </ul>
 </nav>
 </div>
@@ -2198,7 +2224,7 @@ Making EML
 <span><span class='co'># If you run into errors installing packages from github on NPS computers you</span></span>
 <span><span class='co'>#may first need to run:</span></span>
 <span><span class='co'># options(download.file.method="wininet")</span></span>
-<span><span class='fu'>devtools</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/remotes/man/install_github.html'>install_github</a></span><span class='op'>(</span><span class='st'>"EDIorg/EMLassemblyline"</span><span class='op'>)</span></span>
+<span><span class='fu'>devtools</span><span class='fu'>::</span><span class='fu'><a href='https://remotes.r-lib.org/reference/install_github.html'>install_github</a></span><span class='op'>(</span><span class='st'>"EDIorg/EMLassemblyline"</span><span class='op'>)</span></span>
 <span>  </span>
 <span><span class='co'>#Load required packages</span></span>
 <span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/EDIorg/EMLassemblyline'>EMLassemblyline</a></span><span class='op'>)</span></span>
@@ -2304,8 +2330,8 @@ Create a vector of dataset URLs - for DataStore I recommend setting this to the 
 #YYYY-MM-DD, where Y is the four digit year, M is the two digit month code (01 - 12 for example, January = 01), and D is the two digit day of the month (01 - 31).</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>startdate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/lubridate/man/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2010-01-26"</span><span class='op'>)</span></span>
-<span><span class='va'>enddate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/lubridate/man/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2013-01-04"</span><span class='op'>)</span></span></code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>startdate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2010-01-26"</span><span class='op'>)</span></span>
+<span><span class='va'>enddate</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2013-01-04"</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
 <h2 id="emlassemblyline-functions">EMLassemblyline Functions</h2>
@@ -2314,7 +2340,7 @@ Create a vector of dataset URLs - for DataStore I recommend setting this to the 
 <p>The <code>template_core_metadata()</code> function Creates blank TXT template files for the abstract, additional information, custom units, intellectual rights, keywords, methods, and personnel. Some of these .txt files are easily edited in text editors (e.g. abstract.txt) but some are best edited in Excel (or another spreadsheet application), for instance the personnel.txt file.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/template_core_metadata.html'>template_core_metadata</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://ediorg.github.io/EMLassemblyline/reference/template_core_metadata.html'>template_core_metadata</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
 <span>                       license <span class='op'>=</span> <span class='st'>"CC0"</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
@@ -2327,7 +2353,7 @@ Create a vector of dataset URLs - for DataStore I recommend setting this to the 
 <p>Creates an “attributes_datafilename.txt” file for each data file. This can be opened in Excel (We recommend against trying to update these in a text editor) and fill in/adjust the columns for attributeDefinition, class, unit, etc. refer to the <a href="edit_tmplts.html">webpage on editing templates</a> for helpful hints and examples. You can use <code>EMLassemblyline::view_unit_dictionary()</code> for a list of potential units. This will only need to be run again if the attributes (name, order or new/deleted fields) are modified from the previous year. NOTE that if this already exists from a previous run, it is not overwritten.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/template_table_attributes.html'>template_table_attributes</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>,</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://ediorg.github.io/EMLassemblyline/reference/template_table_attributes.html'>template_table_attributes</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>,</span>
 <span>                          data.table <span class='op'>=</span> <span class='va'>data_files</span>,</span>
 <span>                          write.file <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span></span></code></pre>
 </div>
@@ -2336,7 +2362,7 @@ Create a vector of dataset URLs - for DataStore I recommend setting this to the 
 <p>Creates a “catvars_datafilename.txt” file for each data file that has columns with a class = categorical. These txt files will include each unique ‘code’ and allow input of the corresponding ‘definition’. Note that since the list of codes is harvested from the data itself, it’s possible that additional codes may have been relevant/possible but they are not automatically included here. Consider your lookup lists carefully to see if additional options should be included (e.g if your dataset quality control flagging values are all set to “Accepted” this function will not include “Raw” or “Provisional” in the resulting file and you may want to add those manually). NOTE that if this already exists from a previous run, it is not overwritten.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/template_categorical_variables.html'>template_categorical_variables</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>,</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://ediorg.github.io/EMLassemblyline/reference/template_categorical_variables.html'>template_categorical_variables</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>,</span>
 <span>                               data.path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
 <span>                               write.file <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span></span></code></pre>
 </div>
@@ -2345,7 +2371,7 @@ Create a vector of dataset URLs - for DataStore I recommend setting this to the 
 <p>Creates a geographic_coverage.txt file that lists your sites as points as long as your coordinates are in lat/long. If your coordinates are in UTM it is probably easiest to convert them first or create the geographic_coverage.txt file another way. For instance, try using the <code>utm_to_ll()</code> function in <a href="https://nationalparkservice.github.io/QCkit/">R/QCkit</a>.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/template_geographic_coverage.html'>template_geographic_coverage</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://ediorg.github.io/EMLassemblyline/reference/template_geographic_coverage.html'>template_geographic_coverage</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
 <span>                             data.path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
 <span>                             data.table <span class='op'>=</span> <span class='va'>data_coordinates_table</span>, </span>
 <span>                             lat.col <span class='op'>=</span> <span class='va'>data_latitude</span>, </span>
@@ -2358,7 +2384,7 @@ Create a vector of dataset URLs - for DataStore I recommend setting this to the 
 <p>Creates a taxonomic_coverage.txt file if you have taxonomic data. In terms of authorities 3 = ITIS, 9 = WORMS, and 11 = GBIF. Turning this function on may dramatically increase the time it takes for the <code>make_eml()</code> function to run, especially if you have many taxa or a slow internet connection. You may want to consider turning this off for testing/development purposes.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/template_taxonomic_coverage.html'>template_taxonomic_coverage</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://ediorg.github.io/EMLassemblyline/reference/template_taxonomic_coverage.html'>template_taxonomic_coverage</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
 <span>                            data.path <span class='op'>=</span> <span class='va'>working_folder</span>, </span>
 <span>                            taxa.table <span class='op'>=</span> <span class='va'>data_taxa_table</span>, </span>
 <span>                            taxa.col <span class='op'>=</span> <span class='va'>data_taxa_field</span>, </span>
@@ -2371,7 +2397,7 @@ Create a vector of dataset URLs - for DataStore I recommend setting this to the 
 <p>Run this (it may take a little while) and see if it validates (you should see ‘Validation passed’). Additionally there could be some issues that review as well. Run the function ‘issues()’ at the end of the process to get feedback on items that might be missing.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/pkg/EMLassemblyline/man/make_eml.html'>make_eml</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>,</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://ediorg.github.io/EMLassemblyline/reference/make_eml.html'>make_eml</a></span><span class='op'>(</span>path <span class='op'>=</span> <span class='va'>working_folder</span>,</span>
 <span>           dataset.title <span class='op'>=</span> <span class='va'>package_title</span>,</span>
 <span>           data.table <span class='op'>=</span> <span class='va'>data_files</span>,</span>
 <span>           data.table.name <span class='op'>=</span> <span class='va'>data_names</span>,</span>
