@@ -21,6 +21,11 @@ link-citations: yes
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-The NPS EML Script is an R script and accompanying documentation to facilitate using EMLassemblyline to generate EML metadata for data NPS packages prior to uploading to DataStore.
+<!-- badges: start -->
+[![Lifecycle: deprecated](https://img.shields.io/badge/lifecycle-deprecated-red.svg)](https://www.tidyverse.org/lifecycle/#deprecated)
+<!-- badges: end -->
 
-To report bugs or request enhancements, please use post an  [issue](https://github.com/nationalparkservice/NPS_EML_Script/issues) on github or email [Rob Baker](mailto:robert_baker@nps.gov%20?subject="NPS EML Script")
+# This repo has been deprecated
+The scripts and documentation in this repo are no longer being maintained and are very likely out of date. 
+
+The contents of this repo including the EML creation script and all documentation can now be found in the R package [EMLeditor](https://nationalparkservice.github.io/EMLeditor/), which is part of the [NPSdataverse](https://nationalparkservice.github.io/NPSdataverse/).
